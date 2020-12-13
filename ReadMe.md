@@ -1,4 +1,4 @@
-# 三方依赖库版本管理[![](https://jitpack.io/v/qiushui95/AndroidPluginList.svg)](https://jitpack.io/#qiushui95/AndroidPluginList)  
+# 三方依赖库版本管理[![](https://jitpack.io/v/qiushui95/AndroidDependencies.svg)](https://jitpack.io/#qiushui95/AndroidDependencies)  
 |name|group|module|version|remark|  
 |:-:|:-:|:-:|:-:|:-:|  
 |[Activity](https://developer.android.com/jetpack/androidx/releases/activity)|androidx.activity|activity-ktx|1.2.0-beta02||  

@@ -250,7 +250,7 @@ class AndroidDependencyTest : TestCase() {
 
         val sb = StringBuilder()
 
-        sb.appendMdLine("# 三方依赖库版本管理[![](https://jitpack.io/v/qiushui95/AndroidPluginList.svg)](https://jitpack.io/#qiushui95/AndroidPluginList)")
+        sb.appendMdLine("# 三方依赖库版本管理[![](https://jitpack.io/v/qiushui95/AndroidDependencies.svg)](https://jitpack.io/#qiushui95/AndroidDependencies)")
 
         createSingleMd(dependencyModel.single, sb)
         sb.append("\n")
