@@ -1,0 +1,632 @@
+{
+  "version": "1.0.0",
+  "single": [
+    {
+      "name": "Activity",
+      "version": "1.2.0-beta02",
+      "link": "https://developer.android.com/jetpack/androidx/releases/activity",
+      "group": "androidx.activity",
+      "module": "activity-ktx"
+    },
+    {
+      "name": "Alerter",
+      "version": "6.2.1",
+      "link": "https://github.com/Tapadoo/Alerter",
+      "group": "com.tapadoo.android",
+      "module": "alerter",
+      "remark": "Alerter弹窗"
+    },
+    {
+      "name": "Anchors",
+      "version": "1.1.2",
+      "link": "https://github.com/YummyLau/Anchors/blob/master/README-zh.md",
+      "group": "com.effective.android",
+      "module": "anchors",
+      "remark": "app启动初始化管理"
+    },
+    {
+      "name": "AndroidUtil",
+      "version": "1.30.5",
+      "link": "https://github.com/Blankj/AndroidUtilCode",
+      "group": "com.blankj",
+      "module": "utilcodex",
+      "remark": "多功能工具包"
+    },
+    {
+      "name": "Appcompat",
+      "version": "1.3.0-alpha02",
+      "link": "https://developer.android.com/jetpack/androidx/releases/appcompat",
+      "group": "androidx.appcompat",
+      "module": "appcompat"
+    },
+    {
+      "name": "Background",
+      "version": "1.6.5",
+      "link": "https://github.com/JavaNoober/BackgroundLibrary",
+      "group": "com.noober.background",
+      "module": "core",
+      "remark": "背景生成工具库"
+    },
+    {
+      "name": "ColorKtx",
+      "version": "0.2.0",
+      "link": "https://github.com/JorgeCastilloPrz/AndroidColorX",
+      "group": "me.jorgecastillo",
+      "module": "androidcolorx",
+      "remark": "颜色帮助库"
+    },
+    {
+      "name": "CoreKtx",
+      "version": "1.5.0-alpha05",
+      "link": "https://developer.android.com/jetpack/androidx/releases/core",
+      "group": "androidx.core",
+      "module": "core-ktx"
+    },
+    {
+      "name": "ImagePicker",
+      "version": "3.1.4",
+      "link": "https://github.com/yangpeixing/YImagePicker",
+      "group": "com.ypx.yimagepicker",
+      "module": "androidx",
+      "remark": "多媒体选择库"
+    },
+    {
+      "name": "JodaTime",
+      "version": "2.10.8",
+      "link": "https://github.com/JodaOrg/joda-time",
+      "group": "joda-time",
+      "module": "joda-time",
+      "remark": "时间处理库"
+    },
+    {
+      "name": "LeakCanary",
+      "version": "2.5",
+      "link": "https://square.github.io/leakcanary/getting_started/",
+      "group": "com.squareup.leakcanary",
+      "module": "leakcanary-android",
+      "remark": "内存泄露监控"
+    },
+    {
+      "name": "Mmkv",
+      "version": "1.2.6",
+      "link": "https://github.com/Tencent/MMKV/blob/master/readme_cn.md",
+      "group": "com.tencent",
+      "module": "mmkv-static",
+      "remark": "持久KV数据存储"
+    },
+    {
+      "name": "QrScanner",
+      "version": "1.1.9-androidx",
+      "link": "https://github.com/jenly1314/ZXingLite",
+      "group": "com.king.zxing",
+      "module": "zxing-lite",
+      "remark": "二维码扫描"
+    },
+    {
+      "name": "Store",
+      "version": "4.0.0",
+      "link": "https://github.com/dropbox/Store",
+      "group": "com.dropbox.mobile.store",
+      "module": "store4",
+      "remark": "多数据源"
+    },
+    {
+      "name": "UnPeekLiveData",
+      "version": "4.4.1-beta1",
+      "link": "https://github.com/KunMinX/UnPeek-LiveData",
+      "group": "com.kunminx.archi",
+      "module": "unpeek-livedata",
+      "remark": "自动消失LiveData"
+    },
+    {
+      "name": "WeChat",
+      "version": "6.6.5",
+      "link": "https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Resource_Center_Homepage.html",
+      "group": "com.tencent.mm.opensdk",
+      "module": "wechat-sdk-android-without-mta",
+      "remark": "微信开发Sdk"
+    },
+    {
+      "name": "XCrash",
+      "version": "3.0.0",
+      "link": "https://github.com/iqiyi/xCrash/blob/master/README.zh-CN.md",
+      "group": "com.iqiyi.xcrash",
+      "module": "xcrash-android-lib",
+      "remark": "奔溃日志收集"
+    },
+    {
+      "name": "XPopup",
+      "version": "2.2.10",
+      "link": "https://github.com/li-xiaojun/XPopup",
+      "group": "com.lxj",
+      "module": "xpopup",
+      "remark": "弹窗框架"
+    }
+  ],
+  "group": [
+    {
+      "name": "Chucker",
+      "version": "3.4.0",
+      "link": "https://github.com/ChuckerTeam/chucker",
+      "group": "com.github.chuckerteam.chucker",
+      "remark": "网络请求监控",
+      "modules": [
+        {
+          "name": "Debug",
+          "module": "library"
+        },
+        {
+          "name": "Release",
+          "module": "library-no-op"
+        }
+      ]
+    },
+    {
+      "name": "Component",
+      "version": "v1.8.3.6-androidx-java8",
+      "link": "https://github.com/xiaojinzi123/Component",
+      "group": "com.github.xiaojinzi123.Component",
+      "remark": "组件化实现方案",
+      "modules": [
+        {
+          "name": "Compiler",
+          "module": "component-compiler"
+        },
+        {
+          "name": "Core",
+          "module": "component-impl"
+        },
+        {
+          "name": "Plugin",
+          "module": "component-plugin"
+        }
+      ]
+    },
+    {
+      "name": "Coroutines",
+      "version": "1.4.2",
+      "link": "https://github.com/Kotlin/kotlinx.coroutines",
+      "group": "org.jetbrains.kotlinx",
+      "remark": "协程",
+      "modules": [
+        {
+          "name": "Core",
+          "module": "kotlinx-coroutines-android"
+        },
+        {
+          "name": "Test",
+          "module": "kotlinx-coroutines-test"
+        }
+      ]
+    },
+    {
+      "name": "DownloadAndUpload",
+      "version": "3.8.15",
+      "link": "https://github.com/AriaLyy/Aria",
+      "group": "com.arialyy.aria",
+      "remark": "文件下载与上传",
+      "modules": [
+        {
+          "name": "Compiler",
+          "module": "compiler"
+        },
+        {
+          "name": "Core",
+          "module": "core"
+        },
+        {
+          "name": "Ftp",
+          "module": "ftpComponent"
+        },
+        {
+          "name": "M3u8",
+          "module": "m3u8Component"
+        },
+        {
+          "name": "Sftp",
+          "module": "sftpComponent"
+        }
+      ]
+    },
+    {
+      "name": "Epoxy",
+      "version": "4.3.1",
+      "link": "https://github.com/airbnb/epoxy",
+      "group": "com.airbnb.android",
+      "remark": "RecyclerView适配库",
+      "modules": [
+        {
+          "name": "Compiler",
+          "module": "epoxy-processor"
+        },
+        {
+          "name": "Core",
+          "module": "epoxy"
+        },
+        {
+          "name": "Glide",
+          "module": "epoxy-glide-preloading"
+        }
+      ]
+    },
+    {
+      "name": "Fragment",
+      "version": "1.3.0-beta02",
+      "link": "https://developer.android.com/jetpack/androidx/releases/fragment",
+      "group": "androidx.fragment",
+      "modules": [
+        {
+          "name": "Core",
+          "module": "fragment"
+        },
+        {
+          "name": "Test",
+          "module": "fragment-testing"
+        }
+      ]
+    },
+    {
+      "name": "Glide",
+      "version": "4.11.0",
+      "link": "https://github.com/bumptech/glide",
+      "group": "com.github.bumptech.glide",
+      "remark": "图片加载",
+      "modules": [
+        {
+          "name": "Annotation",
+          "module": "annotations"
+        },
+        {
+          "name": "Compiler",
+          "module": "compiler"
+        },
+        {
+          "name": "Core",
+          "module": "glide"
+        },
+        {
+          "name": "OkHttp",
+          "module": "okhttp3-integration"
+        },
+        {
+          "name": "Transformations",
+          "version": "4.3.0",
+          "link": "https://github.com/wasabeef/glide-transformations",
+          "group": "jp.wasabeef",
+          "remark": "图片变换库",
+          "module": "glide-transformations"
+        },
+        {
+          "name": "GpuImage",
+          "version": "2.1.0",
+          "link": "https://github.com/wasabeef/glide-transformations",
+          "group": "jp.co.cyberagent.android",
+          "remark": "Gpu处理图片效果",
+          "module": "gpuimage"
+        }
+      ]
+    },
+    {
+      "name": "Koin",
+      "version": "2.2.0",
+      "link": "https://github.com/InsertKoinIO/koin",
+      "group": "org.koin",
+      "remark": "依赖注入库",
+      "modules": [
+        {
+          "name": "Core",
+          "module": "koin-core"
+        },
+        {
+          "name": "Ext",
+          "module": "koin-androidx-ext"
+        },
+        {
+          "name": "Scope",
+          "module": "koin-androidx-scope"
+        },
+        {
+          "name": "Test",
+          "module": "koin-test"
+        },
+        {
+          "name": "ViewModel",
+          "module": "koin-androidx-viewmodel"
+        }
+      ]
+    },
+    {
+      "name": "Kotlin",
+      "version": "1.4.21",
+      "link": "https://github.com/JetBrains/kotlin",
+      "group": "org.jetbrains.kotlin",
+      "modules": [
+        {
+          "name": "Reflect",
+          "module": "kotlin-reflect"
+        },
+        {
+          "name": "Stdlib",
+          "module": "kotlin-stdlib"
+        }
+      ]
+    },
+    {
+      "name": "Lifecycle",
+      "version": "2.3.0-beta01",
+      "link": "https://developer.android.com/jetpack/androidx/releases/lifecycle",
+      "group": "androidx.lifecycle",
+      "modules": [
+        {
+          "name": "Common",
+          "module": "lifecycle-common"
+        },
+        {
+          "name": "LiveData",
+          "module": "lifecycle-livedata-ktx"
+        },
+        {
+          "name": "Process",
+          "module": "lifecycle-process"
+        },
+        {
+          "name": "Runtime",
+          "module": "lifecycle-runtime-ktx"
+        },
+        {
+          "name": "SavedState",
+          "module": "lifecycle-viewmodel-savedstate"
+        },
+        {
+          "name": "Service",
+          "module": "lifecycle-service"
+        },
+        {
+          "name": "ViewModel",
+          "module": "lifecycle-viewmodel-ktx"
+        }
+      ]
+    },
+    {
+      "name": "MoShi",
+      "version": "1.11.0",
+      "link": "https://github.com/square/moshi",
+      "group": "com.squareup.moshi",
+      "remark": "json解析库",
+      "modules": [
+        {
+          "name": "Compiler",
+          "module": "moshi-kotlin-codegen"
+        },
+        {
+          "name": "Core",
+          "module": "moshi"
+        }
+      ]
+    },
+    {
+      "name": "OkHttp",
+      "version": "4.9.0",
+      "link": "https://github.com/square/okhttp",
+      "group": "com.squareup.okhttp3",
+      "modules": [
+        {
+          "name": "Core",
+          "module": "okhttp"
+        },
+        {
+          "name": "Interceptor",
+          "module": "logging-interceptor"
+        },
+        {
+          "name": "Mock",
+          "module": "mockwebserver"
+        }
+      ]
+    },
+    {
+      "name": "Paris",
+      "version": "1.7.2",
+      "link": "https://github.com/airbnb/paris",
+      "group": "com.airbnb.android",
+      "modules": [
+        {
+          "name": "Compiler",
+          "module": "paris-processor"
+        },
+        {
+          "name": "Core",
+          "module": "paris"
+        }
+      ]
+    },
+    {
+      "name": "Retrofit",
+      "version": "2.9.0",
+      "link": "https://github.com/square/retrofit",
+      "group": "com.squareup.retrofit2",
+      "remark": "网络请求",
+      "modules": [
+        {
+          "name": "Core",
+          "module": "retrofit"
+        },
+        {
+          "name": "MoShi",
+          "module": "converter-moshi"
+        }
+      ]
+    },
+    {
+      "name": "Room",
+      "version": "2.2.5",
+      "link": "https://developer.android.com/jetpack/androidx/releases/room",
+      "group": "androidx.room",
+      "remark": "Sqlite数据库",
+      "modules": [
+        {
+          "name": "Compiler",
+          "module": "room-compiler"
+        },
+        {
+          "name": "Core",
+          "module": "room-runtime"
+        },
+        {
+          "name": "Ktx",
+          "module": "room-ktx"
+        },
+        {
+          "name": "Test",
+          "module": "room-testing"
+        }
+      ]
+    },
+    {
+      "name": "WorkManager",
+      "version": "2.5.0-beta02",
+      "link": "https://developer.android.com/jetpack/androidx/releases/work",
+      "group": "androidx.work",
+      "remark": "任务管理器",
+      "modules": [
+        {
+          "name": "Core",
+          "module": "work-runtime-ktx"
+        },
+        {
+          "name": "Test",
+          "module": "work-testing"
+        }
+      ]
+    }
+  ],
+  "view": [
+    {
+      "name": "AgentWeb",
+      "version": "4.1.4",
+      "link": "https://github.com/Justson/AgentWeb",
+      "group": "com.just.agentweb",
+      "module": "agentweb",
+      "remark": "浏览器"
+    },
+    {
+      "name": "BannerView",
+      "version": "androidx_v1.1.2",
+      "link": "https://github.com/xiaohaibin/XBanner/tree/androidX",
+      "group": "com.github.xiaohaibin",
+      "module": "XBanner",
+      "remark": "轮播控件"
+    },
+    {
+      "name": "BlurView",
+      "version": "1.6.5",
+      "link": "https://github.com/Dimezis/BlurView",
+      "group": "com.eightbitlab",
+      "module": "blurview",
+      "remark": "高斯模糊"
+    },
+    {
+      "name": "BottomNavigation",
+      "version": "2.2.0",
+      "link": "https://github.com/Ashok-Varma/BottomNavigation",
+      "group": "com.ashokvarma.android",
+      "module": "bottom-navigation-bar",
+      "remark": "底部导航"
+    },
+    {
+      "name": "ConstraintLayout",
+      "version": "2.0.4",
+      "link": "https://developer.android.com/jetpack/androidx/releases/constraintlayout",
+      "group": "androidx.constraintlayout",
+      "module": "constraintlayout",
+      "remark": "约束布局"
+    },
+    {
+      "name": "FlexBox",
+      "version": "2.0.1",
+      "link": "https://github.com/google/flexbox-layout",
+      "group": "com.google.android",
+      "module": "flexbox",
+      "remark": "流式布局"
+    },
+    {
+      "name": "LottieView",
+      "version": "3.5.0",
+      "link": "https://github.com/airbnb/lottie-android",
+      "group": "com.airbnb.android",
+      "module": "lottie",
+      "remark": "动画框架"
+    },
+    {
+      "name": "MarqueeView",
+      "version": "1.4.1",
+      "link": "https://github.com/sunfusheng/MarqueeView",
+      "group": "com.sunfusheng",
+      "module": "MarqueeView",
+      "remark": "跑马灯控件"
+    },
+    {
+      "name": "Material",
+      "version": "1.3.0-alpha03",
+      "link": "https://github.com/material-components/material-components-android",
+      "group": "com.google.android.material",
+      "module": "material"
+    },
+    {
+      "name": "RecyclerView",
+      "version": "1.2.0-beta01",
+      "link": "https://developer.android.com/jetpack/androidx/releases/recyclerview",
+      "group": "androidx.recyclerview",
+      "module": "recyclerview"
+    },
+    {
+      "name": "ShadowLayout",
+      "version": "3.1.5",
+      "link": "https://github.com/lihangleo2/ShadowLayout",
+      "group": "com.github.lihangleo2",
+      "module": "ShadowLayout",
+      "remark": "阴影控件"
+    },
+    {
+      "name": "SwipeRefreshLayout",
+      "version": "1.2.0-alpha01",
+      "link": "https://developer.android.com/jetpack/androidx/releases/swiperefreshlayout",
+      "group": "androidx.swiperefreshlayout",
+      "module": "swiperefreshlayout",
+      "remark": "下拉刷新控件"
+    },
+    {
+      "name": "ViewPager2",
+      "version": "1.1.0-alpha01",
+      "link": "https://developer.android.com/jetpack/androidx/releases/viewpager2",
+      "group": "androidx.viewpager2",
+      "module": "viewpager2"
+    }
+  ],
+  "test": [
+    {
+      "name": "Espresso",
+      "version": "3.3.0",
+      "link": "https://mvnrepository.com/artifact/androidx.test.espresso/espresso-core",
+      "group": "androidx.test.espresso",
+      "module": "espresso-core",
+      "remark": "UI自动化测试"
+    },
+    {
+      "name": "Junit",
+      "version": "4.13.1",
+      "link": "https://mvnrepository.com/artifact/junit/junit",
+      "group": "junit",
+      "module": "junit",
+      "remark": "单元测试"
+    },
+    {
+      "name": "JunitExt",
+      "version": "1.1.2",
+      "link": "https://mvnrepository.com/artifact/androidx.test.ext/junit-ktx",
+      "group": "androidx.test.ext",
+      "module": "junit-ktx",
+      "remark": "单元测试扩展"
+    }
+  ]
+}
