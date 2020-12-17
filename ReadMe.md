@@ -108,6 +108,13 @@
 |Compiler|moshi-kotlin-codegen|1.11.0|  
 |Core|moshi|1.11.0|  
 
+|[Navigation](https://developer.android.com/jetpack/androidx/releases/navigation)|androidx.navigation|Fragment导航库|  
+|:-:|:-:|:-:|  
+|Features|navigation-dynamic-features-fragment|2.3.2|  
+|Ui|navigation-ui-ktx|2.3.2|  
+|Core|navigation-fragment-ktx|2.3.2|  
+|Test|navigation-testing|2.3.2|  
+
 |[OkHttp](https://github.com/square/okhttp)|com.squareup.okhttp3||  
 |:-:|:-:|:-:|  
 |Core|okhttp|4.9.0|  

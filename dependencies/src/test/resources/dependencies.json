@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "single": [
     {
       "name": "Activity",
@@ -401,6 +401,31 @@
         {
           "name": "Core",
           "module": "moshi"
+        }
+      ]
+    },
+    {
+      "name": "Navigation",
+      "version": "2.3.2",
+      "link": "https://developer.android.com/jetpack/androidx/releases/navigation",
+      "group": "androidx.navigation",
+      "remark": "Fragment导航库",
+      "modules": [
+        {
+          "name": "Features",
+          "module": "navigation-dynamic-features-fragment"
+        },
+        {
+          "name": "Ui",
+          "module": "navigation-ui-ktx"
+        },
+        {
+          "name": "Core",
+          "module": "navigation-fragment-ktx"
+        },
+        {
+          "name": "Test",
+          "module": "navigation-testing"
         }
       ]
     },
