@@ -5,9 +5,9 @@ import kotlin.Suppress
 
 @Suppress("MemberVisibilityCanBePrivate", "unused")
 abstract class AndroidDependency private constructor(
-    val group: String,
-    val module: String,
-    var version: String
+  val group: String,
+  val module: String,
+  var version: String
 ) {
     val fullGradle: String
         get() = build(version)
@@ -23,8 +23,7 @@ abstract class AndroidDependency private constructor(
         /**
          * https://developer.android.com/jetpack/androidx/releases/activity
          */
-        object Activity :
-            AndroidDependency("androidx.activity", "activity-ktx", "1.2.0-beta02")
+        object Activity : AndroidDependency("androidx.activity", "activity-ktx", "1.2.0-rc01")
 
         /**
          * Alerter弹窗
@@ -47,8 +46,7 @@ abstract class AndroidDependency private constructor(
         /**
          * https://developer.android.com/jetpack/androidx/releases/appcompat
          */
-        object Appcompat :
-            AndroidDependency("androidx.appcompat", "appcompat", "1.3.0-alpha02")
+        object Appcompat : AndroidDependency("androidx.appcompat", "appcompat", "1.3.0-alpha02")
 
         /**
          * 背景生成工具库
@@ -84,8 +82,8 @@ abstract class AndroidDependency private constructor(
          * https://square.github.io/leakcanary/getting_started/
          */
         object LeakCanary : AndroidDependency(
-            "com.squareup.leakcanary", "leakcanary-android",
-            "2.5"
+          "com.squareup.leakcanary", "leakcanary-android",
+          "2.5"
         )
 
         /**
@@ -98,8 +96,7 @@ abstract class AndroidDependency private constructor(
          * 二维码扫描
          * https://github.com/jenly1314/ZXingLite
          */
-        object QrScanner :
-            AndroidDependency("com.king.zxing", "zxing-lite", "1.1.9-androidx")
+        object QrScanner : AndroidDependency("com.king.zxing", "zxing-lite", "1.1.9-androidx")
 
         /**
          * 多数据源
@@ -112,8 +109,8 @@ abstract class AndroidDependency private constructor(
          * https://github.com/KunMinX/UnPeek-LiveData
          */
         object UnPeekLiveData : AndroidDependency(
-            "com.kunminx.archi", "unpeek-livedata",
-            "4.4.1-beta1"
+          "com.kunminx.archi", "unpeek-livedata",
+          "4.4.1-beta1"
         )
 
         /**
@@ -121,8 +118,8 @@ abstract class AndroidDependency private constructor(
          * https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Resource_Center_Homepage.html
          */
         object WeChat : AndroidDependency(
-            "com.tencent.mm.opensdk",
-            "wechat-sdk-android-without-mta", "6.6.5"
+          "com.tencent.mm.opensdk",
+          "wechat-sdk-android-without-mta", "6.6.5"
         )
 
         /**
@@ -135,7 +132,7 @@ abstract class AndroidDependency private constructor(
          * 弹窗框架
          * https://github.com/li-xiaojun/XPopup
          */
-        object XPopup : AndroidDependency("com.lxj", "xpopup", "2.2.10")
+        object XPopup : AndroidDependency("com.lxj", "xpopup", "2.2.11")
     }
 
     object View {
@@ -150,8 +147,8 @@ abstract class AndroidDependency private constructor(
          * https://github.com/xiaohaibin/XBanner/tree/androidX
          */
         object BannerView : AndroidDependency(
-            "com.github.xiaohaibin", "XBanner",
-            "androidx_v1.1.2"
+          "com.github.xiaohaibin", "XBanner",
+          "androidx_v1.1.2"
         )
 
         /**
@@ -165,8 +162,8 @@ abstract class AndroidDependency private constructor(
          * https://github.com/Ashok-Varma/BottomNavigation
          */
         object BottomNavigation : AndroidDependency(
-            "com.ashokvarma.android",
-            "bottom-navigation-bar", "2.2.0"
+          "com.ashokvarma.android",
+          "bottom-navigation-bar", "2.2.0"
         )
 
         /**
@@ -174,8 +171,8 @@ abstract class AndroidDependency private constructor(
          * https://developer.android.com/jetpack/androidx/releases/constraintlayout
          */
         object ConstraintLayout : AndroidDependency(
-            "androidx.constraintlayout",
-            "constraintlayout", "2.0.4"
+          "androidx.constraintlayout",
+          "constraintlayout", "2.0.4"
         )
 
         /**
@@ -200,40 +197,39 @@ abstract class AndroidDependency private constructor(
          * https://github.com/material-components/material-components-android
          */
         object Material : AndroidDependency(
-            "com.google.android.material", "material",
-            "1.3.0-alpha03"
+          "com.google.android.material", "material",
+          "1.3.0-beta01"
         )
 
         /**
          * https://developer.android.com/jetpack/androidx/releases/recyclerview
          */
         object RecyclerView : AndroidDependency(
-            "androidx.recyclerview", "recyclerview",
-            "1.2.0-beta01"
+          "androidx.recyclerview", "recyclerview",
+          "1.2.0-beta01"
         )
 
         /**
          * 阴影控件
          * https://github.com/lihangleo2/ShadowLayout
          */
-        object ShadowLayout :
-            AndroidDependency("com.github.lihangleo2", "ShadowLayout", "3.1.5")
+        object ShadowLayout : AndroidDependency("com.github.lihangleo2", "ShadowLayout", "3.1.5")
 
         /**
          * 下拉刷新控件
          * https://developer.android.com/jetpack/androidx/releases/swiperefreshlayout
          */
         object SwipeRefreshLayout : AndroidDependency(
-            "androidx.swiperefreshlayout",
-            "swiperefreshlayout", "1.2.0-alpha01"
+          "androidx.swiperefreshlayout",
+          "swiperefreshlayout", "1.2.0-alpha01"
         )
 
         /**
          * https://developer.android.com/jetpack/androidx/releases/viewpager2
          */
         object ViewPager2 : AndroidDependency(
-            "androidx.viewpager2", "viewpager2",
-            "1.1.0-alpha01"
+          "androidx.viewpager2", "viewpager2",
+          "1.1.0-alpha01"
         )
     }
 
@@ -242,7 +238,7 @@ abstract class AndroidDependency private constructor(
      * https://github.com/ChuckerTeam/chucker
      */
     sealed class Chucker(
-        module: String
+      module: String
     ) : AndroidDependency("com.github.chuckerteam.chucker", module, "3.4.0") {
         object Debug : Chucker("library")
 
@@ -254,8 +250,8 @@ abstract class AndroidDependency private constructor(
      * https://github.com/xiaojinzi123/Component
      */
     sealed class Component(
-        module: String
-    ) : AndroidDependency("com.github.xiaojinzi123.Component", module, "v1.8.3.6-androidx-java8") {
+      module: String
+    ) : AndroidDependency("com.github.xiaojinzi123.Component", module, "v1.8.6-androidx-java8") {
         object Compiler : Component("component-compiler")
 
         object Core : Component("component-impl")
@@ -268,7 +264,7 @@ abstract class AndroidDependency private constructor(
      * https://github.com/Kotlin/kotlinx.coroutines
      */
     sealed class Coroutines(
-        module: String
+      module: String
     ) : AndroidDependency("org.jetbrains.kotlinx", module, "1.4.2") {
         object Core : Coroutines("kotlinx-coroutines-android")
 
@@ -280,7 +276,7 @@ abstract class AndroidDependency private constructor(
      * https://github.com/AriaLyy/Aria
      */
     sealed class DownloadAndUpload(
-        module: String
+      module: String
     ) : AndroidDependency("com.arialyy.aria", module, "3.8.15") {
         object Compiler : DownloadAndUpload("compiler")
 
@@ -298,7 +294,7 @@ abstract class AndroidDependency private constructor(
      * https://github.com/airbnb/epoxy
      */
     sealed class Epoxy(
-        module: String
+      module: String
     ) : AndroidDependency("com.airbnb.android", module, "4.3.1") {
         object Compiler : Epoxy("epoxy-processor")
 
@@ -311,8 +307,8 @@ abstract class AndroidDependency private constructor(
      * https://developer.android.com/jetpack/androidx/releases/fragment
      */
     sealed class Fragment(
-        module: String
-    ) : AndroidDependency("androidx.fragment", module, "1.3.0-beta02") {
+      module: String
+    ) : AndroidDependency("androidx.fragment", module, "1.3.0-rc01") {
         object Core : Fragment("fragment")
 
         object Test : Fragment("fragment-testing")
@@ -323,7 +319,7 @@ abstract class AndroidDependency private constructor(
      * https://github.com/bumptech/glide
      */
     sealed class Glide(
-        module: String
+      module: String
     ) : AndroidDependency("com.github.bumptech.glide", module, "4.11.0") {
         object Annotation : Glide("annotations")
 
@@ -338,8 +334,8 @@ abstract class AndroidDependency private constructor(
          * https://github.com/wasabeef/glide-transformations
          */
         object Transformations : AndroidDependency(
-            "jp.wasabeef", "4.3.0",
-            "glide-transformations"
+          "jp.wasabeef", "4.3.0",
+          "glide-transformations"
         )
 
         /**
@@ -354,7 +350,7 @@ abstract class AndroidDependency private constructor(
      * https://github.com/InsertKoinIO/koin
      */
     sealed class Koin(
-        module: String
+      module: String
     ) : AndroidDependency("org.koin", module, "2.2.0") {
         object Core : Koin("koin-core")
 
@@ -371,7 +367,7 @@ abstract class AndroidDependency private constructor(
      * https://github.com/JetBrains/kotlin
      */
     sealed class Kotlin(
-        module: String
+      module: String
     ) : AndroidDependency("org.jetbrains.kotlin", module, "1.4.21") {
         object Reflect : Kotlin("kotlin-reflect")
 
@@ -382,8 +378,8 @@ abstract class AndroidDependency private constructor(
      * https://developer.android.com/jetpack/androidx/releases/lifecycle
      */
     sealed class Lifecycle(
-        module: String
-    ) : AndroidDependency("androidx.lifecycle", module, "2.3.0-beta01") {
+      module: String
+    ) : AndroidDependency("androidx.lifecycle", module, "2.3.0-rc01") {
         object Common : Lifecycle("lifecycle-common")
 
         object LiveData : Lifecycle("lifecycle-livedata-ktx")
@@ -404,7 +400,7 @@ abstract class AndroidDependency private constructor(
      * https://github.com/square/moshi
      */
     sealed class MoShi(
-        module: String
+      module: String
     ) : AndroidDependency("com.squareup.moshi", module, "1.11.0") {
         object Compiler : MoShi("moshi-kotlin-codegen")
 
@@ -415,7 +411,7 @@ abstract class AndroidDependency private constructor(
      * https://github.com/square/okhttp
      */
     sealed class OkHttp(
-        module: String
+      module: String
     ) : AndroidDependency("com.squareup.okhttp3", module, "4.9.0") {
         object Core : OkHttp("okhttp")
 
@@ -428,7 +424,7 @@ abstract class AndroidDependency private constructor(
      * https://github.com/airbnb/paris
      */
     sealed class Paris(
-        module: String
+      module: String
     ) : AndroidDependency("com.airbnb.android", module, "1.7.2") {
         object Compiler : Paris("paris-processor")
 
@@ -440,7 +436,7 @@ abstract class AndroidDependency private constructor(
      * https://github.com/square/retrofit
      */
     sealed class Retrofit(
-        module: String
+      module: String
     ) : AndroidDependency("com.squareup.retrofit2", module, "2.9.0") {
         object Core : Retrofit("retrofit")
 
@@ -452,8 +448,8 @@ abstract class AndroidDependency private constructor(
      * https://developer.android.com/jetpack/androidx/releases/room
      */
     sealed class Room(
-        module: String
-    ) : AndroidDependency("androidx.room", module, "2.2.5") {
+      module: String
+    ) : AndroidDependency("androidx.room", module, "2.2.6") {
         object Compiler : Room("room-compiler")
 
         object Core : Room("room-runtime")
@@ -468,7 +464,7 @@ abstract class AndroidDependency private constructor(
      * https://developer.android.com/jetpack/androidx/releases/work
      */
     sealed class WorkManager(
-        module: String
+      module: String
     ) : AndroidDependency("androidx.work", module, "2.5.0-beta02") {
         object Core : WorkManager("work-runtime-ktx")
 
@@ -480,8 +476,7 @@ abstract class AndroidDependency private constructor(
          * UI自动化测试
          * https://mvnrepository.com/artifact/androidx.test.espresso/espresso-core
          */
-        object Espresso :
-            AndroidDependency("androidx.test.espresso", "espresso-core", "3.3.0")
+        object Espresso : AndroidDependency("androidx.test.espresso", "espresso-core", "3.3.0")
 
         /**
          * 单元测试

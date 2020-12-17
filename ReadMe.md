@@ -1,7 +1,7 @@
 # 三方依赖库版本管理[![](https://jitpack.io/v/qiushui95/AndroidDependencies.svg)](https://jitpack.io/#qiushui95/AndroidDependencies)  
 |name|group|module|version|remark|  
 |:-:|:-:|:-:|:-:|:-:|  
-|[Activity](https://developer.android.com/jetpack/androidx/releases/activity)|androidx.activity|activity-ktx|1.2.0-beta02||  
+|[Activity](https://developer.android.com/jetpack/androidx/releases/activity)|androidx.activity|activity-ktx|1.2.0-rc01||  
 |[Alerter](https://github.com/Tapadoo/Alerter)|com.tapadoo.android|alerter|6.2.1|Alerter弹窗|  
 |[Anchors](https://github.com/YummyLau/Anchors/blob/master/README-zh.md)|com.effective.android|anchors|1.1.2|app启动初始化管理|  
 |[AndroidUtil](https://github.com/Blankj/AndroidUtilCode)|com.blankj|utilcodex|1.30.5|多功能工具包|  
@@ -18,7 +18,7 @@
 |[UnPeekLiveData](https://github.com/KunMinX/UnPeek-LiveData)|com.kunminx.archi|unpeek-livedata|4.4.1-beta1|自动消失LiveData|  
 |[WeChat](https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Resource_Center_Homepage.html)|com.tencent.mm.opensdk|wechat-sdk-android-without-mta|6.6.5|微信开发Sdk|  
 |[XCrash](https://github.com/iqiyi/xCrash/blob/master/README.zh-CN.md)|com.iqiyi.xcrash|xcrash-android-lib|3.0.0|奔溃日志收集|  
-|[XPopup](https://github.com/li-xiaojun/XPopup)|com.lxj|xpopup|2.2.10|弹窗框架|  
+|[XPopup](https://github.com/li-xiaojun/XPopup)|com.lxj|xpopup|2.2.11|弹窗框架|  
 
 |name|group|module|version|remark|  
 |:-:|:-:|:-:|:-:|:-:|  
@@ -30,7 +30,7 @@
 |[FlexBox](https://github.com/google/flexbox-layout)|com.google.android|flexbox|2.0.1|流式布局|  
 |[LottieView](https://github.com/airbnb/lottie-android)|com.airbnb.android|lottie|3.5.0|动画框架|  
 |[MarqueeView](https://github.com/sunfusheng/MarqueeView)|com.sunfusheng|MarqueeView|1.4.1|跑马灯控件|  
-|[Material](https://github.com/material-components/material-components-android)|com.google.android.material|material|1.3.0-alpha03||  
+|[Material](https://github.com/material-components/material-components-android)|com.google.android.material|material|1.3.0-beta01||  
 |[RecyclerView](https://developer.android.com/jetpack/androidx/releases/recyclerview)|androidx.recyclerview|recyclerview|1.2.0-beta01||  
 |[ShadowLayout](https://github.com/lihangleo2/ShadowLayout)|com.github.lihangleo2|ShadowLayout|3.1.5|阴影控件|  
 |[SwipeRefreshLayout](https://developer.android.com/jetpack/androidx/releases/swiperefreshlayout)|androidx.swiperefreshlayout|swiperefreshlayout|1.2.0-alpha01|下拉刷新控件|  
@@ -43,9 +43,9 @@
 
 |[Component](https://github.com/xiaojinzi123/Component)|com.github.xiaojinzi123.Component|组件化实现方案|  
 |:-:|:-:|:-:|  
-|Compiler|component-compiler|v1.8.3.6-androidx-java8|  
-|Core|component-impl|v1.8.3.6-androidx-java8|  
-|Plugin|component-plugin|v1.8.3.6-androidx-java8|  
+|Compiler|component-compiler|v1.8.6-androidx-java8|  
+|Core|component-impl|v1.8.6-androidx-java8|  
+|Plugin|component-plugin|v1.8.6-androidx-java8|  
 
 |[Coroutines](https://github.com/Kotlin/kotlinx.coroutines)|org.jetbrains.kotlinx|协程|  
 |:-:|:-:|:-:|  
@@ -68,8 +68,8 @@
 
 |[Fragment](https://developer.android.com/jetpack/androidx/releases/fragment)|androidx.fragment||  
 |:-:|:-:|:-:|  
-|Core|fragment|1.3.0-beta02|  
-|Test|fragment-testing|1.3.0-beta02|  
+|Core|fragment|1.3.0-rc01|  
+|Test|fragment-testing|1.3.0-rc01|  
 
 |[Glide](https://github.com/bumptech/glide)|com.github.bumptech.glide|图片加载|  
 |:-:|:-:|:-:|  
@@ -95,13 +95,13 @@
 
 |[Lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)|androidx.lifecycle||  
 |:-:|:-:|:-:|  
-|Common|lifecycle-common|2.3.0-beta01|  
-|LiveData|lifecycle-livedata-ktx|2.3.0-beta01|  
-|Process|lifecycle-process|2.3.0-beta01|  
-|Runtime|lifecycle-runtime-ktx|2.3.0-beta01|  
-|SavedState|lifecycle-viewmodel-savedstate|2.3.0-beta01|  
-|Service|lifecycle-service|2.3.0-beta01|  
-|ViewModel|lifecycle-viewmodel-ktx|2.3.0-beta01|  
+|Common|lifecycle-common|2.3.0-rc01|  
+|LiveData|lifecycle-livedata-ktx|2.3.0-rc01|  
+|Process|lifecycle-process|2.3.0-rc01|  
+|Runtime|lifecycle-runtime-ktx|2.3.0-rc01|  
+|SavedState|lifecycle-viewmodel-savedstate|2.3.0-rc01|  
+|Service|lifecycle-service|2.3.0-rc01|  
+|ViewModel|lifecycle-viewmodel-ktx|2.3.0-rc01|  
 
 |[MoShi](https://github.com/square/moshi)|com.squareup.moshi|json解析库|  
 |:-:|:-:|:-:|  
@@ -126,10 +126,10 @@
 
 |[Room](https://developer.android.com/jetpack/androidx/releases/room)|androidx.room|Sqlite数据库|  
 |:-:|:-:|:-:|  
-|Compiler|room-compiler|2.2.5|  
-|Core|room-runtime|2.2.5|  
-|Ktx|room-ktx|2.2.5|  
-|Test|room-testing|2.2.5|  
+|Compiler|room-compiler|2.2.6|  
+|Core|room-runtime|2.2.6|  
+|Ktx|room-ktx|2.2.6|  
+|Test|room-testing|2.2.6|  
 
 |[WorkManager](https://developer.android.com/jetpack/androidx/releases/work)|androidx.work|任务管理器|  
 |:-:|:-:|:-:|  
