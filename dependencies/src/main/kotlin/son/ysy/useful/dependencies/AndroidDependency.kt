@@ -127,12 +127,6 @@ abstract class AndroidDependency private constructor(
          * https://github.com/iqiyi/xCrash/blob/master/README.zh-CN.md
          */
         object XCrash : AndroidDependency("com.iqiyi.xcrash", "xcrash-android-lib", "3.0.0")
-
-        /**
-         * 弹窗框架
-         * https://github.com/li-xiaojun/XPopup
-         */
-        object XPopup : AndroidDependency("com.lxj", "xpopup", "2.2.11")
     }
 
     object View {
@@ -231,6 +225,19 @@ abstract class AndroidDependency private constructor(
             "androidx.viewpager2", "viewpager2",
             "1.1.0-alpha01"
         )
+    }
+
+    /**
+     * 弹窗
+     * https://github.com/razerdp/BasePopup
+     */
+    sealed class BasePopup(
+        module: String,
+        version: String
+    ) : AndroidDependency("com.github.razerdp", module, version) {
+        object Stable : BasePopup("BasePopup", "2.2.11")
+
+        object Candy : BasePopup("BasePopup_Candy", "2.2.12.1222")
     }
 
     /**
@@ -334,15 +341,15 @@ abstract class AndroidDependency private constructor(
          * https://github.com/wasabeef/glide-transformations
          */
         object Transformations : AndroidDependency(
-            "jp.wasabeef", "4.3.0",
-            "glide-transformations"
+            "jp.wasabeef", "glide-transformations",
+            "4.3.0"
         )
 
         /**
          * Gpu处理图片效果
          * https://github.com/wasabeef/glide-transformations
          */
-        object GpuImage : AndroidDependency("jp.co.cyberagent.android", "2.1.0", "gpuimage")
+        object GpuImage : AndroidDependency("jp.co.cyberagent.android", "gpuimage", "2.1.0")
     }
 
     /**

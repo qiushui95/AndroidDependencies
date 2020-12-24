@@ -22,4 +22,8 @@ data class GroupChildModule(
     val module: String
 ) : SortContent {
     override fun getSortContent(): String = name
+
+    val isCustomGroup = group?.isNotBlank() == true
+
+    val isCustomVersion = group.isNullOrBlank() && version?.isNotBlank() == true
 }

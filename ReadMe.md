@@ -18,7 +18,6 @@
 |[UnPeekLiveData](https://github.com/KunMinX/UnPeek-LiveData)|com.kunminx.archi|unpeek-livedata|4.4.1-beta1|自动消失LiveData|  
 |[WeChat](https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Resource_Center_Homepage.html)|com.tencent.mm.opensdk|wechat-sdk-android-without-mta|6.6.5|微信开发Sdk|  
 |[XCrash](https://github.com/iqiyi/xCrash/blob/master/README.zh-CN.md)|com.iqiyi.xcrash|xcrash-android-lib|3.0.0|奔溃日志收集|  
-|[XPopup](https://github.com/li-xiaojun/XPopup)|com.lxj|xpopup|2.2.11|弹窗框架|  
 
 |name|group|module|version|remark|  
 |:-:|:-:|:-:|:-:|:-:|  
@@ -35,6 +34,11 @@
 |[ShadowLayout](https://github.com/lihangleo2/ShadowLayout)|com.github.lihangleo2|ShadowLayout|3.1.5|阴影控件|  
 |[SwipeRefreshLayout](https://developer.android.com/jetpack/androidx/releases/swiperefreshlayout)|androidx.swiperefreshlayout|swiperefreshlayout|1.2.0-alpha01|下拉刷新控件|  
 |[ViewPager2](https://developer.android.com/jetpack/androidx/releases/viewpager2)|androidx.viewpager2|viewpager2|1.1.0-alpha01||  
+
+|[BasePopup](https://github.com/razerdp/BasePopup)|com.github.razerdp|弹窗|  
+|:-:|:-:|:-:|  
+|Stable|BasePopup|2.2.11|  
+|Candy|BasePopup_Candy|2.2.12.1222|  
 
 |[Chucker](https://github.com/ChuckerTeam/chucker)|com.github.chuckerteam.chucker|网络请求监控|  
 |:-:|:-:|:-:|  

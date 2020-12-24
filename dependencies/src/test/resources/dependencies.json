@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "single": [
     {
       "name": "Activity",
@@ -133,17 +133,28 @@
       "group": "com.iqiyi.xcrash",
       "module": "xcrash-android-lib",
       "remark": "奔溃日志收集"
-    },
-    {
-      "name": "XPopup",
-      "version": "2.2.11",
-      "link": "https://github.com/li-xiaojun/XPopup",
-      "group": "com.lxj",
-      "module": "xpopup",
-      "remark": "弹窗框架"
     }
   ],
   "group": [
+    {
+      "name": "BasePopup",
+      "version": "2.2.11",
+      "link": "https://github.com/razerdp/BasePopup",
+      "group": "com.github.razerdp",
+      "remark": "弹窗",
+      "modules": [
+        {
+          "name": "Stable",
+          "module": "BasePopup",
+          "version": "2.2.11"
+        },
+        {
+          "name": "Candy",
+          "module": "BasePopup_Candy",
+          "version": "2.2.12.1222"
+        }
+      ]
+    },
     {
       "name": "Chucker",
       "version": "3.4.0",

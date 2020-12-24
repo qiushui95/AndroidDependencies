@@ -162,35 +162,63 @@ class AndroidDependencyTest : TestCase() {
 
         dependencyModel.group
             .map { group ->
+                val hasCustomVersion = group.modules.any {
+                    it.group.isNullOrBlank() && it.version?.isNotBlank() == true
+                }
                 val groupBuilder = TypeSpec.classBuilder(group.name)
                     .addModifiers(KModifier.SEALED)
                     .primaryConstructor(
                         FunSpec.constructorBuilder()
                             .addParameter(DependencyProperties.KEY_MODULE, String::class)
+                            .apply {
+                                if (hasCustomVersion) {
+                                    addParameter(DependencyProperties.KEY_VERSION, String::class)
+                                }
+                            }
                             .build()
                     ).superclass(ClassName("", DependencyClasses.KEY_CLASS_DEPENDENCY))
                     .addSuperclassConstructorParameter("%S", group.group)
                     .addSuperclassConstructorParameter(DependencyProperties.KEY_MODULE)
-                    .addSuperclassConstructorParameter("%S", group.version)
+                    .apply {
+                        if (hasCustomVersion) {
+                            addSuperclassConstructorParameter(DependencyProperties.KEY_VERSION)
+                        } else {
+                            addSuperclassConstructorParameter("%S", group.version)
+                        }
+                    }
 
                 getKDoc(group.remark, group.link)?.apply(groupBuilder::addKdoc)
 
                 group.modules
                     .map { child ->
                         val childBuilder = TypeSpec.objectBuilder(child.name)
-                        if (!child.group.isNullOrBlank() && !child.version.isNullOrBlank()) {
-                            childBuilder.superclass(
-                                ClassName(
-                                    "",
-                                    DependencyClasses.KEY_CLASS_DEPENDENCY
-                                )
-                            )
-                                .addSuperclassConstructorParameter("%S", child.group)
-                                .addSuperclassConstructorParameter("%S", child.version)
-                        } else {
-                            childBuilder.superclass(ClassName("", group.name))
+                        when {
+                            child.isCustomGroup -> {
+                                childBuilder.superclass(
+                                    ClassName(
+                                        "",
+                                        DependencyClasses.KEY_CLASS_DEPENDENCY
+                                    )
+                                ).addSuperclassConstructorParameter("%S", child.group!!)
+                                    .addSuperclassConstructorParameter("%S", child.module)
+                                    .addSuperclassConstructorParameter(
+                                        "%S",
+                                        child.version ?: group.version
+                                    )
+                            }
+                            child.isCustomVersion -> {
+                                childBuilder.superclass(ClassName("", group.name))
+                                    .addSuperclassConstructorParameter("%S", child.module)
+                                    .addSuperclassConstructorParameter(
+                                        "%S",
+                                        child.version ?: group.version
+                                    )
+                            }
+                            else -> {
+                                childBuilder.superclass(ClassName("", group.name))
+                                    .addSuperclassConstructorParameter("%S", child.module)
+                            }
                         }
-                        childBuilder.addSuperclassConstructorParameter("%S", child.module)
 
 
                         getKDoc(child.remark, child.link)?.apply(childBuilder::addKdoc)
@@ -267,12 +295,16 @@ class AndroidDependencyTest : TestCase() {
             group.modules.forEach { child ->
                 val childName = child.name.takeIf { child.link.isNullOrBlank() }
                     ?: "[${child.name}](${child.group})"
-                val childModule = child.module.takeIf {
-                    child.group.isNullOrBlank() || child.version.isNullOrBlank()
-                } ?: "${child.group}:${child.module}:${child.version}"
-                val childVersion = group.version.takeIf {
-                    child.remark.isNullOrBlank()
-                } ?: child.remark
+
+                val childModule = when {
+                    child.isCustomGroup -> "${child.group}:${child.module}:${child.version}"
+                    else -> child.module
+                }
+                val childVersion = when {
+                    child.isCustomGroup -> child.remark
+                    child.isCustomVersion -> child.version
+                    else -> group.version
+                }
                 sb.appendMdLine("|$childName|$childModule|$childVersion|")
             }
         }
