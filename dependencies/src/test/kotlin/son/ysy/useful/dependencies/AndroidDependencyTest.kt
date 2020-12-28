@@ -294,7 +294,7 @@ class AndroidDependencyTest : TestCase() {
 
             group.modules.forEach { child ->
                 val childName = child.name.takeIf { child.link.isNullOrBlank() }
-                    ?: "[${child.name}](${child.group})"
+                    ?: "[${child.name}](${child.link})"
 
                 val childModule = when {
                     child.isCustomGroup -> "${child.group}:${child.module}:${child.version}"

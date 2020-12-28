@@ -35,7 +35,7 @@ abstract class AndroidDependency private constructor(
          * app启动初始化管理
          * https://github.com/YummyLau/Anchors/blob/master/README-zh.md
          */
-        object Anchors : AndroidDependency("com.effective.android", "anchors", "1.1.2")
+        object Anchors : AndroidDependency("com.effective.android", "anchors", "1.1.3")
 
         /**
          * 多功能工具包
@@ -83,20 +83,20 @@ abstract class AndroidDependency private constructor(
          */
         object LeakCanary : AndroidDependency(
             "com.squareup.leakcanary", "leakcanary-android",
-            "2.5"
+            "2.6"
         )
 
         /**
          * 持久KV数据存储
-         * https://github.com/Tencent/MMKV/blob/master/readme_cn.md
+         * https://github.com/Tencent/MMKV/blob/master/README_CN.md
          */
-        object Mmkv : AndroidDependency("com.tencent", "mmkv-static", "1.2.6")
+        object Mmkv : AndroidDependency("com.tencent", "mmkv-static", "1.2.7")
 
         /**
          * 二维码扫描
          * https://github.com/jenly1314/ZXingLite
          */
-        object QrScanner : AndroidDependency("com.king.zxing", "zxing-lite", "1.1.9-androidx")
+        object QrScanner : AndroidDependency("com.king.zxing", "zxing-lite", "2.0.0")
 
         /**
          * 多数据源
@@ -207,7 +207,7 @@ abstract class AndroidDependency private constructor(
          * 阴影控件
          * https://github.com/lihangleo2/ShadowLayout
          */
-        object ShadowLayout : AndroidDependency("com.github.lihangleo2", "ShadowLayout", "3.1.5")
+        object ShadowLayout : AndroidDependency("com.github.lihangleo2", "ShadowLayout", "3.1.6")
 
         /**
          * 下拉刷新控件

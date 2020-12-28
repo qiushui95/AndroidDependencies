@@ -1,5 +1,5 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "single": [
     {
       "name": "Activity",
@@ -18,7 +18,7 @@
     },
     {
       "name": "Anchors",
-      "version": "1.1.2",
+      "version": "1.1.3",
       "link": "https://github.com/YummyLau/Anchors/blob/master/README-zh.md",
       "group": "com.effective.android",
       "module": "anchors",
@@ -80,7 +80,7 @@
     },
     {
       "name": "LeakCanary",
-      "version": "2.5",
+      "version": "2.6",
       "link": "https://square.github.io/leakcanary/getting_started/",
       "group": "com.squareup.leakcanary",
       "module": "leakcanary-android",
@@ -88,15 +88,15 @@
     },
     {
       "name": "Mmkv",
-      "version": "1.2.6",
-      "link": "https://github.com/Tencent/MMKV/blob/master/readme_cn.md",
+      "version": "1.2.7",
+      "link": "https://github.com/Tencent/MMKV/blob/master/README_CN.md",
       "group": "com.tencent",
       "module": "mmkv-static",
       "remark": "持久KV数据存储"
     },
     {
       "name": "QrScanner",
-      "version": "1.1.9-androidx",
+      "version": "2.0.0",
       "link": "https://github.com/jenly1314/ZXingLite",
       "group": "com.king.zxing",
       "module": "zxing-lite",
@@ -617,7 +617,7 @@
     },
     {
       "name": "ShadowLayout",
-      "version": "3.1.5",
+      "version": "3.1.6",
       "link": "https://github.com/lihangleo2/ShadowLayout",
       "group": "com.github.lihangleo2",
       "module": "ShadowLayout",

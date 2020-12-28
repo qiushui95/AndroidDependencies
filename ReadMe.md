@@ -3,7 +3,7 @@
 |:-:|:-:|:-:|:-:|:-:|  
 |[Activity](https://developer.android.com/jetpack/androidx/releases/activity)|androidx.activity|activity-ktx|1.2.0-rc01||  
 |[Alerter](https://github.com/Tapadoo/Alerter)|com.tapadoo.android|alerter|6.2.1|Alerter弹窗|  
-|[Anchors](https://github.com/YummyLau/Anchors/blob/master/README-zh.md)|com.effective.android|anchors|1.1.2|app启动初始化管理|  
+|[Anchors](https://github.com/YummyLau/Anchors/blob/master/README-zh.md)|com.effective.android|anchors|1.1.3|app启动初始化管理|  
 |[AndroidUtil](https://github.com/Blankj/AndroidUtilCode)|com.blankj|utilcodex|1.30.5|多功能工具包|  
 |[Appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat)|androidx.appcompat|appcompat|1.3.0-alpha02||  
 |[Background](https://github.com/JavaNoober/BackgroundLibrary)|com.noober.background|core|1.6.5|背景生成工具库|  
@@ -11,9 +11,9 @@
 |[CoreKtx](https://developer.android.com/jetpack/androidx/releases/core)|androidx.core|core-ktx|1.5.0-alpha05||  
 |[ImagePicker](https://github.com/yangpeixing/YImagePicker)|com.ypx.yimagepicker|androidx|3.1.4|多媒体选择库|  
 |[JodaTime](https://github.com/JodaOrg/joda-time)|joda-time|joda-time|2.10.8|时间处理库|  
-|[LeakCanary](https://square.github.io/leakcanary/getting_started/)|com.squareup.leakcanary|leakcanary-android|2.5|内存泄露监控|  
-|[Mmkv](https://github.com/Tencent/MMKV/blob/master/readme_cn.md)|com.tencent|mmkv-static|1.2.6|持久KV数据存储|  
-|[QrScanner](https://github.com/jenly1314/ZXingLite)|com.king.zxing|zxing-lite|1.1.9-androidx|二维码扫描|  
+|[LeakCanary](https://square.github.io/leakcanary/getting_started/)|com.squareup.leakcanary|leakcanary-android|2.6|内存泄露监控|  
+|[Mmkv](https://github.com/Tencent/MMKV/blob/master/README_CN.md)|com.tencent|mmkv-static|1.2.7|持久KV数据存储|  
+|[QrScanner](https://github.com/jenly1314/ZXingLite)|com.king.zxing|zxing-lite|2.0.0|二维码扫描|  
 |[Store](https://github.com/dropbox/Store)|com.dropbox.mobile.store|store4|4.0.0|多数据源|  
 |[UnPeekLiveData](https://github.com/KunMinX/UnPeek-LiveData)|com.kunminx.archi|unpeek-livedata|4.4.1-beta1|自动消失LiveData|  
 |[WeChat](https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Resource_Center_Homepage.html)|com.tencent.mm.opensdk|wechat-sdk-android-without-mta|6.6.5|微信开发Sdk|  
@@ -31,7 +31,7 @@
 |[MarqueeView](https://github.com/sunfusheng/MarqueeView)|com.sunfusheng|MarqueeView|1.4.1|跑马灯控件|  
 |[Material](https://github.com/material-components/material-components-android)|com.google.android.material|material|1.3.0-beta01||  
 |[RecyclerView](https://developer.android.com/jetpack/androidx/releases/recyclerview)|androidx.recyclerview|recyclerview|1.2.0-beta01||  
-|[ShadowLayout](https://github.com/lihangleo2/ShadowLayout)|com.github.lihangleo2|ShadowLayout|3.1.5|阴影控件|  
+|[ShadowLayout](https://github.com/lihangleo2/ShadowLayout)|com.github.lihangleo2|ShadowLayout|3.1.6|阴影控件|  
 |[SwipeRefreshLayout](https://developer.android.com/jetpack/androidx/releases/swiperefreshlayout)|androidx.swiperefreshlayout|swiperefreshlayout|1.2.0-alpha01|下拉刷新控件|  
 |[ViewPager2](https://developer.android.com/jetpack/androidx/releases/viewpager2)|androidx.viewpager2|viewpager2|1.1.0-alpha01||  
 
@@ -81,8 +81,8 @@
 |Compiler|compiler|4.11.0|  
 |Core|glide|4.11.0|  
 |OkHttp|okhttp3-integration|4.11.0|  
-|[Transformations](jp.wasabeef)|jp.wasabeef:glide-transformations:4.3.0|图片变换库|  
-|[GpuImage](jp.co.cyberagent.android)|jp.co.cyberagent.android:gpuimage:2.1.0|Gpu处理图片效果|  
+|[Transformations](https://github.com/wasabeef/glide-transformations)|jp.wasabeef:glide-transformations:4.3.0|图片变换库|  
+|[GpuImage](https://github.com/wasabeef/glide-transformations)|jp.co.cyberagent.android:gpuimage:2.1.0|Gpu处理图片效果|  
 
 |[Koin](https://github.com/InsertKoinIO/koin)|org.koin|依赖注入库|  
 |:-:|:-:|:-:|  
