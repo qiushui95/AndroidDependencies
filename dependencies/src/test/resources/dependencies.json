@@ -1,5 +1,5 @@
 {
-  "version": "1.0.4",
+  "version": "1.0.5",
   "single": [
     {
       "name": "Activity",
@@ -343,6 +343,23 @@
         {
           "name": "ViewModel",
           "module": "koin-androidx-viewmodel"
+        }
+      ]
+    },
+    {
+      "name": "KeyCreator",
+      "version": "1.0.2",
+      "link": "https://github.com/qiushui95/KeysCreator",
+      "group": "son.ysy.key.creator",
+      "remark": "key生成器",
+      "modules": [
+        {
+          "name": "Core",
+          "module": "annotations"
+        },
+        {
+          "name": "Compiler",
+          "module": "compiler"
         }
       ]
     },

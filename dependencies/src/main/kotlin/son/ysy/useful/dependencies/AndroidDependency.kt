@@ -371,6 +371,18 @@ abstract class AndroidDependency private constructor(
     }
 
     /**
+     * key生成器
+     * https://github.com/qiushui95/KeysCreator
+     */
+    sealed class KeyCreator(
+        module: String
+    ) : AndroidDependency("son.ysy.key.creator", module, "1.0.2") {
+        object Core : KeyCreator("annotations")
+
+        object Compiler : KeyCreator("compiler")
+    }
+
+    /**
      * https://github.com/JetBrains/kotlin
      */
     sealed class Kotlin(

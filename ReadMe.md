@@ -92,6 +92,11 @@
 |Test|koin-test|2.2.0|  
 |ViewModel|koin-androidx-viewmodel|2.2.0|  
 
+|[KeyCreator](https://github.com/qiushui95/KeysCreator)|son.ysy.key.creator|key生成器|  
+|:-:|:-:|:-:|  
+|Core|annotations|1.0.2|  
+|Compiler|compiler|1.0.2|  
+
 |[Kotlin](https://github.com/JetBrains/kotlin)|org.jetbrains.kotlin||  
 |:-:|:-:|:-:|  
 |Reflect|kotlin-reflect|1.4.21|  
