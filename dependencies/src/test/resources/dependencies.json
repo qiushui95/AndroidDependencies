@@ -1,5 +1,5 @@
 {
-  "version": "1.0.5",
+  "version": "1.0.6",
   "single": [
     {
       "name": "Activity",
@@ -207,6 +207,34 @@
         {
           "name": "Test",
           "module": "kotlinx-coroutines-test"
+        }
+      ]
+    },
+    {
+      "name": "DialogX",
+      "version": "0.0.25",
+      "link": "https://github.com/kongzue/DialogX",
+      "group": "com.kongzue.dialogx",
+      "remark": "常用弹窗",
+      "modules": [
+        {
+          "name": "Core",
+          "module": "DialogX"
+        },
+        {
+          "name": "IosStyle",
+          "group": "com.kongzue.dialogx.style.ios",
+          "module": "DialogXIOSStyle"
+        },
+        {
+          "name": "KongzueStyle",
+          "group": "com.kongzue.dialogx.style.kongzue",
+          "module": "DialogXKongzueStyle"
+        },
+        {
+          "name": "MiuiStyle",
+          "group": "com.kongzue.dialogx.style.miui",
+          "module": "DialogXMIUIStyle"
         }
       ]
     },
@@ -604,7 +632,7 @@
     },
     {
       "name": "LottieView",
-      "version": "3.5.0",
+      "version": "3.6.0",
       "link": "https://github.com/airbnb/lottie-android",
       "group": "com.airbnb.android",
       "module": "lottie",

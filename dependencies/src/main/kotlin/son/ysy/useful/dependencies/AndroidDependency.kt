@@ -179,7 +179,7 @@ abstract class AndroidDependency private constructor(
          * 动画框架
          * https://github.com/airbnb/lottie-android
          */
-        object LottieView : AndroidDependency("com.airbnb.android", "lottie", "3.5.0")
+        object LottieView : AndroidDependency("com.airbnb.android", "lottie", "3.6.0")
 
         /**
          * 跑马灯控件
@@ -276,6 +276,31 @@ abstract class AndroidDependency private constructor(
         object Core : Coroutines("kotlinx-coroutines-android")
 
         object Test : Coroutines("kotlinx-coroutines-test")
+    }
+
+    /**
+     * 常用弹窗
+     * https://github.com/kongzue/DialogX
+     */
+    sealed class DialogX(
+        module: String
+    ) : AndroidDependency("com.kongzue.dialogx", module, "0.0.25") {
+        object Core : DialogX("DialogX")
+
+        object IosStyle : AndroidDependency(
+            "com.kongzue.dialogx.style.ios", "DialogXIOSStyle",
+            "0.0.25"
+        )
+
+        object KongzueStyle : AndroidDependency(
+            "com.kongzue.dialogx.style.kongzue",
+            "DialogXKongzueStyle", "0.0.25"
+        )
+
+        object MiuiStyle : AndroidDependency(
+            "com.kongzue.dialogx.style.miui",
+            "DialogXMIUIStyle", "0.0.25"
+        )
     }
 
     /**

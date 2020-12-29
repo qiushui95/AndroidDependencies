@@ -27,7 +27,7 @@
 |[BottomNavigation](https://github.com/Ashok-Varma/BottomNavigation)|com.ashokvarma.android|bottom-navigation-bar|2.2.0|底部导航|  
 |[ConstraintLayout](https://developer.android.com/jetpack/androidx/releases/constraintlayout)|androidx.constraintlayout|constraintlayout|2.0.4|约束布局|  
 |[FlexBox](https://github.com/google/flexbox-layout)|com.google.android|flexbox|2.0.1|流式布局|  
-|[LottieView](https://github.com/airbnb/lottie-android)|com.airbnb.android|lottie|3.5.0|动画框架|  
+|[LottieView](https://github.com/airbnb/lottie-android)|com.airbnb.android|lottie|3.6.0|动画框架|  
 |[MarqueeView](https://github.com/sunfusheng/MarqueeView)|com.sunfusheng|MarqueeView|1.4.1|跑马灯控件|  
 |[Material](https://github.com/material-components/material-components-android)|com.google.android.material|material|1.3.0-beta01||  
 |[RecyclerView](https://developer.android.com/jetpack/androidx/releases/recyclerview)|androidx.recyclerview|recyclerview|1.2.0-beta01||  
@@ -55,6 +55,13 @@
 |:-:|:-:|:-:|  
 |Core|kotlinx-coroutines-android|1.4.2|  
 |Test|kotlinx-coroutines-test|1.4.2|  
+
+|[DialogX](https://github.com/kongzue/DialogX)|com.kongzue.dialogx|常用弹窗|  
+|:-:|:-:|:-:|  
+|Core|DialogX|0.0.25|  
+|IosStyle|com.kongzue.dialogx.style.ios:DialogXIOSStyle:null|null|  
+|KongzueStyle|com.kongzue.dialogx.style.kongzue:DialogXKongzueStyle:null|null|  
+|MiuiStyle|com.kongzue.dialogx.style.miui:DialogXMIUIStyle:null|null|  
 
 |[DownloadAndUpload](https://github.com/AriaLyy/Aria)|com.arialyy.aria|文件下载与上传|  
 |:-:|:-:|:-:|  
