@@ -10,7 +10,7 @@
 |[ColorKtx](https://github.com/JorgeCastilloPrz/AndroidColorX)|me.jorgecastillo|androidcolorx|0.2.0|颜色帮助库|  
 |[CoreKtx](https://developer.android.com/jetpack/androidx/releases/core)|androidx.core|core-ktx|1.5.0-alpha05||  
 |[ImagePicker](https://github.com/yangpeixing/YImagePicker)|com.ypx.yimagepicker|androidx|3.1.4|多媒体选择库|  
-|[JodaTime](https://github.com/JodaOrg/joda-time)|joda-time|joda-time|2.10.8|时间处理库|  
+|[JodaTime](https://github.com/JodaOrg/joda-time)|joda-time|joda-time|2.10.9|时间处理库|  
 |[LeakCanary](https://square.github.io/leakcanary/getting_started/)|com.squareup.leakcanary|leakcanary-android|2.6|内存泄露监控|  
 |[Mmkv](https://github.com/Tencent/MMKV/blob/master/README_CN.md)|com.tencent|mmkv-static|1.2.7|持久KV数据存储|  
 |[QrScanner](https://github.com/jenly1314/ZXingLite)|com.king.zxing|zxing-lite|2.0.0|二维码扫描|  
@@ -33,6 +33,7 @@
 |[RecyclerView](https://developer.android.com/jetpack/androidx/releases/recyclerview)|androidx.recyclerview|recyclerview|1.2.0-beta01||  
 |[ShadowLayout](https://github.com/lihangleo2/ShadowLayout)|com.github.lihangleo2|ShadowLayout|3.1.6|阴影控件|  
 |[SwipeRefreshLayout](https://developer.android.com/jetpack/androidx/releases/swiperefreshlayout)|androidx.swiperefreshlayout|swiperefreshlayout|1.2.0-alpha01|下拉刷新控件|  
+|[SwitchButton](https://github.com/kyleduo/SwitchButton)|com.kyleduo.switchbutton|library|2.0.3|开关按钮|  
 |[ViewPager2](https://developer.android.com/jetpack/androidx/releases/viewpager2)|androidx.viewpager2|viewpager2|1.1.0-alpha01||  
 
 |[BasePopup](https://github.com/razerdp/BasePopup)|com.github.razerdp|弹窗|  

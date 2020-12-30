@@ -1,5 +1,5 @@
 {
-  "version": "1.0.6",
+  "version": "1.0.7",
   "single": [
     {
       "name": "Activity",
@@ -72,7 +72,7 @@
     },
     {
       "name": "JodaTime",
-      "version": "2.10.8",
+      "version": "2.10.9",
       "link": "https://github.com/JodaOrg/joda-time",
       "group": "joda-time",
       "module": "joda-time",
@@ -675,6 +675,14 @@
       "group": "androidx.swiperefreshlayout",
       "module": "swiperefreshlayout",
       "remark": "下拉刷新控件"
+    },
+    {
+      "name": "SwitchButton",
+      "version": "2.0.3",
+      "link": "https://github.com/kyleduo/SwitchButton",
+      "group": "com.kyleduo.switchbutton",
+      "module": "library",
+      "remark": "开关按钮"
     },
     {
       "name": "ViewPager2",

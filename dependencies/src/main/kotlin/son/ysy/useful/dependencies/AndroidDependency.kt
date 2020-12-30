@@ -75,7 +75,7 @@ abstract class AndroidDependency private constructor(
          * 时间处理库
          * https://github.com/JodaOrg/joda-time
          */
-        object JodaTime : AndroidDependency("joda-time", "joda-time", "2.10.8")
+        object JodaTime : AndroidDependency("joda-time", "joda-time", "2.10.9")
 
         /**
          * 内存泄露监控
@@ -217,6 +217,12 @@ abstract class AndroidDependency private constructor(
             "androidx.swiperefreshlayout",
             "swiperefreshlayout", "1.2.0-alpha01"
         )
+
+        /**
+         * 开关按钮
+         * https://github.com/kyleduo/SwitchButton
+         */
+        object SwitchButton : AndroidDependency("com.kyleduo.switchbutton", "library", "2.0.3")
 
         /**
          * https://developer.android.com/jetpack/androidx/releases/viewpager2
