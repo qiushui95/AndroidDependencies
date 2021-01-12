@@ -1,5 +1,5 @@
 {
-  "version": "1.0.7",
+  "version": "1.0.8",
   "single": [
     {
       "name": "Activity",
@@ -96,7 +96,7 @@
     },
     {
       "name": "QrScanner",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "link": "https://github.com/jenly1314/ZXingLite",
       "group": "com.king.zxing",
       "module": "zxing-lite",
@@ -151,7 +151,7 @@
         {
           "name": "Candy",
           "module": "BasePopup_Candy",
-          "version": "2.2.12.1222"
+          "version": "2.2.13.0108"
         }
       ]
     },

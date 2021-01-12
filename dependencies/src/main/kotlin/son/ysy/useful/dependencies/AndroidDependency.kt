@@ -96,7 +96,7 @@ abstract class AndroidDependency private constructor(
          * 二维码扫描
          * https://github.com/jenly1314/ZXingLite
          */
-        object QrScanner : AndroidDependency("com.king.zxing", "zxing-lite", "2.0.0")
+        object QrScanner : AndroidDependency("com.king.zxing", "zxing-lite", "2.0.1")
 
         /**
          * 多数据源
@@ -243,7 +243,7 @@ abstract class AndroidDependency private constructor(
     ) : AndroidDependency("com.github.razerdp", module, version) {
         object Stable : BasePopup("BasePopup", "2.2.11")
 
-        object Candy : BasePopup("BasePopup_Candy", "2.2.12.1222")
+        object Candy : BasePopup("BasePopup_Candy", "2.2.13.0108")
     }
 
     /**
