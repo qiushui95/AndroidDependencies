@@ -1,14 +1,12 @@
 package son.ysy.useful.dependencies
 
 import com.squareup.kotlinpoet.*
-import com.squareup.kotlinpoet.ParameterizedTypeName.Companion.parameterizedBy
 import com.squareup.moshi.Moshi
 import junit.framework.TestCase
 import org.junit.Test
 import son.ysy.useful.dependencies.model.AndroidDependencyModel
 import son.ysy.useful.dependencies.model.single.SingleDependency
 import java.io.File
-import java.lang.Error
 
 class AndroidDependencyTest : TestCase() {
 

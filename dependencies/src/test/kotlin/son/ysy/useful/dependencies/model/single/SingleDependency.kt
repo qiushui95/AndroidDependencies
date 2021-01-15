@@ -1,8 +1,7 @@
 package son.ysy.useful.dependencies.model.single
 
-import com.squareup.moshi.JsonClass
-
 import com.squareup.moshi.Json
+import com.squareup.moshi.JsonClass
 import son.ysy.useful.dependencies.model.SortContent
 
 

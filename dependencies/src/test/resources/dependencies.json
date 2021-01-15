@@ -1,5 +1,5 @@
 {
-  "version": "1.0.8",
+  "version": "1.0.9",
   "single": [
     {
       "name": "Activity",
@@ -34,7 +34,7 @@
     },
     {
       "name": "Appcompat",
-      "version": "1.3.0-alpha02",
+      "version": "1.3.0-beta01",
       "link": "https://developer.android.com/jetpack/androidx/releases/appcompat",
       "group": "androidx.appcompat",
       "module": "appcompat"
@@ -57,7 +57,7 @@
     },
     {
       "name": "CoreKtx",
-      "version": "1.5.0-alpha05",
+      "version": "1.5.0-beta01",
       "link": "https://developer.android.com/jetpack/androidx/releases/core",
       "group": "androidx.core",
       "module": "core-ktx"
@@ -96,7 +96,7 @@
     },
     {
       "name": "QrScanner",
-      "version": "2.0.1",
+      "version": "2.0.2",
       "link": "https://github.com/jenly1314/ZXingLite",
       "group": "com.king.zxing",
       "module": "zxing-lite",

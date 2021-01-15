@@ -1,8 +1,5 @@
 package son.ysy.useful.dependencies
 
-import kotlin.String
-import kotlin.Suppress
-
 @Suppress("MemberVisibilityCanBePrivate", "unused")
 abstract class AndroidDependency private constructor(
     val group: String,
@@ -23,7 +20,8 @@ abstract class AndroidDependency private constructor(
         /**
          * https://developer.android.com/jetpack/androidx/releases/activity
          */
-        object Activity : AndroidDependency("androidx.activity", "activity-ktx", "1.2.0-rc01")
+        object Activity :
+            AndroidDependency("androidx.activity", "activity-ktx", "1.2.0-rc01")
 
         /**
          * Alerter弹窗
@@ -46,7 +44,8 @@ abstract class AndroidDependency private constructor(
         /**
          * https://developer.android.com/jetpack/androidx/releases/appcompat
          */
-        object Appcompat : AndroidDependency("androidx.appcompat", "appcompat", "1.3.0-alpha02")
+        object Appcompat :
+            AndroidDependency("androidx.appcompat", "appcompat", "1.3.0-beta01")
 
         /**
          * 背景生成工具库
@@ -63,7 +62,7 @@ abstract class AndroidDependency private constructor(
         /**
          * https://developer.android.com/jetpack/androidx/releases/core
          */
-        object CoreKtx : AndroidDependency("androidx.core", "core-ktx", "1.5.0-alpha05")
+        object CoreKtx : AndroidDependency("androidx.core", "core-ktx", "1.5.0-beta01")
 
         /**
          * 多媒体选择库
@@ -96,7 +95,7 @@ abstract class AndroidDependency private constructor(
          * 二维码扫描
          * https://github.com/jenly1314/ZXingLite
          */
-        object QrScanner : AndroidDependency("com.king.zxing", "zxing-lite", "2.0.1")
+        object QrScanner : AndroidDependency("com.king.zxing", "zxing-lite", "2.0.2")
 
         /**
          * 多数据源
@@ -207,7 +206,8 @@ abstract class AndroidDependency private constructor(
          * 阴影控件
          * https://github.com/lihangleo2/ShadowLayout
          */
-        object ShadowLayout : AndroidDependency("com.github.lihangleo2", "ShadowLayout", "3.1.6")
+        object ShadowLayout :
+            AndroidDependency("com.github.lihangleo2", "ShadowLayout", "3.1.6")
 
         /**
          * 下拉刷新控件
@@ -222,7 +222,8 @@ abstract class AndroidDependency private constructor(
          * 开关按钮
          * https://github.com/kyleduo/SwitchButton
          */
-        object SwitchButton : AndroidDependency("com.kyleduo.switchbutton", "library", "2.0.3")
+        object SwitchButton :
+            AndroidDependency("com.kyleduo.switchbutton", "library", "2.0.3")
 
         /**
          * https://developer.android.com/jetpack/androidx/releases/viewpager2
@@ -542,7 +543,8 @@ abstract class AndroidDependency private constructor(
          * UI自动化测试
          * https://mvnrepository.com/artifact/androidx.test.espresso/espresso-core
          */
-        object Espresso : AndroidDependency("androidx.test.espresso", "espresso-core", "3.3.0")
+        object Espresso :
+            AndroidDependency("androidx.test.espresso", "espresso-core", "3.3.0")
 
         /**
          * 单元测试
