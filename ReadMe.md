@@ -102,8 +102,8 @@
 
 |[KeyCreator](https://github.com/qiushui95/KeysCreator)|son.ysy.key.creator|key生成器|  
 |:-:|:-:|:-:|  
-|Core|annotations|1.0.2|  
-|Compiler|compiler|1.0.2|  
+|Core|annotations|1.0.3|  
+|Compiler|compiler|1.0.3|  
 
 |[Kotlin](https://github.com/JetBrains/kotlin)|org.jetbrains.kotlin||  
 |:-:|:-:|:-:|  
