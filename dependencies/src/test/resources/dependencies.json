@@ -1,5 +1,5 @@
 {
-  "version": "1.1.0",
+  "version": "1.1.1",
   "single": [
     {
       "name": "Activity",
@@ -138,20 +138,19 @@
   "group": [
     {
       "name": "BasePopup",
-      "version": "2.2.11",
+      "version": "2.2.18",
       "link": "https://github.com/razerdp/BasePopup",
       "group": "com.github.razerdp",
       "remark": "弹窗",
       "modules": [
         {
           "name": "Stable",
-          "module": "BasePopup",
-          "version": "2.2.11"
+          "module": "BasePopup"
         },
         {
           "name": "Candy",
-          "module": "BasePopup_Candy",
-          "version": "2.2.13.0108"
+          "version": "2.2.13.0119",
+          "module": "BasePopup_Candy"
         }
       ]
     },
@@ -212,7 +211,7 @@
     },
     {
       "name": "DialogX",
-      "version": "0.0.25",
+      "version": "0.0.29",
       "link": "https://github.com/kongzue/DialogX",
       "group": "com.kongzue.dialogx",
       "remark": "常用弹窗",
@@ -338,7 +337,7 @@
         {
           "name": "GpuImage",
           "version": "2.1.0",
-          "link": "https://github.com/wasabeef/glide-transformations",
+          "link": "https://github.com/cats-oss/android-gpuimage",
           "group": "jp.co.cyberagent.android",
           "remark": "Gpu处理图片效果",
           "module": "gpuimage"
@@ -346,8 +345,25 @@
       ]
     },
     {
+      "name": "KeyCreator",
+      "version": "1.0.3",
+      "link": "https://github.com/qiushui95/KeysCreator",
+      "group": "son.ysy.key.creator",
+      "remark": "key生成器",
+      "modules": [
+        {
+          "name": "Core",
+          "module": "annotations"
+        },
+        {
+          "name": "Compiler",
+          "module": "compiler"
+        }
+      ]
+    },
+    {
       "name": "Koin",
-      "version": "2.2.0",
+      "version": "2.2.2",
       "link": "https://github.com/InsertKoinIO/koin",
       "group": "org.koin",
       "remark": "依赖注入库",
@@ -371,23 +387,6 @@
         {
           "name": "ViewModel",
           "module": "koin-androidx-viewmodel"
-        }
-      ]
-    },
-    {
-      "name": "KeyCreator",
-      "version": "1.0.3",
-      "link": "https://github.com/qiushui95/KeysCreator",
-      "group": "son.ysy.key.creator",
-      "remark": "key生成器",
-      "modules": [
-        {
-          "name": "Core",
-          "module": "annotations"
-        },
-        {
-          "name": "Compiler",
-          "module": "compiler"
         }
       ]
     },
@@ -565,7 +564,7 @@
     },
     {
       "name": "WorkManager",
-      "version": "2.5.0-beta02",
+      "version": "2.5.0-rc01",
       "link": "https://developer.android.com/jetpack/androidx/releases/work",
       "group": "androidx.work",
       "remark": "任务管理器",
@@ -592,7 +591,7 @@
     },
     {
       "name": "BannerView",
-      "version": "androidx_v1.1.2",
+      "version": "androidx_v1.1.3",
       "link": "https://github.com/xiaohaibin/XBanner/tree/androidX",
       "group": "com.github.xiaohaibin",
       "module": "XBanner",
@@ -648,7 +647,7 @@
     },
     {
       "name": "Material",
-      "version": "1.3.0-beta01",
+      "version": "1.3.0-rc01",
       "link": "https://github.com/material-components/material-components-android",
       "group": "com.google.android.material",
       "module": "material"
@@ -662,7 +661,7 @@
     },
     {
       "name": "ShadowLayout",
-      "version": "3.1.6",
+      "version": "3.1.8",
       "link": "https://github.com/lihangleo2/ShadowLayout",
       "group": "com.github.lihangleo2",
       "module": "ShadowLayout",

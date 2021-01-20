@@ -22,24 +22,24 @@
 |name|group|module|version|remark|  
 |:-:|:-:|:-:|:-:|:-:|  
 |[AgentWeb](https://github.com/Justson/AgentWeb)|com.just.agentweb|agentweb|4.1.4|浏览器|  
-|[BannerView](https://github.com/xiaohaibin/XBanner/tree/androidX)|com.github.xiaohaibin|XBanner|androidx_v1.1.2|轮播控件|  
+|[BannerView](https://github.com/xiaohaibin/XBanner/tree/androidX)|com.github.xiaohaibin|XBanner|androidx_v1.1.3|轮播控件|  
 |[BlurView](https://github.com/Dimezis/BlurView)|com.eightbitlab|blurview|1.6.5|高斯模糊|  
 |[BottomNavigation](https://github.com/Ashok-Varma/BottomNavigation)|com.ashokvarma.android|bottom-navigation-bar|2.2.0|底部导航|  
 |[ConstraintLayout](https://developer.android.com/jetpack/androidx/releases/constraintlayout)|androidx.constraintlayout|constraintlayout|2.0.4|约束布局|  
 |[FlexBox](https://github.com/google/flexbox-layout)|com.google.android|flexbox|2.0.1|流式布局|  
 |[LottieView](https://github.com/airbnb/lottie-android)|com.airbnb.android|lottie|3.6.0|动画框架|  
 |[MarqueeView](https://github.com/sunfusheng/MarqueeView)|com.sunfusheng|MarqueeView|1.4.1|跑马灯控件|  
-|[Material](https://github.com/material-components/material-components-android)|com.google.android.material|material|1.3.0-beta01||  
+|[Material](https://github.com/material-components/material-components-android)|com.google.android.material|material|1.3.0-rc01||  
 |[RecyclerView](https://developer.android.com/jetpack/androidx/releases/recyclerview)|androidx.recyclerview|recyclerview|1.2.0-beta01||  
-|[ShadowLayout](https://github.com/lihangleo2/ShadowLayout)|com.github.lihangleo2|ShadowLayout|3.1.6|阴影控件|  
+|[ShadowLayout](https://github.com/lihangleo2/ShadowLayout)|com.github.lihangleo2|ShadowLayout|3.1.8|阴影控件|  
 |[SwipeRefreshLayout](https://developer.android.com/jetpack/androidx/releases/swiperefreshlayout)|androidx.swiperefreshlayout|swiperefreshlayout|1.2.0-alpha01|下拉刷新控件|  
 |[SwitchButton](https://github.com/kyleduo/SwitchButton)|com.kyleduo.switchbutton|library|2.0.3|开关按钮|  
 |[ViewPager2](https://developer.android.com/jetpack/androidx/releases/viewpager2)|androidx.viewpager2|viewpager2|1.1.0-alpha01||  
 
 |[BasePopup](https://github.com/razerdp/BasePopup)|com.github.razerdp|弹窗|  
 |:-:|:-:|:-:|  
-|Stable|BasePopup|2.2.11|  
-|Candy|BasePopup_Candy|2.2.13.0108|  
+|Stable|BasePopup|2.2.18|  
+|Candy|BasePopup_Candy|2.2.13.0119|  
 
 |[Chucker](https://github.com/ChuckerTeam/chucker)|com.github.chuckerteam.chucker|网络请求监控|  
 |:-:|:-:|:-:|  
@@ -59,7 +59,7 @@
 
 |[DialogX](https://github.com/kongzue/DialogX)|com.kongzue.dialogx|常用弹窗|  
 |:-:|:-:|:-:|  
-|Core|DialogX|0.0.25|  
+|Core|DialogX|0.0.29|  
 |IosStyle|com.kongzue.dialogx.style.ios:DialogXIOSStyle:null|null|  
 |KongzueStyle|com.kongzue.dialogx.style.kongzue:DialogXKongzueStyle:null|null|  
 |MiuiStyle|com.kongzue.dialogx.style.miui:DialogXMIUIStyle:null|null|  
@@ -90,15 +90,15 @@
 |Core|glide|4.11.0|  
 |OkHttp|okhttp3-integration|4.11.0|  
 |[Transformations](https://github.com/wasabeef/glide-transformations)|jp.wasabeef:glide-transformations:4.3.0|图片变换库|  
-|[GpuImage](https://github.com/wasabeef/glide-transformations)|jp.co.cyberagent.android:gpuimage:2.1.0|Gpu处理图片效果|  
+|[GpuImage](https://github.com/cats-oss/android-gpuimage)|jp.co.cyberagent.android:gpuimage:2.1.0|Gpu处理图片效果|  
 
 |[Koin](https://github.com/InsertKoinIO/koin)|org.koin|依赖注入库|  
 |:-:|:-:|:-:|  
-|Core|koin-core|2.2.0|  
-|Ext|koin-androidx-ext|2.2.0|  
-|Scope|koin-androidx-scope|2.2.0|  
-|Test|koin-test|2.2.0|  
-|ViewModel|koin-androidx-viewmodel|2.2.0|  
+|Core|koin-core|2.2.2|  
+|Ext|koin-androidx-ext|2.2.2|  
+|Scope|koin-androidx-scope|2.2.2|  
+|Test|koin-test|2.2.2|  
+|ViewModel|koin-androidx-viewmodel|2.2.2|  
 
 |[KeyCreator](https://github.com/qiushui95/KeysCreator)|son.ysy.key.creator|key生成器|  
 |:-:|:-:|:-:|  
@@ -157,8 +157,8 @@
 
 |[WorkManager](https://developer.android.com/jetpack/androidx/releases/work)|androidx.work|任务管理器|  
 |:-:|:-:|:-:|  
-|Core|work-runtime-ktx|2.5.0-beta02|  
-|Test|work-testing|2.5.0-beta02|  
+|Core|work-runtime-ktx|2.5.0-rc01|  
+|Test|work-testing|2.5.0-rc01|  
 
 |name|group|module|version|remark|  
 |:-:|:-:|:-:|:-:|:-:|  

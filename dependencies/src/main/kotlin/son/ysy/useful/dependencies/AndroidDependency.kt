@@ -139,7 +139,7 @@ abstract class AndroidDependency private constructor(
          */
         object BannerView : AndroidDependency(
           "com.github.xiaohaibin", "XBanner",
-          "androidx_v1.1.2"
+          "androidx_v1.1.3"
         )
 
         /**
@@ -189,7 +189,7 @@ abstract class AndroidDependency private constructor(
          */
         object Material : AndroidDependency(
           "com.google.android.material", "material",
-          "1.3.0-beta01"
+          "1.3.0-rc01"
         )
 
         /**
@@ -204,7 +204,7 @@ abstract class AndroidDependency private constructor(
          * 阴影控件
          * https://github.com/lihangleo2/ShadowLayout
          */
-        object ShadowLayout : AndroidDependency("com.github.lihangleo2", "ShadowLayout", "3.1.6")
+        object ShadowLayout : AndroidDependency("com.github.lihangleo2", "ShadowLayout", "3.1.8")
 
         /**
          * 下拉刷新控件
@@ -238,9 +238,9 @@ abstract class AndroidDependency private constructor(
       module: String,
       version: String
     ) : AndroidDependency("com.github.razerdp", module, version) {
-        object Stable : BasePopup("BasePopup", "2.2.11")
+        object Stable : BasePopup("BasePopup", "2.2.18")
 
-        object Candy : BasePopup("BasePopup_Candy", "2.2.13.0108")
+        object Candy : BasePopup("BasePopup_Candy", "2.2.13.0119")
     }
 
     /**
@@ -287,22 +287,22 @@ abstract class AndroidDependency private constructor(
      */
     sealed class DialogX(
       module: String
-    ) : AndroidDependency("com.kongzue.dialogx", module, "0.0.25") {
+    ) : AndroidDependency("com.kongzue.dialogx", module, "0.0.29") {
         object Core : DialogX("DialogX")
 
         object IosStyle : AndroidDependency(
           "com.kongzue.dialogx.style.ios", "DialogXIOSStyle",
-          "0.0.25"
+          "0.0.29"
         )
 
         object KongzueStyle : AndroidDependency(
           "com.kongzue.dialogx.style.kongzue",
-          "DialogXKongzueStyle", "0.0.25"
+          "DialogXKongzueStyle", "0.0.29"
         )
 
         object MiuiStyle : AndroidDependency(
           "com.kongzue.dialogx.style.miui",
-          "DialogXMIUIStyle", "0.0.25"
+          "DialogXMIUIStyle", "0.0.29"
         )
     }
 
@@ -354,15 +354,16 @@ abstract class AndroidDependency private constructor(
      * https://github.com/bumptech/glide
      */
     sealed class Glide(
-      module: String
-    ) : AndroidDependency("com.github.bumptech.glide", module, "4.11.0") {
-        object Annotation : Glide("annotations")
+      module: String,
+      version: String
+    ) : AndroidDependency("com.github.bumptech.glide", module, version) {
+        object Annotation : Glide("annotations", "4.11.0")
 
-        object Compiler : Glide("compiler")
+        object Compiler : Glide("compiler", "4.11.0")
 
-        object Core : Glide("glide")
+        object Core : Glide("glide", "4.11.0")
 
-        object OkHttp : Glide("okhttp3-integration")
+        object OkHttp : Glide("okhttp3-integration", "4.11.0")
 
         /**
          * 图片变换库
@@ -375,7 +376,7 @@ abstract class AndroidDependency private constructor(
 
         /**
          * Gpu处理图片效果
-         * https://github.com/wasabeef/glide-transformations
+         * https://github.com/cats-oss/android-gpuimage
          */
         object GpuImage : AndroidDependency("jp.co.cyberagent.android", "gpuimage", "2.1.0")
     }
@@ -386,7 +387,7 @@ abstract class AndroidDependency private constructor(
      */
     sealed class Koin(
       module: String
-    ) : AndroidDependency("org.koin", module, "2.2.0") {
+    ) : AndroidDependency("org.koin", module, "2.2.2") {
         object Core : Koin("koin-core")
 
         object Ext : Koin("koin-androidx-ext")
@@ -528,7 +529,7 @@ abstract class AndroidDependency private constructor(
      */
     sealed class WorkManager(
       module: String
-    ) : AndroidDependency("androidx.work", module, "2.5.0-beta02") {
+    ) : AndroidDependency("androidx.work", module, "2.5.0-rc01") {
         object Core : WorkManager("work-runtime-ktx")
 
         object Test : WorkManager("work-testing")

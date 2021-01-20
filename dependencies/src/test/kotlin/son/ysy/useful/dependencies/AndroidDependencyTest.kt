@@ -160,9 +160,14 @@ class AndroidDependencyTest : TestCase() {
 
         dependencyModel.group
             .map { group ->
-                val hasCustomVersion = group.modules.any {
-                    it.group.isNullOrBlank() && it.version?.isNotBlank() == true
+                val hasCustomGroup = group.modules.any {
+                    it.group.isNullOrBlank()
                 }
+
+                val hasCustomVersion = group.modules.any {
+                    it.version?.isNotBlank() == true
+                }
+
                 val groupBuilder = TypeSpec.classBuilder(group.name)
                     .addModifiers(KModifier.SEALED)
                     .primaryConstructor(
@@ -204,7 +209,7 @@ class AndroidDependencyTest : TestCase() {
                                         child.version ?: group.version
                                     )
                             }
-                            child.isCustomVersion -> {
+                            hasCustomVersion -> {
                                 childBuilder.superclass(ClassName("", group.name))
                                     .addSuperclassConstructorParameter("%S", child.module)
                                     .addSuperclassConstructorParameter(
