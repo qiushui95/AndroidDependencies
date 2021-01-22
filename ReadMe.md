@@ -83,6 +83,21 @@
 |Core|fragment|1.3.0-rc01|  
 |Test|fragment-testing|1.3.0-rc01|  
 
+|[FlowBinding](https://github.com/ReactiveCircus/FlowBinding)|io.github.reactivecircus.flowbinding||  
+|:-:|:-:|:-:|  
+|Basic|flowbinding-android|1.0.0|  
+|Activity|flowbinding-activity|1.0.0|  
+|Appcompat|flowbinding-appcompat|1.0.0|  
+|Core|flowbinding-core|1.0.0|  
+|DrawerLayout|flowbinding-drawerlayout|1.0.0|  
+|Lifecycle|flowbinding-lifecycle|1.0.0|  
+|Navigation|flowbinding-navigation|1.0.0|  
+|Preference|flowbinding-preference|1.0.0|  
+|RecyclerView|flowbinding-recyclerview|1.0.0|  
+|SwipeRefreshLayout|flowbinding-swiperefreshlayout|1.0.0|  
+|ViewPager2|flowbinding-viewpager2|1.0.0|  
+|Material|flowbinding-material|1.0.0|  
+
 |[Glide](https://github.com/bumptech/glide)|com.github.bumptech.glide|图片加载|  
 |:-:|:-:|:-:|  
 |Annotation|annotations|4.11.0|  
@@ -92,6 +107,11 @@
 |[Transformations](https://github.com/wasabeef/glide-transformations)|jp.wasabeef:glide-transformations:4.3.0|图片变换库|  
 |[GpuImage](https://github.com/cats-oss/android-gpuimage)|jp.co.cyberagent.android:gpuimage:2.1.0|Gpu处理图片效果|  
 
+|[KeyCreator](https://github.com/qiushui95/KeysCreator)|son.ysy.key.creator|key生成器|  
+|:-:|:-:|:-:|  
+|Core|annotations|1.0.3|  
+|Compiler|compiler|1.0.3|  
+
 |[Koin](https://github.com/InsertKoinIO/koin)|org.koin|依赖注入库|  
 |:-:|:-:|:-:|  
 |Core|koin-core|2.2.2|  
@@ -99,11 +119,6 @@
 |Scope|koin-androidx-scope|2.2.2|  
 |Test|koin-test|2.2.2|  
 |ViewModel|koin-androidx-viewmodel|2.2.2|  
-
-|[KeyCreator](https://github.com/qiushui95/KeysCreator)|son.ysy.key.creator|key生成器|  
-|:-:|:-:|:-:|  
-|Core|annotations|1.0.3|  
-|Compiler|compiler|1.0.3|  
 
 |[Kotlin](https://github.com/JetBrains/kotlin)|org.jetbrains.kotlin||  
 |:-:|:-:|:-:|  

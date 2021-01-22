@@ -1,5 +1,5 @@
 {
-  "version": "1.1.1",
+  "version": "1.1.2",
   "single": [
     {
       "name": "Activity",
@@ -300,6 +300,62 @@
         {
           "name": "Test",
           "module": "fragment-testing"
+        }
+      ]
+    },
+    {
+      "name": "FlowBinding",
+      "version": "1.0.0",
+      "link": "https://github.com/ReactiveCircus/FlowBinding",
+      "group": "io.github.reactivecircus.flowbinding",
+      "modules": [
+        {
+          "name": "Basic",
+          "module": "flowbinding-android"
+        },
+        {
+          "name": "Activity",
+          "module": "flowbinding-activity"
+        },
+        {
+          "name": "Appcompat",
+          "module": "flowbinding-appcompat"
+        },
+        {
+          "name": "Core",
+          "module": "flowbinding-core"
+        },
+        {
+          "name": "DrawerLayout",
+          "module": "flowbinding-drawerlayout"
+        },
+        {
+          "name": "Lifecycle",
+          "module": "flowbinding-lifecycle"
+        },
+        {
+          "name": "Navigation",
+          "module": "flowbinding-navigation"
+        },
+        {
+          "name": "Preference",
+          "module": "flowbinding-preference"
+        },
+        {
+          "name": "RecyclerView",
+          "module": "flowbinding-recyclerview"
+        },
+        {
+          "name": "SwipeRefreshLayout",
+          "module": "flowbinding-swiperefreshlayout"
+        },
+        {
+          "name": "ViewPager2",
+          "module": "flowbinding-viewpager2"
+        },
+        {
+          "name": "Material",
+          "module": "flowbinding-material"
         }
       ]
     },

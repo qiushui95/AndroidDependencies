@@ -350,6 +350,37 @@ abstract class AndroidDependency private constructor(
     }
 
     /**
+     * https://github.com/ReactiveCircus/FlowBinding
+     */
+    sealed class FlowBinding(
+      module: String
+    ) : AndroidDependency("io.github.reactivecircus.flowbinding", module, "1.0.0") {
+        object Basic : FlowBinding("flowbinding-android")
+
+        object Activity : FlowBinding("flowbinding-activity")
+
+        object Appcompat : FlowBinding("flowbinding-appcompat")
+
+        object Core : FlowBinding("flowbinding-core")
+
+        object DrawerLayout : FlowBinding("flowbinding-drawerlayout")
+
+        object Lifecycle : FlowBinding("flowbinding-lifecycle")
+
+        object Navigation : FlowBinding("flowbinding-navigation")
+
+        object Preference : FlowBinding("flowbinding-preference")
+
+        object RecyclerView : FlowBinding("flowbinding-recyclerview")
+
+        object SwipeRefreshLayout : FlowBinding("flowbinding-swiperefreshlayout")
+
+        object ViewPager2 : FlowBinding("flowbinding-viewpager2")
+
+        object Material : FlowBinding("flowbinding-material")
+    }
+
+    /**
      * 图片加载
      * https://github.com/bumptech/glide
      */
@@ -382,6 +413,18 @@ abstract class AndroidDependency private constructor(
     }
 
     /**
+     * key生成器
+     * https://github.com/qiushui95/KeysCreator
+     */
+    sealed class KeyCreator(
+      module: String
+    ) : AndroidDependency("son.ysy.key.creator", module, "1.0.3") {
+        object Core : KeyCreator("annotations")
+
+        object Compiler : KeyCreator("compiler")
+    }
+
+    /**
      * 依赖注入库
      * https://github.com/InsertKoinIO/koin
      */
@@ -397,18 +440,6 @@ abstract class AndroidDependency private constructor(
         object Test : Koin("koin-test")
 
         object ViewModel : Koin("koin-androidx-viewmodel")
-    }
-
-    /**
-     * key生成器
-     * https://github.com/qiushui95/KeysCreator
-     */
-    sealed class KeyCreator(
-      module: String
-    ) : AndroidDependency("son.ysy.key.creator", module, "1.0.3") {
-        object Core : KeyCreator("annotations")
-
-        object Compiler : KeyCreator("compiler")
     }
 
     /**
