@@ -39,7 +39,7 @@
 |[BasePopup](https://github.com/razerdp/BasePopup)|com.github.razerdp|弹窗|  
 |:-:|:-:|:-:|  
 |Stable|BasePopup|2.2.18|  
-|Candy|BasePopup_Candy|2.2.13.0119|  
+|Candy|BasePopup_Candy|2.2.20.0126|  
 
 |[Chucker](https://github.com/ChuckerTeam/chucker)|com.github.chuckerteam.chucker|网络请求监控|  
 |:-:|:-:|:-:|  
@@ -80,8 +80,8 @@
 
 |[Fragment](https://developer.android.com/jetpack/androidx/releases/fragment)|androidx.fragment||  
 |:-:|:-:|:-:|  
-|Core|fragment|1.3.0-rc01|  
-|Test|fragment-testing|1.3.0-rc01|  
+|Core|fragment|1.3.0-rc02|  
+|Test|fragment-testing|1.3.0-rc02|  
 
 |[FlowBinding](https://github.com/ReactiveCircus/FlowBinding)|io.github.reactivecircus.flowbinding||  
 |:-:|:-:|:-:|  
@@ -142,10 +142,10 @@
 
 |[Navigation](https://developer.android.com/jetpack/androidx/releases/navigation)|androidx.navigation|Fragment导航库|  
 |:-:|:-:|:-:|  
-|Features|navigation-dynamic-features-fragment|2.3.2|  
-|Ui|navigation-ui-ktx|2.3.2|  
-|Core|navigation-fragment-ktx|2.3.2|  
-|Test|navigation-testing|2.3.2|  
+|Features|navigation-dynamic-features-fragment|2.3.3|  
+|Ui|navigation-ui-ktx|2.3.3|  
+|Core|navigation-fragment-ktx|2.3.3|  
+|Test|navigation-testing|2.3.3|  
 
 |[OkHttp](https://github.com/square/okhttp)|com.squareup.okhttp3||  
 |:-:|:-:|:-:|  
@@ -165,15 +165,15 @@
 
 |[Room](https://developer.android.com/jetpack/androidx/releases/room)|androidx.room|Sqlite数据库|  
 |:-:|:-:|:-:|  
-|Compiler|room-compiler|2.2.6|  
-|Core|room-runtime|2.2.6|  
-|Ktx|room-ktx|2.2.6|  
-|Test|room-testing|2.2.6|  
+|Compiler|room-compiler|2.3.0-beta01|  
+|Core|room-runtime|2.3.0-beta01|  
+|Ktx|room-ktx|2.3.0-beta01|  
+|Test|room-testing|2.3.0-beta01|  
 
 |[WorkManager](https://developer.android.com/jetpack/androidx/releases/work)|androidx.work|任务管理器|  
 |:-:|:-:|:-:|  
-|Core|work-runtime-ktx|2.5.0-rc01|  
-|Test|work-testing|2.5.0-rc01|  
+|Core|work-runtime-ktx|2.5.0|  
+|Test|work-testing|2.5.0|  
 
 |name|group|module|version|remark|  
 |:-:|:-:|:-:|:-:|:-:|  
