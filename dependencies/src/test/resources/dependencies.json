@@ -1,5 +1,5 @@
 {
-  "version": "1.1.3",
+  "version": "1.1.4",
   "single": [
     {
       "name": "Activity",
@@ -10,7 +10,7 @@
     },
     {
       "name": "Alerter",
-      "version": "6.2.1",
+      "version": "7.0.0",
       "link": "https://github.com/Tapadoo/Alerter",
       "group": "com.tapadoo.android",
       "module": "alerter",
@@ -684,6 +684,14 @@
       "group": "com.google.android",
       "module": "flexbox",
       "remark": "流式布局"
+    },
+    {
+      "name": "FormatterEdit",
+      "version": "0.2.0",
+      "link": "https://github.com/dkzwm/FormatEditText",
+      "group": "me.dkzwm.widget.fet",
+      "module": "core",
+      "remark": "输入格式化控件"
     },
     {
       "name": "LottieView",

@@ -2,7 +2,7 @@
 |name|group|module|version|remark|  
 |:-:|:-:|:-:|:-:|:-:|  
 |[Activity](https://developer.android.com/jetpack/androidx/releases/activity)|androidx.activity|activity-ktx|1.2.0-rc01||  
-|[Alerter](https://github.com/Tapadoo/Alerter)|com.tapadoo.android|alerter|6.2.1|Alerter弹窗|  
+|[Alerter](https://github.com/Tapadoo/Alerter)|com.tapadoo.android|alerter|7.0.0|Alerter弹窗|  
 |[Anchors](https://github.com/YummyLau/Anchors/blob/master/README-zh.md)|com.effective.android|anchors|1.1.3|app启动初始化管理|  
 |[AndroidUtil](https://github.com/Blankj/AndroidUtilCode)|com.blankj|utilcodex|1.30.5|多功能工具包|  
 |[Appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat)|androidx.appcompat|appcompat|1.3.0-beta01||  
@@ -27,6 +27,7 @@
 |[BottomNavigation](https://github.com/Ashok-Varma/BottomNavigation)|com.ashokvarma.android|bottom-navigation-bar|2.2.0|底部导航|  
 |[ConstraintLayout](https://developer.android.com/jetpack/androidx/releases/constraintlayout)|androidx.constraintlayout|constraintlayout|2.0.4|约束布局|  
 |[FlexBox](https://github.com/google/flexbox-layout)|com.google.android|flexbox|2.0.1|流式布局|  
+|[FormatterEdit](https://github.com/dkzwm/FormatEditText)|me.dkzwm.widget.fet|core|0.2.0|输入格式化控件|  
 |[LottieView](https://github.com/airbnb/lottie-android)|com.airbnb.android|lottie|3.6.0|动画框架|  
 |[MarqueeView](https://github.com/sunfusheng/MarqueeView)|com.sunfusheng|MarqueeView|1.4.1|跑马灯控件|  
 |[Material](https://github.com/material-components/material-components-android)|com.google.android.material|material|1.3.0-rc01||  

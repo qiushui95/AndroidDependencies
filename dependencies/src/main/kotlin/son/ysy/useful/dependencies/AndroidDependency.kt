@@ -29,7 +29,7 @@ abstract class AndroidDependency private constructor(
          * Alerter弹窗
          * https://github.com/Tapadoo/Alerter
          */
-        object Alerter : AndroidDependency("com.tapadoo.android", "alerter", "6.2.1")
+        object Alerter : AndroidDependency("com.tapadoo.android", "alerter", "7.0.0")
 
         /**
          * app启动初始化管理
@@ -174,6 +174,12 @@ abstract class AndroidDependency private constructor(
          * https://github.com/google/flexbox-layout
          */
         object FlexBox : AndroidDependency("com.google.android", "flexbox", "2.0.1")
+
+        /**
+         * 输入格式化控件
+         * https://github.com/dkzwm/FormatEditText
+         */
+        object FormatterEdit : AndroidDependency("me.dkzwm.widget.fet", "core", "0.2.0")
 
         /**
          * 动画框架
