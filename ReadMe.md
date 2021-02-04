@@ -39,7 +39,7 @@
 
 |[BasePopup](https://github.com/razerdp/BasePopup)|com.github.razerdp|弹窗|  
 |:-:|:-:|:-:|  
-|Stable|BasePopup|2.2.18|  
+|Stable|BasePopup|2.2.20|  
 |Candy|BasePopup_Candy|2.2.20.0126|  
 
 |[Chucker](https://github.com/ChuckerTeam/chucker)|com.github.chuckerteam.chucker|网络请求监控|  
@@ -123,8 +123,8 @@
 
 |[Kotlin](https://github.com/JetBrains/kotlin)|org.jetbrains.kotlin||  
 |:-:|:-:|:-:|  
-|Reflect|kotlin-reflect|1.4.21|  
-|Stdlib|kotlin-stdlib|1.4.21|  
+|Reflect|kotlin-reflect|1.4.30|  
+|Stdlib|kotlin-stdlib|1.4.30|  
 
 |[Lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)|androidx.lifecycle||  
 |:-:|:-:|:-:|  
