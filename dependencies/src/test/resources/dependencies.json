@@ -1,5 +1,5 @@
 {
-  "version": "1.1.5",
+  "version": "1.1.6",
   "single": [
     {
       "name": "Activity",
@@ -10,7 +10,7 @@
     },
     {
       "name": "Alerter",
-      "version": "7.0.0",
+      "version": "7.0.1",
       "link": "https://github.com/Tapadoo/Alerter",
       "group": "com.tapadoo.android",
       "module": "alerter",
@@ -72,7 +72,7 @@
     },
     {
       "name": "JodaTime",
-      "version": "2.10.9",
+      "version": "2.10.10",
       "link": "https://github.com/JodaOrg/joda-time",
       "group": "joda-time",
       "module": "joda-time",

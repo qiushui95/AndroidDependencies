@@ -2,7 +2,7 @@
 |name|group|module|version|remark|  
 |:-:|:-:|:-:|:-:|:-:|  
 |[Activity](https://developer.android.com/jetpack/androidx/releases/activity)|androidx.activity|activity-ktx|1.2.0-rc01||  
-|[Alerter](https://github.com/Tapadoo/Alerter)|com.tapadoo.android|alerter|7.0.0|Alerter弹窗|  
+|[Alerter](https://github.com/Tapadoo/Alerter)|com.tapadoo.android|alerter|7.0.1|Alerter弹窗|  
 |[Anchors](https://github.com/YummyLau/Anchors/blob/master/README-zh.md)|com.effective.android|anchors|1.1.3|app启动初始化管理|  
 |[AndroidUtil](https://github.com/Blankj/AndroidUtilCode)|com.blankj|utilcodex|1.30.5|多功能工具包|  
 |[Appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat)|androidx.appcompat|appcompat|1.3.0-beta01||  
@@ -10,7 +10,7 @@
 |[ColorKtx](https://github.com/JorgeCastilloPrz/AndroidColorX)|me.jorgecastillo|androidcolorx|0.2.0|颜色帮助库|  
 |[CoreKtx](https://developer.android.com/jetpack/androidx/releases/core)|androidx.core|core-ktx|1.5.0-beta01||  
 |[ImagePicker](https://github.com/yangpeixing/YImagePicker)|com.ypx.yimagepicker|androidx|3.1.4|多媒体选择库|  
-|[JodaTime](https://github.com/JodaOrg/joda-time)|joda-time|joda-time|2.10.9|时间处理库|  
+|[JodaTime](https://github.com/JodaOrg/joda-time)|joda-time|joda-time|2.10.10|时间处理库|  
 |[LeakCanary](https://square.github.io/leakcanary/getting_started/)|com.squareup.leakcanary|leakcanary-android|2.6|内存泄露监控|  
 |[Mmkv](https://github.com/Tencent/MMKV/blob/master/README_CN.md)|com.tencent|mmkv-static|1.2.7|持久KV数据存储|  
 |[QrScanner](https://github.com/jenly1314/ZXingLite)|com.king.zxing|zxing-lite|2.0.2|二维码扫描|  

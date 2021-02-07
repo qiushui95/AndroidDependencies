@@ -26,7 +26,7 @@ abstract class AndroidDependency private constructor(
          * Alerter弹窗
          * https://github.com/Tapadoo/Alerter
          */
-        object Alerter : AndroidDependency("com.tapadoo.android", "alerter", "7.0.0")
+        object Alerter : AndroidDependency("com.tapadoo.android", "alerter", "7.0.1")
 
         /**
          * app启动初始化管理
@@ -72,7 +72,7 @@ abstract class AndroidDependency private constructor(
          * 时间处理库
          * https://github.com/JodaOrg/joda-time
          */
-        object JodaTime : AndroidDependency("joda-time", "joda-time", "2.10.9")
+        object JodaTime : AndroidDependency("joda-time", "joda-time", "2.10.10")
 
         /**
          * 内存泄露监控
