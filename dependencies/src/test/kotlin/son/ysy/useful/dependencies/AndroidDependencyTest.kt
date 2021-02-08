@@ -114,7 +114,6 @@ class AndroidDependencyTest : TestCase() {
         androidDependencyClassBuilder.addProperty(
             PropertySpec.builder(DependencyProperties.KEY_VERSION, String::class)
                 .initializer(DependencyProperties.KEY_VERSION)
-                .mutable()
                 .build()
         )
         //声明AndroidDependency build私有方法
@@ -146,7 +145,6 @@ class AndroidDependencyTest : TestCase() {
         androidDependencyClassBuilder.addFunction(
             FunSpec.builder(DependencyFunctions.KEY_CUSTOM_VERSION)
                 .addParameter(DependencyProperties.KEY_VERSION, String::class)
-                .addStatement("this.${DependencyProperties.KEY_VERSION}=${DependencyProperties.KEY_VERSION}")
                 .addCode(
                     "return ${DependencyFunctions.KEY_BUILD}(${DependencyProperties.KEY_VERSION})"
                 ).returns(String::class)

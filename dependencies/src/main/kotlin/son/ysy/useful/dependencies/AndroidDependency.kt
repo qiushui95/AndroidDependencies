@@ -4,17 +4,14 @@ package son.ysy.useful.dependencies
 abstract class AndroidDependency private constructor(
   val group: String,
   val module: String,
-  var version: String
+  val version: String
 ) {
     val fullGradle: String
         get() = build(version)
 
     private fun build(version: String) = """$group:$module:$version"""
 
-    fun customVersion(version: String): String {
-        this.version = version
-        return build(version)
-    }
+    fun customVersion(version: String): String = build(version)
 
     object Single {
         /**
