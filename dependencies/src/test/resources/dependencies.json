@@ -1,9 +1,9 @@
 {
-  "version": "1.1.7",
+  "version": "1.1.8",
   "single": [
     {
       "name": "Activity",
-      "version": "1.2.0-rc01",
+      "version": "1.2.0",
       "link": "https://developer.android.com/jetpack/androidx/releases/activity",
       "group": "androidx.activity",
       "module": "activity-ktx"
@@ -173,7 +173,7 @@
     },
     {
       "name": "Component",
-      "version": "v1.8.6-androidx-java8",
+      "version": "v1.8.8-androidx-java8",
       "link": "https://github.com/xiaojinzi123/Component",
       "group": "com.github.xiaojinzi123.Component",
       "remark": "组件化实现方案",
@@ -211,7 +211,7 @@
     },
     {
       "name": "DialogX",
-      "version": "0.0.29",
+      "version": "0.0.30",
       "link": "https://github.com/kongzue/DialogX",
       "group": "com.kongzue.dialogx",
       "remark": "常用弹窗",
@@ -289,7 +289,7 @@
     },
     {
       "name": "Fragment",
-      "version": "1.3.0-rc02",
+      "version": "1.3.0",
       "link": "https://developer.android.com/jetpack/androidx/releases/fragment",
       "group": "androidx.fragment",
       "modules": [
@@ -464,7 +464,7 @@
     },
     {
       "name": "Lifecycle",
-      "version": "2.3.0-rc01",
+      "version": "2.3.0",
       "link": "https://developer.android.com/jetpack/androidx/releases/lifecycle",
       "group": "androidx.lifecycle",
       "modules": [
@@ -695,7 +695,7 @@
     },
     {
       "name": "LottieView",
-      "version": "3.6.0",
+      "version": "3.6.1",
       "link": "https://github.com/airbnb/lottie-android",
       "group": "com.airbnb.android",
       "module": "lottie",

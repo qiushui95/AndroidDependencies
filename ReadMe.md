@@ -1,7 +1,7 @@
 # 三方依赖库版本管理[![](https://jitpack.io/v/qiushui95/AndroidDependencies.svg)](https://jitpack.io/#qiushui95/AndroidDependencies)  
 |name|group|module|version|remark|  
 |:-:|:-:|:-:|:-:|:-:|  
-|[Activity](https://developer.android.com/jetpack/androidx/releases/activity)|androidx.activity|activity-ktx|1.2.0-rc01||  
+|[Activity](https://developer.android.com/jetpack/androidx/releases/activity)|androidx.activity|activity-ktx|1.2.0||  
 |[Alerter](https://github.com/Tapadoo/Alerter)|com.tapadoo.android|alerter|7.0.1|Alerter弹窗|  
 |[Anchors](https://github.com/YummyLau/Anchors/blob/master/README-zh.md)|com.effective.android|anchors|1.1.3|app启动初始化管理|  
 |[AndroidUtil](https://github.com/Blankj/AndroidUtilCode)|com.blankj|utilcodex|1.30.5|多功能工具包|  
@@ -28,7 +28,7 @@
 |[ConstraintLayout](https://developer.android.com/jetpack/androidx/releases/constraintlayout)|androidx.constraintlayout|constraintlayout|2.0.4|约束布局|  
 |[FlexBox](https://github.com/google/flexbox-layout)|com.google.android|flexbox|2.0.1|流式布局|  
 |[FormatterEdit](https://github.com/dkzwm/FormatEditText)|me.dkzwm.widget.fet|core|0.2.0|输入格式化控件|  
-|[LottieView](https://github.com/airbnb/lottie-android)|com.airbnb.android|lottie|3.6.0|动画框架|  
+|[LottieView](https://github.com/airbnb/lottie-android)|com.airbnb.android|lottie|3.6.1|动画框架|  
 |[MarqueeView](https://github.com/sunfusheng/MarqueeView)|com.sunfusheng|MarqueeView|1.4.1|跑马灯控件|  
 |[Material](https://github.com/material-components/material-components-android)|com.google.android.material|material|1.3.0-rc01||  
 |[RecyclerView](https://developer.android.com/jetpack/androidx/releases/recyclerview)|androidx.recyclerview|recyclerview|1.2.0-beta01||  
@@ -49,9 +49,9 @@
 
 |[Component](https://github.com/xiaojinzi123/Component)|com.github.xiaojinzi123.Component|组件化实现方案|  
 |:-:|:-:|:-:|  
-|Compiler|component-compiler|v1.8.6-androidx-java8|  
-|Core|component-impl|v1.8.6-androidx-java8|  
-|Plugin|component-plugin|v1.8.6-androidx-java8|  
+|Compiler|component-compiler|v1.8.8-androidx-java8|  
+|Core|component-impl|v1.8.8-androidx-java8|  
+|Plugin|component-plugin|v1.8.8-androidx-java8|  
 
 |[Coroutines](https://github.com/Kotlin/kotlinx.coroutines)|org.jetbrains.kotlinx|协程|  
 |:-:|:-:|:-:|  
@@ -60,7 +60,7 @@
 
 |[DialogX](https://github.com/kongzue/DialogX)|com.kongzue.dialogx|常用弹窗|  
 |:-:|:-:|:-:|  
-|Core|DialogX|0.0.29|  
+|Core|DialogX|0.0.30|  
 |IosStyle|com.kongzue.dialogx.style.ios:DialogXIOSStyle:null|null|  
 |KongzueStyle|com.kongzue.dialogx.style.kongzue:DialogXKongzueStyle:null|null|  
 |MiuiStyle|com.kongzue.dialogx.style.miui:DialogXMIUIStyle:null|null|  
@@ -81,8 +81,8 @@
 
 |[Fragment](https://developer.android.com/jetpack/androidx/releases/fragment)|androidx.fragment||  
 |:-:|:-:|:-:|  
-|Core|fragment|1.3.0-rc02|  
-|Test|fragment-testing|1.3.0-rc02|  
+|Core|fragment|1.3.0|  
+|Test|fragment-testing|1.3.0|  
 
 |[FlowBinding](https://github.com/ReactiveCircus/FlowBinding)|io.github.reactivecircus.flowbinding||  
 |:-:|:-:|:-:|  
@@ -128,13 +128,13 @@
 
 |[Lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)|androidx.lifecycle||  
 |:-:|:-:|:-:|  
-|Common|lifecycle-common|2.3.0-rc01|  
-|LiveData|lifecycle-livedata-ktx|2.3.0-rc01|  
-|Process|lifecycle-process|2.3.0-rc01|  
-|Runtime|lifecycle-runtime-ktx|2.3.0-rc01|  
-|SavedState|lifecycle-viewmodel-savedstate|2.3.0-rc01|  
-|Service|lifecycle-service|2.3.0-rc01|  
-|ViewModel|lifecycle-viewmodel-ktx|2.3.0-rc01|  
+|Common|lifecycle-common|2.3.0|  
+|LiveData|lifecycle-livedata-ktx|2.3.0|  
+|Process|lifecycle-process|2.3.0|  
+|Runtime|lifecycle-runtime-ktx|2.3.0|  
+|SavedState|lifecycle-viewmodel-savedstate|2.3.0|  
+|Service|lifecycle-service|2.3.0|  
+|ViewModel|lifecycle-viewmodel-ktx|2.3.0|  
 
 |[MoShi](https://github.com/square/moshi)|com.squareup.moshi|json解析库|  
 |:-:|:-:|:-:|  

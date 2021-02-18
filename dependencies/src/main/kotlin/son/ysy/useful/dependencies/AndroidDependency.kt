@@ -17,7 +17,7 @@ abstract class AndroidDependency private constructor(
         /**
          * https://developer.android.com/jetpack/androidx/releases/activity
          */
-        object Activity : AndroidDependency("androidx.activity", "activity-ktx", "1.2.0-rc01")
+        object Activity : AndroidDependency("androidx.activity", "activity-ktx", "1.2.0")
 
         /**
          * Alerter弹窗
@@ -179,7 +179,7 @@ abstract class AndroidDependency private constructor(
          * 动画框架
          * https://github.com/airbnb/lottie-android
          */
-        object LottieView : AndroidDependency("com.airbnb.android", "lottie", "3.6.0")
+        object LottieView : AndroidDependency("com.airbnb.android", "lottie", "3.6.1")
 
         /**
          * 跑马灯控件
@@ -264,7 +264,7 @@ abstract class AndroidDependency private constructor(
      */
     sealed class Component(
       module: String
-    ) : AndroidDependency("com.github.xiaojinzi123.Component", module, "v1.8.6-androidx-java8") {
+    ) : AndroidDependency("com.github.xiaojinzi123.Component", module, "v1.8.8-androidx-java8") {
         object Compiler : Component("component-compiler")
 
         object Core : Component("component-impl")
@@ -290,22 +290,22 @@ abstract class AndroidDependency private constructor(
      */
     sealed class DialogX(
       module: String
-    ) : AndroidDependency("com.kongzue.dialogx", module, "0.0.29") {
+    ) : AndroidDependency("com.kongzue.dialogx", module, "0.0.30") {
         object Core : DialogX("DialogX")
 
         object IosStyle : AndroidDependency(
           "com.kongzue.dialogx.style.ios", "DialogXIOSStyle",
-          "0.0.29"
+          "0.0.30"
         )
 
         object KongzueStyle : AndroidDependency(
           "com.kongzue.dialogx.style.kongzue",
-          "DialogXKongzueStyle", "0.0.29"
+          "DialogXKongzueStyle", "0.0.30"
         )
 
         object MiuiStyle : AndroidDependency(
           "com.kongzue.dialogx.style.miui",
-          "DialogXMIUIStyle", "0.0.29"
+          "DialogXMIUIStyle", "0.0.30"
         )
     }
 
@@ -346,7 +346,7 @@ abstract class AndroidDependency private constructor(
      */
     sealed class Fragment(
       module: String
-    ) : AndroidDependency("androidx.fragment", module, "1.3.0-rc02") {
+    ) : AndroidDependency("androidx.fragment", module, "1.3.0") {
         object Core : Fragment("fragment")
 
         object Test : Fragment("fragment-testing")
@@ -461,7 +461,7 @@ abstract class AndroidDependency private constructor(
      */
     sealed class Lifecycle(
       module: String
-    ) : AndroidDependency("androidx.lifecycle", module, "2.3.0-rc01") {
+    ) : AndroidDependency("androidx.lifecycle", module, "2.3.0") {
         object Common : Lifecycle("lifecycle-common")
 
         object LiveData : Lifecycle("lifecycle-livedata-ktx")
