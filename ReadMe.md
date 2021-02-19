@@ -15,7 +15,7 @@
 |[Mmkv](https://github.com/Tencent/MMKV/blob/master/README_CN.md)|com.tencent|mmkv-static|1.2.7|持久KV数据存储|  
 |[QrScanner](https://github.com/jenly1314/ZXingLite)|com.king.zxing|zxing-lite|2.0.2|二维码扫描|  
 |[Store](https://github.com/dropbox/Store)|com.dropbox.mobile.store|store4|4.0.0|多数据源|  
-|[UnPeekLiveData](https://github.com/KunMinX/UnPeek-LiveData)|com.kunminx.archi|unpeek-livedata|4.4.1-beta1|自动消失LiveData|  
+|[UnPeekLiveData](https://github.com/KunMinX/UnPeek-LiveData)|com.kunminx.archi|unpeek-livedata|4.5.0-beta1|自动消失LiveData|  
 |[WeChat](https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Resource_Center_Homepage.html)|com.tencent.mm.opensdk|wechat-sdk-android-without-mta|6.6.5|微信开发Sdk|  
 |[XCrash](https://github.com/iqiyi/xCrash/blob/master/README.zh-CN.md)|com.iqiyi.xcrash|xcrash-android-lib|3.0.0|奔溃日志收集|  
 
@@ -75,9 +75,9 @@
 
 |[Epoxy](https://github.com/airbnb/epoxy)|com.airbnb.android|RecyclerView适配库|  
 |:-:|:-:|:-:|  
-|Compiler|epoxy-processor|4.3.1|  
-|Core|epoxy|4.3.1|  
-|Glide|epoxy-glide-preloading|4.3.1|  
+|Compiler|epoxy-processor|4.4.0|  
+|Core|epoxy|4.4.0|  
+|Glide|epoxy-glide-preloading|4.4.0|  
 
 |[Fragment](https://developer.android.com/jetpack/androidx/releases/fragment)|androidx.fragment||  
 |:-:|:-:|:-:|  
@@ -166,10 +166,10 @@
 
 |[Room](https://developer.android.com/jetpack/androidx/releases/room)|androidx.room|Sqlite数据库|  
 |:-:|:-:|:-:|  
-|Compiler|room-compiler|2.3.0-beta01|  
-|Core|room-runtime|2.3.0-beta01|  
-|Ktx|room-ktx|2.3.0-beta01|  
-|Test|room-testing|2.3.0-beta01|  
+|Compiler|room-compiler|2.3.0-beta02|  
+|Core|room-runtime|2.3.0-beta02|  
+|Ktx|room-ktx|2.3.0-beta02|  
+|Test|room-testing|2.3.0-beta02|  
 
 |[WorkManager](https://developer.android.com/jetpack/androidx/releases/work)|androidx.work|任务管理器|  
 |:-:|:-:|:-:|  

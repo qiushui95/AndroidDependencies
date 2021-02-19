@@ -1,5 +1,5 @@
 {
-  "version": "1.1.8",
+  "version": "1.1.9",
   "single": [
     {
       "name": "Activity",
@@ -112,7 +112,7 @@
     },
     {
       "name": "UnPeekLiveData",
-      "version": "4.4.1-beta1",
+      "version": "4.5.0-beta1",
       "link": "https://github.com/KunMinX/UnPeek-LiveData",
       "group": "com.kunminx.archi",
       "module": "unpeek-livedata",
@@ -268,7 +268,7 @@
     },
     {
       "name": "Epoxy",
-      "version": "4.3.1",
+      "version": "4.4.0",
       "link": "https://github.com/airbnb/epoxy",
       "group": "com.airbnb.android",
       "remark": "RecyclerView适配库",
@@ -595,7 +595,7 @@
     },
     {
       "name": "Room",
-      "version": "2.3.0-beta01",
+      "version": "2.3.0-beta02",
       "link": "https://developer.android.com/jetpack/androidx/releases/room",
       "group": "androidx.room",
       "remark": "Sqlite数据库",

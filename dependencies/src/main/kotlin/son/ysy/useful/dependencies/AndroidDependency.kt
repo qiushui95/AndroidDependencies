@@ -104,7 +104,7 @@ abstract class AndroidDependency private constructor(
          */
         object UnPeekLiveData : AndroidDependency(
           "com.kunminx.archi", "unpeek-livedata",
-          "4.4.1-beta1"
+          "4.5.0-beta1"
         )
 
         /**
@@ -333,7 +333,7 @@ abstract class AndroidDependency private constructor(
      */
     sealed class Epoxy(
       module: String
-    ) : AndroidDependency("com.airbnb.android", module, "4.3.1") {
+    ) : AndroidDependency("com.airbnb.android", module, "4.4.0") {
         object Compiler : Epoxy("epoxy-processor")
 
         object Core : Epoxy("epoxy")
@@ -547,7 +547,7 @@ abstract class AndroidDependency private constructor(
      */
     sealed class Room(
       module: String
-    ) : AndroidDependency("androidx.room", module, "2.3.0-beta01") {
+    ) : AndroidDependency("androidx.room", module, "2.3.0-beta02") {
         object Compiler : Room("room-compiler")
 
         object Core : Room("room-runtime")
