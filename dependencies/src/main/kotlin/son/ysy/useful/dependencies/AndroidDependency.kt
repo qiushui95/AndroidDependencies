@@ -290,22 +290,22 @@ abstract class AndroidDependency private constructor(
      */
     sealed class DialogX(
       module: String
-    ) : AndroidDependency("com.kongzue.dialogx", module, "0.0.30") {
+    ) : AndroidDependency("com.kongzue.dialogx", module, "0.0.31") {
         object Core : DialogX("DialogX")
 
         object IosStyle : AndroidDependency(
           "com.kongzue.dialogx.style.ios", "DialogXIOSStyle",
-          "0.0.30"
+          "0.0.31"
         )
 
         object KongzueStyle : AndroidDependency(
           "com.kongzue.dialogx.style.kongzue",
-          "DialogXKongzueStyle", "0.0.30"
+          "DialogXKongzueStyle", "0.0.31"
         )
 
         object MiuiStyle : AndroidDependency(
           "com.kongzue.dialogx.style.miui",
-          "DialogXMIUIStyle", "0.0.30"
+          "DialogXMIUIStyle", "0.0.31"
         )
     }
 

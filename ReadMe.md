@@ -60,7 +60,7 @@
 
 |[DialogX](https://github.com/kongzue/DialogX)|com.kongzue.dialogx|常用弹窗|  
 |:-:|:-:|:-:|  
-|Core|DialogX|0.0.30|  
+|Core|DialogX|0.0.31|  
 |IosStyle|com.kongzue.dialogx.style.ios:DialogXIOSStyle:null|null|  
 |KongzueStyle|com.kongzue.dialogx.style.kongzue:DialogXKongzueStyle:null|null|  
 |MiuiStyle|com.kongzue.dialogx.style.miui:DialogXMIUIStyle:null|null|  

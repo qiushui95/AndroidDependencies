@@ -1,5 +1,5 @@
 {
-  "version": "1.1.9",
+  "version": "1.2.0",
   "single": [
     {
       "name": "Activity",
@@ -211,7 +211,7 @@
     },
     {
       "name": "DialogX",
-      "version": "0.0.30",
+      "version": "0.0.31",
       "link": "https://github.com/kongzue/DialogX",
       "group": "com.kongzue.dialogx",
       "remark": "常用弹窗",
