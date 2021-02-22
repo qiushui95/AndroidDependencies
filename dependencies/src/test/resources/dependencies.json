@@ -1,5 +1,5 @@
 {
-  "version": "1.2.1",
+  "version": "1.2.2",
   "single": [
     {
       "name": "Activity",
@@ -149,7 +149,7 @@
         },
         {
           "name": "Candy",
-          "version": "2.2.20.0126",
+          "version": "2.2.30.210205",
           "module": "BasePopup_Candy"
         }
       ]
@@ -361,7 +361,7 @@
     },
     {
       "name": "Glide",
-      "version": "4.11.0",
+      "version": "4.12.0",
       "link": "https://github.com/bumptech/glide",
       "group": "com.github.bumptech.glide",
       "remark": "图片加载",
@@ -542,7 +542,7 @@
     },
     {
       "name": "OkHttp",
-      "version": "4.9.0",
+      "version": "4.9.1",
       "link": "https://github.com/square/okhttp",
       "group": "com.squareup.okhttp3",
       "modules": [
@@ -711,7 +711,7 @@
     },
     {
       "name": "Material",
-      "version": "1.3.0-rc01",
+      "version": "1.3.0",
       "link": "https://github.com/material-components/material-components-android",
       "group": "com.google.android.material",
       "module": "material"
@@ -725,7 +725,7 @@
     },
     {
       "name": "ShadowLayout",
-      "version": "3.1.8",
+      "version": "3.2.0",
       "link": "https://github.com/lihangleo2/ShadowLayout",
       "group": "com.github.lihangleo2",
       "module": "ShadowLayout",
@@ -766,7 +766,7 @@
     },
     {
       "name": "Junit",
-      "version": "4.13.1",
+      "version": "4.13.2",
       "link": "https://mvnrepository.com/artifact/junit/junit",
       "group": "junit",
       "module": "junit",

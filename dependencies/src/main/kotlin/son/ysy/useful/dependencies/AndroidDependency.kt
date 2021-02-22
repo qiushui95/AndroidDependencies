@@ -190,10 +190,7 @@ abstract class AndroidDependency private constructor(
         /**
          * https://github.com/material-components/material-components-android
          */
-        object Material : AndroidDependency(
-          "com.google.android.material", "material",
-          "1.3.0-rc01"
-        )
+        object Material : AndroidDependency("com.google.android.material", "material", "1.3.0")
 
         /**
          * https://developer.android.com/jetpack/androidx/releases/recyclerview
@@ -207,7 +204,7 @@ abstract class AndroidDependency private constructor(
          * 阴影控件
          * https://github.com/lihangleo2/ShadowLayout
          */
-        object ShadowLayout : AndroidDependency("com.github.lihangleo2", "ShadowLayout", "3.1.8")
+        object ShadowLayout : AndroidDependency("com.github.lihangleo2", "ShadowLayout", "3.2.0")
 
         /**
          * 下拉刷新控件
@@ -243,7 +240,7 @@ abstract class AndroidDependency private constructor(
     ) : AndroidDependency("com.github.razerdp", module, version) {
         object Stable : BasePopup("BasePopup", "2.2.20")
 
-        object Candy : BasePopup("BasePopup_Candy", "2.2.20.0126")
+        object Candy : BasePopup("BasePopup_Candy", "2.2.30.210205")
     }
 
     /**
@@ -391,13 +388,13 @@ abstract class AndroidDependency private constructor(
       module: String,
       version: String
     ) : AndroidDependency("com.github.bumptech.glide", module, version) {
-        object Annotation : Glide("annotations", "4.11.0")
+        object Annotation : Glide("annotations", "4.12.0")
 
-        object Compiler : Glide("compiler", "4.11.0")
+        object Compiler : Glide("compiler", "4.12.0")
 
-        object Core : Glide("glide", "4.11.0")
+        object Core : Glide("glide", "4.12.0")
 
-        object OkHttp : Glide("okhttp3-integration", "4.11.0")
+        object OkHttp : Glide("okhttp3-integration", "4.12.0")
 
         /**
          * 图片变换库
@@ -510,7 +507,7 @@ abstract class AndroidDependency private constructor(
      */
     sealed class OkHttp(
       module: String
-    ) : AndroidDependency("com.squareup.okhttp3", module, "4.9.0") {
+    ) : AndroidDependency("com.squareup.okhttp3", module, "4.9.1") {
         object Core : OkHttp("okhttp")
 
         object Interceptor : OkHttp("logging-interceptor")
@@ -580,7 +577,7 @@ abstract class AndroidDependency private constructor(
          * 单元测试
          * https://mvnrepository.com/artifact/junit/junit
          */
-        object Junit : AndroidDependency("junit", "junit", "4.13.1")
+        object Junit : AndroidDependency("junit", "junit", "4.13.2")
 
         /**
          * 单元测试扩展

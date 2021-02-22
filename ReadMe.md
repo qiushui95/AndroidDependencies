@@ -30,9 +30,9 @@
 |[FormatterEdit](https://github.com/dkzwm/FormatEditText)|me.dkzwm.widget.fet|core|0.2.0|输入格式化控件|  
 |[LottieView](https://github.com/airbnb/lottie-android)|com.airbnb.android|lottie|3.6.1|动画框架|  
 |[MarqueeView](https://github.com/sunfusheng/MarqueeView)|com.sunfusheng|MarqueeView|1.4.1|跑马灯控件|  
-|[Material](https://github.com/material-components/material-components-android)|com.google.android.material|material|1.3.0-rc01||  
+|[Material](https://github.com/material-components/material-components-android)|com.google.android.material|material|1.3.0||  
 |[RecyclerView](https://developer.android.com/jetpack/androidx/releases/recyclerview)|androidx.recyclerview|recyclerview|1.2.0-beta01||  
-|[ShadowLayout](https://github.com/lihangleo2/ShadowLayout)|com.github.lihangleo2|ShadowLayout|3.1.8|阴影控件|  
+|[ShadowLayout](https://github.com/lihangleo2/ShadowLayout)|com.github.lihangleo2|ShadowLayout|3.2.0|阴影控件|  
 |[SwipeRefreshLayout](https://developer.android.com/jetpack/androidx/releases/swiperefreshlayout)|androidx.swiperefreshlayout|swiperefreshlayout|1.2.0-alpha01|下拉刷新控件|  
 |[SwitchButton](https://github.com/kyleduo/SwitchButton)|com.kyleduo.switchbutton|library|2.0.3|开关按钮|  
 |[ViewPager2](https://developer.android.com/jetpack/androidx/releases/viewpager2)|androidx.viewpager2|viewpager2|1.1.0-alpha01||  
@@ -40,7 +40,7 @@
 |[BasePopup](https://github.com/razerdp/BasePopup)|com.github.razerdp|弹窗|  
 |:-:|:-:|:-:|  
 |Stable|BasePopup|2.2.20|  
-|Candy|BasePopup_Candy|2.2.20.0126|  
+|Candy|BasePopup_Candy|2.2.30.210205|  
 
 |[Chucker](https://github.com/ChuckerTeam/chucker)|com.github.chuckerteam.chucker|网络请求监控|  
 |:-:|:-:|:-:|  
@@ -101,10 +101,10 @@
 
 |[Glide](https://github.com/bumptech/glide)|com.github.bumptech.glide|图片加载|  
 |:-:|:-:|:-:|  
-|Annotation|annotations|4.11.0|  
-|Compiler|compiler|4.11.0|  
-|Core|glide|4.11.0|  
-|OkHttp|okhttp3-integration|4.11.0|  
+|Annotation|annotations|4.12.0|  
+|Compiler|compiler|4.12.0|  
+|Core|glide|4.12.0|  
+|OkHttp|okhttp3-integration|4.12.0|  
 |[Transformations](https://github.com/wasabeef/glide-transformations)|jp.wasabeef:glide-transformations:4.3.0|图片变换库|  
 |[GpuImage](https://github.com/cats-oss/android-gpuimage)|jp.co.cyberagent.android:gpuimage:2.1.0|Gpu处理图片效果|  
 
@@ -150,9 +150,9 @@
 
 |[OkHttp](https://github.com/square/okhttp)|com.squareup.okhttp3||  
 |:-:|:-:|:-:|  
-|Core|okhttp|4.9.0|  
-|Interceptor|logging-interceptor|4.9.0|  
-|Mock|mockwebserver|4.9.0|  
+|Core|okhttp|4.9.1|  
+|Interceptor|logging-interceptor|4.9.1|  
+|Mock|mockwebserver|4.9.1|  
 
 |[Paris](https://github.com/airbnb/paris)|com.airbnb.android||  
 |:-:|:-:|:-:|  
@@ -179,5 +179,5 @@
 |name|group|module|version|remark|  
 |:-:|:-:|:-:|:-:|:-:|  
 |[Espresso](https://mvnrepository.com/artifact/androidx.test.espresso/espresso-core)|androidx.test.espresso|espresso-core|3.3.0|UI自动化测试|  
-|[Junit](https://mvnrepository.com/artifact/junit/junit)|junit|junit|4.13.1|单元测试|  
+|[Junit](https://mvnrepository.com/artifact/junit/junit)|junit|junit|4.13.2|单元测试|  
 |[JunitExt](https://mvnrepository.com/artifact/androidx.test.ext/junit-ktx)|androidx.test.ext|junit-ktx|1.1.2|单元测试扩展|  
