@@ -1,5 +1,5 @@
 {
-  "version": "1.2.0",
+  "version": "1.2.1",
   "single": [
     {
       "name": "Activity",
@@ -26,7 +26,7 @@
     },
     {
       "name": "AndroidUtil",
-      "version": "1.30.5",
+      "version": "1.30.6",
       "link": "https://github.com/Blankj/AndroidUtilCode",
       "group": "com.blankj",
       "module": "utilcodex",

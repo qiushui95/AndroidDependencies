@@ -35,7 +35,7 @@ abstract class AndroidDependency private constructor(
          * 多功能工具包
          * https://github.com/Blankj/AndroidUtilCode
          */
-        object AndroidUtil : AndroidDependency("com.blankj", "utilcodex", "1.30.5")
+        object AndroidUtil : AndroidDependency("com.blankj", "utilcodex", "1.30.6")
 
         /**
          * https://developer.android.com/jetpack/androidx/releases/appcompat
