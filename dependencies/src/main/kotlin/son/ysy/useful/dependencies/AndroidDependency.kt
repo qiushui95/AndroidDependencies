@@ -190,7 +190,10 @@ abstract class AndroidDependency private constructor(
         /**
          * https://github.com/material-components/material-components-android
          */
-        object Material : AndroidDependency("com.google.android.material", "material", "1.3.0")
+        object Material : AndroidDependency(
+          "com.google.android.material", "material",
+          "1.4.0-alpha01"
+        )
 
         /**
          * https://developer.android.com/jetpack/androidx/releases/recyclerview
@@ -330,7 +333,7 @@ abstract class AndroidDependency private constructor(
      */
     sealed class Epoxy(
       module: String
-    ) : AndroidDependency("com.airbnb.android", module, "4.4.0") {
+    ) : AndroidDependency("com.airbnb.android", module, "4.4.1") {
         object Compiler : Epoxy("epoxy-processor")
 
         object Core : Epoxy("epoxy")

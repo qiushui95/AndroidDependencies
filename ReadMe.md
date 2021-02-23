@@ -30,7 +30,7 @@
 |[FormatterEdit](https://github.com/dkzwm/FormatEditText)|me.dkzwm.widget.fet|core|0.2.0|输入格式化控件|  
 |[LottieView](https://github.com/airbnb/lottie-android)|com.airbnb.android|lottie|3.6.1|动画框架|  
 |[MarqueeView](https://github.com/sunfusheng/MarqueeView)|com.sunfusheng|MarqueeView|1.4.1|跑马灯控件|  
-|[Material](https://github.com/material-components/material-components-android)|com.google.android.material|material|1.3.0||  
+|[Material](https://github.com/material-components/material-components-android)|com.google.android.material|material|1.4.0-alpha01||  
 |[RecyclerView](https://developer.android.com/jetpack/androidx/releases/recyclerview)|androidx.recyclerview|recyclerview|1.2.0-beta01||  
 |[ShadowLayout](https://github.com/lihangleo2/ShadowLayout)|com.github.lihangleo2|ShadowLayout|3.2.0|阴影控件|  
 |[SwipeRefreshLayout](https://developer.android.com/jetpack/androidx/releases/swiperefreshlayout)|androidx.swiperefreshlayout|swiperefreshlayout|1.2.0-alpha01|下拉刷新控件|  
@@ -75,9 +75,9 @@
 
 |[Epoxy](https://github.com/airbnb/epoxy)|com.airbnb.android|RecyclerView适配库|  
 |:-:|:-:|:-:|  
-|Compiler|epoxy-processor|4.4.0|  
-|Core|epoxy|4.4.0|  
-|Glide|epoxy-glide-preloading|4.4.0|  
+|Compiler|epoxy-processor|4.4.1|  
+|Core|epoxy|4.4.1|  
+|Glide|epoxy-glide-preloading|4.4.1|  
 
 |[Fragment](https://developer.android.com/jetpack/androidx/releases/fragment)|androidx.fragment||  
 |:-:|:-:|:-:|  

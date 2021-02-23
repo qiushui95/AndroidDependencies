@@ -1,5 +1,5 @@
 {
-  "version": "1.2.2",
+  "version": "1.2.3",
   "single": [
     {
       "name": "Activity",
@@ -268,7 +268,7 @@
     },
     {
       "name": "Epoxy",
-      "version": "4.4.0",
+      "version": "4.4.1",
       "link": "https://github.com/airbnb/epoxy",
       "group": "com.airbnb.android",
       "remark": "RecyclerView适配库",
@@ -711,7 +711,7 @@
     },
     {
       "name": "Material",
-      "version": "1.3.0",
+      "version": "1.4.0-alpha01",
       "link": "https://github.com/material-components/material-components-android",
       "group": "com.google.android.material",
       "module": "material"
