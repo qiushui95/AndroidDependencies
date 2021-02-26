@@ -1,5 +1,5 @@
 {
-  "version": "1.2.3",
+  "version": "1.2.4",
   "single": [
     {
       "name": "Activity",
@@ -448,7 +448,7 @@
     },
     {
       "name": "Kotlin",
-      "version": "1.4.30",
+      "version": "1.4.31",
       "link": "https://github.com/JetBrains/kotlin",
       "group": "org.jetbrains.kotlin",
       "modules": [
@@ -718,7 +718,7 @@
     },
     {
       "name": "RecyclerView",
-      "version": "1.2.0-beta01",
+      "version": "1.2.0-beta02",
       "link": "https://developer.android.com/jetpack/androidx/releases/recyclerview",
       "group": "androidx.recyclerview",
       "module": "recyclerview"

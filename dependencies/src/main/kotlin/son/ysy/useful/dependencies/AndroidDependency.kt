@@ -200,7 +200,7 @@ abstract class AndroidDependency private constructor(
          */
         object RecyclerView : AndroidDependency(
           "androidx.recyclerview", "recyclerview",
-          "1.2.0-beta01"
+          "1.2.0-beta02"
         )
 
         /**
@@ -450,7 +450,7 @@ abstract class AndroidDependency private constructor(
      */
     sealed class Kotlin(
       module: String
-    ) : AndroidDependency("org.jetbrains.kotlin", module, "1.4.30") {
+    ) : AndroidDependency("org.jetbrains.kotlin", module, "1.4.31") {
         object Reflect : Kotlin("kotlin-reflect")
 
         object Stdlib : Kotlin("kotlin-stdlib")
