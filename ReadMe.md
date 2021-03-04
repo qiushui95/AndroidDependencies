@@ -8,7 +8,6 @@
 |[Appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat)|androidx.appcompat|appcompat|1.3.0-beta01||  
 |[Background](https://github.com/JavaNoober/BackgroundLibrary)|com.noober.background|core|1.6.5|背景生成工具库|  
 |[ColorKtx](https://github.com/JorgeCastilloPrz/AndroidColorX)|me.jorgecastillo|androidcolorx|0.2.0|颜色帮助库|  
-|[CoreKtx](https://developer.android.com/jetpack/androidx/releases/core)|androidx.core|core-ktx|1.5.0-beta01||  
 |[ImagePicker](https://github.com/yangpeixing/YImagePicker)|com.ypx.yimagepicker|androidx|3.1.4|多媒体选择库|  
 |[JodaTime](https://github.com/JodaOrg/joda-time)|joda-time|joda-time|2.10.10|时间处理库|  
 |[LeakCanary](https://square.github.io/leakcanary/getting_started/)|com.squareup.leakcanary|leakcanary-android|2.6|内存泄露监控|  
@@ -53,14 +52,21 @@
 |Core|component-impl|v1.8.8-androidx-java8|  
 |Plugin|component-plugin|v1.8.8-androidx-java8|  
 
+|[Core](https://developer.android.com/jetpack/androidx/releases/core)|androidx.core|core|  
+|:-:|:-:|:-:|  
+|Ktx|core-ktx|1.5.0-beta02|  
+|Role|core-role|1.0.0|  
+|Animation|core-animation|1.0.0-alpha02|  
+|AnimationTest|core-animation-testing|1.0.0-alpha02|  
+
 |[Coroutines](https://github.com/Kotlin/kotlinx.coroutines)|org.jetbrains.kotlinx|协程|  
 |:-:|:-:|:-:|  
-|Core|kotlinx-coroutines-android|1.4.2|  
-|Test|kotlinx-coroutines-test|1.4.2|  
+|Core|kotlinx-coroutines-android|1.4.3|  
+|Test|kotlinx-coroutines-test|1.4.3|  
 
 |[DialogX](https://github.com/kongzue/DialogX)|com.kongzue.dialogx|常用弹窗|  
 |:-:|:-:|:-:|  
-|Core|DialogX|0.0.31|  
+|Core|DialogX|0.0.33|  
 |IosStyle|com.kongzue.dialogx.style.ios:DialogXIOSStyle:null|null|  
 |KongzueStyle|com.kongzue.dialogx.style.kongzue:DialogXKongzueStyle:null|null|  
 |MiuiStyle|com.kongzue.dialogx.style.miui:DialogXMIUIStyle:null|null|  

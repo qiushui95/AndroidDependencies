@@ -1,5 +1,5 @@
 {
-  "version": "1.2.4",
+  "version": "1.2.5",
   "single": [
     {
       "name": "Activity",
@@ -54,13 +54,6 @@
       "group": "me.jorgecastillo",
       "module": "androidcolorx",
       "remark": "颜色帮助库"
-    },
-    {
-      "name": "CoreKtx",
-      "version": "1.5.0-beta01",
-      "link": "https://developer.android.com/jetpack/androidx/releases/core",
-      "group": "androidx.core",
-      "module": "core-ktx"
     },
     {
       "name": "ImagePicker",
@@ -193,8 +186,35 @@
       ]
     },
     {
+      "name": "Core",
+      "link": "https://developer.android.com/jetpack/androidx/releases/core",
+      "group": "androidx.core",
+      "version": "1.0.0-alpha02",
+      "remark": "core",
+      "modules": [
+        {
+          "name": "Ktx",
+          "module": "core-ktx",
+          "version": "1.5.0-beta02"
+        },
+        {
+          "name": "Role",
+          "module": "core-role",
+          "version": "1.0.0"
+        },
+        {
+          "name": "Animation",
+          "module": "core-animation"
+        },
+        {
+          "name": "AnimationTest",
+          "module": "core-animation-testing"
+        }
+      ]
+    },
+    {
       "name": "Coroutines",
-      "version": "1.4.2",
+      "version": "1.4.3",
       "link": "https://github.com/Kotlin/kotlinx.coroutines",
       "group": "org.jetbrains.kotlinx",
       "remark": "协程",
@@ -211,7 +231,7 @@
     },
     {
       "name": "DialogX",
-      "version": "0.0.31",
+      "version": "0.0.33",
       "link": "https://github.com/kongzue/DialogX",
       "group": "com.kongzue.dialogx",
       "remark": "常用弹窗",
