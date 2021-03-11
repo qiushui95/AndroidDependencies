@@ -1,7 +1,7 @@
 # 三方依赖库版本管理[![](https://jitpack.io/v/qiushui95/AndroidDependencies.svg)](https://jitpack.io/#qiushui95/AndroidDependencies)  
 |name|group|module|version|remark|  
 |:-:|:-:|:-:|:-:|:-:|  
-|[Activity](https://developer.android.com/jetpack/androidx/releases/activity)|androidx.activity|activity-ktx|1.2.0||  
+|[Activity](https://developer.android.com/jetpack/androidx/releases/activity)|androidx.activity|activity-ktx|1.2.1||  
 |[Alerter](https://github.com/Tapadoo/Alerter)|com.tapadoo.android|alerter|7.0.1|Alerter弹窗|  
 |[Anchors](https://github.com/YummyLau/Anchors/blob/master/README-zh.md)|com.effective.android|anchors|1.1.3|app启动初始化管理|  
 |[AndroidUtil](https://github.com/Blankj/AndroidUtilCode)|com.blankj|utilcodex|1.30.6|多功能工具包|  
@@ -54,7 +54,7 @@
 
 |[Core](https://developer.android.com/jetpack/androidx/releases/core)|androidx.core|core|  
 |:-:|:-:|:-:|  
-|Ktx|core-ktx|1.5.0-beta02|  
+|Ktx|core-ktx|1.5.0-beta03|  
 |Role|core-role|1.0.0|  
 |Animation|core-animation|1.0.0-alpha02|  
 |AnimationTest|core-animation-testing|1.0.0-alpha02|  
@@ -87,8 +87,8 @@
 
 |[Fragment](https://developer.android.com/jetpack/androidx/releases/fragment)|androidx.fragment||  
 |:-:|:-:|:-:|  
-|Core|fragment|1.3.0|  
-|Test|fragment-testing|1.3.0|  
+|Core|fragment|1.3.1|  
+|Test|fragment-testing|1.3.1|  
 
 |[FlowBinding](https://github.com/ReactiveCircus/FlowBinding)|io.github.reactivecircus.flowbinding||  
 |:-:|:-:|:-:|  
@@ -149,10 +149,10 @@
 
 |[Navigation](https://developer.android.com/jetpack/androidx/releases/navigation)|androidx.navigation|Fragment导航库|  
 |:-:|:-:|:-:|  
-|Features|navigation-dynamic-features-fragment|2.3.3|  
-|Ui|navigation-ui-ktx|2.3.3|  
-|Core|navigation-fragment-ktx|2.3.3|  
-|Test|navigation-testing|2.3.3|  
+|Features|navigation-dynamic-features-fragment|2.3.4|  
+|Ui|navigation-ui-ktx|2.3.4|  
+|Core|navigation-fragment-ktx|2.3.4|  
+|Test|navigation-testing|2.3.4|  
 
 |[OkHttp](https://github.com/square/okhttp)|com.squareup.okhttp3||  
 |:-:|:-:|:-:|  
@@ -172,10 +172,10 @@
 
 |[Room](https://developer.android.com/jetpack/androidx/releases/room)|androidx.room|Sqlite数据库|  
 |:-:|:-:|:-:|  
-|Compiler|room-compiler|2.3.0-beta02|  
-|Core|room-runtime|2.3.0-beta02|  
-|Ktx|room-ktx|2.3.0-beta02|  
-|Test|room-testing|2.3.0-beta02|  
+|Compiler|room-compiler|2.3.0-beta03|  
+|Core|room-runtime|2.3.0-beta03|  
+|Ktx|room-ktx|2.3.0-beta03|  
+|Test|room-testing|2.3.0-beta03|  
 
 |[WorkManager](https://developer.android.com/jetpack/androidx/releases/work)|androidx.work|任务管理器|  
 |:-:|:-:|:-:|  
