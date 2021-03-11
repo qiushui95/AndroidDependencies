@@ -433,7 +433,7 @@ abstract class AndroidDependency private constructor(
      */
     sealed class KeyCreator(
       module: String
-    ) : AndroidDependency("son.ysy.key.creator", module, "1.0.3") {
+    ) : AndroidDependency("com.github.qiushui95.KeysCreator", module, "1.1.0") {
         object Core : KeyCreator("annotations")
 
         object Compiler : KeyCreator("compiler")

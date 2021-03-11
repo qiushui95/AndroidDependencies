@@ -114,10 +114,10 @@
 |[Transformations](https://github.com/wasabeef/glide-transformations)|jp.wasabeef:glide-transformations:4.3.0|图片变换库|  
 |[GpuImage](https://github.com/cats-oss/android-gpuimage)|jp.co.cyberagent.android:gpuimage:2.1.0|Gpu处理图片效果|  
 
-|[KeyCreator](https://github.com/qiushui95/KeysCreator)|son.ysy.key.creator|key生成器|  
+|[KeyCreator](https://github.com/qiushui95/KeysCreator)|com.github.qiushui95.KeysCreator|key生成器|  
 |:-:|:-:|:-:|  
-|Core|annotations|1.0.3|  
-|Compiler|compiler|1.0.3|  
+|Core|annotations|1.1.0|  
+|Compiler|compiler|1.1.0|  
 
 |[Koin](https://github.com/InsertKoinIO/koin)|org.koin|依赖注入库|  
 |:-:|:-:|:-:|  
