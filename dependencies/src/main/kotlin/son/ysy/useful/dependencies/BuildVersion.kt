@@ -32,4 +32,9 @@ sealed class BuildVersion<T>(var value: T) {
      * SDK编译工具版本
      */
     object BuildTools : BuildVersion<String>("30.0.3")
+
+    /**
+     * ndk版本
+     */
+    object Ndk:BuildVersion<String>("22.0.7026061")
 }

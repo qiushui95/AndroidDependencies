@@ -1,5 +1,5 @@
 {
-  "version": "1.2.7",
+  "version": "1.2.8",
   "single": [
     {
       "name": "Activity",
@@ -288,7 +288,7 @@
     },
     {
       "name": "Epoxy",
-      "version": "4.4.1",
+      "version": "4.4.2",
       "link": "https://github.com/airbnb/epoxy",
       "group": "com.airbnb.android",
       "remark": "RecyclerView适配库",
