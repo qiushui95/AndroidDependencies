@@ -81,9 +81,9 @@
 
 |[Epoxy](https://github.com/airbnb/epoxy)|com.airbnb.android|RecyclerView适配库|  
 |:-:|:-:|:-:|  
-|Compiler|epoxy-processor|4.4.2|  
-|Core|epoxy|4.4.2|  
-|Glide|epoxy-glide-preloading|4.4.2|  
+|Compiler|epoxy-processor|4.4.3|  
+|Core|epoxy|4.4.3|  
+|Glide|epoxy-glide-preloading|4.4.3|  
 
 |[Fragment](https://developer.android.com/jetpack/androidx/releases/fragment)|androidx.fragment||  
 |:-:|:-:|:-:|  
