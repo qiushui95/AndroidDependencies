@@ -1,11 +1,11 @@
 # 三方依赖库版本管理[![](https://jitpack.io/v/qiushui95/AndroidDependencies.svg)](https://jitpack.io/#qiushui95/AndroidDependencies)  
 |name|group|module|version|remark|  
 |:-:|:-:|:-:|:-:|:-:|  
-|[Activity](https://developer.android.com/jetpack/androidx/releases/activity)|androidx.activity|activity-ktx|1.2.1||  
+|[Activity](https://developer.android.com/jetpack/androidx/releases/activity)|androidx.activity|activity-ktx|1.2.2||  
 |[Alerter](https://github.com/Tapadoo/Alerter)|com.tapadoo.android|alerter|7.0.1|Alerter弹窗|  
 |[Anchors](https://github.com/YummyLau/Anchors/blob/master/README-zh.md)|com.effective.android|anchors|1.1.3|app启动初始化管理|  
 |[AndroidUtil](https://github.com/Blankj/AndroidUtilCode)|com.blankj|utilcodex|1.30.6|多功能工具包|  
-|[Appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat)|androidx.appcompat|appcompat|1.3.0-beta01||  
+|[Appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat)|androidx.appcompat|appcompat|1.3.0-rc01||  
 |[Background](https://github.com/JavaNoober/BackgroundLibrary)|com.noober.background|core|1.6.5|背景生成工具库|  
 |[ColorKtx](https://github.com/JorgeCastilloPrz/AndroidColorX)|me.jorgecastillo|androidcolorx|0.2.0|颜色帮助库|  
 |[DateTimePicker](https://github.com/loperSeven/DateTimePicker)|com.github.loperSeven|DateTimePicker|0.3.1|时间选择器|  
@@ -31,7 +31,7 @@
 |[LottieView](https://github.com/airbnb/lottie-android)|com.airbnb.android|lottie|3.6.1|动画框架|  
 |[MarqueeView](https://github.com/sunfusheng/MarqueeView)|com.sunfusheng|MarqueeView|1.4.1|跑马灯控件|  
 |[Material](https://github.com/material-components/material-components-android)|com.google.android.material|material|1.4.0-alpha01||  
-|[RecyclerView](https://developer.android.com/jetpack/androidx/releases/recyclerview)|androidx.recyclerview|recyclerview|1.2.0-beta02||  
+|[RecyclerView](https://developer.android.com/jetpack/androidx/releases/recyclerview)|androidx.recyclerview|recyclerview|1.2.0-rc01||  
 |[ShadowLayout](https://github.com/lihangleo2/ShadowLayout)|com.github.lihangleo2|ShadowLayout|3.2.0|阴影控件|  
 |[SwipeRefreshLayout](https://developer.android.com/jetpack/androidx/releases/swiperefreshlayout)|androidx.swiperefreshlayout|swiperefreshlayout|1.2.0-alpha01|下拉刷新控件|  
 |[SwitchButton](https://github.com/kyleduo/SwitchButton)|com.kyleduo.switchbutton|library|2.0.3|开关按钮|  
@@ -40,7 +40,7 @@
 |[BasePopup](https://github.com/razerdp/BasePopup)|com.github.razerdp|弹窗|  
 |:-:|:-:|:-:|  
 |Stable|BasePopup|2.2.20|  
-|Candy|BasePopup_Candy|2.2.30.210205|  
+|Candy|BasePopup_Candy|2.2.30.0324|  
 
 |[Chucker](https://github.com/ChuckerTeam/chucker)|com.github.chuckerteam.chucker|网络请求监控|  
 |:-:|:-:|:-:|  
@@ -55,7 +55,7 @@
 
 |[Core](https://developer.android.com/jetpack/androidx/releases/core)|androidx.core|core|  
 |:-:|:-:|:-:|  
-|Ktx|core-ktx|1.5.0-beta03|  
+|Ktx|core-ktx|1.5.0-rc01|  
 |Role|core-role|1.0.0|  
 |Animation|core-animation|1.0.0-alpha02|  
 |AnimationTest|core-animation-testing|1.0.0-alpha02|  
@@ -82,14 +82,14 @@
 
 |[Epoxy](https://github.com/airbnb/epoxy)|com.airbnb.android|RecyclerView适配库|  
 |:-:|:-:|:-:|  
-|Compiler|epoxy-processor|4.4.3|  
-|Core|epoxy|4.4.3|  
-|Glide|epoxy-glide-preloading|4.4.3|  
+|Compiler|epoxy-processor|4.4.4|  
+|Core|epoxy|4.4.4|  
+|Glide|epoxy-glide-preloading|4.4.4|  
 
 |[Fragment](https://developer.android.com/jetpack/androidx/releases/fragment)|androidx.fragment||  
 |:-:|:-:|:-:|  
-|Core|fragment|1.3.1|  
-|Test|fragment-testing|1.3.1|  
+|Core|fragment|1.3.2|  
+|Test|fragment-testing|1.3.2|  
 
 |[FlowBinding](https://github.com/ReactiveCircus/FlowBinding)|io.github.reactivecircus.flowbinding||  
 |:-:|:-:|:-:|  
@@ -135,13 +135,13 @@
 
 |[Lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)|androidx.lifecycle||  
 |:-:|:-:|:-:|  
-|Common|lifecycle-common|2.3.0|  
-|LiveData|lifecycle-livedata-ktx|2.3.0|  
-|Process|lifecycle-process|2.3.0|  
-|Runtime|lifecycle-runtime-ktx|2.3.0|  
-|SavedState|lifecycle-viewmodel-savedstate|2.3.0|  
-|Service|lifecycle-service|2.3.0|  
-|ViewModel|lifecycle-viewmodel-ktx|2.3.0|  
+|Common|lifecycle-common|2.3.1|  
+|LiveData|lifecycle-livedata-ktx|2.3.1|  
+|Process|lifecycle-process|2.3.1|  
+|Runtime|lifecycle-runtime-ktx|2.3.1|  
+|SavedState|lifecycle-viewmodel-savedstate|2.3.1|  
+|Service|lifecycle-service|2.3.1|  
+|ViewModel|lifecycle-viewmodel-ktx|2.3.1|  
 
 |[MoShi](https://github.com/square/moshi)|com.squareup.moshi|json解析库|  
 |:-:|:-:|:-:|  
@@ -173,10 +173,10 @@
 
 |[Room](https://developer.android.com/jetpack/androidx/releases/room)|androidx.room|Sqlite数据库|  
 |:-:|:-:|:-:|  
-|Compiler|room-compiler|2.3.0-beta03|  
-|Core|room-runtime|2.3.0-beta03|  
-|Ktx|room-ktx|2.3.0-beta03|  
-|Test|room-testing|2.3.0-beta03|  
+|Compiler|room-compiler|2.3.0-rc01|  
+|Core|room-runtime|2.3.0-rc01|  
+|Ktx|room-ktx|2.3.0-rc01|  
+|Test|room-testing|2.3.0-rc01|  
 
 |[WorkManager](https://developer.android.com/jetpack/androidx/releases/work)|androidx.work|任务管理器|  
 |:-:|:-:|:-:|  
