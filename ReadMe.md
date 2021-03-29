@@ -11,7 +11,7 @@
 |[DateTimePicker](https://github.com/loperSeven/DateTimePicker)|com.github.loperSeven|DateTimePicker|0.3.1|时间选择器|  
 |[ImagePicker](https://github.com/yangpeixing/YImagePicker)|com.ypx.yimagepicker|androidx|3.1.4|多媒体选择库|  
 |[JodaTime](https://github.com/JodaOrg/joda-time)|joda-time|joda-time|2.10.10|时间处理库|  
-|[LeakCanary](https://square.github.io/leakcanary/getting_started/)|com.squareup.leakcanary|leakcanary-android|2.6|内存泄露监控|  
+|[LeakCanary](https://square.github.io/leakcanary/getting_started/)|com.squareup.leakcanary|leakcanary-android|2.7|内存泄露监控|  
 |[Mmkv](https://github.com/Tencent/MMKV/blob/master/README_CN.md)|com.tencent|mmkv-static|1.2.7|持久KV数据存储|  
 |[QrScanner](https://github.com/jenly1314/ZXingLite)|com.king.zxing|zxing-lite|2.0.2|二维码扫描|  
 |[Store](https://github.com/dropbox/Store)|com.dropbox.mobile.store|store4|4.0.0|多数据源|  
@@ -23,7 +23,7 @@
 |:-:|:-:|:-:|:-:|:-:|  
 |[AgentWeb](https://github.com/Justson/AgentWeb)|com.just.agentweb|agentweb|4.1.4|浏览器|  
 |[BannerView](https://github.com/xiaohaibin/XBanner/tree/androidX)|com.github.xiaohaibin|XBanner|androidx_v1.1.3|轮播控件|  
-|[BlurView](https://github.com/Dimezis/BlurView)|com.eightbitlab|blurview|1.6.5|高斯模糊|  
+|[BlurView](https://github.com/Dimezis/BlurView)|com.eightbitlab|blurview|1.6.6|高斯模糊|  
 |[BottomNavigation](https://github.com/Ashok-Varma/BottomNavigation)|com.ashokvarma.android|bottom-navigation-bar|2.2.0|底部导航|  
 |[ConstraintLayout](https://developer.android.com/jetpack/androidx/releases/constraintlayout)|androidx.constraintlayout|constraintlayout|2.0.4|约束布局|  
 |[FlexBox](https://github.com/google/flexbox-layout)|com.google.android|flexbox|2.0.1|流式布局|  
@@ -67,7 +67,7 @@
 
 |[DialogX](https://github.com/kongzue/DialogX)|com.kongzue.dialogx|常用弹窗|  
 |:-:|:-:|:-:|  
-|Core|DialogX|0.0.35|  
+|Core|DialogX|0.0.36|  
 |IosStyle|com.kongzue.dialogx.style.ios:DialogXIOSStyle:null|null|  
 |KongzueStyle|com.kongzue.dialogx.style.kongzue:DialogXKongzueStyle:null|null|  
 |MiuiStyle|com.kongzue.dialogx.style.miui:DialogXMIUIStyle:null|null|  

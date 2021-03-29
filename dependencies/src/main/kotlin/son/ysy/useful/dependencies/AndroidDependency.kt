@@ -81,7 +81,7 @@ abstract class AndroidDependency private constructor(
          */
         object LeakCanary : AndroidDependency(
           "com.squareup.leakcanary", "leakcanary-android",
-          "2.6"
+          "2.7"
         )
 
         /**
@@ -147,7 +147,7 @@ abstract class AndroidDependency private constructor(
          * 高斯模糊
          * https://github.com/Dimezis/BlurView
          */
-        object BlurView : AndroidDependency("com.eightbitlab", "blurview", "1.6.5")
+        object BlurView : AndroidDependency("com.eightbitlab", "blurview", "1.6.6")
 
         /**
          * 底部导航
@@ -311,22 +311,22 @@ abstract class AndroidDependency private constructor(
      */
     sealed class DialogX(
       module: String
-    ) : AndroidDependency("com.kongzue.dialogx", module, "0.0.35") {
+    ) : AndroidDependency("com.kongzue.dialogx", module, "0.0.36") {
         object Core : DialogX("DialogX")
 
         object IosStyle : AndroidDependency(
           "com.kongzue.dialogx.style.ios", "DialogXIOSStyle",
-          "0.0.35"
+          "0.0.36"
         )
 
         object KongzueStyle : AndroidDependency(
           "com.kongzue.dialogx.style.kongzue",
-          "DialogXKongzueStyle", "0.0.35"
+          "DialogXKongzueStyle", "0.0.36"
         )
 
         object MiuiStyle : AndroidDependency(
           "com.kongzue.dialogx.style.miui",
-          "DialogXMIUIStyle", "0.0.35"
+          "DialogXMIUIStyle", "0.0.36"
         )
     }
 
