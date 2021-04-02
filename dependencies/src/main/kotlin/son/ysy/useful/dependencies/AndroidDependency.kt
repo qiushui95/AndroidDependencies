@@ -200,6 +200,12 @@ abstract class AndroidDependency private constructor(
         )
 
         /**
+         * 密码输入框
+         * https://github.com/ChaosLeung/PinView
+         */
+        object PinView : AndroidDependency("io.github.chaosleung", "pinview", "1.4.4")
+
+        /**
          * https://developer.android.com/jetpack/androidx/releases/recyclerview
          */
         object RecyclerView : AndroidDependency(
@@ -504,7 +510,7 @@ abstract class AndroidDependency private constructor(
      */
     sealed class MoShi(
       module: String
-    ) : AndroidDependency("com.squareup.moshi", module, "1.11.0") {
+    ) : AndroidDependency("com.squareup.moshi", module, "1.12.0") {
         object Compiler : MoShi("moshi-kotlin-codegen")
 
         object Core : MoShi("moshi")

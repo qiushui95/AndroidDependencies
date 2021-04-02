@@ -31,6 +31,7 @@
 |[LottieView](https://github.com/airbnb/lottie-android)|com.airbnb.android|lottie|3.6.1|动画框架|  
 |[MarqueeView](https://github.com/sunfusheng/MarqueeView)|com.sunfusheng|MarqueeView|1.4.1|跑马灯控件|  
 |[Material](https://github.com/material-components/material-components-android)|com.google.android.material|material|1.4.0-alpha01||  
+|[PinView](https://github.com/ChaosLeung/PinView)|io.github.chaosleung|pinview|1.4.4|密码输入框|  
 |[RecyclerView](https://developer.android.com/jetpack/androidx/releases/recyclerview)|androidx.recyclerview|recyclerview|1.2.0-rc01||  
 |[ShadowLayout](https://github.com/lihangleo2/ShadowLayout)|com.github.lihangleo2|ShadowLayout|3.2.0|阴影控件|  
 |[SwipeRefreshLayout](https://developer.android.com/jetpack/androidx/releases/swiperefreshlayout)|androidx.swiperefreshlayout|swiperefreshlayout|1.2.0-alpha01|下拉刷新控件|  
@@ -145,8 +146,8 @@
 
 |[MoShi](https://github.com/square/moshi)|com.squareup.moshi|json解析库|  
 |:-:|:-:|:-:|  
-|Compiler|moshi-kotlin-codegen|1.11.0|  
-|Core|moshi|1.11.0|  
+|Compiler|moshi-kotlin-codegen|1.12.0|  
+|Core|moshi|1.12.0|  
 
 |[Navigation](https://developer.android.com/jetpack/androidx/releases/navigation)|androidx.navigation|Fragment导航库|  
 |:-:|:-:|:-:|  
