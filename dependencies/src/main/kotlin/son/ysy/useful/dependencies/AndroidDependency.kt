@@ -94,7 +94,7 @@ abstract class AndroidDependency private constructor(
          * 二维码扫描
          * https://github.com/jenly1314/ZXingLite
          */
-        object QrScanner : AndroidDependency("com.king.zxing", "zxing-lite", "2.0.2")
+        object QrScanner : AndroidDependency("com.king.zxing", "zxing-lite", "2.0.3")
 
         /**
          * 多数据源
@@ -183,7 +183,7 @@ abstract class AndroidDependency private constructor(
          * 动画框架
          * https://github.com/airbnb/lottie-android
          */
-        object LottieView : AndroidDependency("com.airbnb.android", "lottie", "3.6.1")
+        object LottieView : AndroidDependency("com.airbnb.android", "lottie", "3.7.0")
 
         /**
          * 跑马灯控件
