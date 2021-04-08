@@ -1,5 +1,5 @@
 {
-  "version": "1.3.4",
+  "version": "1.3.5",
   "single": [
     {
       "name": "Activity",
@@ -544,7 +544,7 @@
     },
     {
       "name": "Navigation",
-      "version": "2.3.4",
+      "version": "2.3.5",
       "link": "https://developer.android.com/jetpack/androidx/releases/navigation",
       "group": "androidx.navigation",
       "remark": "Fragment导航库",
@@ -752,7 +752,7 @@
     },
     {
       "name": "RecyclerView",
-      "version": "1.2.0-rc01",
+      "version": "1.2.0",
       "link": "https://developer.android.com/jetpack/androidx/releases/recyclerview",
       "group": "androidx.recyclerview",
       "module": "recyclerview"

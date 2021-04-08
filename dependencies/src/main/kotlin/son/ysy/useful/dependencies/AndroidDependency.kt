@@ -208,10 +208,7 @@ abstract class AndroidDependency private constructor(
         /**
          * https://developer.android.com/jetpack/androidx/releases/recyclerview
          */
-        object RecyclerView : AndroidDependency(
-          "androidx.recyclerview", "recyclerview",
-          "1.2.0-rc01"
-        )
+        object RecyclerView : AndroidDependency("androidx.recyclerview", "recyclerview", "1.2.0")
 
         /**
          * 阴影控件
@@ -522,7 +519,7 @@ abstract class AndroidDependency private constructor(
      */
     sealed class Navigation(
       module: String
-    ) : AndroidDependency("androidx.navigation", module, "2.3.4") {
+    ) : AndroidDependency("androidx.navigation", module, "2.3.5") {
         object Features : Navigation("navigation-dynamic-features-fragment")
 
         object Ui : Navigation("navigation-ui-ktx")

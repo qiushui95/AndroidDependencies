@@ -32,7 +32,7 @@
 |[MarqueeView](https://github.com/sunfusheng/MarqueeView)|com.sunfusheng|MarqueeView|1.4.1|跑马灯控件|  
 |[Material](https://github.com/material-components/material-components-android)|com.google.android.material|material|1.4.0-alpha01||  
 |[PinView](https://github.com/ChaosLeung/PinView)|io.github.chaosleung|pinview|1.4.4|密码输入框|  
-|[RecyclerView](https://developer.android.com/jetpack/androidx/releases/recyclerview)|androidx.recyclerview|recyclerview|1.2.0-rc01||  
+|[RecyclerView](https://developer.android.com/jetpack/androidx/releases/recyclerview)|androidx.recyclerview|recyclerview|1.2.0||  
 |[ShadowLayout](https://github.com/lihangleo2/ShadowLayout)|com.github.lihangleo2|ShadowLayout|3.2.0|阴影控件|  
 |[SwipeRefreshLayout](https://developer.android.com/jetpack/androidx/releases/swiperefreshlayout)|androidx.swiperefreshlayout|swiperefreshlayout|1.2.0-alpha01|下拉刷新控件|  
 |[SwitchButton](https://github.com/kyleduo/SwitchButton)|com.kyleduo.switchbutton|library|2.0.3|开关按钮|  
@@ -151,10 +151,10 @@
 
 |[Navigation](https://developer.android.com/jetpack/androidx/releases/navigation)|androidx.navigation|Fragment导航库|  
 |:-:|:-:|:-:|  
-|Features|navigation-dynamic-features-fragment|2.3.4|  
-|Ui|navigation-ui-ktx|2.3.4|  
-|Core|navigation-fragment-ktx|2.3.4|  
-|Test|navigation-testing|2.3.4|  
+|Features|navigation-dynamic-features-fragment|2.3.5|  
+|Ui|navigation-ui-ktx|2.3.5|  
+|Core|navigation-fragment-ktx|2.3.5|  
+|Test|navigation-testing|2.3.5|  
 
 |[OkHttp](https://github.com/square/okhttp)|com.squareup.okhttp3||  
 |:-:|:-:|:-:|  
