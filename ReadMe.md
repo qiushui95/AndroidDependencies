@@ -8,6 +8,7 @@
 |[Appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat)|androidx.appcompat|appcompat|1.3.0-rc01||  
 |[Background](https://github.com/JavaNoober/BackgroundLibrary)|com.noober.background|core|1.6.5|背景生成工具库|  
 |[ColorKtx](https://github.com/JorgeCastilloPrz/AndroidColorX)|me.jorgecastillo|androidcolorx|0.2.0|颜色帮助库|  
+|[Coil](https://github.com/coil-kt/coil)|io.coil-kt|coil|1.2.0|图片加载|  
 |[DateTimePicker](https://github.com/loperSeven/DateTimePicker)|com.github.loperSeven|DateTimePicker|0.3.1|时间选择器|  
 |[ImagePicker](https://github.com/yangpeixing/YImagePicker)|com.ypx.yimagepicker|androidx|3.1.4|多媒体选择库|  
 |[JodaTime](https://github.com/JodaOrg/joda-time)|joda-time|joda-time|2.10.10|时间处理库|  
@@ -83,9 +84,9 @@
 
 |[Epoxy](https://github.com/airbnb/epoxy)|com.airbnb.android|RecyclerView适配库|  
 |:-:|:-:|:-:|  
-|Compiler|epoxy-processor|4.4.4|  
-|Core|epoxy|4.4.4|  
-|Glide|epoxy-glide-preloading|4.4.4|  
+|Compiler|epoxy-processor|4.5.0|  
+|Core|epoxy|4.5.0|  
+|Glide|epoxy-glide-preloading|4.5.0|  
 
 |[Fragment](https://developer.android.com/jetpack/androidx/releases/fragment)|androidx.fragment||  
 |:-:|:-:|:-:|  

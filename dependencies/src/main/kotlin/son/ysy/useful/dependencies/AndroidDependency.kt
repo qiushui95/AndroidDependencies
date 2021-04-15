@@ -55,6 +55,12 @@ abstract class AndroidDependency private constructor(
         object ColorKtx : AndroidDependency("me.jorgecastillo", "androidcolorx", "0.2.0")
 
         /**
+         * 图片加载
+         * https://github.com/coil-kt/coil
+         */
+        object Coil : AndroidDependency("io.coil-kt", "coil", "1.2.0")
+
+        /**
          * 时间选择器
          * https://github.com/loperSeven/DateTimePicker
          */
@@ -357,7 +363,7 @@ abstract class AndroidDependency private constructor(
      */
     sealed class Epoxy(
       module: String
-    ) : AndroidDependency("com.airbnb.android", module, "4.4.4") {
+    ) : AndroidDependency("com.airbnb.android", module, "4.5.0") {
         object Compiler : Epoxy("epoxy-processor")
 
         object Core : Epoxy("epoxy")
