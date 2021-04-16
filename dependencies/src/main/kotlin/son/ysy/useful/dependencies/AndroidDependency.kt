@@ -38,6 +38,12 @@ abstract class AndroidDependency private constructor(
         object AndroidUtil : AndroidDependency("com.blankj", "utilcodex", "1.30.6")
 
         /**
+         * 阿里推送
+         * https://help.aliyun.com/document_detail/190009.html?spm=a2c4g.11174283.3.2.52eb6d163QVxjG
+         */
+        object AliPush : AndroidDependency("com.aliyun.ams", "alicloud-android-push", "3.3.0")
+
+        /**
          * https://developer.android.com/jetpack/androidx/releases/appcompat
          */
         object Appcompat : AndroidDependency("androidx.appcompat", "appcompat", "1.3.0-rc01")
@@ -123,7 +129,7 @@ abstract class AndroidDependency private constructor(
          */
         object WeChat : AndroidDependency(
           "com.tencent.mm.opensdk",
-          "wechat-sdk-android-without-mta", "6.6.5"
+          "wechat-sdk-android-without-mta", "6.6.23"
         )
 
         /**
@@ -202,7 +208,7 @@ abstract class AndroidDependency private constructor(
          */
         object Material : AndroidDependency(
           "com.google.android.material", "material",
-          "1.4.0-alpha01"
+          "1.4.0-alpha02"
         )
 
         /**

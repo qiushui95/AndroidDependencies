@@ -1,5 +1,5 @@
 {
-  "version": "1.3.6",
+  "version": "1.3.7",
   "single": [
     {
       "name": "Activity",
@@ -31,6 +31,14 @@
       "group": "com.blankj",
       "module": "utilcodex",
       "remark": "多功能工具包"
+    },
+    {
+      "name": "AliPush",
+      "version": "3.3.0",
+      "link": "https://help.aliyun.com/document_detail/190009.html?spm=a2c4g.11174283.3.2.52eb6d163QVxjG",
+      "group": "com.aliyun.ams",
+      "module": "alicloud-android-push",
+      "remark": "阿里推送"
     },
     {
       "name": "Appcompat",
@@ -129,7 +137,7 @@
     },
     {
       "name": "WeChat",
-      "version": "6.6.5",
+      "version": "6.6.23",
       "link": "https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Resource_Center_Homepage.html",
       "group": "com.tencent.mm.opensdk",
       "module": "wechat-sdk-android-without-mta",
@@ -747,7 +755,7 @@
     },
     {
       "name": "Material",
-      "version": "1.4.0-alpha01",
+      "version": "1.4.0-alpha02",
       "link": "https://github.com/material-components/material-components-android",
       "group": "com.google.android.material",
       "module": "material"

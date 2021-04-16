@@ -5,6 +5,7 @@
 |[Alerter](https://github.com/Tapadoo/Alerter)|com.tapadoo.android|alerter|7.0.1|Alerter弹窗|  
 |[Anchors](https://github.com/YummyLau/Anchors/blob/master/README-zh.md)|com.effective.android|anchors|1.1.3|app启动初始化管理|  
 |[AndroidUtil](https://github.com/Blankj/AndroidUtilCode)|com.blankj|utilcodex|1.30.6|多功能工具包|  
+|[AliPush](https://help.aliyun.com/document_detail/190009.html?spm=a2c4g.11174283.3.2.52eb6d163QVxjG)|com.aliyun.ams|alicloud-android-push|3.3.0|阿里推送|  
 |[Appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat)|androidx.appcompat|appcompat|1.3.0-rc01||  
 |[Background](https://github.com/JavaNoober/BackgroundLibrary)|com.noober.background|core|1.6.5|背景生成工具库|  
 |[ColorKtx](https://github.com/JorgeCastilloPrz/AndroidColorX)|me.jorgecastillo|androidcolorx|0.2.0|颜色帮助库|  
@@ -17,7 +18,7 @@
 |[QrScanner](https://github.com/jenly1314/ZXingLite)|com.king.zxing|zxing-lite|2.0.3|二维码扫描|  
 |[Store](https://github.com/dropbox/Store)|com.dropbox.mobile.store|store4|4.0.0|多数据源|  
 |[UnPeekLiveData](https://github.com/KunMinX/UnPeek-LiveData)|com.kunminx.archi|unpeek-livedata|4.5.0-beta1|自动消失LiveData|  
-|[WeChat](https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Resource_Center_Homepage.html)|com.tencent.mm.opensdk|wechat-sdk-android-without-mta|6.6.5|微信开发Sdk|  
+|[WeChat](https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Resource_Center_Homepage.html)|com.tencent.mm.opensdk|wechat-sdk-android-without-mta|6.6.23|微信开发Sdk|  
 |[XCrash](https://github.com/iqiyi/xCrash/blob/master/README.zh-CN.md)|com.iqiyi.xcrash|xcrash-android-lib|3.0.0|奔溃日志收集|  
 
 |name|group|module|version|remark|  
@@ -31,7 +32,7 @@
 |[FormatterEdit](https://github.com/dkzwm/FormatEditText)|me.dkzwm.widget.fet|core|0.2.0|输入格式化控件|  
 |[LottieView](https://github.com/airbnb/lottie-android)|com.airbnb.android|lottie|3.7.0|动画框架|  
 |[MarqueeView](https://github.com/sunfusheng/MarqueeView)|com.sunfusheng|MarqueeView|1.4.1|跑马灯控件|  
-|[Material](https://github.com/material-components/material-components-android)|com.google.android.material|material|1.4.0-alpha01||  
+|[Material](https://github.com/material-components/material-components-android)|com.google.android.material|material|1.4.0-alpha02||  
 |[PinView](https://github.com/ChaosLeung/PinView)|io.github.chaosleung|pinview|1.4.4|密码输入框|  
 |[RecyclerView](https://developer.android.com/jetpack/androidx/releases/recyclerview)|androidx.recyclerview|recyclerview|1.2.0||  
 |[ShadowLayout](https://github.com/lihangleo2/ShadowLayout)|com.github.lihangleo2|ShadowLayout|3.2.0|阴影控件|  

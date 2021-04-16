@@ -36,5 +36,5 @@ sealed class BuildVersion<T>(var value: T) {
     /**
      * ndk版本
      */
-    object Ndk:BuildVersion<String>("22.0.7026061")
+    object Ndk:BuildVersion<String>("22.1.7171670")
 }
