@@ -382,7 +382,7 @@ abstract class AndroidDependency private constructor(
      */
     sealed class Fragment(
       module: String
-    ) : AndroidDependency("androidx.fragment", module, "1.3.2") {
+    ) : AndroidDependency("androidx.fragment", module, "1.3.3") {
         object Core : Fragment("fragment")
 
         object Test : Fragment("fragment-testing")
@@ -583,7 +583,7 @@ abstract class AndroidDependency private constructor(
      */
     sealed class Room(
       module: String
-    ) : AndroidDependency("androidx.room", module, "2.3.0-rc01") {
+    ) : AndroidDependency("androidx.room", module, "2.3.0") {
         object Compiler : Room("room-compiler")
 
         object Core : Room("room-runtime")

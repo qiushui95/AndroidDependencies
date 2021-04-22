@@ -91,8 +91,8 @@
 
 |[Fragment](https://developer.android.com/jetpack/androidx/releases/fragment)|androidx.fragment||  
 |:-:|:-:|:-:|  
-|Core|fragment|1.3.2|  
-|Test|fragment-testing|1.3.2|  
+|Core|fragment|1.3.3|  
+|Test|fragment-testing|1.3.3|  
 
 |[FlowBinding](https://github.com/ReactiveCircus/FlowBinding)|io.github.reactivecircus.flowbinding||  
 |:-:|:-:|:-:|  
@@ -176,10 +176,10 @@
 
 |[Room](https://developer.android.com/jetpack/androidx/releases/room)|androidx.room|Sqlite数据库|  
 |:-:|:-:|:-:|  
-|Compiler|room-compiler|2.3.0-rc01|  
-|Core|room-runtime|2.3.0-rc01|  
-|Ktx|room-ktx|2.3.0-rc01|  
-|Test|room-testing|2.3.0-rc01|  
+|Compiler|room-compiler|2.3.0|  
+|Core|room-runtime|2.3.0|  
+|Ktx|room-ktx|2.3.0|  
+|Test|room-testing|2.3.0|  
 
 |[WorkManager](https://developer.android.com/jetpack/androidx/releases/work)|androidx.work|任务管理器|  
 |:-:|:-:|:-:|  
