@@ -23,7 +23,7 @@
 
 |name|group|module|version|remark|  
 |:-:|:-:|:-:|:-:|:-:|  
-|[AgentWeb](https://github.com/Justson/AgentWeb)|com.just.agentweb|agentweb|4.1.4|浏览器|  
+|[AgentWeb](https://github.com/Justson/AgentWeb)|com.just.agentweb|agentweb|4.1.5|浏览器|  
 |[BannerView](https://github.com/xiaohaibin/XBanner/tree/androidX)|com.github.xiaohaibin|XBanner|androidx_v1.1.3|轮播控件|  
 |[BlurView](https://github.com/Dimezis/BlurView)|com.eightbitlab|blurview|1.6.6|高斯模糊|  
 |[BottomNavigation](https://github.com/Ashok-Varma/BottomNavigation)|com.ashokvarma.android|bottom-navigation-bar|2.2.0|底部导航|  

@@ -144,7 +144,7 @@ abstract class AndroidDependency private constructor(
          * 浏览器
          * https://github.com/Justson/AgentWeb
          */
-        object AgentWeb : AndroidDependency("com.just.agentweb", "agentweb", "4.1.4")
+        object AgentWeb : AndroidDependency("com.just.agentweb", "agentweb", "4.1.5")
 
         /**
          * 轮播控件
