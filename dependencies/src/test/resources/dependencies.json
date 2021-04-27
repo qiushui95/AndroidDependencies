@@ -1,5 +1,5 @@
 {
-  "version": "1.3.9",
+  "version": "1.4.0",
   "single": [
     {
       "name": "Activity",
@@ -128,6 +128,14 @@
       "remark": "多数据源"
     },
     {
+      "name": "SoLoader",
+      "version": "0.10.1",
+      "link": "https://github.com/facebook/soloader",
+      "group": "com.facebook.soloader",
+      "module": "soloader",
+      "remark": "so加载库"
+    },
+    {
       "name": "UnPeekLiveData",
       "version": "4.5.0-beta1",
       "link": "https://github.com/KunMinX/UnPeek-LiveData",
@@ -238,7 +246,7 @@
     },
     {
       "name": "Coroutines",
-      "version": "1.4.3",
+      "version": "1.5.0-RC",
       "link": "https://github.com/Kotlin/kotlinx.coroutines",
       "group": "org.jetbrains.kotlinx",
       "remark": "协程",
@@ -543,6 +551,46 @@
       ]
     },
     {
+      "name": "Litho",
+      "version": "0.40.0",
+      "link": "https://fblitho.com/docs/getting-started/",
+      "group": "com.facebook.litho",
+      "modules": [
+        {
+          "name": "Core",
+          "module": "litho-core-kotlin"
+        },
+        {
+          "name": "Widget",
+          "module": "litho-widget-kotlin"
+        },
+        {
+          "name": "Fresco",
+          "module": "litho-fresco-kotlin"
+        },
+        {
+          "name": "Test",
+          "module": "litho:litho-testing"
+        },
+        {
+          "name": "CoreSelection",
+          "module": "litho-sections-core"
+        },
+        {
+          "name": "WidgetSelection",
+          "module": "litho-sections-widget"
+        },
+        {
+          "name": "AnnotationsSelection",
+          "module": "litho-sections-annotations"
+        },
+        {
+          "name": "CompilerSelection",
+          "module": "litho-sections-processor"
+        }
+      ]
+    },
+    {
       "name": "MoShi",
       "version": "1.12.0",
       "link": "https://github.com/square/moshi",
@@ -606,7 +654,7 @@
     },
     {
       "name": "Paris",
-      "version": "1.7.2",
+      "version": "1.7.3",
       "link": "https://github.com/airbnb/paris",
       "group": "com.airbnb.android",
       "modules": [
@@ -683,10 +731,10 @@
   "view": [
     {
       "name": "AgentWeb",
-      "version": "4.1.5",
+      "version": "v4.1.9-androidx",
       "link": "https://github.com/Justson/AgentWeb",
-      "group": "com.just.agentweb",
-      "module": "agentweb",
+      "group": "com.github.Justson.AgentWeb",
+      "module": "agentweb-core",
       "remark": "浏览器"
     },
     {

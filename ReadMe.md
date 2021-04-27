@@ -17,13 +17,14 @@
 |[Mmkv](https://github.com/Tencent/MMKV/blob/master/README_CN.md)|com.tencent|mmkv-static|1.2.7|持久KV数据存储|  
 |[QrScanner](https://github.com/jenly1314/ZXingLite)|com.king.zxing|zxing-lite|2.0.3|二维码扫描|  
 |[Store](https://github.com/dropbox/Store)|com.dropbox.mobile.store|store4|4.0.0|多数据源|  
+|[SoLoader](https://github.com/facebook/soloader)|com.facebook.soloader|soloader|0.10.1|so加载库|  
 |[UnPeekLiveData](https://github.com/KunMinX/UnPeek-LiveData)|com.kunminx.archi|unpeek-livedata|4.5.0-beta1|自动消失LiveData|  
 |[WeChat](https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Resource_Center_Homepage.html)|com.tencent.mm.opensdk|wechat-sdk-android-without-mta|6.6.23|微信开发Sdk|  
 |[XCrash](https://github.com/iqiyi/xCrash/blob/master/README.zh-CN.md)|com.iqiyi.xcrash|xcrash-android-lib|3.0.0|奔溃日志收集|  
 
 |name|group|module|version|remark|  
 |:-:|:-:|:-:|:-:|:-:|  
-|[AgentWeb](https://github.com/Justson/AgentWeb)|com.just.agentweb|agentweb|4.1.5|浏览器|  
+|[AgentWeb](https://github.com/Justson/AgentWeb)|com.github.Justson.AgentWeb|agentweb-core|v4.1.9-androidx|浏览器|  
 |[BannerView](https://github.com/xiaohaibin/XBanner/tree/androidX)|com.github.xiaohaibin|XBanner|androidx_v1.1.3|轮播控件|  
 |[BlurView](https://github.com/Dimezis/BlurView)|com.eightbitlab|blurview|1.6.6|高斯模糊|  
 |[BottomNavigation](https://github.com/Ashok-Varma/BottomNavigation)|com.ashokvarma.android|bottom-navigation-bar|2.2.0|底部导航|  
@@ -65,8 +66,8 @@
 
 |[Coroutines](https://github.com/Kotlin/kotlinx.coroutines)|org.jetbrains.kotlinx|协程|  
 |:-:|:-:|:-:|  
-|Core|kotlinx-coroutines-android|1.4.3|  
-|Test|kotlinx-coroutines-test|1.4.3|  
+|Core|kotlinx-coroutines-android|1.5.0-RC|  
+|Test|kotlinx-coroutines-test|1.5.0-RC|  
 
 |[DialogX](https://github.com/kongzue/DialogX)|com.kongzue.dialogx|常用弹窗|  
 |:-:|:-:|:-:|  
@@ -146,6 +147,17 @@
 |Service|lifecycle-service|2.3.1|  
 |ViewModel|lifecycle-viewmodel-ktx|2.3.1|  
 
+|[Litho](https://fblitho.com/docs/getting-started/)|com.facebook.litho||  
+|:-:|:-:|:-:|  
+|Core|litho-core-kotlin|0.40.0|  
+|Widget|litho-widget-kotlin|0.40.0|  
+|Fresco|litho-fresco-kotlin|0.40.0|  
+|Test|litho:litho-testing|0.40.0|  
+|CoreSelection|litho-sections-core|0.40.0|  
+|WidgetSelection|litho-sections-widget|0.40.0|  
+|AnnotationsSelection|litho-sections-annotations|0.40.0|  
+|CompilerSelection|litho-sections-processor|0.40.0|  
+
 |[MoShi](https://github.com/square/moshi)|com.squareup.moshi|json解析库|  
 |:-:|:-:|:-:|  
 |Compiler|moshi-kotlin-codegen|1.12.0|  
@@ -166,8 +178,8 @@
 
 |[Paris](https://github.com/airbnb/paris)|com.airbnb.android||  
 |:-:|:-:|:-:|  
-|Compiler|paris-processor|1.7.2|  
-|Core|paris|1.7.2|  
+|Compiler|paris-processor|1.7.3|  
+|Core|paris|1.7.3|  
 
 |[Retrofit](https://github.com/square/retrofit)|com.squareup.retrofit2|网络请求|  
 |:-:|:-:|:-:|  
