@@ -135,8 +135,8 @@
 
 |[Kotlin](https://github.com/JetBrains/kotlin)|org.jetbrains.kotlin||  
 |:-:|:-:|:-:|  
-|Reflect|kotlin-reflect|1.4.32|  
-|Stdlib|kotlin-stdlib|1.4.32|  
+|Reflect|kotlin-reflect|1.5.0|  
+|Stdlib|kotlin-stdlib|1.5.0|  
 
 |[Lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)|androidx.lifecycle||  
 |:-:|:-:|:-:|  

@@ -1,5 +1,5 @@
 {
-  "version": "1.4.1",
+  "version": "1.4.2",
   "single": [
     {
       "name": "Activity",
@@ -508,7 +508,7 @@
     },
     {
       "name": "Kotlin",
-      "version": "1.4.32",
+      "version": "1.5.0",
       "link": "https://github.com/JetBrains/kotlin",
       "group": "org.jetbrains.kotlin",
       "modules": [

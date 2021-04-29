@@ -507,7 +507,7 @@ abstract class AndroidDependency private constructor(
      */
     sealed class Kotlin(
         module: String
-    ) : AndroidDependency("org.jetbrains.kotlin", module, "1.4.32") {
+    ) : AndroidDependency("org.jetbrains.kotlin", module, "1.5.0") {
         object Reflect : Kotlin("kotlin-reflect")
 
         object Stdlib : Kotlin("kotlin-stdlib")
