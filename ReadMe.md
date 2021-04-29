@@ -3,7 +3,7 @@
 |:-:|:-:|:-:|:-:|:-:|  
 |[Activity](https://developer.android.com/jetpack/androidx/releases/activity)|androidx.activity|activity-ktx|1.2.2||  
 |[Alerter](https://github.com/Tapadoo/Alerter)|com.tapadoo.android|alerter|7.0.1|Alerter弹窗|  
-|[Anchors](https://github.com/YummyLau/Anchors/blob/master/README-zh.md)|com.effective.android|anchors|1.1.3|app启动初始化管理|  
+|[Anchors](https://github.com/YummyLau/Anchors/blob/master/README-zh.md)|com.github.YummyLau|Anchors|1.1.4|app启动初始化管理|  
 |[AndroidUtil](https://github.com/Blankj/AndroidUtilCode)|com.blankj|utilcodex|1.30.6|多功能工具包|  
 |[AliPush](https://help.aliyun.com/document_detail/190009.html?spm=a2c4g.11174283.3.2.52eb6d163QVxjG)|com.aliyun.ams|alicloud-android-push|3.3.0|阿里推送|  
 |[Appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat)|androidx.appcompat|appcompat|1.3.0-rc01||  
@@ -15,6 +15,7 @@
 |[JodaTime](https://github.com/JodaOrg/joda-time)|joda-time|joda-time|2.10.10|时间处理库|  
 |[LeakCanary](https://square.github.io/leakcanary/getting_started/)|com.squareup.leakcanary|leakcanary-android|2.7|内存泄露监控|  
 |[Mmkv](https://github.com/Tencent/MMKV/blob/master/README_CN.md)|com.tencent|mmkv-static|1.2.7|持久KV数据存储|  
+|[PermissionX](https://github.com/guolindev/PermissionX)|com.permissionx.guolindev|permissionx|1.4.0|权限请求|  
 |[QrScanner](https://github.com/jenly1314/ZXingLite)|com.king.zxing|zxing-lite|2.0.3|二维码扫描|  
 |[Store](https://github.com/dropbox/Store)|com.dropbox.mobile.store|store4|4.0.0|多数据源|  
 |[SoLoader](https://github.com/facebook/soloader)|com.facebook.soloader|soloader|0.10.1|so加载库|  
@@ -43,7 +44,7 @@
 
 |[BasePopup](https://github.com/razerdp/BasePopup)|com.github.razerdp|弹窗|  
 |:-:|:-:|:-:|  
-|Stable|BasePopup|2.2.20|  
+|Stable|BasePopup|2.2.30|  
 |Candy|BasePopup_Candy|2.2.30.0324|  
 
 |[Chucker](https://github.com/ChuckerTeam/chucker)|com.github.chuckerteam.chucker|网络请求监控|  

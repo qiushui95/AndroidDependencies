@@ -32,7 +32,7 @@ abstract class AndroidDependency private constructor(
          * app启动初始化管理
          * https://github.com/YummyLau/Anchors/blob/master/README-zh.md
          */
-        object Anchors : AndroidDependency("com.effective.android", "anchors", "1.1.3")
+        object Anchors : AndroidDependency("com.github.YummyLau", "Anchors", "1.1.4")
 
         /**
          * 多功能工具包
@@ -104,6 +104,15 @@ abstract class AndroidDependency private constructor(
          * https://github.com/Tencent/MMKV/blob/master/README_CN.md
          */
         object Mmkv : AndroidDependency("com.tencent", "mmkv-static", "1.2.7")
+
+        /**
+         * 权限请求
+         * https://github.com/guolindev/PermissionX
+         */
+        object PermissionX : AndroidDependency(
+            "com.permissionx.guolindev", "permissionx",
+            "1.4.0"
+        )
 
         /**
          * 二维码扫描
@@ -272,7 +281,7 @@ abstract class AndroidDependency private constructor(
         module: String,
         version: String
     ) : AndroidDependency("com.github.razerdp", module, version) {
-        object Stable : BasePopup("BasePopup", "2.2.20")
+        object Stable : BasePopup("BasePopup", "2.2.30")
 
         object Candy : BasePopup("BasePopup_Candy", "2.2.30.0324")
     }
