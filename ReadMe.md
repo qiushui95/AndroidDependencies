@@ -1,7 +1,7 @@
 # 三方依赖库版本管理[![](https://jitpack.io/v/qiushui95/AndroidDependencies.svg)](https://jitpack.io/#qiushui95/AndroidDependencies)  
 |name|group|module|version|remark|  
 |:-:|:-:|:-:|:-:|:-:|  
-|[Activity](https://developer.android.com/jetpack/androidx/releases/activity)|androidx.activity|activity-ktx|1.2.2||  
+|[Activity](https://developer.android.com/jetpack/androidx/releases/activity)|androidx.activity|activity-ktx|1.2.3||  
 |[Alerter](https://github.com/Tapadoo/Alerter)|com.tapadoo.android|alerter|7.0.1|Alerter弹窗|  
 |[Anchors](https://github.com/YummyLau/Anchors/blob/master/README-zh.md)|com.github.YummyLau|Anchors|1.1.4|app启动初始化管理|  
 |[AndroidUtil](https://github.com/Blankj/AndroidUtilCode)|com.blankj|utilcodex|1.30.6|多功能工具包|  
@@ -44,7 +44,7 @@
 
 |[BasePopup](https://github.com/razerdp/BasePopup)|com.github.razerdp|弹窗|  
 |:-:|:-:|:-:|  
-|Stable|BasePopup|2.2.30|  
+|Stable|BasePopup|2.3.0|  
 |Candy|BasePopup_Candy|2.2.30.0324|  
 
 |[Chucker](https://github.com/ChuckerTeam/chucker)|com.github.chuckerteam.chucker|网络请求监控|  
@@ -60,7 +60,7 @@
 
 |[Core](https://developer.android.com/jetpack/androidx/releases/core)|androidx.core|core|  
 |:-:|:-:|:-:|  
-|Ktx|core-ktx|1.5.0-rc01|  
+|Ktx|core-ktx|1.5.0-rc02|  
 |Role|core-role|1.0.0|  
 |Animation|core-animation|1.0.0-alpha02|  
 |AnimationTest|core-animation-testing|1.0.0-alpha02|  

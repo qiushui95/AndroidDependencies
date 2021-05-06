@@ -1,9 +1,9 @@
 {
-  "version": "1.4.2",
+  "version": "1.4.3",
   "single": [
     {
       "name": "Activity",
-      "version": "1.2.2",
+      "version": "1.2.3",
       "link": "https://developer.android.com/jetpack/androidx/releases/activity",
       "group": "androidx.activity",
       "module": "activity-ktx"
@@ -171,7 +171,7 @@
   "group": [
     {
       "name": "BasePopup",
-      "version": "2.2.30",
+      "version": "2.3.0",
       "link": "https://github.com/razerdp/BasePopup",
       "group": "com.github.razerdp",
       "remark": "弹窗",
@@ -235,7 +235,7 @@
         {
           "name": "Ktx",
           "module": "core-ktx",
-          "version": "1.5.0-rc01"
+          "version": "1.5.0-rc02"
         },
         {
           "name": "Role",

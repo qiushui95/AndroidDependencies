@@ -20,7 +20,7 @@ abstract class AndroidDependency private constructor(
         /**
          * https://developer.android.com/jetpack/androidx/releases/activity
          */
-        object Activity : AndroidDependency("androidx.activity", "activity-ktx", "1.2.2")
+        object Activity : AndroidDependency("androidx.activity", "activity-ktx", "1.2.3")
 
         /**
          * Alerter弹窗
@@ -281,7 +281,7 @@ abstract class AndroidDependency private constructor(
         module: String,
         version: String
     ) : AndroidDependency("com.github.razerdp", module, version) {
-        object Stable : BasePopup("BasePopup", "2.2.30")
+        object Stable : BasePopup("BasePopup", "2.3.0")
 
         object Candy : BasePopup("BasePopup_Candy", "2.2.30.0324")
     }
@@ -320,7 +320,7 @@ abstract class AndroidDependency private constructor(
         module: String,
         version: String
     ) : AndroidDependency("androidx.core", module, version) {
-        object Ktx : Core("core-ktx", "1.5.0-rc01")
+        object Ktx : Core("core-ktx", "1.5.0-rc02")
 
         object Role : Core("core-role", "1.0.0")
 
