@@ -44,7 +44,8 @@ abstract class AndroidDependency private constructor(
          * 阿里推送
          * https://help.aliyun.com/document_detail/190009.html?spm=a2c4g.11174283.3.2.52eb6d163QVxjG
          */
-        object AliPush : AndroidDependency("com.aliyun.ams", "alicloud-android-push", "3.3.0")
+        object AliPush :
+            AndroidDependency("com.aliyun.ams", "alicloud-android-push", "3.3.0")
 
         /**
          * https://developer.android.com/jetpack/androidx/releases/appcompat
@@ -201,6 +202,13 @@ abstract class AndroidDependency private constructor(
         )
 
         /**
+         * 圆角控件
+         * https://github.com/KuangGang/RoundCorners
+         */
+        object CornerView :
+            AndroidDependency("com.github.KuangGang", "RoundCorners", "1.1.0")
+
+        /**
          * 流式布局
          * https://github.com/google/flexbox-layout
          */
@@ -241,13 +249,15 @@ abstract class AndroidDependency private constructor(
         /**
          * https://developer.android.com/jetpack/androidx/releases/recyclerview
          */
-        object RecyclerView : AndroidDependency("androidx.recyclerview", "recyclerview", "1.2.0")
+        object RecyclerView :
+            AndroidDependency("androidx.recyclerview", "recyclerview", "1.2.0")
 
         /**
          * 阴影控件
          * https://github.com/lihangleo2/ShadowLayout
          */
-        object ShadowLayout : AndroidDependency("com.github.lihangleo2", "ShadowLayout", "3.2.0")
+        object ShadowLayout :
+            AndroidDependency("com.github.lihangleo2", "ShadowLayout", "3.2.0")
 
         /**
          * 下拉刷新控件
@@ -262,7 +272,8 @@ abstract class AndroidDependency private constructor(
          * 开关按钮
          * https://github.com/kyleduo/SwitchButton
          */
-        object SwitchButton : AndroidDependency("com.kyleduo.switchbutton", "library", "2.0.3")
+        object SwitchButton :
+            AndroidDependency("com.kyleduo.switchbutton", "library", "2.0.3")
 
         /**
          * https://developer.android.com/jetpack/androidx/releases/viewpager2
@@ -654,7 +665,8 @@ abstract class AndroidDependency private constructor(
          * UI自动化测试
          * https://mvnrepository.com/artifact/androidx.test.espresso/espresso-core
          */
-        object Espresso : AndroidDependency("androidx.test.espresso", "espresso-core", "3.3.0")
+        object Espresso :
+            AndroidDependency("androidx.test.espresso", "espresso-core", "3.3.0")
 
         /**
          * 单元测试

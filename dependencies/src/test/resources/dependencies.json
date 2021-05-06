@@ -1,5 +1,5 @@
 {
-  "version": "1.4.3",
+  "version": "1.4.4",
   "single": [
     {
       "name": "Activity",
@@ -776,6 +776,14 @@
       "group": "androidx.constraintlayout",
       "module": "constraintlayout",
       "remark": "约束布局"
+    },
+    {
+      "name": "CornerView",
+      "version": "1.1.0",
+      "link": "https://github.com/KuangGang/RoundCorners",
+      "group": "com.github.KuangGang",
+      "module": "RoundCorners",
+      "remark": "圆角控件"
     },
     {
       "name": "FlexBox",

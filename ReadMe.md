@@ -30,6 +30,7 @@
 |[BlurView](https://github.com/Dimezis/BlurView)|com.eightbitlab|blurview|1.6.6|高斯模糊|  
 |[BottomNavigation](https://github.com/Ashok-Varma/BottomNavigation)|com.ashokvarma.android|bottom-navigation-bar|2.2.0|底部导航|  
 |[ConstraintLayout](https://developer.android.com/jetpack/androidx/releases/constraintlayout)|androidx.constraintlayout|constraintlayout|2.0.4|约束布局|  
+|[CornerView](https://github.com/KuangGang/RoundCorners)|com.github.KuangGang|RoundCorners|1.1.0|圆角控件|  
 |[FlexBox](https://github.com/google/flexbox-layout)|com.google.android|flexbox|2.0.1|流式布局|  
 |[FormatterEdit](https://github.com/dkzwm/FormatEditText)|me.dkzwm.widget.fet|core|0.2.0|输入格式化控件|  
 |[LottieView](https://github.com/airbnb/lottie-android)|com.airbnb.android|lottie|3.7.0|动画框架|  
