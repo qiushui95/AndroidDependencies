@@ -286,7 +286,7 @@ abstract class AndroidDependency private constructor(
     sealed class BasePopup(
         module: String,
         version: String
-    ) : AndroidDependency("com.github.razerdp", module, version) {
+    ) : AndroidDependency("io.github.razerdp", module, version) {
         object Stable : BasePopup("BasePopup", "2.3.0")
 
         object Candy : BasePopup("BasePopup_Candy", "2.2.30.0324")

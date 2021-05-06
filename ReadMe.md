@@ -43,7 +43,7 @@
 |[SwitchButton](https://github.com/kyleduo/SwitchButton)|com.kyleduo.switchbutton|library|2.0.3|开关按钮|  
 |[ViewPager2](https://developer.android.com/jetpack/androidx/releases/viewpager2)|androidx.viewpager2|viewpager2|1.1.0-alpha01||  
 
-|[BasePopup](https://github.com/razerdp/BasePopup)|com.github.razerdp|弹窗|  
+|[BasePopup](https://github.com/razerdp/BasePopup)|io.github.razerdp|弹窗|  
 |:-:|:-:|:-:|  
 |Stable|BasePopup|2.3.0|  
 |Candy|BasePopup_Candy|2.2.30.0324|  
