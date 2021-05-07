@@ -14,10 +14,10 @@
 |[ImagePicker](https://github.com/yangpeixing/YImagePicker)|com.ypx.yimagepicker|androidx|3.1.4|多媒体选择库|  
 |[JodaTime](https://github.com/JodaOrg/joda-time)|joda-time|joda-time|2.10.10|时间处理库|  
 |[LeakCanary](https://square.github.io/leakcanary/getting_started/)|com.squareup.leakcanary|leakcanary-android|2.7|内存泄露监控|  
-|[Mmkv](https://github.com/Tencent/MMKV/blob/master/README_CN.md)|com.tencent|mmkv-static|1.2.7|持久KV数据存储|  
+|[Mmkv](https://github.com/Tencent/MMKV/blob/master/README_CN.md)|com.tencent|mmkv-static|1.2.8|持久KV数据存储|  
 |[PermissionX](https://github.com/guolindev/PermissionX)|com.permissionx.guolindev|permissionx|1.4.0|权限请求|  
 |[QrScanner](https://github.com/jenly1314/ZXingLite)|com.king.zxing|zxing-lite|2.0.3|二维码扫描|  
-|[Store](https://github.com/dropbox/Store)|com.dropbox.mobile.store|store4|4.0.0|多数据源|  
+|[Store](https://github.com/dropbox/Store)|com.dropbox.mobile.store|store4|4.0.1|多数据源|  
 |[SoLoader](https://github.com/facebook/soloader)|com.facebook.soloader|soloader|0.10.1|so加载库|  
 |[UnPeekLiveData](https://github.com/KunMinX/UnPeek-LiveData)|com.kunminx.archi|unpeek-livedata|4.5.0-beta1|自动消失LiveData|  
 |[WeChat](https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Resource_Center_Homepage.html)|com.tencent.mm.opensdk|wechat-sdk-android-without-mta|6.6.23|微信开发Sdk|  
@@ -71,9 +71,9 @@
 |Core|kotlinx-coroutines-android|1.5.0-RC|  
 |Test|kotlinx-coroutines-test|1.5.0-RC|  
 
-|[DialogX](https://github.com/kongzue/DialogX)|com.kongzue.dialogx|常用弹窗|  
+|[DialogX](https://github.com/kongzue/DialogX)|com.github.kongzue.DialogX|常用弹窗|  
 |:-:|:-:|:-:|  
-|Core|DialogX|0.0.36|  
+|Core|DialogX|0.0.37|  
 |IosStyle|com.kongzue.dialogx.style.ios:DialogXIOSStyle:null|null|  
 |KongzueStyle|com.kongzue.dialogx.style.kongzue:DialogXKongzueStyle:null|null|  
 |MiuiStyle|com.kongzue.dialogx.style.miui:DialogXMIUIStyle:null|null|  

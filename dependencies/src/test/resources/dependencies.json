@@ -1,5 +1,5 @@
 {
-  "version": "1.4.4",
+  "version": "1.4.5",
   "single": [
     {
       "name": "Activity",
@@ -105,7 +105,7 @@
     },
     {
       "name": "Mmkv",
-      "version": "1.2.7",
+      "version": "1.2.8",
       "link": "https://github.com/Tencent/MMKV/blob/master/README_CN.md",
       "group": "com.tencent",
       "module": "mmkv-static",
@@ -129,7 +129,7 @@
     },
     {
       "name": "Store",
-      "version": "4.0.0",
+      "version": "4.0.1",
       "link": "https://github.com/dropbox/Store",
       "group": "com.dropbox.mobile.store",
       "module": "store4",
@@ -271,9 +271,9 @@
     },
     {
       "name": "DialogX",
-      "version": "0.0.36",
+      "version": "0.0.37",
       "link": "https://github.com/kongzue/DialogX",
-      "group": "com.kongzue.dialogx",
+      "group": "com.github.kongzue.DialogX",
       "remark": "常用弹窗",
       "modules": [
         {
