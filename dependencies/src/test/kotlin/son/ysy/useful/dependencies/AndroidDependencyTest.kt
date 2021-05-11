@@ -81,6 +81,8 @@ class AndroidDependencyTest : TestCase() {
         createDependencyKt()
 
         createMd()
+
+        createCheckModuleGradle()
     }
 
     private fun createDependencyKt() {
@@ -357,7 +359,7 @@ class AndroidDependencyTest : TestCase() {
         list.createMdTitle()
 
         container.single.forEach {
-            list.createMdSingle(null,it)
+            list.createMdSingle(null, it)
         }
 
         list.createMdNextLine()
@@ -365,7 +367,7 @@ class AndroidDependencyTest : TestCase() {
 
         list.createMdTitle()
         container.view.forEach {
-            list.createMdSingle(null,it)
+            list.createMdSingle(null, it)
         }
 
         list.createMdNextLine()
@@ -373,7 +375,7 @@ class AndroidDependencyTest : TestCase() {
 
         list.createMdTitle()
         container.test.forEach {
-            list.createMdSingle(null,it)
+            list.createMdSingle(null, it)
         }
 
         container.group.forEach { group ->
@@ -383,7 +385,7 @@ class AndroidDependencyTest : TestCase() {
             list.createMdGroupTitle(group)
 
             group.modules?.forEach {
-                list.createMdSingle(group,it)
+                list.createMdSingle(group, it)
             }
         }
 
@@ -403,18 +405,21 @@ class AndroidDependencyTest : TestCase() {
     private fun MutableList<String>.createMdGroupTitle(config: DependencyConfig) {
         val remark = config.remark ?: ""
         if (config.link == null) {
-            add("|${config.title}| | | |$remark||  ")
+            add("|${config.title}| | | ||$remark|  ")
         } else {
-            add("|[${config.title}](${config.link})| | | |$remark||  ")
+            add("|[${config.title}](${config.link})| | | |::|$remark|  ")
         }
         add("|:-:|:-:|:-:|:-:|:-:|:-:|  ")
         add("|title|group|name|version|remark|gradle dsl|  ")
     }
 
-    private fun MutableList<String>.createMdSingle(groupConfig: DependencyConfig?,config: DependencyConfig) {
+    private fun MutableList<String>.createMdSingle(
+        groupConfig: DependencyConfig?,
+        config: DependencyConfig
+    ) {
         val title = config.title
 
-        val group = config.group?:groupConfig?.group ?: throw IllegalArgumentMissException(
+        val group = config.group ?: groupConfig?.group ?: throw IllegalArgumentMissException(
             config,
             DependencyProperties.KEY_GROUP
         )
@@ -424,7 +429,7 @@ class AndroidDependencyTest : TestCase() {
             DependencyProperties.KEY_NAME
         )
 
-        val version = config.version ?:groupConfig?.version?: throw IllegalArgumentMissException(
+        val version = config.version ?: groupConfig?.version ?: throw IllegalArgumentMissException(
             config,
             DependencyProperties.KEY_VERSION
         )
@@ -446,182 +451,94 @@ class AndroidDependencyTest : TestCase() {
             add("|[$title]($link)|$group|$name|$version|$remark|$gradleDsl|  ")
         }
     }
-//
-//        dependencyModel.group
-//            .map { group ->
-//                val hasCustomGroup = group.modules.any {
-//                    it.group.isNullOrBlank()
-//                }
-//
-//                val hasCustomVersion = group.modules.any {
-//                    it.version?.isNotBlank() == true
-//                }
-//
-//                val groupBuilder = TypeSpec.classBuilder(group.name)
-//                    .addModifiers(KModifier.SEALED)
-//                    .primaryConstructor(
-//                        FunSpec.constructorBuilder()
-//                            .addParameter(DependencyProperties.KEY_MODULE, String::class)
-//                            .apply {
-//                                if (hasCustomVersion) {
-//                                    addParameter(DependencyProperties.KEY_VERSION, String::class)
-//                                }
-//                            }
-//                            .build()
-//                    ).superclass(ClassName("", DependencyClasses.KEY_CLASS_DEPENDENCY))
-//                    .addSuperclassConstructorParameter("%S", group.group)
-//                    .addSuperclassConstructorParameter(DependencyProperties.KEY_MODULE)
-//                    .apply {
-//                        if (hasCustomVersion) {
-//                            addSuperclassConstructorParameter(DependencyProperties.KEY_VERSION)
-//                        } else {
-//                            addSuperclassConstructorParameter("%S", group.version)
-//                        }
-//                    }
-//
-//                getKDoc(group.remark, group.link)?.apply(groupBuilder::addKdoc)
-//
-//                group.modules
-//                    .map { child ->
-//                        val childBuilder = TypeSpec.objectBuilder(child.name)
-//                        when {
-//                            child.isCustomGroup -> {
-//                                childBuilder.superclass(
-//                                    ClassName(
-//                                        "",
-//                                        DependencyClasses.KEY_CLASS_DEPENDENCY
-//                                    )
-//                                ).addSuperclassConstructorParameter("%S", child.group!!)
-//                                    .addSuperclassConstructorParameter("%S", child.module)
-//                                    .addSuperclassConstructorParameter(
-//                                        "%S",
-//                                        child.version ?: group.version
-//                                    )
-//                            }
-//                            hasCustomVersion -> {
-//                                childBuilder.superclass(ClassName("", group.name))
-//                                    .addSuperclassConstructorParameter("%S", child.module)
-//                                    .addSuperclassConstructorParameter(
-//                                        "%S",
-//                                        child.version ?: group.version
-//                                    )
-//                            }
-//                            else -> {
-//                                childBuilder.superclass(ClassName("", group.name))
-//                                    .addSuperclassConstructorParameter("%S", child.module)
-//                            }
-//                        }
-//
-//
-//                        getKDoc(child.remark, child.link)?.apply(childBuilder::addKdoc)
-//                        childBuilder.build()
-//                    }.forEach {
-//                        groupBuilder.addType(it)
-//                    }
-//                groupBuilder.build()
-//            }.forEach {
-//                androidDependencyClassBuilder.addType(it)
-//            }
-//
 
-//
-//        val fileSpec = FileSpec.builder(
-//            DependencyValues.packageList.joinToString("."),
-//            DependencyClasses.KEY_CLASS_DEPENDENCY
-//        ).addType(androidDependencyClassBuilder.build())
-//            .build()
-//
-//        val rootPathList = listOf("src", "main", "kotlin")
-//
-////        fileSpec.writeTo(System.out)
-//        fileSpec.writeTo(File(rootPathList.joinToString(File.separator)))
-//    }
+    private fun createCheckModuleGradle() {
+        val newestList = mutableListOf<String>()
+        val defineList = mutableListOf<String>()
 
-//
-//    private fun buildSingleClassSpec(className: String, list: List<SingleDependency>): TypeSpec {
-//        //声明类
-//        val singleClassBuilder = TypeSpec.objectBuilder(className)
-//
-//        list.map { single ->
-//            val objectBuilder = TypeSpec.objectBuilder(single.name)
-//                .superclass(ClassName("", DependencyClasses.KEY_CLASS_DEPENDENCY))
-//                .addSuperclassConstructorParameter("%S", single.group)
-//                .addSuperclassConstructorParameter("%S", single.module)
-//                .addSuperclassConstructorParameter("%S", single.version)
-//
-//            getKDoc(single.remark, single.link)
-//                ?.apply(objectBuilder::addKdoc)
-//            objectBuilder.build()
-//        }.forEach {
-//            singleClassBuilder.addType(it)
-//        }
-//        return singleClassBuilder.build()
-//    }
-//
-//    @Test
-//    fun testCreateDependencyMd() {
-//        val dependencyModel = getDependencyModel()
-//
-//        val sb = StringBuilder()
-//
-//        sb.appendMdLine("# 三方依赖库版本管理[![](https://jitpack.io/v/qiushui95/AndroidDependencies.svg)](https://jitpack.io/#qiushui95/AndroidDependencies)")
-//
-//        createSingleMd(dependencyModel.single, sb)
-//        sb.append("\n")
-//        createSingleMd(dependencyModel.view, sb)
-//        dependencyModel.group.forEach { group ->
-//            sb.append("\n")
-//            val groupName = group.name.takeIf {
-//                group.link.isNullOrBlank()
-//            } ?: "[${group.name}](${group.link})"
-//
-//            sb.appendMdLine("|$groupName|${group.group}|${group.remark ?: ""}|")
-//            sb.appendMdLine("|:-:|:-:|:-:|")
-//
-//            group.modules.forEach { child ->
-//                val childName = child.name.takeIf { child.link.isNullOrBlank() }
-//                    ?: "[${child.name}](${child.link})"
-//
-//                val childModule = when {
-//                    child.isCustomGroup -> "${child.group}:${child.module}:${child.version}"
-//                    else -> child.module
-//                }
-//                val childVersion = when {
-//                    child.isCustomGroup -> child.remark
-//                    child.isCustomVersion -> child.version
-//                    else -> group.version
-//                }
-//                sb.appendMdLine("|$childName|$childModule|$childVersion|")
-//            }
-//        }
-//        sb.append("\n")
-//        createSingleMd(dependencyModel.test, sb)
-//        File(File(".."), "ReadMe.md").writeText(sb.toString())
-//    }
-//
-//    private fun StringBuilder.appendMdLine(line: String) {
-//        append(line)
-//        append("  \n")
-//    }
-//
-//    private fun createSingleMd(list: List<SingleDependency>, sb: StringBuilder) {
-//        sb.appendMdLine("|name|group|module|version|remark|")
-//        sb.appendMdLine("|:-:|:-:|:-:|:-:|:-:|")
-//        list.forEach { single ->
-//            val name = single.name.takeIf {
-//                single.link.isNullOrBlank()
-//            } ?: "[${single.name}](${single.link})"
-//            val singleLine =
-//                listOf(
-//                    name,
-//                    single.group,
-//                    single.module,
-//                    single.version,
-//                    single.remark ?: ""
-//                ).joinToString(separator = "|", postfix = "|", prefix = "|")
-//            sb.appendMdLine(
-//                singleLine,
-//            )
-//        }
-//    }
+        val container = getBeanFromJson() ?: throw IllegalArgumentException()
+
+        container.single
+            .forEach {
+                newestList.createGradle(null, it, true)
+                defineList.createGradle(null, it, false)
+            }
+
+        container.view
+            .forEach {
+                newestList.createGradle(null, it, true)
+                defineList.createGradle(null, it, false)
+            }
+
+        container.test
+            .forEach {
+                newestList.createGradle(null, it, true)
+                defineList.createGradle(null, it, false)
+            }
+
+        container.group
+            .forEach { group ->
+                group.modules?.forEach { module ->
+                    newestList.createGradle(group, module, true)
+                    defineList.createGradle(group, module, false)
+                }
+            }
+
+        val parentDir = File(File("").absolutePath).parentFile
+
+        val newestDir = File(parentDir, "newest")
+
+        newestList.writeTo(newestDir)
+
+        val defineDir = File(parentDir, "define")
+
+        defineList.writeTo(defineDir)
+    }
+
+    private fun MutableList<String>.createGradle(
+        groupConfig: DependencyConfig?,
+        config: DependencyConfig,
+        isNewest: Boolean
+    ) {
+        val group = config.group ?: groupConfig?.group ?: throw IllegalArgumentMissException(
+            config,
+            DependencyProperties.KEY_GROUP
+        )
+
+        val name = config.name ?: throw IllegalArgumentMissException(
+            config,
+            DependencyProperties.KEY_NAME
+        )
+
+        val version = if (isNewest) {
+            "+"
+        } else {
+            config.version ?: groupConfig?.version ?: throw IllegalArgumentMissException(
+                config,
+                DependencyProperties.KEY_VERSION
+            )
+        }
+
+        val action = config.action ?: throw IllegalArgumentMissException(
+            config,
+            DependencyProperties.KEY_ACTION
+        )
+
+        add("""$action("$group:$name:$version")""")
+    }
+
+    private fun MutableList<String>.writeTo(dir: File) {
+        val gradleHolderFile = File(dir, "build.gradle.kts.placeholder")
+        val gradleFile = File(dir, "build.gradle.kts")
+
+        if (!gradleFile.exists()) {
+            gradleFile.createNewFile()
+        }
+
+        gradleFile.writeText(
+            gradleHolderFile.readText().replace("\$PlaceHolder\$", joinToString("\n") {
+                "\t$it"
+            })
+        )
+    }
 }

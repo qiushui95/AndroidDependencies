@@ -10,18 +10,9 @@
       "action": "implementation"
     },
     {
-      "title": "Alerter",
-      "version": "7.0.1",
-      "link": "https://github.com/Tapadoo/Alerter",
-      "group": "com.tapadoo.android",
-      "name": "alerter",
-      "remark": "Alerter弹窗",
-      "action": "implementation"
-    },
-    {
       "title": "AliPush",
       "version": "3.3.0",
-      "link": "https://help.aliyun.com/document_detail/190009.html?spm=a2c4g.11174283.3.2.52eb6d163QVxjG",
+      "link": "https://help.aliyun.com/document_detail/190009.html?spm\u003da2c4g.11174283.3.2.52eb6d163QVxjG",
       "group": "com.aliyun.ams",
       "name": "alicloud-android-push",
       "remark": "阿里推送",
@@ -64,7 +55,7 @@
     },
     {
       "title": "Coil",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "link": "https://github.com/coil-kt/coil",
       "group": "io.coil-kt",
       "name": "coil",
@@ -163,7 +154,7 @@
     },
     {
       "title": "WeChat",
-      "version": "6.6.23",
+      "version": "6.7.0",
       "link": "https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Resource_Center_Homepage.html",
       "group": "com.tencent.mm.opensdk",
       "name": "wechat-sdk-android-without-mta",
@@ -929,7 +920,7 @@
     },
     {
       "title": "Material",
-      "version": "1.4.0-alpha02",
+      "version": "1.4.0-beta01",
       "link": "https://github.com/material-components/material-components-android",
       "group": "com.google.android.material",
       "name": "material",

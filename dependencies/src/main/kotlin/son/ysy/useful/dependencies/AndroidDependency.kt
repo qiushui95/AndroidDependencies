@@ -1,5 +1,8 @@
 package son.ysy.useful.dependencies
 
+import kotlin.String
+import kotlin.Suppress
+
 @Suppress("MemberVisibilityCanBePrivate", "unused")
 abstract class AndroidDependency private constructor(
     val group: String,
@@ -18,12 +21,6 @@ abstract class AndroidDependency private constructor(
          * https://developer.android.com/jetpack/androidx/releases/activity
          */
         object Activity : AndroidDependency("androidx.activity", "activity-ktx", "1.2.3")
-
-        /**
-         * Alerter弹窗
-         * https://github.com/Tapadoo/Alerter
-         */
-        object Alerter : AndroidDependency("com.tapadoo.android", "alerter", "7.0.1")
 
         /**
          * 阿里推送
@@ -58,7 +55,7 @@ abstract class AndroidDependency private constructor(
          * 图片加载
          * https://github.com/coil-kt/coil
          */
-        object Coil : AndroidDependency("io.coil-kt", "coil", "1.2.0")
+        object Coil : AndroidDependency("io.coil-kt", "coil", "1.2.1")
 
         /**
          * 颜色帮助库
@@ -130,21 +127,12 @@ abstract class AndroidDependency private constructor(
         object Store : AndroidDependency("com.dropbox.mobile.store", "store4", "4.0.1")
 
         /**
-         * 自动消失LiveData
-         * https://github.com/KunMinX/UnPeek-LiveData
-         */
-        object UnPeekLiveData : AndroidDependency(
-            "com.kunminx.archi", "unpeek-livedata",
-            "4.5.0-beta1"
-        )
-
-        /**
          * 微信开发Sdk
          * https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Resource_Center_Homepage.html
          */
         object WeChat : AndroidDependency(
             "com.tencent.mm.opensdk",
-            "wechat-sdk-android-without-mta", "6.6.23"
+            "wechat-sdk-android-without-mta", "6.7.0"
         )
 
         /**
@@ -232,7 +220,7 @@ abstract class AndroidDependency private constructor(
          */
         object Material : AndroidDependency(
             "com.google.android.material", "material",
-            "1.4.0-alpha02"
+            "1.4.0-beta01"
         )
 
         /**
