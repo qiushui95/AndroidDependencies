@@ -1,18 +1,15 @@
 package son.ysy.useful.dependencies
 
-import kotlin.String
-import kotlin.Suppress
-
 @Suppress("MemberVisibilityCanBePrivate", "unused")
 abstract class AndroidDependency private constructor(
     val group: String,
-    val module: String,
+    val name: String,
     val version: String
 ) {
     val fullGradle: String
         get() = build(version)
 
-    private fun build(version: String) = """$group:$module:$version"""
+    private fun build(version: String) = "$group:$name:$version"
 
     fun customVersion(version: String): String = build(version)
 
@@ -29,6 +26,12 @@ abstract class AndroidDependency private constructor(
         object Alerter : AndroidDependency("com.tapadoo.android", "alerter", "7.0.1")
 
         /**
+         * 阿里推送
+         * https://help.aliyun.com/document_detail/190009.html?spm=a2c4g.11174283.3.2.52eb6d163QVxjG
+         */
+        object AliPush : AndroidDependency("com.aliyun.ams", "alicloud-android-push", "3.3.0")
+
+        /**
          * app启动初始化管理
          * https://github.com/YummyLau/Anchors/blob/master/README-zh.md
          */
@@ -39,13 +42,6 @@ abstract class AndroidDependency private constructor(
          * https://github.com/Blankj/AndroidUtilCode
          */
         object AndroidUtil : AndroidDependency("com.blankj", "utilcodex", "1.30.6")
-
-        /**
-         * 阿里推送
-         * https://help.aliyun.com/document_detail/190009.html?spm=a2c4g.11174283.3.2.52eb6d163QVxjG
-         */
-        object AliPush :
-            AndroidDependency("com.aliyun.ams", "alicloud-android-push", "3.3.0")
 
         /**
          * https://developer.android.com/jetpack/androidx/releases/appcompat
@@ -59,16 +55,16 @@ abstract class AndroidDependency private constructor(
         object Background : AndroidDependency("com.noober.background", "core", "1.6.5")
 
         /**
-         * 颜色帮助库
-         * https://github.com/JorgeCastilloPrz/AndroidColorX
-         */
-        object ColorKtx : AndroidDependency("me.jorgecastillo", "androidcolorx", "0.2.0")
-
-        /**
          * 图片加载
          * https://github.com/coil-kt/coil
          */
         object Coil : AndroidDependency("io.coil-kt", "coil", "1.2.0")
+
+        /**
+         * 颜色帮助库
+         * https://github.com/JorgeCastilloPrz/AndroidColorX
+         */
+        object ColorKtx : AndroidDependency("me.jorgecastillo", "androidcolorx", "0.2.0")
 
         /**
          * 时间选择器
@@ -122,16 +118,16 @@ abstract class AndroidDependency private constructor(
         object QrScanner : AndroidDependency("com.king.zxing", "zxing-lite", "2.0.3")
 
         /**
-         * 多数据源
-         * https://github.com/dropbox/Store
-         */
-        object Store : AndroidDependency("com.dropbox.mobile.store", "store4", "4.0.1")
-
-        /**
          * so加载库
          * https://github.com/facebook/soloader
          */
         object SoLoader : AndroidDependency("com.facebook.soloader", "soloader", "0.10.1")
+
+        /**
+         * 多数据源
+         * https://github.com/dropbox/Store
+         */
+        object Store : AndroidDependency("com.dropbox.mobile.store", "store4", "4.0.1")
 
         /**
          * 自动消失LiveData
@@ -205,8 +201,7 @@ abstract class AndroidDependency private constructor(
          * 圆角控件
          * https://github.com/KuangGang/RoundCorners
          */
-        object CornerView :
-            AndroidDependency("com.github.KuangGang", "RoundCorners", "1.1.0")
+        object CornerView : AndroidDependency("com.github.KuangGang", "RoundCorners", "1.1.0")
 
         /**
          * 流式布局
@@ -249,15 +244,13 @@ abstract class AndroidDependency private constructor(
         /**
          * https://developer.android.com/jetpack/androidx/releases/recyclerview
          */
-        object RecyclerView :
-            AndroidDependency("androidx.recyclerview", "recyclerview", "1.2.0")
+        object RecyclerView : AndroidDependency("androidx.recyclerview", "recyclerview", "1.2.0")
 
         /**
          * 阴影控件
          * https://github.com/lihangleo2/ShadowLayout
          */
-        object ShadowLayout :
-            AndroidDependency("com.github.lihangleo2", "ShadowLayout", "3.2.0")
+        object ShadowLayout : AndroidDependency("com.github.lihangleo2", "ShadowLayout", "3.2.0")
 
         /**
          * 下拉刷新控件
@@ -272,8 +265,7 @@ abstract class AndroidDependency private constructor(
          * 开关按钮
          * https://github.com/kyleduo/SwitchButton
          */
-        object SwitchButton :
-            AndroidDependency("com.kyleduo.switchbutton", "library", "2.0.3")
+        object SwitchButton : AndroidDependency("com.kyleduo.switchbutton", "library", "2.0.3")
 
         /**
          * https://developer.android.com/jetpack/androidx/releases/viewpager2
@@ -284,380 +276,375 @@ abstract class AndroidDependency private constructor(
         )
     }
 
-    /**
-     * 弹窗
-     * https://github.com/razerdp/BasePopup
-     */
-    sealed class BasePopup(
-        module: String,
-        version: String
-    ) : AndroidDependency("io.github.razerdp", module, version) {
-        object Stable : BasePopup("BasePopup", "2.3.0")
+    object Group {
+        /**
+         * 弹窗
+         * https://github.com/razerdp/BasePopup
+         */
+        sealed class BasePopup(
+            name: String,
+            version: String
+        ) : AndroidDependency("io.github.razerdp", name, version) {
+            object Candy : BasePopup("BasePopup_Candy", "2.2.30.0324")
 
-        object Candy : BasePopup("BasePopup_Candy", "2.2.30.0324")
-    }
-
-    /**
-     * 网络请求监控
-     * https://github.com/ChuckerTeam/chucker
-     */
-    sealed class Chucker(
-        module: String
-    ) : AndroidDependency("com.github.chuckerteam.chucker", module, "3.4.0") {
-        object Debug : Chucker("library")
-
-        object Release : Chucker("library-no-op")
-    }
-
-    /**
-     * 组件化实现方案
-     * https://github.com/xiaojinzi123/Component
-     */
-    sealed class Component(
-        module: String
-    ) : AndroidDependency("com.github.xiaojinzi123.Component", module, "v1.8.8-androidx-java8") {
-        object Compiler : Component("component-compiler")
-
-        object Core : Component("component-impl")
-
-        object Plugin : Component("component-plugin")
-    }
-
-    /**
-     * core
-     * https://developer.android.com/jetpack/androidx/releases/core
-     */
-    sealed class Core(
-        module: String,
-        version: String
-    ) : AndroidDependency("androidx.core", module, version) {
-        object Ktx : Core("core-ktx", "1.5.0-rc02")
-
-        object Role : Core("core-role", "1.0.0")
-
-        object Animation : Core("core-animation", "1.0.0-alpha02")
-
-        object AnimationTest : Core("core-animation-testing", "1.0.0-alpha02")
-    }
-
-    /**
-     * 协程
-     * https://github.com/Kotlin/kotlinx.coroutines
-     */
-    sealed class Coroutines(
-        module: String
-    ) : AndroidDependency("org.jetbrains.kotlinx", module, "1.5.0-RC") {
-        object Core : Coroutines("kotlinx-coroutines-android")
-
-        object Test : Coroutines("kotlinx-coroutines-test")
-    }
-
-    /**
-     * 常用弹窗
-     * https://github.com/kongzue/DialogX
-     */
-    sealed class DialogX(
-        module: String
-    ) : AndroidDependency("com.github.kongzue.DialogX", module, "0.0.37") {
-        object Core : DialogX("DialogX")
-
-        object IosStyle : AndroidDependency(
-            "com.kongzue.dialogx.style.ios", "DialogXIOSStyle",
-            "0.0.37"
-        )
-
-        object KongzueStyle : AndroidDependency(
-            "com.kongzue.dialogx.style.kongzue",
-            "DialogXKongzueStyle", "0.0.37"
-        )
-
-        object MiuiStyle : AndroidDependency(
-            "com.kongzue.dialogx.style.miui",
-            "DialogXMIUIStyle", "0.0.37"
-        )
-    }
-
-    /**
-     * 文件下载与上传
-     * https://github.com/AriaLyy/Aria
-     */
-    sealed class DownloadAndUpload(
-        module: String
-    ) : AndroidDependency("com.arialyy.aria", module, "3.8.15") {
-        object Compiler : DownloadAndUpload("compiler")
-
-        object Core : DownloadAndUpload("core")
-
-        object Ftp : DownloadAndUpload("ftpComponent")
-
-        object M3u8 : DownloadAndUpload("m3u8Component")
-
-        object Sftp : DownloadAndUpload("sftpComponent")
-    }
-
-    /**
-     * RecyclerView适配库
-     * https://github.com/airbnb/epoxy
-     */
-    sealed class Epoxy(
-        module: String
-    ) : AndroidDependency("com.airbnb.android", module, "4.5.0") {
-        object Compiler : Epoxy("epoxy-processor")
-
-        object Core : Epoxy("epoxy")
-
-        object Glide : Epoxy("epoxy-glide-preloading")
-    }
-
-    /**
-     * https://developer.android.com/jetpack/androidx/releases/fragment
-     */
-    sealed class Fragment(
-        module: String
-    ) : AndroidDependency("androidx.fragment", module, "1.3.3") {
-        object Core : Fragment("fragment")
-
-        object Test : Fragment("fragment-testing")
-    }
-
-    /**
-     * https://github.com/ReactiveCircus/FlowBinding
-     */
-    sealed class FlowBinding(
-        module: String
-    ) : AndroidDependency("io.github.reactivecircus.flowbinding", module, "1.0.0") {
-        object Basic : FlowBinding("flowbinding-android")
-
-        object Activity : FlowBinding("flowbinding-activity")
-
-        object Appcompat : FlowBinding("flowbinding-appcompat")
-
-        object Core : FlowBinding("flowbinding-core")
-
-        object DrawerLayout : FlowBinding("flowbinding-drawerlayout")
-
-        object Lifecycle : FlowBinding("flowbinding-lifecycle")
-
-        object Navigation : FlowBinding("flowbinding-navigation")
-
-        object Preference : FlowBinding("flowbinding-preference")
-
-        object RecyclerView : FlowBinding("flowbinding-recyclerview")
-
-        object SwipeRefreshLayout : FlowBinding("flowbinding-swiperefreshlayout")
-
-        object ViewPager2 : FlowBinding("flowbinding-viewpager2")
-
-        object Material : FlowBinding("flowbinding-material")
-    }
-
-    /**
-     * 图片加载
-     * https://github.com/bumptech/glide
-     */
-    sealed class Glide(
-        module: String,
-        version: String
-    ) : AndroidDependency("com.github.bumptech.glide", module, version) {
-        object Annotation : Glide("annotations", "4.12.0")
-
-        object Compiler : Glide("compiler", "4.12.0")
-
-        object Core : Glide("glide", "4.12.0")
-
-        object OkHttp : Glide("okhttp3-integration", "4.12.0")
+            object Stable : BasePopup("BasePopup", "2.3.0")
+        }
 
         /**
-         * 图片变换库
-         * https://github.com/wasabeef/glide-transformations
+         * 网络请求监控
+         * https://github.com/ChuckerTeam/chucker
          */
-        object Transformations : AndroidDependency(
-            "jp.wasabeef", "glide-transformations",
-            "4.3.0"
-        )
+        sealed class Chucker(
+            name: String
+        ) : AndroidDependency("com.github.chuckerteam.chucker", name, "3.4.0") {
+            object Debug : Chucker("library")
+
+            object Release : Chucker("library-no-op")
+        }
 
         /**
-         * Gpu处理图片效果
-         * https://github.com/cats-oss/android-gpuimage
+         * 组件化实现方案
+         * https://github.com/xiaojinzi123/Component
          */
-        object GpuImage : AndroidDependency("jp.co.cyberagent.android", "gpuimage", "2.1.0")
-    }
+        sealed class Component(
+            name: String
+        ) : AndroidDependency("com.github.xiaojinzi123.Component", name, "v1.8.8-androidx-java8") {
+            object Compiler : Component("component-compiler")
 
-    /**
-     * key生成器
-     * https://github.com/qiushui95/KeysCreator
-     */
-    sealed class KeyCreator(
-        module: String
-    ) : AndroidDependency("com.github.qiushui95.KeysCreator", module, "1.1.0") {
-        object Core : KeyCreator("annotations")
+            object Core : Component("component-impl")
 
-        object Compiler : KeyCreator("compiler")
-    }
+            object Plugin : Component("component-plugin")
+        }
 
-    /**
-     * 依赖注入库
-     * https://github.com/InsertKoinIO/koin
-     */
-    sealed class Koin(
-        module: String
-    ) : AndroidDependency("org.koin", module, "2.2.2") {
-        object Core : Koin("koin-core")
+        /**
+         * core
+         * https://developer.android.com/jetpack/androidx/releases/core
+         */
+        sealed class Core(
+            name: String,
+            version: String
+        ) : AndroidDependency("androidx.core", name, version) {
+            object Animation : Core("core-animation", "1.0.0-alpha02")
 
-        object Ext : Koin("koin-androidx-ext")
+            object AnimationTest : Core("core-animation-testing", "1.0.0-alpha02")
 
-        object Scope : Koin("koin-androidx-scope")
+            object Ktx : Core("core-ktx", "1.5.0-rc02")
 
-        object Test : Koin("koin-test")
+            object Role : Core("core-role", "1.0.0")
+        }
 
-        object ViewModel : Koin("koin-androidx-viewmodel")
-    }
+        /**
+         * 协程
+         * https://github.com/Kotlin/kotlinx.coroutines
+         */
+        sealed class Coroutines(
+            name: String
+        ) : AndroidDependency("org.jetbrains.kotlinx", name, "1.5.0-RC") {
+            object Core : Coroutines("kotlinx-coroutines-android")
 
-    /**
-     * https://github.com/JetBrains/kotlin
-     */
-    sealed class Kotlin(
-        module: String
-    ) : AndroidDependency("org.jetbrains.kotlin", module, "1.5.0") {
-        object Reflect : Kotlin("kotlin-reflect")
+            object Test : Coroutines("kotlinx-coroutines-test")
+        }
 
-        object Stdlib : Kotlin("kotlin-stdlib")
-    }
+        /**
+         * 常用弹窗
+         * https://github.com/kongzue/DialogX
+         */
+        sealed class DialogX(
+            group: String,
+            name: String
+        ) : AndroidDependency(group, name, "0.0.37") {
+            object Core : DialogX("com.github.kongzue.DialogX", "DialogX")
 
-    /**
-     * https://developer.android.com/jetpack/androidx/releases/lifecycle
-     */
-    sealed class Lifecycle(
-        module: String
-    ) : AndroidDependency("androidx.lifecycle", module, "2.3.1") {
-        object Common : Lifecycle("lifecycle-common")
+            object IosStyle : DialogX("com.kongzue.dialogx.style.ios", "DialogXIOSStyle")
 
-        object LiveData : Lifecycle("lifecycle-livedata-ktx")
+            object KongzueStyle : DialogX(
+                "com.kongzue.dialogx.style.kongzue",
+                "DialogXKongzueStyle"
+            )
 
-        object Process : Lifecycle("lifecycle-process")
+            object MiuiStyle : DialogX("com.kongzue.dialogx.style.miui", "DialogXMIUIStyle")
+        }
 
-        object Runtime : Lifecycle("lifecycle-runtime-ktx")
+        /**
+         * 文件下载与上传
+         * https://github.com/AriaLyy/Aria
+         */
+        sealed class DownloadAndUpload(
+            name: String
+        ) : AndroidDependency("com.arialyy.aria", name, "3.8.15") {
+            object Compiler : DownloadAndUpload("compiler")
 
-        object SavedState : Lifecycle("lifecycle-viewmodel-savedstate")
+            object Core : DownloadAndUpload("core")
 
-        object Service : Lifecycle("lifecycle-service")
+            object Ftp : DownloadAndUpload("ftpComponent")
 
-        object ViewModel : Lifecycle("lifecycle-viewmodel-ktx")
-    }
+            object M3u8 : DownloadAndUpload("m3u8Component")
 
-    /**
-     * https://fblitho.com/docs/getting-started/
-     */
-    sealed class Litho(
-        module: String
-    ) : AndroidDependency("com.facebook.litho", module, "0.40.0") {
-        object Core : Litho("litho-core-kotlin")
+            object Sftp : DownloadAndUpload("sftpComponent")
+        }
 
-        object Widget : Litho("litho-widget-kotlin")
+        /**
+         * RecyclerView适配库
+         * https://github.com/airbnb/epoxy
+         */
+        sealed class Epoxy(
+            name: String
+        ) : AndroidDependency("com.airbnb.android", name, "4.5.0") {
+            object Compiler : Epoxy("epoxy-processor")
 
-        object Fresco : Litho("litho-fresco-kotlin")
+            object Core : Epoxy("epoxy")
 
-        object Test : Litho("litho:litho-testing")
+            object Glide : Epoxy("epoxy-glide-preloading")
+        }
 
-        object CoreSelection : Litho("litho-sections-core")
+        /**
+         * https://github.com/ReactiveCircus/FlowBinding
+         */
+        sealed class FlowBinding(
+            name: String
+        ) : AndroidDependency("io.github.reactivecircus.flowbinding", name, "1.0.0") {
+            object Activity : FlowBinding("flowbinding-activity")
 
-        object WidgetSelection : Litho("litho-sections-widget")
+            object Appcompat : FlowBinding("flowbinding-appcompat")
 
-        object AnnotationsSelection : Litho("litho-sections-annotations")
+            object Basic : FlowBinding("flowbinding-android")
 
-        object CompilerSelection : Litho("litho-sections-processor")
-    }
+            object Core : FlowBinding("flowbinding-core")
 
-    /**
-     * json解析库
-     * https://github.com/square/moshi
-     */
-    sealed class MoShi(
-        module: String
-    ) : AndroidDependency("com.squareup.moshi", module, "1.12.0") {
-        object Compiler : MoShi("moshi-kotlin-codegen")
+            object DrawerLayout : FlowBinding("flowbinding-drawerlayout")
 
-        object Core : MoShi("moshi")
-    }
+            object Lifecycle : FlowBinding("flowbinding-lifecycle")
 
-    /**
-     * Fragment导航库
-     * https://developer.android.com/jetpack/androidx/releases/navigation
-     */
-    sealed class Navigation(
-        module: String
-    ) : AndroidDependency("androidx.navigation", module, "2.3.5") {
-        object Features : Navigation("navigation-dynamic-features-fragment")
+            object Material : FlowBinding("flowbinding-material")
 
-        object Ui : Navigation("navigation-ui-ktx")
+            object Navigation : FlowBinding("flowbinding-navigation")
 
-        object Core : Navigation("navigation-fragment-ktx")
+            object Preference : FlowBinding("flowbinding-preference")
 
-        object Test : Navigation("navigation-testing")
-    }
+            object RecyclerView : FlowBinding("flowbinding-recyclerview")
 
-    /**
-     * https://github.com/square/okhttp
-     */
-    sealed class OkHttp(
-        module: String
-    ) : AndroidDependency("com.squareup.okhttp3", module, "4.9.1") {
-        object Core : OkHttp("okhttp")
+            object SwipeRefreshLayout : FlowBinding("flowbinding-swiperefreshlayout")
 
-        object Interceptor : OkHttp("logging-interceptor")
+            object ViewPager2 : FlowBinding("flowbinding-viewpager2")
+        }
 
-        object Mock : OkHttp("mockwebserver")
-    }
+        /**
+         * https://developer.android.com/jetpack/androidx/releases/fragment
+         */
+        sealed class Fragment(
+            name: String
+        ) : AndroidDependency("androidx.fragment", name, "1.3.3") {
+            object Core : Fragment("fragment")
 
-    /**
-     * https://github.com/airbnb/paris
-     */
-    sealed class Paris(
-        module: String
-    ) : AndroidDependency("com.airbnb.android", module, "1.7.3") {
-        object Compiler : Paris("paris-processor")
+            object Test : Fragment("fragment-testing")
+        }
 
-        object Core : Paris("paris")
-    }
+        /**
+         * 图片加载
+         * https://github.com/bumptech/glide
+         */
+        sealed class Glide(
+            group: String,
+            name: String,
+            version: String
+        ) : AndroidDependency(group, name, version) {
+            object Annotation : Glide("com.github.bumptech.glide", "annotations", "4.12.0")
 
-    /**
-     * 网络请求
-     * https://github.com/square/retrofit
-     */
-    sealed class Retrofit(
-        module: String
-    ) : AndroidDependency("com.squareup.retrofit2", module, "2.9.0") {
-        object Core : Retrofit("retrofit")
+            object Compiler : Glide("com.github.bumptech.glide", "compiler", "4.12.0")
 
-        object MoShi : Retrofit("converter-moshi")
-    }
+            object Core : Glide("com.github.bumptech.glide", "glide", "4.12.0")
 
-    /**
-     * Sqlite数据库
-     * https://developer.android.com/jetpack/androidx/releases/room
-     */
-    sealed class Room(
-        module: String
-    ) : AndroidDependency("androidx.room", module, "2.3.0") {
-        object Compiler : Room("room-compiler")
+            /**
+             * Gpu处理图片效果
+             * https://github.com/cats-oss/android-gpuimage
+             */
+            object GpuImage : Glide("jp.co.cyberagent.android", "gpuimage", "2.1.0")
 
-        object Core : Room("room-runtime")
+            object OkHttp : Glide("com.github.bumptech.glide", "okhttp3-integration", "4.12.0")
 
-        object Ktx : Room("room-ktx")
+            /**
+             * 图片变换库
+             * https://github.com/wasabeef/glide-transformations
+             */
+            object Transformations : Glide("jp.wasabeef", "glide-transformations", "4.3.0")
+        }
 
-        object Test : Room("room-testing")
-    }
+        /**
+         * key生成器
+         * https://github.com/qiushui95/KeysCreator
+         */
+        sealed class KeyCreator(
+            name: String
+        ) : AndroidDependency("com.github.qiushui95.KeysCreator", name, "1.1.0") {
+            object Compiler : KeyCreator("compiler")
 
-    /**
-     * 任务管理器
-     * https://developer.android.com/jetpack/androidx/releases/work
-     */
-    sealed class WorkManager(
-        module: String
-    ) : AndroidDependency("androidx.work", module, "2.5.0") {
-        object Core : WorkManager("work-runtime-ktx")
+            object Core : KeyCreator("annotations")
+        }
 
-        object Test : WorkManager("work-testing")
+        /**
+         * 依赖注入库
+         * https://github.com/InsertKoinIO/koin
+         */
+        sealed class Koin(
+            name: String
+        ) : AndroidDependency("org.koin", name, "2.2.2") {
+            object Core : Koin("koin-core")
+
+            object Ext : Koin("koin-androidx-ext")
+
+            object Scope : Koin("koin-androidx-scope")
+
+            object Test : Koin("koin-test")
+
+            object ViewModel : Koin("koin-androidx-viewmodel")
+        }
+
+        /**
+         * https://github.com/JetBrains/kotlin
+         */
+        sealed class Kotlin(
+            name: String
+        ) : AndroidDependency("org.jetbrains.kotlin", name, "1.5.0") {
+            object Reflect : Kotlin("kotlin-reflect")
+
+            object Stdlib : Kotlin("kotlin-stdlib")
+        }
+
+        /**
+         * https://developer.android.com/jetpack/androidx/releases/lifecycle
+         */
+        sealed class Lifecycle(
+            name: String
+        ) : AndroidDependency("androidx.lifecycle", name, "2.3.1") {
+            object Common : Lifecycle("lifecycle-common")
+
+            object LiveData : Lifecycle("lifecycle-livedata-ktx")
+
+            object Process : Lifecycle("lifecycle-process")
+
+            object Runtime : Lifecycle("lifecycle-runtime-ktx")
+
+            object SavedState : Lifecycle("lifecycle-viewmodel-savedstate")
+
+            object Service : Lifecycle("lifecycle-service")
+
+            object ViewModel : Lifecycle("lifecycle-viewmodel-ktx")
+        }
+
+        /**
+         * https://fblitho.com/docs/getting-started/
+         */
+        sealed class Litho(
+            name: String
+        ) : AndroidDependency("com.facebook.litho", name, "0.40.0") {
+            object AnnotationsSelection : Litho("litho-sections-annotations")
+
+            object CompilerSelection : Litho("litho-sections-processor")
+
+            object Core : Litho("litho-core-kotlin")
+
+            object CoreSelection : Litho("litho-sections-core")
+
+            object Fresco : Litho("litho-fresco-kotlin")
+
+            object Test : Litho("litho:litho-testing")
+
+            object Widget : Litho("litho-widget-kotlin")
+
+            object WidgetSelection : Litho("litho-sections-widget")
+        }
+
+        /**
+         * json解析库
+         * https://github.com/square/moshi
+         */
+        sealed class MoShi(
+            name: String
+        ) : AndroidDependency("com.squareup.moshi", name, "1.12.0") {
+            object Compiler : MoShi("moshi-kotlin-codegen")
+
+            object Core : MoShi("moshi")
+        }
+
+        /**
+         * Fragment导航库
+         * https://developer.android.com/jetpack/androidx/releases/navigation
+         */
+        sealed class Navigation(
+            name: String
+        ) : AndroidDependency("androidx.navigation", name, "2.3.5") {
+            object Core : Navigation("navigation-fragment-ktx")
+
+            object Features : Navigation("navigation-dynamic-features-fragment")
+
+            object Test : Navigation("navigation-testing")
+
+            object Ui : Navigation("navigation-ui-ktx")
+        }
+
+        /**
+         * https://github.com/square/okhttp
+         */
+        sealed class OkHttp(
+            name: String
+        ) : AndroidDependency("com.squareup.okhttp3", name, "4.9.1") {
+            object Core : OkHttp("okhttp")
+
+            object Interceptor : OkHttp("logging-interceptor")
+
+            object Mock : OkHttp("mockwebserver")
+        }
+
+        /**
+         * https://github.com/airbnb/paris
+         */
+        sealed class Paris(
+            name: String
+        ) : AndroidDependency("com.airbnb.android", name, "1.7.3") {
+            object Compiler : Paris("paris-processor")
+
+            object Core : Paris("paris")
+        }
+
+        /**
+         * 网络请求
+         * https://github.com/square/retrofit
+         */
+        sealed class Retrofit(
+            name: String
+        ) : AndroidDependency("com.squareup.retrofit2", name, "2.9.0") {
+            object Core : Retrofit("retrofit")
+
+            object MoShi : Retrofit("converter-moshi")
+        }
+
+        /**
+         * Sqlite数据库
+         * https://developer.android.com/jetpack/androidx/releases/room
+         */
+        sealed class Room(
+            name: String
+        ) : AndroidDependency("androidx.room", name, "2.3.0") {
+            object Compiler : Room("room-compiler")
+
+            object Core : Room("room-runtime")
+
+            object Ktx : Room("room-ktx")
+
+            object Test : Room("room-testing")
+        }
+
+        /**
+         * 任务管理器
+         * https://developer.android.com/jetpack/androidx/releases/work
+         */
+        sealed class WorkManager(
+            name: String
+        ) : AndroidDependency("androidx.work", name, "2.5.0") {
+            object Core : WorkManager("work-runtime-ktx")
+
+            object Test : WorkManager("work-testing")
+        }
     }
 
     object Test {
@@ -665,8 +652,7 @@ abstract class AndroidDependency private constructor(
          * UI自动化测试
          * https://mvnrepository.com/artifact/androidx.test.espresso/espresso-core
          */
-        object Espresso :
-            AndroidDependency("androidx.test.espresso", "espresso-core", "3.3.0")
+        object Espresso : AndroidDependency("androidx.test.espresso", "espresso-core", "3.3.0")
 
         /**
          * 单元测试
