@@ -52,21 +52,21 @@
 |[JunitExt](https://mvnrepository.com/artifact/androidx.test.ext/junit-ktx)|androidx.test.ext|junit-ktx|1.1.2|单元测试扩展|testImplementation("androidx.test.ext:junit-ktx:1.1.2")|  
   
   
-|[BasePopup](https://github.com/razerdp/BasePopup)| | | ||弹窗|  
+|[BasePopup](https://github.com/razerdp/BasePopup)| | | |::|弹窗|  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
 |Candy|io.github.razerdp|BasePopup_Candy|2.2.30.0324||implementation("io.github.razerdp:BasePopup_Candy:2.2.30.0324")|  
 |Stable|io.github.razerdp|BasePopup|2.3.0||implementation("io.github.razerdp:BasePopup:2.3.0")|  
   
   
-|[Chucker](https://github.com/ChuckerTeam/chucker)| | | ||网络请求监控|  
+|[Chucker](https://github.com/ChuckerTeam/chucker)| | | |::|网络请求监控|  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
 |Debug|com.github.chuckerteam.chucker|library|3.4.0||debugImplementation("com.github.chuckerteam.chucker:library:3.4.0")|  
 |Release|com.github.chuckerteam.chucker|library-no-op|3.4.0||releaseImplementation("com.github.chuckerteam.chucker:library-no-op:3.4.0")|  
   
   
-|[Component](https://github.com/xiaojinzi123/Component)| | | ||组件化实现方案|  
+|[Component](https://github.com/xiaojinzi123/Component)| | | |::|组件化实现方案|  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
 |Compiler|com.github.xiaojinzi123.Component|component-compiler|v1.8.8-androidx-java8||kapt("com.github.xiaojinzi123.Component:component-compiler:v1.8.8-androidx-java8")|  
@@ -74,7 +74,7 @@
 |Plugin|com.github.xiaojinzi123.Component|component-plugin|v1.8.8-androidx-java8||implementation("com.github.xiaojinzi123.Component:component-plugin:v1.8.8-androidx-java8")|  
   
   
-|[Core](https://developer.android.com/jetpack/androidx/releases/core)| | | ||core|  
+|[Core](https://developer.android.com/jetpack/androidx/releases/core)| | | |::|core|  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
 |Animation|androidx.core|core-animation|1.0.0-alpha02||implementation("androidx.core:core-animation:1.0.0-alpha02")|  
@@ -83,14 +83,14 @@
 |Role|androidx.core|core-role|1.0.0||implementation("androidx.core:core-role:1.0.0")|  
   
   
-|[Coroutines](https://github.com/Kotlin/kotlinx.coroutines)| | | ||协程|  
+|[Coroutines](https://github.com/Kotlin/kotlinx.coroutines)| | | |::|协程|  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
 |Core|org.jetbrains.kotlinx|kotlinx-coroutines-android|1.5.0-RC||implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0-RC")|  
 |Test|org.jetbrains.kotlinx|kotlinx-coroutines-test|1.5.0-RC||testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.5.0-RC")|  
   
   
-|[DialogX](https://github.com/kongzue/DialogX)| | | ||常用弹窗|  
+|[DialogX](https://github.com/kongzue/DialogX)| | | |::|常用弹窗|  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
 |Core|com.github.kongzue.DialogX|DialogX|0.0.37||implementation("com.github.kongzue.DialogX:DialogX:0.0.37")|  
@@ -99,7 +99,7 @@
 |MiuiStyle|com.kongzue.dialogx.style.miui|DialogXMIUIStyle|0.0.37||implementation("com.kongzue.dialogx.style.miui:DialogXMIUIStyle:0.0.37")|  
   
   
-|[DownloadAndUpload](https://github.com/AriaLyy/Aria)| | | ||文件下载与上传|  
+|[DownloadAndUpload](https://github.com/AriaLyy/Aria)| | | |::|文件下载与上传|  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
 |Compiler|com.arialyy.aria|compiler|3.8.15||kapt("com.arialyy.aria:compiler:3.8.15")|  
@@ -109,7 +109,7 @@
 |Sftp|com.arialyy.aria|sftpComponent|3.8.15||implementation("com.arialyy.aria:sftpComponent:3.8.15")|  
   
   
-|[Epoxy](https://github.com/airbnb/epoxy)| | | ||RecyclerView适配库|  
+|[Epoxy](https://github.com/airbnb/epoxy)| | | |::|RecyclerView适配库|  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
 |Compiler|com.airbnb.android|epoxy-processor|4.5.0||kapt("com.airbnb.android:epoxy-processor:4.5.0")|  
@@ -117,7 +117,7 @@
 |Glide|com.airbnb.android|epoxy-glide-preloading|4.5.0||implementation("com.airbnb.android:epoxy-glide-preloading:4.5.0")|  
   
   
-|[FlowBinding](https://github.com/ReactiveCircus/FlowBinding)| | | |||  
+|[FlowBinding](https://github.com/ReactiveCircus/FlowBinding)| | | |::||  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
 |Activity|io.github.reactivecircus.flowbinding|flowbinding-activity|1.0.0||implementation("io.github.reactivecircus.flowbinding:flowbinding-activity:1.0.0")|  
@@ -134,14 +134,15 @@
 |ViewPager2|io.github.reactivecircus.flowbinding|flowbinding-viewpager2|1.0.0||implementation("io.github.reactivecircus.flowbinding:flowbinding-viewpager2:1.0.0")|  
   
   
-|[Fragment](https://developer.android.com/jetpack/androidx/releases/fragment)| | | |||  
+|[Fragment](https://developer.android.com/jetpack/androidx/releases/fragment)| | | |::||  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
 |Core|androidx.fragment|fragment|1.3.3||implementation("androidx.fragment:fragment:1.3.3")|  
 |Test|androidx.fragment|fragment-testing|1.3.3||testImplementation("androidx.fragment:fragment-testing:1.3.3")|  
+|[Manager](https://github.com/terrakok/Cicerone)|com.github.terrakok|cicerone|7.0||implementation("com.github.terrakok:cicerone:7.0")|  
   
   
-|[Glide](https://github.com/bumptech/glide)| | | ||图片加载|  
+|[Glide](https://github.com/bumptech/glide)| | | |::|图片加载|  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
 |Annotation|com.github.bumptech.glide|annotations|4.12.0||implementation("com.github.bumptech.glide:annotations:4.12.0")|  
@@ -152,14 +153,14 @@
 |[Transformations](https://github.com/wasabeef/glide-transformations)|jp.wasabeef|glide-transformations|4.3.0|图片变换库|implementation("jp.wasabeef:glide-transformations:4.3.0")|  
   
   
-|[KeyCreator](https://github.com/qiushui95/KeysCreator)| | | ||key生成器|  
+|[KeyCreator](https://github.com/qiushui95/KeysCreator)| | | |::|key生成器|  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
 |Compiler|com.github.qiushui95.KeysCreator|compiler|1.1.0||kapt("com.github.qiushui95.KeysCreator:compiler:1.1.0")|  
 |Core|com.github.qiushui95.KeysCreator|annotations|1.1.0||implementation("com.github.qiushui95.KeysCreator:annotations:1.1.0")|  
   
   
-|[Koin](https://github.com/InsertKoinIO/koin)| | | ||依赖注入库|  
+|[Koin](https://github.com/InsertKoinIO/koin)| | | |::|依赖注入库|  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
 |Core|org.koin|koin-core|2.2.2||implementation("org.koin:koin-core:2.2.2")|  
@@ -169,14 +170,14 @@
 |ViewModel|org.koin|koin-androidx-viewmodel|2.2.2||implementation("org.koin:koin-androidx-viewmodel:2.2.2")|  
   
   
-|[Kotlin](https://github.com/JetBrains/kotlin)| | | |||  
+|[Kotlin](https://github.com/JetBrains/kotlin)| | | |::||  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
 |Reflect|org.jetbrains.kotlin|kotlin-reflect|1.5.0||implementation("org.jetbrains.kotlin:kotlin-reflect:1.5.0")|  
 |Stdlib|org.jetbrains.kotlin|kotlin-stdlib|1.5.0||implementation("org.jetbrains.kotlin:kotlin-stdlib:1.5.0")|  
   
   
-|[Lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)| | | |||  
+|[Lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)| | | |::||  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
 |Common|androidx.lifecycle|lifecycle-common|2.3.1||implementation("androidx.lifecycle:lifecycle-common:2.3.1")|  
@@ -188,7 +189,7 @@
 |ViewModel|androidx.lifecycle|lifecycle-viewmodel-ktx|2.3.1||implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1")|  
   
   
-|[Litho](https://fblitho.com/docs/getting-started/)| | | |||  
+|[Litho](https://fblitho.com/docs/getting-started/)| | | |::||  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
 |AnnotationsSelection|com.facebook.litho|litho-sections-annotations|0.40.0||implementation("com.facebook.litho:litho-sections-annotations:0.40.0")|  
@@ -201,14 +202,14 @@
 |WidgetSelection|com.facebook.litho|litho-sections-widget|0.40.0||implementation("com.facebook.litho:litho-sections-widget:0.40.0")|  
   
   
-|[MoShi](https://github.com/square/moshi)| | | ||json解析库|  
+|[MoShi](https://github.com/square/moshi)| | | |::|json解析库|  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
 |Compiler|com.squareup.moshi|moshi-kotlin-codegen|1.12.0||kapt("com.squareup.moshi:moshi-kotlin-codegen:1.12.0")|  
 |Core|com.squareup.moshi|moshi|1.12.0||implementation("com.squareup.moshi:moshi:1.12.0")|  
   
   
-|[Navigation](https://developer.android.com/jetpack/androidx/releases/navigation)| | | ||Fragment导航库|  
+|[Navigation](https://developer.android.com/jetpack/androidx/releases/navigation)| | | |::|Fragment导航库|  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
 |Core|androidx.navigation|navigation-fragment-ktx|2.3.5||implementation("androidx.navigation:navigation-fragment-ktx:2.3.5")|  
@@ -217,7 +218,7 @@
 |Ui|androidx.navigation|navigation-ui-ktx|2.3.5||implementation("androidx.navigation:navigation-ui-ktx:2.3.5")|  
   
   
-|[OkHttp](https://github.com/square/okhttp)| | | |||  
+|[OkHttp](https://github.com/square/okhttp)| | | |::||  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
 |Core|com.squareup.okhttp3|okhttp|4.9.1||implementation("com.squareup.okhttp3:okhttp:4.9.1")|  
@@ -225,21 +226,21 @@
 |Mock|com.squareup.okhttp3|mockwebserver|4.9.1||androidTestImplementation("com.squareup.okhttp3:mockwebserver:4.9.1")|  
   
   
-|[Paris](https://github.com/airbnb/paris)| | | |||  
+|[Paris](https://github.com/airbnb/paris)| | | |::||  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
 |Compiler|com.airbnb.android|paris-processor|1.7.3||kapt("com.airbnb.android:paris-processor:1.7.3")|  
 |Core|com.airbnb.android|paris|1.7.3||implementation("com.airbnb.android:paris:1.7.3")|  
   
   
-|[Retrofit](https://github.com/square/retrofit)| | | ||网络请求|  
+|[Retrofit](https://github.com/square/retrofit)| | | |::|网络请求|  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
 |Core|com.squareup.retrofit2|retrofit|2.9.0||implementation("com.squareup.retrofit2:retrofit:2.9.0")|  
 |MoShi|com.squareup.retrofit2|converter-moshi|2.9.0||implementation("com.squareup.retrofit2:converter-moshi:2.9.0")|  
   
   
-|[Room](https://developer.android.com/jetpack/androidx/releases/room)| | | ||Sqlite数据库|  
+|[Room](https://developer.android.com/jetpack/androidx/releases/room)| | | |::|Sqlite数据库|  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
 |Compiler|androidx.room|room-compiler|2.3.0||kapt("androidx.room:room-compiler:2.3.0")|  
@@ -248,7 +249,7 @@
 |Test|androidx.room|room-testing|2.3.0||testImplementation("androidx.room:room-testing:2.3.0")|  
   
   
-|[WorkManager](https://developer.android.com/jetpack/androidx/releases/work)| | | ||任务管理器|  
+|[WorkManager](https://developer.android.com/jetpack/androidx/releases/work)| | | |::|任务管理器|  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
 |Core|androidx.work|work-runtime-ktx|2.5.0||implementation("androidx.work:work-runtime-ktx:2.5.0")|  

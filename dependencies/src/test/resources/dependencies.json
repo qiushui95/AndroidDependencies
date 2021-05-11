@@ -455,6 +455,14 @@
           "action": "implementation"
         },
         {
+          "title": "Manager",
+          "version": "7.0",
+          "link": "https://github.com/terrakok/Cicerone",
+          "group": "com.github.terrakok",
+          "name": "cicerone",
+          "action": "implementation"
+        },
+        {
           "title": "Test",
           "name": "fragment-testing",
           "action": "testImplementation"

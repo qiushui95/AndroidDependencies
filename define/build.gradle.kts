@@ -106,6 +106,7 @@ dependencies {
 	implementation("io.github.reactivecircus.flowbinding:flowbinding-viewpager2:1.0.0")
 	implementation("androidx.fragment:fragment:1.3.3")
 	testImplementation("androidx.fragment:fragment-testing:1.3.3")
+	implementation("com.github.terrakok:cicerone:7.0")
 	implementation("com.github.bumptech.glide:annotations:4.12.0")
 	kapt("com.github.bumptech.glide:compiler:4.12.0")
 	implementation("com.github.bumptech.glide:glide:4.12.0")
