@@ -138,8 +138,8 @@
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
 |Core|androidx.fragment|fragment|1.3.3||implementation("androidx.fragment:fragment:1.3.3")|  
-|Test|androidx.fragment|fragment-testing|1.3.3||testImplementation("androidx.fragment:fragment-testing:1.3.3")|  
 |[Manager](https://github.com/terrakok/Cicerone)|com.github.terrakok|cicerone|7.0||implementation("com.github.terrakok:cicerone:7.0")|  
+|Test|androidx.fragment|fragment-testing|1.3.3||testImplementation("androidx.fragment:fragment-testing:1.3.3")|  
   
   
 |[Glide](https://github.com/bumptech/glide)| | | |::|图片加载|  

@@ -167,8 +167,10 @@ class AndroidDependencyTest : TestCase() {
         buildSingleClassSpec(DependencyClasses.KEY_CLASS_VIEW, container.view)
             .apply(androidDependencyClassBuilder::addType)
 
-        buildGroupClassSpec(DependencyClasses.KEY_CLASS_GROUP, container.group)
-            .apply(androidDependencyClassBuilder::addType)
+        container.group.forEach { group ->
+            buildGroupClassSpec(group)
+                .apply(androidDependencyClassBuilder::addType)
+        }
 
         buildSingleClassSpec(DependencyClasses.KEY_CLASS_TEST, container.test)
             .apply(androidDependencyClassBuilder::addType)
@@ -233,116 +235,108 @@ class AndroidDependencyTest : TestCase() {
         return singleClassBuilder.build()
     }
 
-    private fun buildGroupClassSpec(className: String, list: List<DependencyConfig>): TypeSpec {
-        //声明类
-        val groupClassBuilder = TypeSpec.objectBuilder(className)
+    private fun buildGroupClassSpec(config: DependencyConfig): TypeSpec {
 
-        list.forEach { container ->
+        val groupBuilder = TypeSpec.classBuilder(config.title)
+            .addModifiers(KModifier.SEALED)
 
-            val modules = container.modules ?: throw IllegalArgumentMissException(
-                container,
-                DependencyProperties.KEY_MODULES
+        val modules = config.modules ?: throw IllegalArgumentMissException(
+            config,
+            DependencyProperties.KEY_MODULES
+        )
+
+        val hasCustomVersion = modules.any { it.version != null }
+
+        val hasCustomGroup = modules.any { it.group != null }
+
+
+        val constructorBuilder = FunSpec.constructorBuilder()
+
+        if (hasCustomGroup) {
+            constructorBuilder.addParameter(DependencyProperties.KEY_GROUP, String::class)
+        }
+
+        constructorBuilder.addParameter(DependencyProperties.KEY_NAME, String::class)
+
+        if (hasCustomVersion) {
+            constructorBuilder.addParameter(DependencyProperties.KEY_VERSION, String::class)
+        }
+
+        groupBuilder.primaryConstructor(constructorBuilder.build())
+            .superclass(ClassName("", DependencyClasses.KEY_CLASS_DEPENDENCY))
+
+        if (hasCustomGroup) {
+            groupBuilder.addSuperclassConstructorParameter(DependencyProperties.KEY_GROUP)
+        } else {
+            groupBuilder.addSuperclassConstructorParameter(
+                "%S",
+                config.group ?: throw IllegalArgumentMissException(
+                    config,
+                    DependencyProperties.KEY_GROUP
+                )
+            )
+        }
+
+        groupBuilder.addSuperclassConstructorParameter(DependencyProperties.KEY_NAME)
+
+        if (hasCustomVersion) {
+            groupBuilder.addSuperclassConstructorParameter(DependencyProperties.KEY_VERSION)
+        } else {
+            groupBuilder.addSuperclassConstructorParameter(
+                "%S",
+                config.version ?: throw IllegalArgumentMissException(
+                    config,
+                    DependencyProperties.KEY_VERSION
+                )
+            )
+        }
+
+        config.modules.forEach { module ->
+            val moduleBuilder = TypeSpec.objectBuilder(module.title)
+            moduleBuilder.superclass(
+                ClassName(
+                    "",
+                    config.title
+                )
             )
 
-            val hasCustomVersion = modules.any { it.version != null }
-
-            val hasCustomGroup = modules.any { it.group != null }
-
-            val groupBuilder = TypeSpec.classBuilder(container.title)
-                .addModifiers(KModifier.SEALED)
-
-            val constructorBuilder = FunSpec.constructorBuilder()
-
             if (hasCustomGroup) {
-                constructorBuilder.addParameter(DependencyProperties.KEY_GROUP, String::class)
-            }
-
-            constructorBuilder.addParameter(DependencyProperties.KEY_NAME, String::class)
-
-            if (hasCustomVersion) {
-                constructorBuilder.addParameter(DependencyProperties.KEY_VERSION, String::class)
-            }
-
-            groupBuilder.primaryConstructor(constructorBuilder.build())
-                .superclass(ClassName("", DependencyClasses.KEY_CLASS_DEPENDENCY))
-
-            if (hasCustomGroup) {
-                groupBuilder.addSuperclassConstructorParameter(DependencyProperties.KEY_GROUP)
-            } else {
-                groupBuilder.addSuperclassConstructorParameter(
+                moduleBuilder.addSuperclassConstructorParameter(
                     "%S",
-                    container.group ?: throw IllegalArgumentMissException(
-                        container,
+                    module.group ?: config.group ?: throw IllegalArgumentMissException(
+                        config,
                         DependencyProperties.KEY_GROUP
                     )
                 )
             }
-
-            groupBuilder.addSuperclassConstructorParameter(DependencyProperties.KEY_NAME)
-
+            moduleBuilder.addSuperclassConstructorParameter(
+                "%S",
+                module.name ?: throw IllegalArgumentMissException(
+                    config,
+                    DependencyProperties.KEY_NAME
+                )
+            )
             if (hasCustomVersion) {
-                groupBuilder.addSuperclassConstructorParameter(DependencyProperties.KEY_VERSION)
-            } else {
-                groupBuilder.addSuperclassConstructorParameter(
+                moduleBuilder.addSuperclassConstructorParameter(
                     "%S",
-                    container.version ?: throw IllegalArgumentMissException(
-                        container,
+                    module.version ?: config.version ?: throw IllegalArgumentMissException(
+                        config,
                         DependencyProperties.KEY_VERSION
                     )
                 )
             }
 
-            container.modules.forEach { module ->
-                val moduleBuilder = TypeSpec.objectBuilder(module.title)
-                moduleBuilder.superclass(
-                    ClassName(
-                        "",
-                        container.title
-                    )
-                )
+            getKDoc(module.remark, module.link)
+                ?.apply(moduleBuilder::addKdoc)
 
-                if (hasCustomGroup) {
-                    moduleBuilder.addSuperclassConstructorParameter(
-                        "%S",
-                        module.group ?: container.group ?: throw IllegalArgumentMissException(
-                            container,
-                            DependencyProperties.KEY_GROUP
-                        )
-                    )
-                }
-                moduleBuilder.addSuperclassConstructorParameter(
-                    "%S",
-                    module.name ?: throw IllegalArgumentMissException(
-                        container,
-                        DependencyProperties.KEY_NAME
-                    )
-                )
-                if (hasCustomVersion) {
-                    moduleBuilder.addSuperclassConstructorParameter(
-                        "%S",
-                        module.version ?: container.version ?: throw IllegalArgumentMissException(
-                            container,
-                            DependencyProperties.KEY_VERSION
-                        )
-                    )
-                }
-
-
-                getKDoc(module.remark, module.link)
-                    ?.apply(moduleBuilder::addKdoc)
-
-                groupBuilder.addType(moduleBuilder.build())
-            }
-
-            getKDoc(container.remark, container.link)
-                ?.apply(groupBuilder::addKdoc)
-
-            groupClassBuilder.addType(groupBuilder.build())
-
+            groupBuilder.addType(moduleBuilder.build())
 
         }
 
-        return groupClassBuilder.build()
+        getKDoc(config.remark, config.link)
+            ?.apply(groupBuilder::addKdoc)
+
+        return groupBuilder.build()
     }
 
 
