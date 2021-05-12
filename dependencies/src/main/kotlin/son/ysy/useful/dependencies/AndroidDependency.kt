@@ -457,13 +457,13 @@ public abstract class AndroidDependency private constructor(
   public sealed class Koin(
     name: String
   ) : AndroidDependency("io.insert-koin", name, "3.0.1") {
-    public object Core : Koin("koin-core")
-
-    public object CoreExt : Koin("koin-core-ext")
-
     public object Android : Koin("koin-android")
 
     public object AndroidExt : Koin("koin-android-ext")
+
+    public object Core : Koin("koin-core")
+
+    public object CoreExt : Koin("koin-core-ext")
 
     public object Test : Koin("koin-test")
 
@@ -633,6 +633,24 @@ public abstract class AndroidDependency private constructor(
     public object Core : WorkManager("work-runtime-ktx")
 
     public object Test : WorkManager("work-testing")
+  }
+
+  /**
+   * 我的架构组件
+   * https://github.com/qiushui95/MyArchitecture
+   */
+  public sealed class Architecture(
+    name: String
+  ) : AndroidDependency("com.github.qiushui95.MyArchitecture", name, "1.0.1") {
+    public object Constant : Architecture("constant")
+
+    public object Error : Architecture("error")
+
+    public object Starter : Architecture("starter")
+
+    public object Usecase : Architecture("usecase")
+
+    public object UsecaseImpl : Architecture("usecase-impl")
   }
 
   public object Test {

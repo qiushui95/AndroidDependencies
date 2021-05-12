@@ -139,10 +139,10 @@ dependencies {
 	implementation("com.github.qiushui95.KeysCreator:annotations:+")
 	
 
-	implementation("io.insert-koin:koin-core:+")
-	implementation("io.insert-koin:koin-core-ext:+")
 	implementation("io.insert-koin:koin-android:+")
 	implementation("io.insert-koin:koin-android-ext:+")
+	implementation("io.insert-koin:koin-core:+")
+	implementation("io.insert-koin:koin-core-ext:+")
 	testImplementation("io.insert-koin:koin-test:+")
 	implementation("io.insert-koin:koin-androidx-workmanager:+")
 	
@@ -208,6 +208,13 @@ dependencies {
 
 	implementation("androidx.work:work-runtime-ktx:+")
 	testImplementation("androidx.work:work-testing:+")
+	
+
+	implementation("com.github.qiushui95.MyArchitecture:constant:+")
+	implementation("com.github.qiushui95.MyArchitecture:error:+")
+	implementation("com.github.qiushui95.MyArchitecture:starter:+")
+	implementation("com.github.qiushui95.MyArchitecture:usecase:+")
+	implementation("com.github.qiushui95.MyArchitecture:usecase-impl:+")
 	
 
 }

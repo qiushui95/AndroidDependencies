@@ -163,10 +163,10 @@
 |[Koin](https://github.com/InsertKoinIO/koin)| | | |::|依赖注入库|  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
-|Core|io.insert-koin|koin-core|3.0.1||implementation("io.insert-koin:koin-core:3.0.1")|  
-|CoreExt|io.insert-koin|koin-core-ext|3.0.1||implementation("io.insert-koin:koin-core-ext:3.0.1")|  
 |Android|io.insert-koin|koin-android|3.0.1||implementation("io.insert-koin:koin-android:3.0.1")|  
 |AndroidExt|io.insert-koin|koin-android-ext|3.0.1||implementation("io.insert-koin:koin-android-ext:3.0.1")|  
+|Core|io.insert-koin|koin-core|3.0.1||implementation("io.insert-koin:koin-core:3.0.1")|  
+|CoreExt|io.insert-koin|koin-core-ext|3.0.1||implementation("io.insert-koin:koin-core-ext:3.0.1")|  
 |Test|io.insert-koin|koin-test|3.0.1||testImplementation("io.insert-koin:koin-test:3.0.1")|  
 |WorkManager|io.insert-koin|koin-androidx-workmanager|3.0.1||implementation("io.insert-koin:koin-androidx-workmanager:3.0.1")|  
   
@@ -265,3 +265,13 @@
 |title|group|name|version|remark|gradle dsl|  
 |Core|androidx.work|work-runtime-ktx|2.5.0||implementation("androidx.work:work-runtime-ktx:2.5.0")|  
 |Test|androidx.work|work-testing|2.5.0||testImplementation("androidx.work:work-testing:2.5.0")|  
+  
+  
+|[Architecture](https://github.com/qiushui95/MyArchitecture)| | | |::|我的架构组件|  
+|:-:|:-:|:-:|:-:|:-:|:-:|  
+|title|group|name|version|remark|gradle dsl|  
+|Constant|com.github.qiushui95.MyArchitecture|constant|1.0.1||implementation("com.github.qiushui95.MyArchitecture:constant:1.0.1")|  
+|Error|com.github.qiushui95.MyArchitecture|error|1.0.1||implementation("com.github.qiushui95.MyArchitecture:error:1.0.1")|  
+|Starter|com.github.qiushui95.MyArchitecture|starter|1.0.1||implementation("com.github.qiushui95.MyArchitecture:starter:1.0.1")|  
+|Usecase|com.github.qiushui95.MyArchitecture|usecase|1.0.1||implementation("com.github.qiushui95.MyArchitecture:usecase:1.0.1")|  
+|UsecaseImpl|com.github.qiushui95.MyArchitecture|usecase-impl|1.0.1||implementation("com.github.qiushui95.MyArchitecture:usecase-impl:1.0.1")|  
