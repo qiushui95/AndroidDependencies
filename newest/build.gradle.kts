@@ -139,6 +139,14 @@ dependencies {
 	implementation("com.github.qiushui95.KeysCreator:annotations:+")
 	
 
+	implementation("io.insert-koin:koin-core:+")
+	implementation("io.insert-koin:koin-androidx-ext:+")
+	implementation("io.insert-koin:koin-androidx-scope:+")
+	testImplementation("io.insert-koin:koin-test:+")
+	implementation("io.insert-koin:koin-androidx-viewmodel:+")
+	implementation("io.insert-koin:koin-androidx-workmanager:+")
+	
+
 	implementation("org.koin:koin-core:+")
 	implementation("org.koin:koin-androidx-ext:+")
 	implementation("org.koin:koin-androidx-scope:+")

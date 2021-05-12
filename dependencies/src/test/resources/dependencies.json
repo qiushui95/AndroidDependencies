@@ -1,5 +1,5 @@
 {
-  "version": "1.4.7",
+  "version": "1.4.8",
   "single": [
     {
       "title": "Activity",
@@ -537,6 +537,45 @@
     },
     {
       "title": "Koin",
+      "version": "3.0.1",
+      "link": "https://github.com/InsertKoinIO/koin",
+      "group": "io.insert-koin",
+      "remark": "依赖注入库",
+      "modules": [
+        {
+          "title": "Core",
+          "name": "koin-core",
+          "action": "implementation"
+        },
+        {
+          "title": "Ext",
+          "name": "koin-androidx-ext",
+          "action": "implementation"
+        },
+        {
+          "title": "Scope",
+          "name": "koin-androidx-scope",
+          "action": "implementation"
+        },
+        {
+          "title": "Test",
+          "name": "koin-test",
+          "action": "testImplementation"
+        },
+        {
+          "title": "ViewModel",
+          "name": "koin-androidx-viewmodel",
+          "action": "implementation"
+        },
+        {
+          "title": "WorkManager",
+          "name": "koin-androidx-workmanager",
+          "action": "implementation"
+        }
+      ]
+    },
+    {
+      "title": "KoinOld",
       "version": "2.2.2",
       "link": "https://github.com/InsertKoinIO/koin",
       "group": "org.koin",

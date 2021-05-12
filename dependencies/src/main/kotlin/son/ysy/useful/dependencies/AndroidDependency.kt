@@ -456,7 +456,7 @@ public abstract class AndroidDependency private constructor(
    */
   public sealed class Koin(
     name: String
-  ) : AndroidDependency("org.koin", name, "2.2.2") {
+  ) : AndroidDependency("io.insert-koin", name, "3.0.1") {
     public object Core : Koin("koin-core")
 
     public object Ext : Koin("koin-androidx-ext")
@@ -466,6 +466,26 @@ public abstract class AndroidDependency private constructor(
     public object Test : Koin("koin-test")
 
     public object ViewModel : Koin("koin-androidx-viewmodel")
+
+    public object WorkManager : Koin("koin-androidx-workmanager")
+  }
+
+  /**
+   * 依赖注入库
+   * https://github.com/InsertKoinIO/koin
+   */
+  public sealed class KoinOld(
+    name: String
+  ) : AndroidDependency("org.koin", name, "2.2.2") {
+    public object Core : KoinOld("koin-core")
+
+    public object Ext : KoinOld("koin-androidx-ext")
+
+    public object Scope : KoinOld("koin-androidx-scope")
+
+    public object Test : KoinOld("koin-test")
+
+    public object ViewModel : KoinOld("koin-androidx-viewmodel")
   }
 
   /**
