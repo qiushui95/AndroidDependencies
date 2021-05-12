@@ -243,6 +243,28 @@ public abstract class AndroidDependency private constructor(
   }
 
   /**
+   * 我的架构组件
+   * https://github.com/qiushui95/MyArchitecture
+   */
+  public sealed class Architecture(
+    name: String
+  ) : AndroidDependency("com.github.qiushui95.MyArchitecture", name, "1.0.2") {
+    public object Constant : Architecture("constant")
+
+    public object Error : Architecture("error")
+
+    public object Ext : Architecture("ext")
+
+    public object Http : Architecture("http")
+
+    public object Starter : Architecture("starter")
+
+    public object Usecase : Architecture("usecase")
+
+    public object UsecaseImpl : Architecture("usecase-impl")
+  }
+
+  /**
    * 弹窗
    * https://github.com/razerdp/BasePopup
    */
@@ -633,24 +655,6 @@ public abstract class AndroidDependency private constructor(
     public object Core : WorkManager("work-runtime-ktx")
 
     public object Test : WorkManager("work-testing")
-  }
-
-  /**
-   * 我的架构组件
-   * https://github.com/qiushui95/MyArchitecture
-   */
-  public sealed class Architecture(
-    name: String
-  ) : AndroidDependency("com.github.qiushui95.MyArchitecture", name, "1.0.1") {
-    public object Constant : Architecture("constant")
-
-    public object Error : Architecture("error")
-
-    public object Starter : Architecture("starter")
-
-    public object Usecase : Architecture("usecase")
-
-    public object UsecaseImpl : Architecture("usecase-impl")
   }
 
   public object Test {

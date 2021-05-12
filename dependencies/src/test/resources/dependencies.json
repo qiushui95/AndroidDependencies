@@ -1,5 +1,5 @@
 {
-  "version": "1.4.10",
+  "version": "1.4.11",
   "single": [
     {
       "title": "Activity",
@@ -174,7 +174,7 @@
   "group": [
     {
       "title": "Architecture",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "link": "https://github.com/qiushui95/MyArchitecture",
       "group": "com.github.qiushui95.MyArchitecture",
       "remark": "我的架构组件",
@@ -187,6 +187,16 @@
         {
           "title": "Error",
           "name": "error",
+          "action": "implementation"
+        },
+        {
+          "title": "Ext",
+          "name": "ext",
+          "action": "implementation"
+        },
+        {
+          "title": "Http",
+          "name": "http",
           "action": "implementation"
         },
         {

@@ -52,6 +52,18 @@
 |[JunitExt](https://mvnrepository.com/artifact/androidx.test.ext/junit-ktx)|androidx.test.ext|junit-ktx|1.1.2|单元测试扩展|testImplementation("androidx.test.ext:junit-ktx:1.1.2")|  
   
   
+|[Architecture](https://github.com/qiushui95/MyArchitecture)| | | |::|我的架构组件|  
+|:-:|:-:|:-:|:-:|:-:|:-:|  
+|title|group|name|version|remark|gradle dsl|  
+|Constant|com.github.qiushui95.MyArchitecture|constant|1.0.2||implementation("com.github.qiushui95.MyArchitecture:constant:1.0.2")|  
+|Error|com.github.qiushui95.MyArchitecture|error|1.0.2||implementation("com.github.qiushui95.MyArchitecture:error:1.0.2")|  
+|Ext|com.github.qiushui95.MyArchitecture|ext|1.0.2||implementation("com.github.qiushui95.MyArchitecture:ext:1.0.2")|  
+|Http|com.github.qiushui95.MyArchitecture|http|1.0.2||implementation("com.github.qiushui95.MyArchitecture:http:1.0.2")|  
+|Starter|com.github.qiushui95.MyArchitecture|starter|1.0.2||implementation("com.github.qiushui95.MyArchitecture:starter:1.0.2")|  
+|Usecase|com.github.qiushui95.MyArchitecture|usecase|1.0.2||implementation("com.github.qiushui95.MyArchitecture:usecase:1.0.2")|  
+|UsecaseImpl|com.github.qiushui95.MyArchitecture|usecase-impl|1.0.2||implementation("com.github.qiushui95.MyArchitecture:usecase-impl:1.0.2")|  
+  
+  
 |[BasePopup](https://github.com/razerdp/BasePopup)| | | |::|弹窗|  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
@@ -265,13 +277,3 @@
 |title|group|name|version|remark|gradle dsl|  
 |Core|androidx.work|work-runtime-ktx|2.5.0||implementation("androidx.work:work-runtime-ktx:2.5.0")|  
 |Test|androidx.work|work-testing|2.5.0||testImplementation("androidx.work:work-testing:2.5.0")|  
-  
-  
-|[Architecture](https://github.com/qiushui95/MyArchitecture)| | | |::|我的架构组件|  
-|:-:|:-:|:-:|:-:|:-:|:-:|  
-|title|group|name|version|remark|gradle dsl|  
-|Constant|com.github.qiushui95.MyArchitecture|constant|1.0.1||implementation("com.github.qiushui95.MyArchitecture:constant:1.0.1")|  
-|Error|com.github.qiushui95.MyArchitecture|error|1.0.1||implementation("com.github.qiushui95.MyArchitecture:error:1.0.1")|  
-|Starter|com.github.qiushui95.MyArchitecture|starter|1.0.1||implementation("com.github.qiushui95.MyArchitecture:starter:1.0.1")|  
-|Usecase|com.github.qiushui95.MyArchitecture|usecase|1.0.1||implementation("com.github.qiushui95.MyArchitecture:usecase:1.0.1")|  
-|UsecaseImpl|com.github.qiushui95.MyArchitecture|usecase-impl|1.0.1||implementation("com.github.qiushui95.MyArchitecture:usecase-impl:1.0.1")|  

@@ -67,6 +67,15 @@ dependencies {
 	androidTestImplementation("androidx.test.espresso:espresso-core:3.3.0")
 	testImplementation("junit:junit:4.13.2")
 	testImplementation("androidx.test.ext:junit-ktx:1.1.2")
+	implementation("com.github.qiushui95.MyArchitecture:constant:1.0.2")
+	implementation("com.github.qiushui95.MyArchitecture:error:1.0.2")
+	implementation("com.github.qiushui95.MyArchitecture:ext:1.0.2")
+	implementation("com.github.qiushui95.MyArchitecture:http:1.0.2")
+	implementation("com.github.qiushui95.MyArchitecture:starter:1.0.2")
+	implementation("com.github.qiushui95.MyArchitecture:usecase:1.0.2")
+	implementation("com.github.qiushui95.MyArchitecture:usecase-impl:1.0.2")
+	
+
 	implementation("io.github.razerdp:BasePopup_Candy:2.2.30.0324")
 	implementation("io.github.razerdp:BasePopup:2.3.0")
 	
@@ -208,13 +217,6 @@ dependencies {
 
 	implementation("androidx.work:work-runtime-ktx:2.5.0")
 	testImplementation("androidx.work:work-testing:2.5.0")
-	
-
-	implementation("com.github.qiushui95.MyArchitecture:constant:1.0.1")
-	implementation("com.github.qiushui95.MyArchitecture:error:1.0.1")
-	implementation("com.github.qiushui95.MyArchitecture:starter:1.0.1")
-	implementation("com.github.qiushui95.MyArchitecture:usecase:1.0.1")
-	implementation("com.github.qiushui95.MyArchitecture:usecase-impl:1.0.1")
 	
 
 }
