@@ -1,5 +1,5 @@
 {
-  "version": "1.4.6",
+  "version": "1.4.7",
   "single": [
     {
       "title": "Activity",
@@ -451,7 +451,7 @@
       "modules": [
         {
           "title": "Core",
-          "name": "fragment",
+          "name": "fragment-ktx",
           "action": "implementation"
         },
         {

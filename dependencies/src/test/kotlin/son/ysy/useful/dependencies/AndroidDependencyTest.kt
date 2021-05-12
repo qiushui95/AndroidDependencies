@@ -476,6 +476,8 @@ class AndroidDependencyTest : TestCase() {
                     newestList.createGradle(group, module, true)
                     defineList.createGradle(group, module, false)
                 }
+                newestList.add("\n")
+                defineList.add("\n")
             }
 
         val parentDir = File(File("").absolutePath).parentFile

@@ -137,7 +137,7 @@
 |[Fragment](https://developer.android.com/jetpack/androidx/releases/fragment)| | | |::||  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
-|Core|androidx.fragment|fragment|1.3.3||implementation("androidx.fragment:fragment:1.3.3")|  
+|Core|androidx.fragment|fragment-ktx|1.3.3||implementation("androidx.fragment:fragment-ktx:1.3.3")|  
 |[Manager](https://github.com/terrakok/Cicerone)|com.github.terrakok|cicerone|7.0||implementation("com.github.terrakok:cicerone:7.0")|  
 |Test|androidx.fragment|fragment-testing|1.3.3||testImplementation("androidx.fragment:fragment-testing:1.3.3")|  
   
