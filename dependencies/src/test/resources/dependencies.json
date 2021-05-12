@@ -1,5 +1,5 @@
 {
-  "version": "1.4.8",
+  "version": "1.4.9",
   "single": [
     {
       "title": "Activity",
@@ -543,29 +543,29 @@
       "remark": "依赖注入库",
       "modules": [
         {
+          "title": "Android",
+          "name": "koin-android",
+          "action": "implementation"
+        },
+        {
+          "title": "AndroidExt",
+          "name": "koin-android-ext",
+          "action": "implementation"
+        },
+        {
           "title": "Core",
           "name": "koin-core",
           "action": "implementation"
         },
         {
-          "title": "Ext",
-          "name": "koin-androidx-ext",
-          "action": "implementation"
-        },
-        {
-          "title": "Scope",
-          "name": "koin-androidx-scope",
+          "title": "CoreExt",
+          "name": "koin-core-ext",
           "action": "implementation"
         },
         {
           "title": "Test",
           "name": "koin-test",
           "action": "testImplementation"
-        },
-        {
-          "title": "ViewModel",
-          "name": "koin-androidx-viewmodel",
-          "action": "implementation"
         },
         {
           "title": "WorkManager",

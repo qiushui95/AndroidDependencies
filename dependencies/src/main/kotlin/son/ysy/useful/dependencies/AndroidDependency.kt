@@ -459,13 +459,13 @@ public abstract class AndroidDependency private constructor(
   ) : AndroidDependency("io.insert-koin", name, "3.0.1") {
     public object Core : Koin("koin-core")
 
-    public object Ext : Koin("koin-androidx-ext")
+    public object CoreExt : Koin("koin-core-ext")
 
-    public object Scope : Koin("koin-androidx-scope")
+    public object Android : Koin("koin-android")
+
+    public object AndroidExt : Koin("koin-android-ext")
 
     public object Test : Koin("koin-test")
-
-    public object ViewModel : Koin("koin-androidx-viewmodel")
 
     public object WorkManager : Koin("koin-androidx-workmanager")
   }

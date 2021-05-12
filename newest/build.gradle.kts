@@ -140,10 +140,10 @@ dependencies {
 	
 
 	implementation("io.insert-koin:koin-core:+")
-	implementation("io.insert-koin:koin-androidx-ext:+")
-	implementation("io.insert-koin:koin-androidx-scope:+")
+	implementation("io.insert-koin:koin-core-ext:+")
+	implementation("io.insert-koin:koin-android:+")
+	implementation("io.insert-koin:koin-android-ext:+")
 	testImplementation("io.insert-koin:koin-test:+")
-	implementation("io.insert-koin:koin-androidx-viewmodel:+")
 	implementation("io.insert-koin:koin-androidx-workmanager:+")
 	
 

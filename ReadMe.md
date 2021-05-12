@@ -164,10 +164,10 @@
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
 |Core|io.insert-koin|koin-core|3.0.1||implementation("io.insert-koin:koin-core:3.0.1")|  
-|Ext|io.insert-koin|koin-androidx-ext|3.0.1||implementation("io.insert-koin:koin-androidx-ext:3.0.1")|  
-|Scope|io.insert-koin|koin-androidx-scope|3.0.1||implementation("io.insert-koin:koin-androidx-scope:3.0.1")|  
+|CoreExt|io.insert-koin|koin-core-ext|3.0.1||implementation("io.insert-koin:koin-core-ext:3.0.1")|  
+|Android|io.insert-koin|koin-android|3.0.1||implementation("io.insert-koin:koin-android:3.0.1")|  
+|AndroidExt|io.insert-koin|koin-android-ext|3.0.1||implementation("io.insert-koin:koin-android-ext:3.0.1")|  
 |Test|io.insert-koin|koin-test|3.0.1||testImplementation("io.insert-koin:koin-test:3.0.1")|  
-|ViewModel|io.insert-koin|koin-androidx-viewmodel|3.0.1||implementation("io.insert-koin:koin-androidx-viewmodel:3.0.1")|  
 |WorkManager|io.insert-koin|koin-androidx-workmanager|3.0.1||implementation("io.insert-koin:koin-androidx-workmanager:3.0.1")|  
   
   
