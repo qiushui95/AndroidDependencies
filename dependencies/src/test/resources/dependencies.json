@@ -1,5 +1,5 @@
 {
-  "version": "1.4.11",
+  "version": "1.4.12",
   "single": [
     {
       "title": "Activity",
@@ -174,7 +174,7 @@
   "group": [
     {
       "title": "Architecture",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "link": "https://github.com/qiushui95/MyArchitecture",
       "group": "com.github.qiushui95.MyArchitecture",
       "remark": "我的架构组件",
@@ -182,6 +182,21 @@
         {
           "title": "Constant",
           "name": "constant",
+          "action": "implementation"
+        },
+        {
+          "title": "Domain",
+          "name": "domain",
+          "action": "implementation"
+        },
+        {
+          "title": "DomainImpl",
+          "name": "domain-impl",
+          "action": "implementation"
+        },
+        {
+          "title": "Entity",
+          "name": "entity",
           "action": "implementation"
         },
         {
@@ -200,18 +215,13 @@
           "action": "implementation"
         },
         {
+          "title": "Model",
+          "name": "model",
+          "action": "implementation"
+        },
+        {
           "title": "Starter",
           "name": "starter",
-          "action": "implementation"
-        },
-        {
-          "title": "Usecase",
-          "name": "usecase",
-          "action": "implementation"
-        },
-        {
-          "title": "UsecaseImpl",
-          "name": "usecase-impl",
           "action": "implementation"
         }
       ]

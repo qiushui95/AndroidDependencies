@@ -67,13 +67,17 @@ dependencies {
 	androidTestImplementation("androidx.test.espresso:espresso-core:+")
 	testImplementation("junit:junit:+")
 	testImplementation("androidx.test.ext:junit-ktx:+")
+	
+
 	implementation("com.github.qiushui95.MyArchitecture:constant:+")
+	implementation("com.github.qiushui95.MyArchitecture:domain:+")
+	implementation("com.github.qiushui95.MyArchitecture:domain-impl:+")
+	implementation("com.github.qiushui95.MyArchitecture:entity:+")
 	implementation("com.github.qiushui95.MyArchitecture:error:+")
 	implementation("com.github.qiushui95.MyArchitecture:ext:+")
 	implementation("com.github.qiushui95.MyArchitecture:http:+")
+	implementation("com.github.qiushui95.MyArchitecture:model:+")
 	implementation("com.github.qiushui95.MyArchitecture:starter:+")
-	implementation("com.github.qiushui95.MyArchitecture:usecase:+")
-	implementation("com.github.qiushui95.MyArchitecture:usecase-impl:+")
 	
 
 	implementation("io.github.razerdp:BasePopup_Candy:+")
@@ -217,6 +221,4 @@ dependencies {
 
 	implementation("androidx.work:work-runtime-ktx:+")
 	testImplementation("androidx.work:work-testing:+")
-	
-
 }

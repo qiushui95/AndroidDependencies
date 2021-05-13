@@ -248,8 +248,14 @@ public abstract class AndroidDependency private constructor(
    */
   public sealed class Architecture(
     name: String
-  ) : AndroidDependency("com.github.qiushui95.MyArchitecture", name, "1.0.2") {
+  ) : AndroidDependency("com.github.qiushui95.MyArchitecture", name, "1.0.3") {
     public object Constant : Architecture("constant")
+
+    public object Domain : Architecture("domain")
+
+    public object DomainImpl : Architecture("domain-impl")
+
+    public object Entity : Architecture("entity")
 
     public object Error : Architecture("error")
 
@@ -257,11 +263,9 @@ public abstract class AndroidDependency private constructor(
 
     public object Http : Architecture("http")
 
+    public object Model : Architecture("model")
+
     public object Starter : Architecture("starter")
-
-    public object Usecase : Architecture("usecase")
-
-    public object UsecaseImpl : Architecture("usecase-impl")
   }
 
   /**

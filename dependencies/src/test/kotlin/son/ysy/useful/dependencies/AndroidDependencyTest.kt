@@ -472,12 +472,14 @@ class AndroidDependencyTest : TestCase() {
 
         container.group
             .forEach { group ->
+
+                newestList.add("\n")
+                defineList.add("\n")
+
                 group.modules?.forEach { module ->
                     newestList.createGradle(group, module, true)
                     defineList.createGradle(group, module, false)
                 }
-                newestList.add("\n")
-                defineList.add("\n")
             }
 
         val parentDir = File(File("").absolutePath).parentFile
