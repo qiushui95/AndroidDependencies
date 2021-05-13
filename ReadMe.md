@@ -55,15 +55,15 @@
 |[Architecture](https://github.com/qiushui95/MyArchitecture)| | | |::|我的架构组件|  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
-|Constant|com.github.qiushui95.MyArchitecture|constant|1.0.3||implementation("com.github.qiushui95.MyArchitecture:constant:1.0.3")|  
-|Domain|com.github.qiushui95.MyArchitecture|domain|1.0.3||implementation("com.github.qiushui95.MyArchitecture:domain:1.0.3")|  
-|DomainImpl|com.github.qiushui95.MyArchitecture|domain-impl|1.0.3||implementation("com.github.qiushui95.MyArchitecture:domain-impl:1.0.3")|  
-|Entity|com.github.qiushui95.MyArchitecture|entity|1.0.3||implementation("com.github.qiushui95.MyArchitecture:entity:1.0.3")|  
-|Error|com.github.qiushui95.MyArchitecture|error|1.0.3||implementation("com.github.qiushui95.MyArchitecture:error:1.0.3")|  
-|Ext|com.github.qiushui95.MyArchitecture|ext|1.0.3||implementation("com.github.qiushui95.MyArchitecture:ext:1.0.3")|  
-|Http|com.github.qiushui95.MyArchitecture|http|1.0.3||implementation("com.github.qiushui95.MyArchitecture:http:1.0.3")|  
-|Model|com.github.qiushui95.MyArchitecture|model|1.0.3||implementation("com.github.qiushui95.MyArchitecture:model:1.0.3")|  
-|Starter|com.github.qiushui95.MyArchitecture|starter|1.0.3||implementation("com.github.qiushui95.MyArchitecture:starter:1.0.3")|  
+|Constant|com.github.qiushui95.MyArchitecture|constant|1.0.4||implementation("com.github.qiushui95.MyArchitecture:constant:1.0.4")|  
+|Domain|com.github.qiushui95.MyArchitecture|domain|1.0.4||implementation("com.github.qiushui95.MyArchitecture:domain:1.0.4")|  
+|DomainImpl|com.github.qiushui95.MyArchitecture|domain-impl|1.0.4||implementation("com.github.qiushui95.MyArchitecture:domain-impl:1.0.4")|  
+|Entity|com.github.qiushui95.MyArchitecture|entity|1.0.4||implementation("com.github.qiushui95.MyArchitecture:entity:1.0.4")|  
+|Error|com.github.qiushui95.MyArchitecture|error|1.0.4||implementation("com.github.qiushui95.MyArchitecture:error:1.0.4")|  
+|Ext|com.github.qiushui95.MyArchitecture|ext|1.0.4||implementation("com.github.qiushui95.MyArchitecture:ext:1.0.4")|  
+|Http|com.github.qiushui95.MyArchitecture|http|1.0.4||implementation("com.github.qiushui95.MyArchitecture:http:1.0.4")|  
+|Model|com.github.qiushui95.MyArchitecture|model|1.0.4||implementation("com.github.qiushui95.MyArchitecture:model:1.0.4")|  
+|Starter|com.github.qiushui95.MyArchitecture|starter|1.0.4||implementation("com.github.qiushui95.MyArchitecture:starter:1.0.4")|  
   
   
 |[BasePopup](https://github.com/razerdp/BasePopup)| | | |::|弹窗|  

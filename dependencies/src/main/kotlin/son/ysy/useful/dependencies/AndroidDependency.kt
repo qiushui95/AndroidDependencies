@@ -248,7 +248,7 @@ public abstract class AndroidDependency private constructor(
    */
   public sealed class Architecture(
     name: String
-  ) : AndroidDependency("com.github.qiushui95.MyArchitecture", name, "1.0.3") {
+  ) : AndroidDependency("com.github.qiushui95.MyArchitecture", name, "1.0.4") {
     public object Constant : Architecture("constant")
 
     public object Domain : Architecture("domain")
