@@ -1,5 +1,5 @@
 {
-  "version": "1.4.14",
+  "version": "1.4.15",
   "single": [
     {
       "title": "Activity",
@@ -16,15 +16,6 @@
       "group": "com.aliyun.ams",
       "name": "alicloud-android-push",
       "remark": "阿里推送",
-      "action": "implementation"
-    },
-    {
-      "title": "Anchors",
-      "version": "1.1.4",
-      "link": "https://github.com/YummyLau/Anchors/blob/master/README-zh.md",
-      "group": "com.github.YummyLau",
-      "name": "Anchors",
-      "remark": "app启动初始化管理",
       "action": "implementation"
     },
     {
@@ -174,7 +165,7 @@
   "group": [
     {
       "title": "Architecture",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "link": "https://github.com/qiushui95/MyArchitecture",
       "group": "com.github.qiushui95.MyArchitecture",
       "remark": "我的架构组件",
@@ -234,8 +225,8 @@
       "modules": [
         {
           "title": "Candy",
-          "version": "2.2.30.0324",
-          "name": "BasePopup_Candy",
+          "version": "2.3.2-SNAPSHOT",
+          "name": "BasePopup",
           "action": "implementation"
         },
         {
@@ -349,24 +340,6 @@
         {
           "title": "Core",
           "name": "DialogX",
-          "action": "implementation"
-        },
-        {
-          "title": "IosStyle",
-          "group": "com.kongzue.dialogx.style.ios",
-          "name": "DialogXIOSStyle",
-          "action": "implementation"
-        },
-        {
-          "title": "KongzueStyle",
-          "group": "com.kongzue.dialogx.style.kongzue",
-          "name": "DialogXKongzueStyle",
-          "action": "implementation"
-        },
-        {
-          "title": "MiuiStyle",
-          "group": "com.kongzue.dialogx.style.miui",
-          "name": "DialogXMIUIStyle",
           "action": "implementation"
         }
       ]
@@ -756,7 +729,7 @@
         },
         {
           "title": "Test",
-          "name": "litho:litho-testing",
+          "name": "litho-testing",
           "action": "implementation"
         },
         {

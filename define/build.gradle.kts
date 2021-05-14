@@ -30,7 +30,6 @@ android {
 dependencies {
 	implementation("androidx.activity:activity-ktx:1.2.3")
 	implementation("com.aliyun.ams:alicloud-android-push:3.3.0")
-	implementation("com.github.YummyLau:Anchors:1.1.4")
 	implementation("com.blankj:utilcodex:1.30.6")
 	implementation("androidx.appcompat:appcompat:1.3.0-rc01")
 	implementation("com.noober.background:core:1.6.5")
@@ -69,18 +68,18 @@ dependencies {
 	testImplementation("androidx.test.ext:junit-ktx:1.1.2")
 	
 
-	implementation("com.github.qiushui95.MyArchitecture:constant:1.0.5")
-	implementation("com.github.qiushui95.MyArchitecture:domain:1.0.5")
-	implementation("com.github.qiushui95.MyArchitecture:domain-impl:1.0.5")
-	implementation("com.github.qiushui95.MyArchitecture:entity:1.0.5")
-	implementation("com.github.qiushui95.MyArchitecture:error:1.0.5")
-	implementation("com.github.qiushui95.MyArchitecture:ext:1.0.5")
-	implementation("com.github.qiushui95.MyArchitecture:http:1.0.5")
-	implementation("com.github.qiushui95.MyArchitecture:model:1.0.5")
-	implementation("com.github.qiushui95.MyArchitecture:starter:1.0.5")
+	implementation("com.github.qiushui95.MyArchitecture:constant:1.0.6")
+	implementation("com.github.qiushui95.MyArchitecture:domain:1.0.6")
+	implementation("com.github.qiushui95.MyArchitecture:domain-impl:1.0.6")
+	implementation("com.github.qiushui95.MyArchitecture:entity:1.0.6")
+	implementation("com.github.qiushui95.MyArchitecture:error:1.0.6")
+	implementation("com.github.qiushui95.MyArchitecture:ext:1.0.6")
+	implementation("com.github.qiushui95.MyArchitecture:http:1.0.6")
+	implementation("com.github.qiushui95.MyArchitecture:model:1.0.6")
+	implementation("com.github.qiushui95.MyArchitecture:starter:1.0.6")
 	
 
-	implementation("io.github.razerdp:BasePopup_Candy:2.2.30.0324")
+	implementation("io.github.razerdp:BasePopup:2.3.2-SNAPSHOT")
 	implementation("io.github.razerdp:BasePopup:2.3.0")
 	
 
@@ -104,9 +103,6 @@ dependencies {
 	
 
 	implementation("com.github.kongzue.DialogX:DialogX:0.0.37")
-	implementation("com.kongzue.dialogx.style.ios:DialogXIOSStyle:0.0.37")
-	implementation("com.kongzue.dialogx.style.kongzue:DialogXKongzueStyle:0.0.37")
-	implementation("com.kongzue.dialogx.style.miui:DialogXMIUIStyle:0.0.37")
 	
 
 	kapt("com.arialyy.aria:compiler:3.8.15")
@@ -185,7 +181,7 @@ dependencies {
 	implementation("com.facebook.litho:litho-core-kotlin:0.40.0")
 	implementation("com.facebook.litho:litho-sections-core:0.40.0")
 	implementation("com.facebook.litho:litho-fresco-kotlin:0.40.0")
-	implementation("com.facebook.litho:litho:litho-testing:0.40.0")
+	implementation("com.facebook.litho:litho-testing:0.40.0")
 	implementation("com.facebook.litho:litho-widget-kotlin:0.40.0")
 	implementation("com.facebook.litho:litho-sections-widget:0.40.0")
 	

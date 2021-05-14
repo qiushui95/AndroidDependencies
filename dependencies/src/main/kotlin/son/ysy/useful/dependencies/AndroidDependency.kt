@@ -29,12 +29,6 @@ public abstract class AndroidDependency private constructor(
     public object AliPush : AndroidDependency("com.aliyun.ams", "alicloud-android-push", "3.3.0")
 
     /**
-     * app启动初始化管理
-     * https://github.com/YummyLau/Anchors/blob/master/README-zh.md
-     */
-    public object Anchors : AndroidDependency("com.github.YummyLau", "Anchors", "1.1.4")
-
-    /**
      * 多功能工具包
      * https://github.com/Blankj/AndroidUtilCode
      */
@@ -248,7 +242,7 @@ public abstract class AndroidDependency private constructor(
    */
   public sealed class Architecture(
     name: String
-  ) : AndroidDependency("com.github.qiushui95.MyArchitecture", name, "1.0.5") {
+  ) : AndroidDependency("com.github.qiushui95.MyArchitecture", name, "1.0.6") {
     public object Constant : Architecture("constant")
 
     public object Domain : Architecture("domain")
@@ -276,7 +270,7 @@ public abstract class AndroidDependency private constructor(
     name: String,
     version: String
   ) : AndroidDependency("io.github.razerdp", name, version) {
-    public object Candy : BasePopup("BasePopup_Candy", "2.2.30.0324")
+    public object Candy : BasePopup("BasePopup", "2.3.2-SNAPSHOT")
 
     public object Stable : BasePopup("BasePopup", "2.3.0")
   }
@@ -341,16 +335,9 @@ public abstract class AndroidDependency private constructor(
    * https://github.com/kongzue/DialogX
    */
   public sealed class DialogX(
-    group: String,
     name: String
-  ) : AndroidDependency(group, name, "0.0.37") {
-    public object Core : DialogX("com.github.kongzue.DialogX", "DialogX")
-
-    public object IosStyle : DialogX("com.kongzue.dialogx.style.ios", "DialogXIOSStyle")
-
-    public object KongzueStyle : DialogX("com.kongzue.dialogx.style.kongzue", "DialogXKongzueStyle")
-
-    public object MiuiStyle : DialogX("com.kongzue.dialogx.style.miui", "DialogXMIUIStyle")
+  ) : AndroidDependency("com.github.kongzue.DialogX", name, "0.0.37") {
+    public object Core : DialogX("DialogX")
   }
 
   /**
@@ -562,7 +549,7 @@ public abstract class AndroidDependency private constructor(
 
     public object Fresco : Litho("litho-fresco-kotlin")
 
-    public object Test : Litho("litho:litho-testing")
+    public object Test : Litho("litho-testing")
 
     public object Widget : Litho("litho-widget-kotlin")
 

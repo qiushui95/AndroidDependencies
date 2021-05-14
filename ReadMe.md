@@ -5,7 +5,6 @@
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |[Activity](https://developer.android.com/jetpack/androidx/releases/activity)|androidx.activity|activity-ktx|1.2.3||implementation("androidx.activity:activity-ktx:1.2.3")|  
 |[AliPush](https://help.aliyun.com/document_detail/190009.html?spm=a2c4g.11174283.3.2.52eb6d163QVxjG)|com.aliyun.ams|alicloud-android-push|3.3.0|阿里推送|implementation("com.aliyun.ams:alicloud-android-push:3.3.0")|  
-|[Anchors](https://github.com/YummyLau/Anchors/blob/master/README-zh.md)|com.github.YummyLau|Anchors|1.1.4|app启动初始化管理|implementation("com.github.YummyLau:Anchors:1.1.4")|  
 |[AndroidUtil](https://github.com/Blankj/AndroidUtilCode)|com.blankj|utilcodex|1.30.6|多功能工具包|implementation("com.blankj:utilcodex:1.30.6")|  
 |[Appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat)|androidx.appcompat|appcompat|1.3.0-rc01||implementation("androidx.appcompat:appcompat:1.3.0-rc01")|  
 |[Background](https://github.com/JavaNoober/BackgroundLibrary)|com.noober.background|core|1.6.5|背景生成工具库|implementation("com.noober.background:core:1.6.5")|  
@@ -55,21 +54,21 @@
 |[Architecture](https://github.com/qiushui95/MyArchitecture)| | | |::|我的架构组件|  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
-|Constant|com.github.qiushui95.MyArchitecture|constant|1.0.5||implementation("com.github.qiushui95.MyArchitecture:constant:1.0.5")|  
-|Domain|com.github.qiushui95.MyArchitecture|domain|1.0.5||implementation("com.github.qiushui95.MyArchitecture:domain:1.0.5")|  
-|DomainImpl|com.github.qiushui95.MyArchitecture|domain-impl|1.0.5||implementation("com.github.qiushui95.MyArchitecture:domain-impl:1.0.5")|  
-|Entity|com.github.qiushui95.MyArchitecture|entity|1.0.5||implementation("com.github.qiushui95.MyArchitecture:entity:1.0.5")|  
-|Error|com.github.qiushui95.MyArchitecture|error|1.0.5||implementation("com.github.qiushui95.MyArchitecture:error:1.0.5")|  
-|Ext|com.github.qiushui95.MyArchitecture|ext|1.0.5||implementation("com.github.qiushui95.MyArchitecture:ext:1.0.5")|  
-|Http|com.github.qiushui95.MyArchitecture|http|1.0.5||implementation("com.github.qiushui95.MyArchitecture:http:1.0.5")|  
-|Model|com.github.qiushui95.MyArchitecture|model|1.0.5||implementation("com.github.qiushui95.MyArchitecture:model:1.0.5")|  
-|Starter|com.github.qiushui95.MyArchitecture|starter|1.0.5||implementation("com.github.qiushui95.MyArchitecture:starter:1.0.5")|  
+|Constant|com.github.qiushui95.MyArchitecture|constant|1.0.6||implementation("com.github.qiushui95.MyArchitecture:constant:1.0.6")|  
+|Domain|com.github.qiushui95.MyArchitecture|domain|1.0.6||implementation("com.github.qiushui95.MyArchitecture:domain:1.0.6")|  
+|DomainImpl|com.github.qiushui95.MyArchitecture|domain-impl|1.0.6||implementation("com.github.qiushui95.MyArchitecture:domain-impl:1.0.6")|  
+|Entity|com.github.qiushui95.MyArchitecture|entity|1.0.6||implementation("com.github.qiushui95.MyArchitecture:entity:1.0.6")|  
+|Error|com.github.qiushui95.MyArchitecture|error|1.0.6||implementation("com.github.qiushui95.MyArchitecture:error:1.0.6")|  
+|Ext|com.github.qiushui95.MyArchitecture|ext|1.0.6||implementation("com.github.qiushui95.MyArchitecture:ext:1.0.6")|  
+|Http|com.github.qiushui95.MyArchitecture|http|1.0.6||implementation("com.github.qiushui95.MyArchitecture:http:1.0.6")|  
+|Model|com.github.qiushui95.MyArchitecture|model|1.0.6||implementation("com.github.qiushui95.MyArchitecture:model:1.0.6")|  
+|Starter|com.github.qiushui95.MyArchitecture|starter|1.0.6||implementation("com.github.qiushui95.MyArchitecture:starter:1.0.6")|  
   
   
 |[BasePopup](https://github.com/razerdp/BasePopup)| | | |::|弹窗|  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
-|Candy|io.github.razerdp|BasePopup_Candy|2.2.30.0324||implementation("io.github.razerdp:BasePopup_Candy:2.2.30.0324")|  
+|Candy|io.github.razerdp|BasePopup|2.3.2-SNAPSHOT||implementation("io.github.razerdp:BasePopup:2.3.2-SNAPSHOT")|  
 |Stable|io.github.razerdp|BasePopup|2.3.0||implementation("io.github.razerdp:BasePopup:2.3.0")|  
   
   
@@ -108,9 +107,6 @@
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
 |Core|com.github.kongzue.DialogX|DialogX|0.0.37||implementation("com.github.kongzue.DialogX:DialogX:0.0.37")|  
-|IosStyle|com.kongzue.dialogx.style.ios|DialogXIOSStyle|0.0.37||implementation("com.kongzue.dialogx.style.ios:DialogXIOSStyle:0.0.37")|  
-|KongzueStyle|com.kongzue.dialogx.style.kongzue|DialogXKongzueStyle|0.0.37||implementation("com.kongzue.dialogx.style.kongzue:DialogXKongzueStyle:0.0.37")|  
-|MiuiStyle|com.kongzue.dialogx.style.miui|DialogXMIUIStyle|0.0.37||implementation("com.kongzue.dialogx.style.miui:DialogXMIUIStyle:0.0.37")|  
   
   
 |[DownloadAndUpload](https://github.com/AriaLyy/Aria)| | | |::|文件下载与上传|  
@@ -222,7 +218,7 @@
 |Core|com.facebook.litho|litho-core-kotlin|0.40.0||implementation("com.facebook.litho:litho-core-kotlin:0.40.0")|  
 |CoreSelection|com.facebook.litho|litho-sections-core|0.40.0||implementation("com.facebook.litho:litho-sections-core:0.40.0")|  
 |Fresco|com.facebook.litho|litho-fresco-kotlin|0.40.0||implementation("com.facebook.litho:litho-fresco-kotlin:0.40.0")|  
-|Test|com.facebook.litho|litho:litho-testing|0.40.0||implementation("com.facebook.litho:litho:litho-testing:0.40.0")|  
+|Test|com.facebook.litho|litho-testing|0.40.0||implementation("com.facebook.litho:litho-testing:0.40.0")|  
 |Widget|com.facebook.litho|litho-widget-kotlin|0.40.0||implementation("com.facebook.litho:litho-widget-kotlin:0.40.0")|  
 |WidgetSelection|com.facebook.litho|litho-sections-widget|0.40.0||implementation("com.facebook.litho:litho-sections-widget:0.40.0")|  
   

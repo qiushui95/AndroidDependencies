@@ -30,7 +30,6 @@ android {
 dependencies {
 	implementation("androidx.activity:activity-ktx:+")
 	implementation("com.aliyun.ams:alicloud-android-push:+")
-	implementation("com.github.YummyLau:Anchors:+")
 	implementation("com.blankj:utilcodex:+")
 	implementation("androidx.appcompat:appcompat:+")
 	implementation("com.noober.background:core:+")
@@ -80,7 +79,7 @@ dependencies {
 	implementation("com.github.qiushui95.MyArchitecture:starter:+")
 	
 
-	implementation("io.github.razerdp:BasePopup_Candy:+")
+	implementation("io.github.razerdp:BasePopup:+")
 	implementation("io.github.razerdp:BasePopup:+")
 	
 
@@ -104,9 +103,6 @@ dependencies {
 	
 
 	implementation("com.github.kongzue.DialogX:DialogX:+")
-	implementation("com.kongzue.dialogx.style.ios:DialogXIOSStyle:+")
-	implementation("com.kongzue.dialogx.style.kongzue:DialogXKongzueStyle:+")
-	implementation("com.kongzue.dialogx.style.miui:DialogXMIUIStyle:+")
 	
 
 	kapt("com.arialyy.aria:compiler:+")
@@ -185,7 +181,7 @@ dependencies {
 	implementation("com.facebook.litho:litho-core-kotlin:+")
 	implementation("com.facebook.litho:litho-sections-core:+")
 	implementation("com.facebook.litho:litho-fresco-kotlin:+")
-	implementation("com.facebook.litho:litho:litho-testing:+")
+	implementation("com.facebook.litho:litho-testing:+")
 	implementation("com.facebook.litho:litho-widget-kotlin:+")
 	implementation("com.facebook.litho:litho-sections-widget:+")
 	
