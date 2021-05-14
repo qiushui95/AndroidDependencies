@@ -248,7 +248,7 @@ public abstract class AndroidDependency private constructor(
    */
   public sealed class Architecture(
     name: String
-  ) : AndroidDependency("com.github.qiushui95.MyArchitecture", name, "1.0.4") {
+  ) : AndroidDependency("com.github.qiushui95.MyArchitecture", name, "1.0.5") {
     public object Constant : Architecture("constant")
 
     public object Domain : Architecture("domain")
@@ -377,7 +377,7 @@ public abstract class AndroidDependency private constructor(
    */
   public sealed class Epoxy(
     name: String
-  ) : AndroidDependency("com.airbnb.android", name, "4.5.0") {
+  ) : AndroidDependency("com.airbnb.android", name, "4.6.1") {
     public object Compiler : Epoxy("epoxy-processor")
 
     public object Core : Epoxy("epoxy")

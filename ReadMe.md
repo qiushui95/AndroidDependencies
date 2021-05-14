@@ -55,15 +55,15 @@
 |[Architecture](https://github.com/qiushui95/MyArchitecture)| | | |::|我的架构组件|  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
-|Constant|com.github.qiushui95.MyArchitecture|constant|1.0.4||implementation("com.github.qiushui95.MyArchitecture:constant:1.0.4")|  
-|Domain|com.github.qiushui95.MyArchitecture|domain|1.0.4||implementation("com.github.qiushui95.MyArchitecture:domain:1.0.4")|  
-|DomainImpl|com.github.qiushui95.MyArchitecture|domain-impl|1.0.4||implementation("com.github.qiushui95.MyArchitecture:domain-impl:1.0.4")|  
-|Entity|com.github.qiushui95.MyArchitecture|entity|1.0.4||implementation("com.github.qiushui95.MyArchitecture:entity:1.0.4")|  
-|Error|com.github.qiushui95.MyArchitecture|error|1.0.4||implementation("com.github.qiushui95.MyArchitecture:error:1.0.4")|  
-|Ext|com.github.qiushui95.MyArchitecture|ext|1.0.4||implementation("com.github.qiushui95.MyArchitecture:ext:1.0.4")|  
-|Http|com.github.qiushui95.MyArchitecture|http|1.0.4||implementation("com.github.qiushui95.MyArchitecture:http:1.0.4")|  
-|Model|com.github.qiushui95.MyArchitecture|model|1.0.4||implementation("com.github.qiushui95.MyArchitecture:model:1.0.4")|  
-|Starter|com.github.qiushui95.MyArchitecture|starter|1.0.4||implementation("com.github.qiushui95.MyArchitecture:starter:1.0.4")|  
+|Constant|com.github.qiushui95.MyArchitecture|constant|1.0.5||implementation("com.github.qiushui95.MyArchitecture:constant:1.0.5")|  
+|Domain|com.github.qiushui95.MyArchitecture|domain|1.0.5||implementation("com.github.qiushui95.MyArchitecture:domain:1.0.5")|  
+|DomainImpl|com.github.qiushui95.MyArchitecture|domain-impl|1.0.5||implementation("com.github.qiushui95.MyArchitecture:domain-impl:1.0.5")|  
+|Entity|com.github.qiushui95.MyArchitecture|entity|1.0.5||implementation("com.github.qiushui95.MyArchitecture:entity:1.0.5")|  
+|Error|com.github.qiushui95.MyArchitecture|error|1.0.5||implementation("com.github.qiushui95.MyArchitecture:error:1.0.5")|  
+|Ext|com.github.qiushui95.MyArchitecture|ext|1.0.5||implementation("com.github.qiushui95.MyArchitecture:ext:1.0.5")|  
+|Http|com.github.qiushui95.MyArchitecture|http|1.0.5||implementation("com.github.qiushui95.MyArchitecture:http:1.0.5")|  
+|Model|com.github.qiushui95.MyArchitecture|model|1.0.5||implementation("com.github.qiushui95.MyArchitecture:model:1.0.5")|  
+|Starter|com.github.qiushui95.MyArchitecture|starter|1.0.5||implementation("com.github.qiushui95.MyArchitecture:starter:1.0.5")|  
   
   
 |[BasePopup](https://github.com/razerdp/BasePopup)| | | |::|弹窗|  
@@ -126,9 +126,9 @@
 |[Epoxy](https://github.com/airbnb/epoxy)| | | |::|RecyclerView适配库|  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
-|Compiler|com.airbnb.android|epoxy-processor|4.5.0||kapt("com.airbnb.android:epoxy-processor:4.5.0")|  
-|Core|com.airbnb.android|epoxy|4.5.0||implementation("com.airbnb.android:epoxy:4.5.0")|  
-|Glide|com.airbnb.android|epoxy-glide-preloading|4.5.0||implementation("com.airbnb.android:epoxy-glide-preloading:4.5.0")|  
+|Compiler|com.airbnb.android|epoxy-processor|4.6.1||kapt("com.airbnb.android:epoxy-processor:4.6.1")|  
+|Core|com.airbnb.android|epoxy|4.6.1||implementation("com.airbnb.android:epoxy:4.6.1")|  
+|Glide|com.airbnb.android|epoxy-glide-preloading|4.6.1||implementation("com.airbnb.android:epoxy-glide-preloading:4.6.1")|  
   
   
 |[FlowBinding](https://github.com/ReactiveCircus/FlowBinding)| | | |::||  

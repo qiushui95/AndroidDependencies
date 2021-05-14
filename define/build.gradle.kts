@@ -69,15 +69,15 @@ dependencies {
 	testImplementation("androidx.test.ext:junit-ktx:1.1.2")
 	
 
-	implementation("com.github.qiushui95.MyArchitecture:constant:1.0.4")
-	implementation("com.github.qiushui95.MyArchitecture:domain:1.0.4")
-	implementation("com.github.qiushui95.MyArchitecture:domain-impl:1.0.4")
-	implementation("com.github.qiushui95.MyArchitecture:entity:1.0.4")
-	implementation("com.github.qiushui95.MyArchitecture:error:1.0.4")
-	implementation("com.github.qiushui95.MyArchitecture:ext:1.0.4")
-	implementation("com.github.qiushui95.MyArchitecture:http:1.0.4")
-	implementation("com.github.qiushui95.MyArchitecture:model:1.0.4")
-	implementation("com.github.qiushui95.MyArchitecture:starter:1.0.4")
+	implementation("com.github.qiushui95.MyArchitecture:constant:1.0.5")
+	implementation("com.github.qiushui95.MyArchitecture:domain:1.0.5")
+	implementation("com.github.qiushui95.MyArchitecture:domain-impl:1.0.5")
+	implementation("com.github.qiushui95.MyArchitecture:entity:1.0.5")
+	implementation("com.github.qiushui95.MyArchitecture:error:1.0.5")
+	implementation("com.github.qiushui95.MyArchitecture:ext:1.0.5")
+	implementation("com.github.qiushui95.MyArchitecture:http:1.0.5")
+	implementation("com.github.qiushui95.MyArchitecture:model:1.0.5")
+	implementation("com.github.qiushui95.MyArchitecture:starter:1.0.5")
 	
 
 	implementation("io.github.razerdp:BasePopup_Candy:2.2.30.0324")
@@ -116,9 +116,9 @@ dependencies {
 	implementation("com.arialyy.aria:sftpComponent:3.8.15")
 	
 
-	kapt("com.airbnb.android:epoxy-processor:4.5.0")
-	implementation("com.airbnb.android:epoxy:4.5.0")
-	implementation("com.airbnb.android:epoxy-glide-preloading:4.5.0")
+	kapt("com.airbnb.android:epoxy-processor:4.6.1")
+	implementation("com.airbnb.android:epoxy:4.6.1")
+	implementation("com.airbnb.android:epoxy-glide-preloading:4.6.1")
 	
 
 	implementation("io.github.reactivecircus.flowbinding:flowbinding-activity:1.0.0")
