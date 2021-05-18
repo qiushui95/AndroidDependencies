@@ -242,7 +242,7 @@ public abstract class AndroidDependency private constructor(
    */
   public sealed class Architecture(
     name: String
-  ) : AndroidDependency("com.github.qiushui95.MyArchitecture", name, "1.0.6") {
+  ) : AndroidDependency("com.github.qiushui95.MyArchitecture", name, "1.0.7") {
     public object Constant : Architecture("constant")
 
     public object Domain : Architecture("domain")
@@ -250,6 +250,8 @@ public abstract class AndroidDependency private constructor(
     public object DomainImpl : Architecture("domain-impl")
 
     public object Entity : Architecture("entity")
+
+    public object FlowWork : Architecture("flow-work")
 
     public object Error : Architecture("error")
 
@@ -270,7 +272,7 @@ public abstract class AndroidDependency private constructor(
     name: String,
     version: String
   ) : AndroidDependency("io.github.razerdp", name, version) {
-    public object Candy : BasePopup("BasePopup", "2.3.2-SNAPSHOT")
+    public object Candy : BasePopup("BasePopup", "3.0.0-SNAPSHOT")
 
     public object Stable : BasePopup("BasePopup", "2.3.0")
   }
@@ -324,7 +326,7 @@ public abstract class AndroidDependency private constructor(
    */
   public sealed class Coroutines(
     name: String
-  ) : AndroidDependency("org.jetbrains.kotlinx", name, "1.5.0-RC") {
+  ) : AndroidDependency("org.jetbrains.kotlinx", name, "1.5.0") {
     public object Core : Coroutines("kotlinx-coroutines-android")
 
     public object Test : Coroutines("kotlinx-coroutines-test")

@@ -54,21 +54,22 @@
 |[Architecture](https://github.com/qiushui95/MyArchitecture)| | | |::|我的架构组件|  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
-|Constant|com.github.qiushui95.MyArchitecture|constant|1.0.6||implementation("com.github.qiushui95.MyArchitecture:constant:1.0.6")|  
-|Domain|com.github.qiushui95.MyArchitecture|domain|1.0.6||implementation("com.github.qiushui95.MyArchitecture:domain:1.0.6")|  
-|DomainImpl|com.github.qiushui95.MyArchitecture|domain-impl|1.0.6||implementation("com.github.qiushui95.MyArchitecture:domain-impl:1.0.6")|  
-|Entity|com.github.qiushui95.MyArchitecture|entity|1.0.6||implementation("com.github.qiushui95.MyArchitecture:entity:1.0.6")|  
-|Error|com.github.qiushui95.MyArchitecture|error|1.0.6||implementation("com.github.qiushui95.MyArchitecture:error:1.0.6")|  
-|Ext|com.github.qiushui95.MyArchitecture|ext|1.0.6||implementation("com.github.qiushui95.MyArchitecture:ext:1.0.6")|  
-|Http|com.github.qiushui95.MyArchitecture|http|1.0.6||implementation("com.github.qiushui95.MyArchitecture:http:1.0.6")|  
-|Model|com.github.qiushui95.MyArchitecture|model|1.0.6||implementation("com.github.qiushui95.MyArchitecture:model:1.0.6")|  
-|Starter|com.github.qiushui95.MyArchitecture|starter|1.0.6||implementation("com.github.qiushui95.MyArchitecture:starter:1.0.6")|  
+|Constant|com.github.qiushui95.MyArchitecture|constant|1.0.7||implementation("com.github.qiushui95.MyArchitecture:constant:1.0.7")|  
+|Domain|com.github.qiushui95.MyArchitecture|domain|1.0.7||implementation("com.github.qiushui95.MyArchitecture:domain:1.0.7")|  
+|DomainImpl|com.github.qiushui95.MyArchitecture|domain-impl|1.0.7||implementation("com.github.qiushui95.MyArchitecture:domain-impl:1.0.7")|  
+|Entity|com.github.qiushui95.MyArchitecture|entity|1.0.7||implementation("com.github.qiushui95.MyArchitecture:entity:1.0.7")|  
+|FlowWork|com.github.qiushui95.MyArchitecture|flow-work|1.0.7||implementation("com.github.qiushui95.MyArchitecture:flow-work:1.0.7")|  
+|Error|com.github.qiushui95.MyArchitecture|error|1.0.7||implementation("com.github.qiushui95.MyArchitecture:error:1.0.7")|  
+|Ext|com.github.qiushui95.MyArchitecture|ext|1.0.7||implementation("com.github.qiushui95.MyArchitecture:ext:1.0.7")|  
+|Http|com.github.qiushui95.MyArchitecture|http|1.0.7||implementation("com.github.qiushui95.MyArchitecture:http:1.0.7")|  
+|Model|com.github.qiushui95.MyArchitecture|model|1.0.7||implementation("com.github.qiushui95.MyArchitecture:model:1.0.7")|  
+|Starter|com.github.qiushui95.MyArchitecture|starter|1.0.7||implementation("com.github.qiushui95.MyArchitecture:starter:1.0.7")|  
   
   
 |[BasePopup](https://github.com/razerdp/BasePopup)| | | |::|弹窗|  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
-|Candy|io.github.razerdp|BasePopup|2.3.2-SNAPSHOT||implementation("io.github.razerdp:BasePopup:2.3.2-SNAPSHOT")|  
+|Candy|io.github.razerdp|BasePopup|3.0.0-SNAPSHOT||implementation("io.github.razerdp:BasePopup:3.0.0-SNAPSHOT")|  
 |Stable|io.github.razerdp|BasePopup|2.3.0||implementation("io.github.razerdp:BasePopup:2.3.0")|  
   
   
@@ -99,8 +100,8 @@
 |[Coroutines](https://github.com/Kotlin/kotlinx.coroutines)| | | |::|协程|  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
-|Core|org.jetbrains.kotlinx|kotlinx-coroutines-android|1.5.0-RC||implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0-RC")|  
-|Test|org.jetbrains.kotlinx|kotlinx-coroutines-test|1.5.0-RC||testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.5.0-RC")|  
+|Core|org.jetbrains.kotlinx|kotlinx-coroutines-android|1.5.0||implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0")|  
+|Test|org.jetbrains.kotlinx|kotlinx-coroutines-test|1.5.0||testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.5.0")|  
   
   
 |[DialogX](https://github.com/kongzue/DialogX)| | | |::|常用弹窗|  

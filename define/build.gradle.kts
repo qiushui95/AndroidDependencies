@@ -68,18 +68,19 @@ dependencies {
 	testImplementation("androidx.test.ext:junit-ktx:1.1.2")
 	
 
-	implementation("com.github.qiushui95.MyArchitecture:constant:1.0.6")
-	implementation("com.github.qiushui95.MyArchitecture:domain:1.0.6")
-	implementation("com.github.qiushui95.MyArchitecture:domain-impl:1.0.6")
-	implementation("com.github.qiushui95.MyArchitecture:entity:1.0.6")
-	implementation("com.github.qiushui95.MyArchitecture:error:1.0.6")
-	implementation("com.github.qiushui95.MyArchitecture:ext:1.0.6")
-	implementation("com.github.qiushui95.MyArchitecture:http:1.0.6")
-	implementation("com.github.qiushui95.MyArchitecture:model:1.0.6")
-	implementation("com.github.qiushui95.MyArchitecture:starter:1.0.6")
+	implementation("com.github.qiushui95.MyArchitecture:constant:1.0.7")
+	implementation("com.github.qiushui95.MyArchitecture:domain:1.0.7")
+	implementation("com.github.qiushui95.MyArchitecture:domain-impl:1.0.7")
+	implementation("com.github.qiushui95.MyArchitecture:entity:1.0.7")
+	implementation("com.github.qiushui95.MyArchitecture:flow-work:1.0.7")
+	implementation("com.github.qiushui95.MyArchitecture:error:1.0.7")
+	implementation("com.github.qiushui95.MyArchitecture:ext:1.0.7")
+	implementation("com.github.qiushui95.MyArchitecture:http:1.0.7")
+	implementation("com.github.qiushui95.MyArchitecture:model:1.0.7")
+	implementation("com.github.qiushui95.MyArchitecture:starter:1.0.7")
 	
 
-	implementation("io.github.razerdp:BasePopup:2.3.2-SNAPSHOT")
+	implementation("io.github.razerdp:BasePopup:3.0.0-SNAPSHOT")
 	implementation("io.github.razerdp:BasePopup:2.3.0")
 	
 
@@ -98,8 +99,8 @@ dependencies {
 	implementation("androidx.core:core-role:1.0.0")
 	
 
-	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0-RC")
-	testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.5.0-RC")
+	implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0")
+	testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.5.0")
 	
 
 	implementation("com.github.kongzue.DialogX:DialogX:0.0.37")

@@ -1,5 +1,5 @@
 {
-  "version": "1.4.15",
+  "version": "1.4.16",
   "single": [
     {
       "title": "Activity",
@@ -165,7 +165,7 @@
   "group": [
     {
       "title": "Architecture",
-      "version": "1.0.6",
+      "version": "1.0.7",
       "link": "https://github.com/qiushui95/MyArchitecture",
       "group": "com.github.qiushui95.MyArchitecture",
       "remark": "我的架构组件",
@@ -201,6 +201,11 @@
           "action": "implementation"
         },
         {
+          "title": "FlowWork",
+          "name": "flow-work",
+          "action": "implementation"
+        },
+        {
           "title": "Http",
           "name": "http",
           "action": "implementation"
@@ -225,7 +230,7 @@
       "modules": [
         {
           "title": "Candy",
-          "version": "2.3.2-SNAPSHOT",
+          "version": "3.0.0-SNAPSHOT",
           "name": "BasePopup",
           "action": "implementation"
         },
@@ -313,7 +318,7 @@
     },
     {
       "title": "Coroutines",
-      "version": "1.5.0-RC",
+      "version": "1.5.0",
       "link": "https://github.com/Kotlin/kotlinx.coroutines",
       "group": "org.jetbrains.kotlinx",
       "remark": "协程",

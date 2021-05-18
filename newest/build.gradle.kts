@@ -72,6 +72,7 @@ dependencies {
 	implementation("com.github.qiushui95.MyArchitecture:domain:+")
 	implementation("com.github.qiushui95.MyArchitecture:domain-impl:+")
 	implementation("com.github.qiushui95.MyArchitecture:entity:+")
+	implementation("com.github.qiushui95.MyArchitecture:flow-work:+")
 	implementation("com.github.qiushui95.MyArchitecture:error:+")
 	implementation("com.github.qiushui95.MyArchitecture:ext:+")
 	implementation("com.github.qiushui95.MyArchitecture:http:+")
