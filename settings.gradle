@@ -1,5 +1,5 @@
 include ':dependencies'
 include ':app'
 rootProject.name = "AndroidDependencies"
-include ':newest'
+//include ':newest'
 include ':define'

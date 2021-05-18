@@ -242,7 +242,7 @@ public abstract class AndroidDependency private constructor(
    */
   public sealed class Architecture(
     name: String
-  ) : AndroidDependency("com.github.qiushui95.MyArchitecture", name, "1.0.7") {
+  ) : AndroidDependency("com.github.qiushui95.MyArchitecture", name, "1.0.8") {
     public object Constant : Architecture("constant")
 
     public object Domain : Architecture("domain")
@@ -251,11 +251,11 @@ public abstract class AndroidDependency private constructor(
 
     public object Entity : Architecture("entity")
 
-    public object FlowWork : Architecture("flow-work")
-
     public object Error : Architecture("error")
 
     public object Ext : Architecture("ext")
+
+    public object FlowWork : Architecture("flow-work")
 
     public object Http : Architecture("http")
 

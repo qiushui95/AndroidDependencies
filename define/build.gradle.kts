@@ -68,16 +68,16 @@ dependencies {
 	testImplementation("androidx.test.ext:junit-ktx:1.1.2")
 	
 
-	implementation("com.github.qiushui95.MyArchitecture:constant:1.0.7")
-	implementation("com.github.qiushui95.MyArchitecture:domain:1.0.7")
-	implementation("com.github.qiushui95.MyArchitecture:domain-impl:1.0.7")
-	implementation("com.github.qiushui95.MyArchitecture:entity:1.0.7")
-	implementation("com.github.qiushui95.MyArchitecture:flow-work:1.0.7")
-	implementation("com.github.qiushui95.MyArchitecture:error:1.0.7")
-	implementation("com.github.qiushui95.MyArchitecture:ext:1.0.7")
-	implementation("com.github.qiushui95.MyArchitecture:http:1.0.7")
-	implementation("com.github.qiushui95.MyArchitecture:model:1.0.7")
-	implementation("com.github.qiushui95.MyArchitecture:starter:1.0.7")
+	implementation("com.github.qiushui95.MyArchitecture:constant:1.0.8")
+	implementation("com.github.qiushui95.MyArchitecture:domain:1.0.8")
+	implementation("com.github.qiushui95.MyArchitecture:domain-impl:1.0.8")
+	implementation("com.github.qiushui95.MyArchitecture:entity:1.0.8")
+	implementation("com.github.qiushui95.MyArchitecture:error:1.0.8")
+	implementation("com.github.qiushui95.MyArchitecture:ext:1.0.8")
+	implementation("com.github.qiushui95.MyArchitecture:flow-work:1.0.8")
+	implementation("com.github.qiushui95.MyArchitecture:http:1.0.8")
+	implementation("com.github.qiushui95.MyArchitecture:model:1.0.8")
+	implementation("com.github.qiushui95.MyArchitecture:starter:1.0.8")
 	
 
 	implementation("io.github.razerdp:BasePopup:3.0.0-SNAPSHOT")
