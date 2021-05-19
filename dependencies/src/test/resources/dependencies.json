@@ -1,5 +1,5 @@
 {
-  "version": "1.4.18",
+  "version": "1.4.19",
   "single": [
     {
       "title": "Activity",
@@ -165,59 +165,64 @@
   "group": [
     {
       "title": "Architecture",
-      "version": "1.0.8",
+      "version": "1.0.9",
       "link": "https://github.com/qiushui95/MyArchitecture",
       "group": "com.github.qiushui95.MyArchitecture",
       "remark": "我的架构组件",
       "modules": [
         {
           "title": "Constant",
-          "artifact": "constant",
+          "artifact": "architecture-constant",
           "action": "implementation"
         },
         {
           "title": "Domain",
-          "artifact": "domain",
+          "artifact": "architecture-domain",
           "action": "implementation"
         },
         {
           "title": "DomainImpl",
-          "artifact": "domain-impl",
+          "artifact": "architecture-domain-impl",
           "action": "implementation"
         },
         {
           "title": "Entity",
-          "artifact": "entity",
+          "artifact": "architecture-entity",
           "action": "implementation"
         },
         {
           "title": "Error",
-          "artifact": "error",
+          "artifact": "architecture-error",
           "action": "implementation"
         },
         {
           "title": "Ext",
-          "artifact": "ext",
+          "artifact": "architecture-ext",
           "action": "implementation"
         },
         {
           "title": "FlowWork",
-          "artifact": "flow-work",
+          "artifact": "architecture-flow-work",
           "action": "implementation"
         },
         {
           "title": "Http",
-          "artifact": "http",
+          "artifact": "architecture-http",
+          "action": "implementation"
+        },
+        {
+          "title": "Initializer",
+          "artifact": "architecture-initializer",
           "action": "implementation"
         },
         {
           "title": "Model",
-          "artifact": "model",
+          "artifact": "architecture-model",
           "action": "implementation"
         },
         {
           "title": "Starter",
-          "artifact": "starter",
+          "artifact": "architecture-starter",
           "action": "implementation"
         }
       ]

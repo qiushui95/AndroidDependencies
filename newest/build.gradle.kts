@@ -68,16 +68,17 @@ dependencies {
 	testImplementation("androidx.test.ext:junit-ktx:+")
 	
 
-	implementation("com.github.qiushui95.MyArchitecture:constant:+")
-	implementation("com.github.qiushui95.MyArchitecture:domain:+")
-	implementation("com.github.qiushui95.MyArchitecture:domain-impl:+")
-	implementation("com.github.qiushui95.MyArchitecture:entity:+")
-	implementation("com.github.qiushui95.MyArchitecture:error:+")
-	implementation("com.github.qiushui95.MyArchitecture:ext:+")
-	implementation("com.github.qiushui95.MyArchitecture:flow-work:+")
-	implementation("com.github.qiushui95.MyArchitecture:http:+")
-	implementation("com.github.qiushui95.MyArchitecture:model:+")
-	implementation("com.github.qiushui95.MyArchitecture:starter:+")
+	implementation("com.github.qiushui95.MyArchitecture:architecture-constant:+")
+	implementation("com.github.qiushui95.MyArchitecture:architecture-domain:+")
+	implementation("com.github.qiushui95.MyArchitecture:architecture-domain-impl:+")
+	implementation("com.github.qiushui95.MyArchitecture:architecture-entity:+")
+	implementation("com.github.qiushui95.MyArchitecture:architecture-error:+")
+	implementation("com.github.qiushui95.MyArchitecture:architecture-ext:+")
+	implementation("com.github.qiushui95.MyArchitecture:architecture-flow-work:+")
+	implementation("com.github.qiushui95.MyArchitecture:architecture-http:+")
+	implementation("com.github.qiushui95.MyArchitecture:architecture-initializer:+")
+	implementation("com.github.qiushui95.MyArchitecture:architecture-model:+")
+	implementation("com.github.qiushui95.MyArchitecture:architecture-starter:+")
 	
 
 	implementation("io.github.razerdp:BasePopup:+")
