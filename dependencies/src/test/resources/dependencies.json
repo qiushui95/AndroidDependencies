@@ -1,5 +1,5 @@
 {
-  "version": "1.4.19",
+  "version": "1.4.20",
   "single": [
     {
       "title": "Activity",
@@ -165,7 +165,7 @@
   "group": [
     {
       "title": "Architecture",
-      "version": "1.0.9",
+      "version": "1.0.10",
       "link": "https://github.com/qiushui95/MyArchitecture",
       "group": "com.github.qiushui95.MyArchitecture",
       "remark": "我的架构组件",
