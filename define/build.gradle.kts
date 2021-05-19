@@ -31,7 +31,7 @@ dependencies {
 	implementation("androidx.activity:activity-ktx:1.2.3")
 	implementation("com.aliyun.ams:alicloud-android-push:3.3.0")
 	implementation("com.blankj:utilcodex:1.30.6")
-	implementation("androidx.appcompat:appcompat:1.3.0-rc01")
+	implementation("androidx.appcompat:appcompat:1.3.0")
 	implementation("com.noober.background:core:1.6.5")
 	implementation("io.coil-kt:coil:1.2.1")
 	implementation("me.jorgecastillo:androidcolorx:0.2.0")
@@ -95,7 +95,7 @@ dependencies {
 
 	implementation("androidx.core:core-animation:1.0.0-alpha02")
 	implementation("androidx.core:core-animation-testing:1.0.0-alpha02")
-	implementation("androidx.core:core-ktx:1.5.0-rc02")
+	implementation("androidx.core:core-ktx:1.6.0-beta01")
 	implementation("androidx.core:core-role:1.0.0")
 	
 
@@ -132,9 +132,12 @@ dependencies {
 	implementation("io.github.reactivecircus.flowbinding:flowbinding-viewpager2:1.0.0")
 	
 
-	implementation("androidx.fragment:fragment-ktx:1.3.3")
-	implementation("com.github.terrakok:cicerone:7.0")
-	testImplementation("androidx.fragment:fragment-testing:1.3.3")
+	implementation("androidx.fragment:fragment-ktx:1.3.4")
+	testImplementation("androidx.fragment:fragment-testing:1.3.4")
+	
+
+	implementation("com.github.weikaiyun.SFragmentation:fragmentation:1.8.0")
+	implementation("com.github.weikaiyun.SFragmentation:fragmentation_swipeback:1.8.0")
 	
 
 	implementation("com.github.bumptech.glide:annotations:4.12.0")
@@ -149,12 +152,12 @@ dependencies {
 	implementation("com.github.qiushui95.KeysCreator:annotations:1.1.0")
 	
 
-	implementation("io.insert-koin:koin-android:3.0.1")
-	implementation("io.insert-koin:koin-android-ext:3.0.1")
-	implementation("io.insert-koin:koin-core:3.0.1")
-	implementation("io.insert-koin:koin-core-ext:3.0.1")
-	testImplementation("io.insert-koin:koin-test:3.0.1")
-	implementation("io.insert-koin:koin-androidx-workmanager:3.0.1")
+	implementation("io.insert-koin:koin-android:3.0.2")
+	implementation("io.insert-koin:koin-android-ext:3.0.2")
+	implementation("io.insert-koin:koin-core:3.0.2")
+	implementation("io.insert-koin:koin-core-ext:3.0.2")
+	testImplementation("io.insert-koin:koin-test:3.0.2")
+	implementation("io.insert-koin:koin-androidx-workmanager:3.0.2")
 	
 
 	implementation("org.koin:koin-core:2.2.2")

@@ -6,7 +6,7 @@
 |[Activity](https://developer.android.com/jetpack/androidx/releases/activity)|androidx.activity|activity-ktx|1.2.3||implementation("androidx.activity:activity-ktx:1.2.3")|  
 |[AliPush](https://help.aliyun.com/document_detail/190009.html?spm=a2c4g.11174283.3.2.52eb6d163QVxjG)|com.aliyun.ams|alicloud-android-push|3.3.0|阿里推送|implementation("com.aliyun.ams:alicloud-android-push:3.3.0")|  
 |[AndroidUtil](https://github.com/Blankj/AndroidUtilCode)|com.blankj|utilcodex|1.30.6|多功能工具包|implementation("com.blankj:utilcodex:1.30.6")|  
-|[Appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat)|androidx.appcompat|appcompat|1.3.0-rc01||implementation("androidx.appcompat:appcompat:1.3.0-rc01")|  
+|[Appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat)|androidx.appcompat|appcompat|1.3.0||implementation("androidx.appcompat:appcompat:1.3.0")|  
 |[Background](https://github.com/JavaNoober/BackgroundLibrary)|com.noober.background|core|1.6.5|背景生成工具库|implementation("com.noober.background:core:1.6.5")|  
 |[Coil](https://github.com/coil-kt/coil)|io.coil-kt|coil|1.2.1|图片加载|implementation("io.coil-kt:coil:1.2.1")|  
 |[ColorKtx](https://github.com/JorgeCastilloPrz/AndroidColorX)|me.jorgecastillo|androidcolorx|0.2.0|颜色帮助库|implementation("me.jorgecastillo:androidcolorx:0.2.0")|  
@@ -93,7 +93,7 @@
 |title|group|name|version|remark|gradle dsl|  
 |Animation|androidx.core|core-animation|1.0.0-alpha02||implementation("androidx.core:core-animation:1.0.0-alpha02")|  
 |AnimationTest|androidx.core|core-animation-testing|1.0.0-alpha02||implementation("androidx.core:core-animation-testing:1.0.0-alpha02")|  
-|Ktx|androidx.core|core-ktx|1.5.0-rc02||implementation("androidx.core:core-ktx:1.5.0-rc02")|  
+|Ktx|androidx.core|core-ktx|1.6.0-beta01||implementation("androidx.core:core-ktx:1.6.0-beta01")|  
 |Role|androidx.core|core-role|1.0.0||implementation("androidx.core:core-role:1.0.0")|  
   
   
@@ -148,9 +148,15 @@
 |[Fragment](https://developer.android.com/jetpack/androidx/releases/fragment)| | | |::||  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
-|Core|androidx.fragment|fragment-ktx|1.3.3||implementation("androidx.fragment:fragment-ktx:1.3.3")|  
-|[Manager](https://github.com/terrakok/Cicerone)|com.github.terrakok|cicerone|7.0||implementation("com.github.terrakok:cicerone:7.0")|  
-|Test|androidx.fragment|fragment-testing|1.3.3||testImplementation("androidx.fragment:fragment-testing:1.3.3")|  
+|Core|androidx.fragment|fragment-ktx|1.3.4||implementation("androidx.fragment:fragment-ktx:1.3.4")|  
+|Test|androidx.fragment|fragment-testing|1.3.4||testImplementation("androidx.fragment:fragment-testing:1.3.4")|  
+  
+  
+|[FragmentManager](https://developer.android.com/jetpack/androidx/releases/fragment)| | | |::|Fragment管理|  
+|:-:|:-:|:-:|:-:|:-:|:-:|  
+|title|group|name|version|remark|gradle dsl|  
+|Core|com.github.weikaiyun.SFragmentation|fragmentation|1.8.0||implementation("com.github.weikaiyun.SFragmentation:fragmentation:1.8.0")|  
+|SwipeBack|com.github.weikaiyun.SFragmentation|fragmentation_swipeback|1.8.0||implementation("com.github.weikaiyun.SFragmentation:fragmentation_swipeback:1.8.0")|  
   
   
 |[Glide](https://github.com/bumptech/glide)| | | |::|图片加载|  
@@ -174,12 +180,12 @@
 |[Koin](https://github.com/InsertKoinIO/koin)| | | |::|依赖注入库|  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
-|Android|io.insert-koin|koin-android|3.0.1||implementation("io.insert-koin:koin-android:3.0.1")|  
-|AndroidExt|io.insert-koin|koin-android-ext|3.0.1||implementation("io.insert-koin:koin-android-ext:3.0.1")|  
-|Core|io.insert-koin|koin-core|3.0.1||implementation("io.insert-koin:koin-core:3.0.1")|  
-|CoreExt|io.insert-koin|koin-core-ext|3.0.1||implementation("io.insert-koin:koin-core-ext:3.0.1")|  
-|Test|io.insert-koin|koin-test|3.0.1||testImplementation("io.insert-koin:koin-test:3.0.1")|  
-|WorkManager|io.insert-koin|koin-androidx-workmanager|3.0.1||implementation("io.insert-koin:koin-androidx-workmanager:3.0.1")|  
+|Android|io.insert-koin|koin-android|3.0.2||implementation("io.insert-koin:koin-android:3.0.2")|  
+|AndroidExt|io.insert-koin|koin-android-ext|3.0.2||implementation("io.insert-koin:koin-android-ext:3.0.2")|  
+|Core|io.insert-koin|koin-core|3.0.2||implementation("io.insert-koin:koin-core:3.0.2")|  
+|CoreExt|io.insert-koin|koin-core-ext|3.0.2||implementation("io.insert-koin:koin-core-ext:3.0.2")|  
+|Test|io.insert-koin|koin-test|3.0.2||testImplementation("io.insert-koin:koin-test:3.0.2")|  
+|WorkManager|io.insert-koin|koin-androidx-workmanager|3.0.2||implementation("io.insert-koin:koin-androidx-workmanager:3.0.2")|  
   
   
 |[KoinOld](https://github.com/InsertKoinIO/koin)| | | |::|依赖注入库|  

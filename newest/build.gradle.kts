@@ -133,8 +133,11 @@ dependencies {
 	
 
 	implementation("androidx.fragment:fragment-ktx:+")
-	implementation("com.github.terrakok:cicerone:+")
 	testImplementation("androidx.fragment:fragment-testing:+")
+	
+
+	implementation("com.github.weikaiyun.SFragmentation:fragmentation:+")
+	implementation("com.github.weikaiyun.SFragmentation:fragmentation_swipeback:+")
 	
 
 	implementation("com.github.bumptech.glide:annotations:+")

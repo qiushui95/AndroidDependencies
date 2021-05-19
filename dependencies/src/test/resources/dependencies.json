@@ -1,12 +1,12 @@
 {
-  "version": "1.4.17",
+  "version": "1.4.18",
   "single": [
     {
       "title": "Activity",
       "version": "1.2.3",
       "link": "https://developer.android.com/jetpack/androidx/releases/activity",
       "group": "androidx.activity",
-      "name": "activity-ktx",
+      "artifact": "activity-ktx",
       "action": "implementation"
     },
     {
@@ -14,7 +14,7 @@
       "version": "3.3.0",
       "link": "https://help.aliyun.com/document_detail/190009.html?spm\u003da2c4g.11174283.3.2.52eb6d163QVxjG",
       "group": "com.aliyun.ams",
-      "name": "alicloud-android-push",
+      "artifact": "alicloud-android-push",
       "remark": "阿里推送",
       "action": "implementation"
     },
@@ -23,16 +23,16 @@
       "version": "1.30.6",
       "link": "https://github.com/Blankj/AndroidUtilCode",
       "group": "com.blankj",
-      "name": "utilcodex",
+      "artifact": "utilcodex",
       "remark": "多功能工具包",
       "action": "implementation"
     },
     {
       "title": "Appcompat",
-      "version": "1.3.0-rc01",
+      "version": "1.3.0",
       "link": "https://developer.android.com/jetpack/androidx/releases/appcompat",
       "group": "androidx.appcompat",
-      "name": "appcompat",
+      "artifact": "appcompat",
       "action": "implementation"
     },
     {
@@ -40,7 +40,7 @@
       "version": "1.6.5",
       "link": "https://github.com/JavaNoober/BackgroundLibrary",
       "group": "com.noober.background",
-      "name": "core",
+      "artifact": "core",
       "remark": "背景生成工具库",
       "action": "implementation"
     },
@@ -49,7 +49,7 @@
       "version": "1.2.1",
       "link": "https://github.com/coil-kt/coil",
       "group": "io.coil-kt",
-      "name": "coil",
+      "artifact": "coil",
       "remark": "图片加载",
       "action": "implementation"
     },
@@ -58,7 +58,7 @@
       "version": "0.2.0",
       "link": "https://github.com/JorgeCastilloPrz/AndroidColorX",
       "group": "me.jorgecastillo",
-      "name": "androidcolorx",
+      "artifact": "androidcolorx",
       "remark": "颜色帮助库",
       "action": "implementation"
     },
@@ -67,7 +67,7 @@
       "version": "0.3.1",
       "link": "https://github.com/loperSeven/DateTimePicker",
       "group": "com.github.loperSeven",
-      "name": "DateTimePicker",
+      "artifact": "DateTimePicker",
       "remark": "时间选择器",
       "action": "implementation"
     },
@@ -76,7 +76,7 @@
       "version": "3.1.4",
       "link": "https://github.com/yangpeixing/YImagePicker",
       "group": "com.ypx.yimagepicker",
-      "name": "androidx",
+      "artifact": "androidx",
       "remark": "多媒体选择库",
       "action": "implementation"
     },
@@ -85,7 +85,7 @@
       "version": "2.10.10",
       "link": "https://github.com/JodaOrg/joda-time",
       "group": "joda-time",
-      "name": "joda-time",
+      "artifact": "joda-time",
       "remark": "时间处理库",
       "action": "implementation"
     },
@@ -94,7 +94,7 @@
       "version": "2.7",
       "link": "https://square.github.io/leakcanary/getting_started/",
       "group": "com.squareup.leakcanary",
-      "name": "leakcanary-android",
+      "artifact": "leakcanary-android",
       "remark": "内存泄露监控",
       "action": "implementation"
     },
@@ -103,7 +103,7 @@
       "version": "1.2.8",
       "link": "https://github.com/Tencent/MMKV/blob/master/README_CN.md",
       "group": "com.tencent",
-      "name": "mmkv-static",
+      "artifact": "mmkv-static",
       "remark": "持久KV数据存储",
       "action": "implementation"
     },
@@ -112,7 +112,7 @@
       "version": "1.4.0",
       "link": "https://github.com/guolindev/PermissionX",
       "group": "com.permissionx.guolindev",
-      "name": "permissionx",
+      "artifact": "permissionx",
       "remark": "权限请求",
       "action": "implementation"
     },
@@ -121,7 +121,7 @@
       "version": "2.0.3",
       "link": "https://github.com/jenly1314/ZXingLite",
       "group": "com.king.zxing",
-      "name": "zxing-lite",
+      "artifact": "zxing-lite",
       "remark": "二维码扫描",
       "action": "implementation"
     },
@@ -130,7 +130,7 @@
       "version": "0.10.1",
       "link": "https://github.com/facebook/soloader",
       "group": "com.facebook.soloader",
-      "name": "soloader",
+      "artifact": "soloader",
       "remark": "so加载库",
       "action": "implementation"
     },
@@ -139,7 +139,7 @@
       "version": "4.0.1",
       "link": "https://github.com/dropbox/Store",
       "group": "com.dropbox.mobile.store",
-      "name": "store4",
+      "artifact": "store4",
       "remark": "多数据源",
       "action": "implementation"
     },
@@ -148,7 +148,7 @@
       "version": "6.7.0",
       "link": "https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Resource_Center_Homepage.html",
       "group": "com.tencent.mm.opensdk",
-      "name": "wechat-sdk-android-without-mta",
+      "artifact": "wechat-sdk-android-without-mta",
       "remark": "微信开发Sdk",
       "action": "implementation"
     },
@@ -157,7 +157,7 @@
       "version": "3.0.0",
       "link": "https://github.com/iqiyi/xCrash/blob/master/README.zh-CN.md",
       "group": "com.iqiyi.xcrash",
-      "name": "xcrash-android-lib",
+      "artifact": "xcrash-android-lib",
       "remark": "奔溃日志收集",
       "action": "implementation"
     }
@@ -172,52 +172,52 @@
       "modules": [
         {
           "title": "Constant",
-          "name": "constant",
+          "artifact": "constant",
           "action": "implementation"
         },
         {
           "title": "Domain",
-          "name": "domain",
+          "artifact": "domain",
           "action": "implementation"
         },
         {
           "title": "DomainImpl",
-          "name": "domain-impl",
+          "artifact": "domain-impl",
           "action": "implementation"
         },
         {
           "title": "Entity",
-          "name": "entity",
+          "artifact": "entity",
           "action": "implementation"
         },
         {
           "title": "Error",
-          "name": "error",
+          "artifact": "error",
           "action": "implementation"
         },
         {
           "title": "Ext",
-          "name": "ext",
+          "artifact": "ext",
           "action": "implementation"
         },
         {
           "title": "FlowWork",
-          "name": "flow-work",
+          "artifact": "flow-work",
           "action": "implementation"
         },
         {
           "title": "Http",
-          "name": "http",
+          "artifact": "http",
           "action": "implementation"
         },
         {
           "title": "Model",
-          "name": "model",
+          "artifact": "model",
           "action": "implementation"
         },
         {
           "title": "Starter",
-          "name": "starter",
+          "artifact": "starter",
           "action": "implementation"
         }
       ]
@@ -231,13 +231,13 @@
         {
           "title": "Candy",
           "version": "3.0.0-SNAPSHOT",
-          "name": "BasePopup",
+          "artifact": "BasePopup",
           "action": "implementation"
         },
         {
           "title": "Stable",
           "version": "2.3.0",
-          "name": "BasePopup",
+          "artifact": "BasePopup",
           "action": "implementation"
         }
       ]
@@ -251,12 +251,12 @@
       "modules": [
         {
           "title": "Debug",
-          "name": "library",
+          "artifact": "library",
           "action": "debugImplementation"
         },
         {
           "title": "Release",
-          "name": "library-no-op",
+          "artifact": "library-no-op",
           "action": "releaseImplementation"
         }
       ]
@@ -270,17 +270,17 @@
       "modules": [
         {
           "title": "Compiler",
-          "name": "component-compiler",
+          "artifact": "component-compiler",
           "action": "kapt"
         },
         {
           "title": "Core",
-          "name": "component-impl",
+          "artifact": "component-impl",
           "action": "implementation"
         },
         {
           "title": "Plugin",
-          "name": "component-plugin",
+          "artifact": "component-plugin",
           "action": "implementation"
         }
       ]
@@ -294,24 +294,24 @@
       "modules": [
         {
           "title": "Animation",
-          "name": "core-animation",
+          "artifact": "core-animation",
           "action": "implementation"
         },
         {
           "title": "AnimationTest",
-          "name": "core-animation-testing",
+          "artifact": "core-animation-testing",
           "action": "implementation"
         },
         {
           "title": "Ktx",
-          "version": "1.5.0-rc02",
-          "name": "core-ktx",
+          "version": "1.6.0-beta01",
+          "artifact": "core-ktx",
           "action": "implementation"
         },
         {
           "title": "Role",
           "version": "1.0.0",
-          "name": "core-role",
+          "artifact": "core-role",
           "action": "implementation"
         }
       ]
@@ -325,12 +325,12 @@
       "modules": [
         {
           "title": "Core",
-          "name": "kotlinx-coroutines-android",
+          "artifact": "kotlinx-coroutines-android",
           "action": "implementation"
         },
         {
           "title": "Test",
-          "name": "kotlinx-coroutines-test",
+          "artifact": "kotlinx-coroutines-test",
           "action": "testImplementation"
         }
       ]
@@ -344,7 +344,7 @@
       "modules": [
         {
           "title": "Core",
-          "name": "DialogX",
+          "artifact": "DialogX",
           "action": "implementation"
         }
       ]
@@ -358,27 +358,27 @@
       "modules": [
         {
           "title": "Compiler",
-          "name": "compiler",
+          "artifact": "compiler",
           "action": "kapt"
         },
         {
           "title": "Core",
-          "name": "core",
+          "artifact": "core",
           "action": "implementation"
         },
         {
           "title": "Ftp",
-          "name": "ftpComponent",
+          "artifact": "ftpComponent",
           "action": "implementation"
         },
         {
           "title": "M3u8",
-          "name": "m3u8Component",
+          "artifact": "m3u8Component",
           "action": "implementation"
         },
         {
           "title": "Sftp",
-          "name": "sftpComponent",
+          "artifact": "sftpComponent",
           "action": "implementation"
         }
       ]
@@ -392,17 +392,17 @@
       "modules": [
         {
           "title": "Compiler",
-          "name": "epoxy-processor",
+          "artifact": "epoxy-processor",
           "action": "kapt"
         },
         {
           "title": "Core",
-          "name": "epoxy",
+          "artifact": "epoxy",
           "action": "implementation"
         },
         {
           "title": "Glide",
-          "name": "epoxy-glide-preloading",
+          "artifact": "epoxy-glide-preloading",
           "action": "implementation"
         }
       ]
@@ -415,89 +415,100 @@
       "modules": [
         {
           "title": "Activity",
-          "name": "flowbinding-activity",
+          "artifact": "flowbinding-activity",
           "action": "implementation"
         },
         {
           "title": "Appcompat",
-          "name": "flowbinding-appcompat",
+          "artifact": "flowbinding-appcompat",
           "action": "implementation"
         },
         {
           "title": "Basic",
-          "name": "flowbinding-android",
+          "artifact": "flowbinding-android",
           "action": "implementation"
         },
         {
           "title": "Core",
-          "name": "flowbinding-core",
+          "artifact": "flowbinding-core",
           "action": "implementation"
         },
         {
           "title": "DrawerLayout",
-          "name": "flowbinding-drawerlayout",
+          "artifact": "flowbinding-drawerlayout",
           "action": "implementation"
         },
         {
           "title": "Lifecycle",
-          "name": "flowbinding-lifecycle",
+          "artifact": "flowbinding-lifecycle",
           "action": "implementation"
         },
         {
           "title": "Material",
-          "name": "flowbinding-material",
+          "artifact": "flowbinding-material",
           "action": "implementation"
         },
         {
           "title": "Navigation",
-          "name": "flowbinding-navigation",
+          "artifact": "flowbinding-navigation",
           "action": "implementation"
         },
         {
           "title": "Preference",
-          "name": "flowbinding-preference",
+          "artifact": "flowbinding-preference",
           "action": "implementation"
         },
         {
           "title": "RecyclerView",
-          "name": "flowbinding-recyclerview",
+          "artifact": "flowbinding-recyclerview",
           "action": "implementation"
         },
         {
           "title": "SwipeRefreshLayout",
-          "name": "flowbinding-swiperefreshlayout",
+          "artifact": "flowbinding-swiperefreshlayout",
           "action": "implementation"
         },
         {
           "title": "ViewPager2",
-          "name": "flowbinding-viewpager2",
+          "artifact": "flowbinding-viewpager2",
           "action": "implementation"
         }
       ]
     },
     {
       "title": "Fragment",
-      "version": "1.3.3",
+      "version": "1.3.4",
       "link": "https://developer.android.com/jetpack/androidx/releases/fragment",
       "group": "androidx.fragment",
       "modules": [
         {
           "title": "Core",
-          "name": "fragment-ktx",
-          "action": "implementation"
-        },
-        {
-          "title": "Manager",
-          "version": "7.0",
-          "link": "https://github.com/terrakok/Cicerone",
-          "group": "com.github.terrakok",
-          "name": "cicerone",
+          "artifact": "fragment-ktx",
           "action": "implementation"
         },
         {
           "title": "Test",
-          "name": "fragment-testing",
+          "artifact": "fragment-testing",
           "action": "testImplementation"
+        }
+      ]
+    },
+    {
+      "title": "FragmentManager",
+      "version": "1.8.0",
+      "link": "https://developer.android.com/jetpack/androidx/releases/fragment",
+      "group": "com.github.weikaiyun.SFragmentation",
+      "remark": "Fragment管理",
+      "modules": [
+        {
+          "title": "Core",
+          "artifact": "fragmentation",
+          "action": "implementation"
+        },
+        {
+          "title": "SwipeBack",
+          "artifact": "fragmentation_swipeback",
+          "action": "implementation"
         }
       ]
     },
@@ -510,17 +521,17 @@
       "modules": [
         {
           "title": "Annotation",
-          "name": "annotations",
+          "artifact": "annotations",
           "action": "implementation"
         },
         {
           "title": "Compiler",
-          "name": "compiler",
+          "artifact": "compiler",
           "action": "kapt"
         },
         {
           "title": "Core",
-          "name": "glide",
+          "artifact": "glide",
           "action": "implementation"
         },
         {
@@ -528,13 +539,13 @@
           "version": "2.1.0",
           "link": "https://github.com/cats-oss/android-gpuimage",
           "group": "jp.co.cyberagent.android",
-          "name": "gpuimage",
+          "artifact": "gpuimage",
           "remark": "Gpu处理图片效果",
           "action": "implementation"
         },
         {
           "title": "OkHttp",
-          "name": "okhttp3-integration",
+          "artifact": "okhttp3-integration",
           "action": "implementation"
         },
         {
@@ -542,7 +553,7 @@
           "version": "4.3.0",
           "link": "https://github.com/wasabeef/glide-transformations",
           "group": "jp.wasabeef",
-          "name": "glide-transformations",
+          "artifact": "glide-transformations",
           "remark": "图片变换库",
           "action": "implementation"
         }
@@ -557,51 +568,51 @@
       "modules": [
         {
           "title": "Compiler",
-          "name": "compiler",
+          "artifact": "compiler",
           "action": "kapt"
         },
         {
           "title": "Core",
-          "name": "annotations",
+          "artifact": "annotations",
           "action": "implementation"
         }
       ]
     },
     {
       "title": "Koin",
-      "version": "3.0.1",
+      "version": "3.0.2",
       "link": "https://github.com/InsertKoinIO/koin",
       "group": "io.insert-koin",
       "remark": "依赖注入库",
       "modules": [
         {
           "title": "Android",
-          "name": "koin-android",
+          "artifact": "koin-android",
           "action": "implementation"
         },
         {
           "title": "AndroidExt",
-          "name": "koin-android-ext",
+          "artifact": "koin-android-ext",
           "action": "implementation"
         },
         {
           "title": "Core",
-          "name": "koin-core",
+          "artifact": "koin-core",
           "action": "implementation"
         },
         {
           "title": "CoreExt",
-          "name": "koin-core-ext",
+          "artifact": "koin-core-ext",
           "action": "implementation"
         },
         {
           "title": "Test",
-          "name": "koin-test",
+          "artifact": "koin-test",
           "action": "testImplementation"
         },
         {
           "title": "WorkManager",
-          "name": "koin-androidx-workmanager",
+          "artifact": "koin-androidx-workmanager",
           "action": "implementation"
         }
       ]
@@ -615,27 +626,27 @@
       "modules": [
         {
           "title": "Core",
-          "name": "koin-core",
+          "artifact": "koin-core",
           "action": "implementation"
         },
         {
           "title": "Ext",
-          "name": "koin-androidx-ext",
+          "artifact": "koin-androidx-ext",
           "action": "implementation"
         },
         {
           "title": "Scope",
-          "name": "koin-androidx-scope",
+          "artifact": "koin-androidx-scope",
           "action": "implementation"
         },
         {
           "title": "Test",
-          "name": "koin-test",
+          "artifact": "koin-test",
           "action": "testImplementation"
         },
         {
           "title": "ViewModel",
-          "name": "koin-androidx-viewmodel",
+          "artifact": "koin-androidx-viewmodel",
           "action": "implementation"
         }
       ]
@@ -648,12 +659,12 @@
       "modules": [
         {
           "title": "Reflect",
-          "name": "kotlin-reflect",
+          "artifact": "kotlin-reflect",
           "action": "implementation"
         },
         {
           "title": "Stdlib",
-          "name": "kotlin-stdlib",
+          "artifact": "kotlin-stdlib",
           "action": "implementation"
         }
       ]
@@ -666,37 +677,37 @@
       "modules": [
         {
           "title": "Common",
-          "name": "lifecycle-common",
+          "artifact": "lifecycle-common",
           "action": "implementation"
         },
         {
           "title": "LiveData",
-          "name": "lifecycle-livedata-ktx",
+          "artifact": "lifecycle-livedata-ktx",
           "action": "implementation"
         },
         {
           "title": "Process",
-          "name": "lifecycle-process",
+          "artifact": "lifecycle-process",
           "action": "implementation"
         },
         {
           "title": "Runtime",
-          "name": "lifecycle-runtime-ktx",
+          "artifact": "lifecycle-runtime-ktx",
           "action": "implementation"
         },
         {
           "title": "SavedState",
-          "name": "lifecycle-viewmodel-savedstate",
+          "artifact": "lifecycle-viewmodel-savedstate",
           "action": "implementation"
         },
         {
           "title": "Service",
-          "name": "lifecycle-service",
+          "artifact": "lifecycle-service",
           "action": "implementation"
         },
         {
           "title": "ViewModel",
-          "name": "lifecycle-viewmodel-ktx",
+          "artifact": "lifecycle-viewmodel-ktx",
           "action": "implementation"
         }
       ]
@@ -709,42 +720,42 @@
       "modules": [
         {
           "title": "AnnotationsSelection",
-          "name": "litho-sections-annotations",
+          "artifact": "litho-sections-annotations",
           "action": "implementation"
         },
         {
           "title": "CompilerSelection",
-          "name": "litho-sections-processor",
+          "artifact": "litho-sections-processor",
           "action": "kapt"
         },
         {
           "title": "Core",
-          "name": "litho-core-kotlin",
+          "artifact": "litho-core-kotlin",
           "action": "implementation"
         },
         {
           "title": "CoreSelection",
-          "name": "litho-sections-core",
+          "artifact": "litho-sections-core",
           "action": "implementation"
         },
         {
           "title": "Fresco",
-          "name": "litho-fresco-kotlin",
+          "artifact": "litho-fresco-kotlin",
           "action": "implementation"
         },
         {
           "title": "Test",
-          "name": "litho-testing",
+          "artifact": "litho-testing",
           "action": "implementation"
         },
         {
           "title": "Widget",
-          "name": "litho-widget-kotlin",
+          "artifact": "litho-widget-kotlin",
           "action": "implementation"
         },
         {
           "title": "WidgetSelection",
-          "name": "litho-sections-widget",
+          "artifact": "litho-sections-widget",
           "action": "implementation"
         }
       ]
@@ -758,12 +769,12 @@
       "modules": [
         {
           "title": "Compiler",
-          "name": "moshi-kotlin-codegen",
+          "artifact": "moshi-kotlin-codegen",
           "action": "kapt"
         },
         {
           "title": "Core",
-          "name": "moshi",
+          "artifact": "moshi",
           "action": "implementation"
         }
       ]
@@ -777,22 +788,22 @@
       "modules": [
         {
           "title": "Core",
-          "name": "navigation-fragment-ktx",
+          "artifact": "navigation-fragment-ktx",
           "action": "implementation"
         },
         {
           "title": "Features",
-          "name": "navigation-dynamic-features-fragment",
+          "artifact": "navigation-dynamic-features-fragment",
           "action": "implementation"
         },
         {
           "title": "Test",
-          "name": "navigation-testing",
+          "artifact": "navigation-testing",
           "action": "testImplementation"
         },
         {
           "title": "Ui",
-          "name": "navigation-ui-ktx",
+          "artifact": "navigation-ui-ktx",
           "action": "implementation"
         }
       ]
@@ -805,17 +816,17 @@
       "modules": [
         {
           "title": "Core",
-          "name": "okhttp",
+          "artifact": "okhttp",
           "action": "implementation"
         },
         {
           "title": "Interceptor",
-          "name": "logging-interceptor",
+          "artifact": "logging-interceptor",
           "action": "implementation"
         },
         {
           "title": "Mock",
-          "name": "mockwebserver",
+          "artifact": "mockwebserver",
           "action": "androidTestImplementation"
         }
       ]
@@ -828,12 +839,12 @@
       "modules": [
         {
           "title": "Compiler",
-          "name": "paris-processor",
+          "artifact": "paris-processor",
           "action": "kapt"
         },
         {
           "title": "Core",
-          "name": "paris",
+          "artifact": "paris",
           "action": "implementation"
         }
       ]
@@ -847,12 +858,12 @@
       "modules": [
         {
           "title": "Core",
-          "name": "retrofit",
+          "artifact": "retrofit",
           "action": "implementation"
         },
         {
           "title": "MoShi",
-          "name": "converter-moshi",
+          "artifact": "converter-moshi",
           "action": "implementation"
         }
       ]
@@ -866,22 +877,22 @@
       "modules": [
         {
           "title": "Compiler",
-          "name": "room-compiler",
+          "artifact": "room-compiler",
           "action": "kapt"
         },
         {
           "title": "Core",
-          "name": "room-runtime",
+          "artifact": "room-runtime",
           "action": "implementation"
         },
         {
           "title": "Ktx",
-          "name": "room-ktx",
+          "artifact": "room-ktx",
           "action": "implementation"
         },
         {
           "title": "Test",
-          "name": "room-testing",
+          "artifact": "room-testing",
           "action": "testImplementation"
         }
       ]
@@ -895,12 +906,12 @@
       "modules": [
         {
           "title": "Core",
-          "name": "work-runtime-ktx",
+          "artifact": "work-runtime-ktx",
           "action": "implementation"
         },
         {
           "title": "Test",
-          "name": "work-testing",
+          "artifact": "work-testing",
           "action": "testImplementation"
         }
       ]
@@ -912,7 +923,7 @@
       "version": "v4.1.9-androidx",
       "link": "https://github.com/Justson/AgentWeb",
       "group": "com.github.Justson.AgentWeb",
-      "name": "agentweb-core",
+      "artifact": "agentweb-core",
       "remark": "浏览器",
       "action": "implementation"
     },
@@ -921,7 +932,7 @@
       "version": "androidx_v1.1.3",
       "link": "https://github.com/xiaohaibin/XBanner/tree/androidX",
       "group": "com.github.xiaohaibin",
-      "name": "XBanner",
+      "artifact": "XBanner",
       "remark": "轮播控件",
       "action": "implementation"
     },
@@ -930,7 +941,7 @@
       "version": "1.6.6",
       "link": "https://github.com/Dimezis/BlurView",
       "group": "com.eightbitlab",
-      "name": "blurview",
+      "artifact": "blurview",
       "remark": "高斯模糊",
       "action": "implementation"
     },
@@ -939,7 +950,7 @@
       "version": "2.2.0",
       "link": "https://github.com/Ashok-Varma/BottomNavigation",
       "group": "com.ashokvarma.android",
-      "name": "bottom-navigation-bar",
+      "artifact": "bottom-navigation-bar",
       "remark": "底部导航",
       "action": "implementation"
     },
@@ -948,7 +959,7 @@
       "version": "2.0.4",
       "link": "https://developer.android.com/jetpack/androidx/releases/constraintlayout",
       "group": "androidx.constraintlayout",
-      "name": "constraintlayout",
+      "artifact": "constraintlayout",
       "remark": "约束布局",
       "action": "implementation"
     },
@@ -957,7 +968,7 @@
       "version": "1.1.0",
       "link": "https://github.com/KuangGang/RoundCorners",
       "group": "com.github.KuangGang",
-      "name": "RoundCorners",
+      "artifact": "RoundCorners",
       "remark": "圆角控件",
       "action": "implementation"
     },
@@ -966,7 +977,7 @@
       "version": "2.0.1",
       "link": "https://github.com/google/flexbox-layout",
       "group": "com.google.android",
-      "name": "flexbox",
+      "artifact": "flexbox",
       "remark": "流式布局",
       "action": "implementation"
     },
@@ -975,7 +986,7 @@
       "version": "0.2.0",
       "link": "https://github.com/dkzwm/FormatEditText",
       "group": "me.dkzwm.widget.fet",
-      "name": "core",
+      "artifact": "core",
       "remark": "输入格式化控件",
       "action": "implementation"
     },
@@ -984,7 +995,7 @@
       "version": "3.7.0",
       "link": "https://github.com/airbnb/lottie-android",
       "group": "com.airbnb.android",
-      "name": "lottie",
+      "artifact": "lottie",
       "remark": "动画框架",
       "action": "implementation"
     },
@@ -993,7 +1004,7 @@
       "version": "1.4.1",
       "link": "https://github.com/sunfusheng/MarqueeView",
       "group": "com.sunfusheng",
-      "name": "MarqueeView",
+      "artifact": "MarqueeView",
       "remark": "跑马灯控件",
       "action": "implementation"
     },
@@ -1002,7 +1013,7 @@
       "version": "1.4.0-beta01",
       "link": "https://github.com/material-components/material-components-android",
       "group": "com.google.android.material",
-      "name": "material",
+      "artifact": "material",
       "action": "implementation"
     },
     {
@@ -1010,7 +1021,7 @@
       "version": "1.4.4",
       "link": "https://github.com/ChaosLeung/PinView",
       "group": "io.github.chaosleung",
-      "name": "pinview",
+      "artifact": "pinview",
       "remark": "密码输入框",
       "action": "implementation"
     },
@@ -1019,7 +1030,7 @@
       "version": "1.2.0",
       "link": "https://developer.android.com/jetpack/androidx/releases/recyclerview",
       "group": "androidx.recyclerview",
-      "name": "recyclerview",
+      "artifact": "recyclerview",
       "action": "implementation"
     },
     {
@@ -1027,7 +1038,7 @@
       "version": "3.2.0",
       "link": "https://github.com/lihangleo2/ShadowLayout",
       "group": "com.github.lihangleo2",
-      "name": "ShadowLayout",
+      "artifact": "ShadowLayout",
       "remark": "阴影控件",
       "action": "implementation"
     },
@@ -1036,7 +1047,7 @@
       "version": "1.2.0-alpha01",
       "link": "https://developer.android.com/jetpack/androidx/releases/swiperefreshlayout",
       "group": "androidx.swiperefreshlayout",
-      "name": "swiperefreshlayout",
+      "artifact": "swiperefreshlayout",
       "remark": "下拉刷新控件",
       "action": "implementation"
     },
@@ -1045,7 +1056,7 @@
       "version": "2.0.3",
       "link": "https://github.com/kyleduo/SwitchButton",
       "group": "com.kyleduo.switchbutton",
-      "name": "library",
+      "artifact": "library",
       "remark": "开关按钮",
       "action": "implementation"
     },
@@ -1054,7 +1065,7 @@
       "version": "1.1.0-alpha01",
       "link": "https://developer.android.com/jetpack/androidx/releases/viewpager2",
       "group": "androidx.viewpager2",
-      "name": "viewpager2",
+      "artifact": "viewpager2",
       "action": "implementation"
     }
   ],
@@ -1064,7 +1075,7 @@
       "version": "3.3.0",
       "link": "https://mvnrepository.com/artifact/androidx.test.espresso/espresso-core",
       "group": "androidx.test.espresso",
-      "name": "espresso-core",
+      "artifact": "espresso-core",
       "remark": "UI自动化测试",
       "action": "androidTestImplementation"
     },
@@ -1073,7 +1084,7 @@
       "version": "4.13.2",
       "link": "https://mvnrepository.com/artifact/junit/junit",
       "group": "junit",
-      "name": "junit",
+      "artifact": "junit",
       "remark": "单元测试",
       "action": "testImplementation"
     },
@@ -1082,7 +1093,7 @@
       "version": "1.1.2",
       "link": "https://mvnrepository.com/artifact/androidx.test.ext/junit-ktx",
       "group": "androidx.test.ext",
-      "name": "junit-ktx",
+      "artifact": "junit-ktx",
       "remark": "单元测试扩展",
       "action": "testImplementation"
     }

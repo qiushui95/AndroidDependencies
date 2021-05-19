@@ -37,7 +37,7 @@ public abstract class AndroidDependency private constructor(
     /**
      * https://developer.android.com/jetpack/androidx/releases/appcompat
      */
-    public object Appcompat : AndroidDependency("androidx.appcompat", "appcompat", "1.3.0-rc01")
+    public object Appcompat : AndroidDependency("androidx.appcompat", "appcompat", "1.3.0")
 
     /**
      * 背景生成工具库
@@ -315,7 +315,7 @@ public abstract class AndroidDependency private constructor(
 
     public object AnimationTest : Core("core-animation-testing", "1.0.0-alpha02")
 
-    public object Ktx : Core("core-ktx", "1.5.0-rc02")
+    public object Ktx : Core("core-ktx", "1.6.0-beta01")
 
     public object Role : Core("core-role", "1.0.0")
   }
@@ -409,18 +409,23 @@ public abstract class AndroidDependency private constructor(
    * https://developer.android.com/jetpack/androidx/releases/fragment
    */
   public sealed class Fragment(
-    group: String,
-    name: String,
-    version: String
-  ) : AndroidDependency(group, name, version) {
-    public object Core : Fragment("androidx.fragment", "fragment-ktx", "1.3.3")
+    name: String
+  ) : AndroidDependency("androidx.fragment", name, "1.3.4") {
+    public object Core : Fragment("fragment-ktx")
 
-    /**
-     * https://github.com/terrakok/Cicerone
-     */
-    public object Manager : Fragment("com.github.terrakok", "cicerone", "7.0")
+    public object Test : Fragment("fragment-testing")
+  }
 
-    public object Test : Fragment("androidx.fragment", "fragment-testing", "1.3.3")
+  /**
+   * Fragment管理
+   * https://developer.android.com/jetpack/androidx/releases/fragment
+   */
+  public sealed class FragmentManager(
+    name: String
+  ) : AndroidDependency("com.github.weikaiyun.SFragmentation", name, "1.8.0") {
+    public object Core : FragmentManager("fragmentation")
+
+    public object SwipeBack : FragmentManager("fragmentation_swipeback")
   }
 
   /**
@@ -471,7 +476,7 @@ public abstract class AndroidDependency private constructor(
    */
   public sealed class Koin(
     name: String
-  ) : AndroidDependency("io.insert-koin", name, "3.0.1") {
+  ) : AndroidDependency("io.insert-koin", name, "3.0.2") {
     public object Android : Koin("koin-android")
 
     public object AndroidExt : Koin("koin-android-ext")

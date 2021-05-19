@@ -15,7 +15,7 @@ data class DependencyConfig(
     val link: String?,
     @Json(name = "group")
     val group: String?,
-    @Json(name = "name")
+    @Json(name = "artifact")
     val name: String?,
     @Json(name = "remark")
     val remark: String?,
