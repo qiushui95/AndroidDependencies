@@ -75,6 +75,7 @@ dependencies {
 	implementation("com.github.qiushui95.MyArchitecture:architecture-error:+")
 	implementation("com.github.qiushui95.MyArchitecture:architecture-ext:+")
 	implementation("com.github.qiushui95.MyArchitecture:architecture-flow-work:+")
+	implementation("com.github.qiushui95.MyArchitecture:architecture-getter:+")
 	implementation("com.github.qiushui95.MyArchitecture:architecture-http:+")
 	implementation("com.github.qiushui95.MyArchitecture:architecture-initializer:+")
 	implementation("com.github.qiushui95.MyArchitecture:architecture-model:+")

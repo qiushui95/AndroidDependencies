@@ -1,5 +1,5 @@
 {
-  "version": "1.4.20",
+  "version": "1.4.21",
   "single": [
     {
       "title": "Activity",
@@ -165,7 +165,7 @@
   "group": [
     {
       "title": "Architecture",
-      "version": "1.0.10",
+      "version": "1.0.11",
       "link": "https://github.com/qiushui95/MyArchitecture",
       "group": "com.github.qiushui95.MyArchitecture",
       "remark": "我的架构组件",
@@ -203,6 +203,11 @@
         {
           "title": "FlowWork",
           "artifact": "architecture-flow-work",
+          "action": "implementation"
+        },
+        {
+          "title": "Getter",
+          "artifact": "architecture-getter",
           "action": "implementation"
         },
         {
