@@ -1,5 +1,4 @@
 {
-  "version": "1.4.22",
   "single": [
     {
       "title": "Activity",
@@ -505,7 +504,7 @@
     },
     {
       "title": "FragmentManager",
-      "version": "1.8.0",
+      "version": "1.8.1",
       "link": "https://developer.android.com/jetpack/androidx/releases/fragment",
       "group": "com.github.weikaiyun.SFragmentation",
       "remark": "Fragment管理",
@@ -831,7 +830,9 @@
         },
         {
           "title": "Interceptor",
-          "artifact": "logging-interceptor",
+          "group": "com.localebro",
+          "artifact": "okhttpprofiler",
+          "version": "1.0.8",
           "action": "implementation"
         },
         {

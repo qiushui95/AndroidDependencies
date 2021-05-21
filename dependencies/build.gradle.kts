@@ -1,14 +1,23 @@
+import org.gradle.jvm.tasks.Jar
+
 plugins {
 //    id("com.android.library")
     id("kotlin")
     id("kotlin-kapt")
-    id("com.github.dcendents.android-maven")
+    id("maven")
 }
 
-val kotlinVersion = "1.5.0"
+group = "com.github.qiushui95"
+setProperty("archivesBaseName", "AndroidDependencies")
+version = "1.4.23"
+
+tasks.register("sourcesJar", Jar::class) {
+    dependsOn("classes")
+    archiveClassifier.set("sources")
+    from(sourceSets.main.get().allSource)
+}
 
 dependencies {
-    implementation("org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion")
 
     testImplementation("junit:junit:4.13.2")
 
