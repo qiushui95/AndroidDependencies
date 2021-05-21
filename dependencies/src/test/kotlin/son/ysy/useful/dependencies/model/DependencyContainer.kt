@@ -5,8 +5,6 @@ import com.squareup.moshi.JsonClass
 
 @JsonClass(generateAdapter = true)
 data class DependencyContainer(
-    @Json(name = "version")
-    val version: String,
     @Json(name = "single")
     val single: List<DependencyConfig>,
     @Json(name = "group")
@@ -19,7 +17,6 @@ data class DependencyContainer(
 
     fun sorted(): DependencyContainer {
         return DependencyContainer(
-            version = version,
             single = single.sort(),
             group = group.sort(),
             view = view.sort(),

@@ -54,18 +54,18 @@
 |[Architecture](https://github.com/qiushui95/MyArchitecture)| | | |::|我的架构组件|  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
-|Constant|com.github.qiushui95.MyArchitecture|architecture-constant|1.0.12||implementation("com.github.qiushui95.MyArchitecture:architecture-constant:1.0.12")|  
-|Domain|com.github.qiushui95.MyArchitecture|architecture-domain|1.0.12||implementation("com.github.qiushui95.MyArchitecture:architecture-domain:1.0.12")|  
-|DomainImpl|com.github.qiushui95.MyArchitecture|architecture-domain-impl|1.0.12||implementation("com.github.qiushui95.MyArchitecture:architecture-domain-impl:1.0.12")|  
-|Entity|com.github.qiushui95.MyArchitecture|architecture-entity|1.0.12||implementation("com.github.qiushui95.MyArchitecture:architecture-entity:1.0.12")|  
-|Error|com.github.qiushui95.MyArchitecture|architecture-error|1.0.12||implementation("com.github.qiushui95.MyArchitecture:architecture-error:1.0.12")|  
-|Ext|com.github.qiushui95.MyArchitecture|architecture-ext|1.0.12||implementation("com.github.qiushui95.MyArchitecture:architecture-ext:1.0.12")|  
-|FlowWork|com.github.qiushui95.MyArchitecture|architecture-flow-work|1.0.12||implementation("com.github.qiushui95.MyArchitecture:architecture-flow-work:1.0.12")|  
-|Getter|com.github.qiushui95.MyArchitecture|architecture-getter|1.0.12||implementation("com.github.qiushui95.MyArchitecture:architecture-getter:1.0.12")|  
-|Http|com.github.qiushui95.MyArchitecture|architecture-http|1.0.12||implementation("com.github.qiushui95.MyArchitecture:architecture-http:1.0.12")|  
-|Initializer|com.github.qiushui95.MyArchitecture|architecture-initializer|1.0.12||implementation("com.github.qiushui95.MyArchitecture:architecture-initializer:1.0.12")|  
-|Model|com.github.qiushui95.MyArchitecture|architecture-model|1.0.12||implementation("com.github.qiushui95.MyArchitecture:architecture-model:1.0.12")|  
-|Starter|com.github.qiushui95.MyArchitecture|architecture-starter|1.0.12||implementation("com.github.qiushui95.MyArchitecture:architecture-starter:1.0.12")|  
+|Constant|com.github.qiushui95.MyArchitecture|architecture-constant|1.0.13||implementation("com.github.qiushui95.MyArchitecture:architecture-constant:1.0.13")|  
+|Domain|com.github.qiushui95.MyArchitecture|architecture-domain|1.0.13||implementation("com.github.qiushui95.MyArchitecture:architecture-domain:1.0.13")|  
+|DomainImpl|com.github.qiushui95.MyArchitecture|architecture-domain-impl|1.0.13||implementation("com.github.qiushui95.MyArchitecture:architecture-domain-impl:1.0.13")|  
+|Entity|com.github.qiushui95.MyArchitecture|architecture-entity|1.0.13||implementation("com.github.qiushui95.MyArchitecture:architecture-entity:1.0.13")|  
+|Error|com.github.qiushui95.MyArchitecture|architecture-error|1.0.13||implementation("com.github.qiushui95.MyArchitecture:architecture-error:1.0.13")|  
+|Ext|com.github.qiushui95.MyArchitecture|architecture-ext|1.0.13||implementation("com.github.qiushui95.MyArchitecture:architecture-ext:1.0.13")|  
+|FlowWork|com.github.qiushui95.MyArchitecture|architecture-flow-work|1.0.13||implementation("com.github.qiushui95.MyArchitecture:architecture-flow-work:1.0.13")|  
+|Getter|com.github.qiushui95.MyArchitecture|architecture-getter|1.0.13||implementation("com.github.qiushui95.MyArchitecture:architecture-getter:1.0.13")|  
+|Http|com.github.qiushui95.MyArchitecture|architecture-http|1.0.13||implementation("com.github.qiushui95.MyArchitecture:architecture-http:1.0.13")|  
+|Initializer|com.github.qiushui95.MyArchitecture|architecture-initializer|1.0.13||implementation("com.github.qiushui95.MyArchitecture:architecture-initializer:1.0.13")|  
+|Model|com.github.qiushui95.MyArchitecture|architecture-model|1.0.13||implementation("com.github.qiushui95.MyArchitecture:architecture-model:1.0.13")|  
+|Starter|com.github.qiushui95.MyArchitecture|architecture-starter|1.0.13||implementation("com.github.qiushui95.MyArchitecture:architecture-starter:1.0.13")|  
   
   
 |[BasePopup](https://github.com/razerdp/BasePopup)| | | |::|弹窗|  
@@ -157,8 +157,8 @@
 |[FragmentManager](https://developer.android.com/jetpack/androidx/releases/fragment)| | | |::|Fragment管理|  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
-|Core|com.github.weikaiyun.SFragmentation|fragmentation|1.8.0||implementation("com.github.weikaiyun.SFragmentation:fragmentation:1.8.0")|  
-|SwipeBack|com.github.weikaiyun.SFragmentation|fragmentation_swipeback|1.8.0||implementation("com.github.weikaiyun.SFragmentation:fragmentation_swipeback:1.8.0")|  
+|Core|com.github.weikaiyun.SFragmentation|fragmentation|1.8.1||implementation("com.github.weikaiyun.SFragmentation:fragmentation:1.8.1")|  
+|SwipeBack|com.github.weikaiyun.SFragmentation|fragmentation_swipeback|1.8.1||implementation("com.github.weikaiyun.SFragmentation:fragmentation_swipeback:1.8.1")|  
   
   
 |[Glide](https://github.com/bumptech/glide)| | | |::|图片加载|  
@@ -252,7 +252,7 @@
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
 |Core|com.squareup.okhttp3|okhttp|4.9.1||implementation("com.squareup.okhttp3:okhttp:4.9.1")|  
-|Interceptor|com.squareup.okhttp3|logging-interceptor|4.9.1||implementation("com.squareup.okhttp3:logging-interceptor:4.9.1")|  
+|Interceptor|com.localebro|okhttpprofiler|1.0.8||implementation("com.localebro:okhttpprofiler:1.0.8")|  
 |Mock|com.squareup.okhttp3|mockwebserver|4.9.1||androidTestImplementation("com.squareup.okhttp3:mockwebserver:4.9.1")|  
   
   

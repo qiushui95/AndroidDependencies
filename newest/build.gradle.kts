@@ -203,7 +203,7 @@ dependencies {
 	
 
 	implementation("com.squareup.okhttp3:okhttp:+")
-	implementation("com.squareup.okhttp3:logging-interceptor:+")
+	implementation("com.localebro:okhttpprofiler:+")
 	androidTestImplementation("com.squareup.okhttp3:mockwebserver:+")
 	
 

@@ -17,6 +17,9 @@ tasks.register("sourcesJar", Jar::class) {
     from(sourceSets.main.get().allSource)
 }
 
+
+artifacts.archives(tasks.getByName("sourcesJar"))
+
 dependencies {
 
     testImplementation("junit:junit:4.13.2")

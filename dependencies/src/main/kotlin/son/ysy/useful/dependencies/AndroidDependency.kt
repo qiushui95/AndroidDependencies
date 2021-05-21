@@ -242,7 +242,7 @@ public abstract class AndroidDependency private constructor(
    */
   public sealed class Architecture(
     name: String
-  ) : AndroidDependency("com.github.qiushui95.MyArchitecture", name, "1.0.12") {
+  ) : AndroidDependency("com.github.qiushui95.MyArchitecture", name, "1.0.13") {
     public object Constant : Architecture("architecture-constant")
 
     public object Domain : Architecture("architecture-domain")
@@ -426,7 +426,7 @@ public abstract class AndroidDependency private constructor(
    */
   public sealed class FragmentManager(
     name: String
-  ) : AndroidDependency("com.github.weikaiyun.SFragmentation", name, "1.8.0") {
+  ) : AndroidDependency("com.github.weikaiyun.SFragmentation", name, "1.8.1") {
     public object Core : FragmentManager("fragmentation")
 
     public object SwipeBack : FragmentManager("fragmentation_swipeback")
@@ -599,13 +599,15 @@ public abstract class AndroidDependency private constructor(
    * https://github.com/square/okhttp
    */
   public sealed class OkHttp(
-    name: String
-  ) : AndroidDependency("com.squareup.okhttp3", name, "4.9.1") {
-    public object Core : OkHttp("okhttp")
+    group: String,
+    name: String,
+    version: String
+  ) : AndroidDependency(group, name, version) {
+    public object Core : OkHttp("com.squareup.okhttp3", "okhttp", "4.9.1")
 
-    public object Interceptor : OkHttp("logging-interceptor")
+    public object Interceptor : OkHttp("com.localebro", "okhttpprofiler", "1.0.8")
 
-    public object Mock : OkHttp("mockwebserver")
+    public object Mock : OkHttp("com.squareup.okhttp3", "mockwebserver", "4.9.1")
   }
 
   /**
