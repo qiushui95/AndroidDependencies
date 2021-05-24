@@ -242,7 +242,7 @@ public abstract class AndroidDependency private constructor(
    */
   public sealed class Architecture(
     name: String
-  ) : AndroidDependency("com.github.qiushui95.MyArchitecture", name, "1.0.13") {
+  ) : AndroidDependency("com.github.qiushui95.MyArchitecture", name, "1.0.14") {
     public object Constant : Architecture("architecture-constant")
 
     public object Domain : Architecture("architecture-domain")
@@ -426,7 +426,7 @@ public abstract class AndroidDependency private constructor(
    */
   public sealed class FragmentManager(
     name: String
-  ) : AndroidDependency("com.github.weikaiyun.SFragmentation", name, "1.8.1") {
+  ) : AndroidDependency("com.github.weikaiyun.EasyFragmentation", name, "1.8.1") {
     public object Core : FragmentManager("fragmentation")
 
     public object SwipeBack : FragmentManager("fragmentation_swipeback")

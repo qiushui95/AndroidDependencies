@@ -9,7 +9,7 @@ plugins {
 
 group = "com.github.qiushui95"
 setProperty("archivesBaseName", "AndroidDependencies")
-version = "1.4.23"
+version = "1.4.24"
 
 tasks.register("sourcesJar", Jar::class) {
     dependsOn("classes")

@@ -138,8 +138,8 @@ dependencies {
 	testImplementation("androidx.fragment:fragment-testing:+")
 	
 
-	implementation("com.github.weikaiyun.SFragmentation:fragmentation:+")
-	implementation("com.github.weikaiyun.SFragmentation:fragmentation_swipeback:+")
+	implementation("com.github.weikaiyun.EasyFragmentation:fragmentation:+")
+	implementation("com.github.weikaiyun.EasyFragmentation:fragmentation_swipeback:+")
 	
 
 	implementation("com.github.bumptech.glide:annotations:+")

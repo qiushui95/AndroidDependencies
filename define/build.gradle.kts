@@ -68,18 +68,18 @@ dependencies {
 	testImplementation("androidx.test.ext:junit-ktx:1.1.2")
 	
 
-	implementation("com.github.qiushui95.MyArchitecture:architecture-constant:1.0.13")
-	implementation("com.github.qiushui95.MyArchitecture:architecture-domain:1.0.13")
-	implementation("com.github.qiushui95.MyArchitecture:architecture-domain-impl:1.0.13")
-	implementation("com.github.qiushui95.MyArchitecture:architecture-entity:1.0.13")
-	implementation("com.github.qiushui95.MyArchitecture:architecture-error:1.0.13")
-	implementation("com.github.qiushui95.MyArchitecture:architecture-ext:1.0.13")
-	implementation("com.github.qiushui95.MyArchitecture:architecture-flow-work:1.0.13")
-	implementation("com.github.qiushui95.MyArchitecture:architecture-getter:1.0.13")
-	implementation("com.github.qiushui95.MyArchitecture:architecture-http:1.0.13")
-	implementation("com.github.qiushui95.MyArchitecture:architecture-initializer:1.0.13")
-	implementation("com.github.qiushui95.MyArchitecture:architecture-model:1.0.13")
-	implementation("com.github.qiushui95.MyArchitecture:architecture-starter:1.0.13")
+	implementation("com.github.qiushui95.MyArchitecture:architecture-constant:1.0.14")
+	implementation("com.github.qiushui95.MyArchitecture:architecture-domain:1.0.14")
+	implementation("com.github.qiushui95.MyArchitecture:architecture-domain-impl:1.0.14")
+	implementation("com.github.qiushui95.MyArchitecture:architecture-entity:1.0.14")
+	implementation("com.github.qiushui95.MyArchitecture:architecture-error:1.0.14")
+	implementation("com.github.qiushui95.MyArchitecture:architecture-ext:1.0.14")
+	implementation("com.github.qiushui95.MyArchitecture:architecture-flow-work:1.0.14")
+	implementation("com.github.qiushui95.MyArchitecture:architecture-getter:1.0.14")
+	implementation("com.github.qiushui95.MyArchitecture:architecture-http:1.0.14")
+	implementation("com.github.qiushui95.MyArchitecture:architecture-initializer:1.0.14")
+	implementation("com.github.qiushui95.MyArchitecture:architecture-model:1.0.14")
+	implementation("com.github.qiushui95.MyArchitecture:architecture-starter:1.0.14")
 	
 
 	implementation("io.github.razerdp:BasePopup:3.0.0-SNAPSHOT")
@@ -138,8 +138,8 @@ dependencies {
 	testImplementation("androidx.fragment:fragment-testing:1.3.4")
 	
 
-	implementation("com.github.weikaiyun.SFragmentation:fragmentation:1.8.1")
-	implementation("com.github.weikaiyun.SFragmentation:fragmentation_swipeback:1.8.1")
+	implementation("com.github.weikaiyun.EasyFragmentation:fragmentation:1.8.1")
+	implementation("com.github.weikaiyun.EasyFragmentation:fragmentation_swipeback:1.8.1")
 	
 
 	implementation("com.github.bumptech.glide:annotations:4.12.0")

@@ -164,7 +164,7 @@
   "group": [
     {
       "title": "Architecture",
-      "version": "1.0.13",
+      "version": "1.0.14",
       "link": "https://github.com/qiushui95/MyArchitecture",
       "group": "com.github.qiushui95.MyArchitecture",
       "remark": "我的架构组件",
@@ -506,7 +506,7 @@
       "title": "FragmentManager",
       "version": "1.8.1",
       "link": "https://developer.android.com/jetpack/androidx/releases/fragment",
-      "group": "com.github.weikaiyun.SFragmentation",
+      "group": "com.github.weikaiyun.EasyFragmentation",
       "remark": "Fragment管理",
       "modules": [
         {
