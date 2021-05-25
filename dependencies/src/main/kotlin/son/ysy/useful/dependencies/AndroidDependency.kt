@@ -43,7 +43,8 @@ public abstract class AndroidDependency private constructor(
      * 背景生成工具库
      * https://github.com/JavaNoober/BackgroundLibrary
      */
-    public object Background : AndroidDependency("com.noober.background", "core", "1.6.5")
+    public object Background : AndroidDependency("com.github.JavaNoober.BackgroundLibrary",
+        "libraryx", "1.6.9")
 
     /**
      * 图片加载
@@ -426,7 +427,7 @@ public abstract class AndroidDependency private constructor(
    */
   public sealed class FragmentManager(
     name: String
-  ) : AndroidDependency("com.github.weikaiyun.EasyFragmentation", name, "1.8.1") {
+  ) : AndroidDependency("com.github.weikaiyun.SFragmentation", name, "1.8.1") {
     public object Core : FragmentManager("fragmentation")
 
     public object SwipeBack : FragmentManager("fragmentation_swipeback")
@@ -517,7 +518,7 @@ public abstract class AndroidDependency private constructor(
    */
   public sealed class Kotlin(
     name: String
-  ) : AndroidDependency("org.jetbrains.kotlin", name, "1.5.0") {
+  ) : AndroidDependency("org.jetbrains.kotlin", name, "1.5.10") {
     public object Reflect : Kotlin("kotlin-reflect")
 
     public object Stdlib : Kotlin("kotlin-stdlib")

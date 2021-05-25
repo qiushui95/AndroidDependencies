@@ -36,10 +36,10 @@
     },
     {
       "title": "Background",
-      "version": "1.6.5",
+      "version": "1.6.9",
       "link": "https://github.com/JavaNoober/BackgroundLibrary",
-      "group": "com.noober.background",
-      "artifact": "core",
+      "group": "com.github.JavaNoober.BackgroundLibrary",
+      "artifact": "libraryx",
       "remark": "背景生成工具库",
       "action": "implementation"
     },
@@ -506,7 +506,7 @@
       "title": "FragmentManager",
       "version": "1.8.1",
       "link": "https://developer.android.com/jetpack/androidx/releases/fragment",
-      "group": "com.github.weikaiyun.EasyFragmentation",
+      "group": "com.github.weikaiyun.SFragmentation",
       "remark": "Fragment管理",
       "modules": [
         {
@@ -662,7 +662,7 @@
     },
     {
       "title": "Kotlin",
-      "version": "1.5.0",
+      "version": "1.5.10",
       "link": "https://github.com/JetBrains/kotlin",
       "group": "org.jetbrains.kotlin",
       "modules": [

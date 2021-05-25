@@ -32,7 +32,7 @@ dependencies {
 	implementation("com.aliyun.ams:alicloud-android-push:+")
 	implementation("com.blankj:utilcodex:+")
 	implementation("androidx.appcompat:appcompat:+")
-	implementation("com.noober.background:core:+")
+	implementation("com.github.JavaNoober.BackgroundLibrary:libraryx:+")
 	implementation("io.coil-kt:coil:+")
 	implementation("me.jorgecastillo:androidcolorx:+")
 	implementation("com.github.loperSeven:DateTimePicker:+")
@@ -138,8 +138,8 @@ dependencies {
 	testImplementation("androidx.fragment:fragment-testing:+")
 	
 
-	implementation("com.github.weikaiyun.EasyFragmentation:fragmentation:+")
-	implementation("com.github.weikaiyun.EasyFragmentation:fragmentation_swipeback:+")
+	implementation("com.github.weikaiyun.SFragmentation:fragmentation:+")
+	implementation("com.github.weikaiyun.SFragmentation:fragmentation_swipeback:+")
 	
 
 	implementation("com.github.bumptech.glide:annotations:+")

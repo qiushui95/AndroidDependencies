@@ -7,7 +7,7 @@
 |[AliPush](https://help.aliyun.com/document_detail/190009.html?spm=a2c4g.11174283.3.2.52eb6d163QVxjG)|com.aliyun.ams|alicloud-android-push|3.3.0|阿里推送|implementation("com.aliyun.ams:alicloud-android-push:3.3.0")|  
 |[AndroidUtil](https://github.com/Blankj/AndroidUtilCode)|com.blankj|utilcodex|1.30.6|多功能工具包|implementation("com.blankj:utilcodex:1.30.6")|  
 |[Appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat)|androidx.appcompat|appcompat|1.3.0||implementation("androidx.appcompat:appcompat:1.3.0")|  
-|[Background](https://github.com/JavaNoober/BackgroundLibrary)|com.noober.background|core|1.6.5|背景生成工具库|implementation("com.noober.background:core:1.6.5")|  
+|[Background](https://github.com/JavaNoober/BackgroundLibrary)|com.github.JavaNoober.BackgroundLibrary|libraryx|1.6.9|背景生成工具库|implementation("com.github.JavaNoober.BackgroundLibrary:libraryx:1.6.9")|  
 |[Coil](https://github.com/coil-kt/coil)|io.coil-kt|coil|1.2.1|图片加载|implementation("io.coil-kt:coil:1.2.1")|  
 |[ColorKtx](https://github.com/JorgeCastilloPrz/AndroidColorX)|me.jorgecastillo|androidcolorx|0.2.0|颜色帮助库|implementation("me.jorgecastillo:androidcolorx:0.2.0")|  
 |[DateTimePicker](https://github.com/loperSeven/DateTimePicker)|com.github.loperSeven|DateTimePicker|0.3.1|时间选择器|implementation("com.github.loperSeven:DateTimePicker:0.3.1")|  
@@ -157,8 +157,8 @@
 |[FragmentManager](https://developer.android.com/jetpack/androidx/releases/fragment)| | | |::|Fragment管理|  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
-|Core|com.github.weikaiyun.EasyFragmentation|fragmentation|1.8.1||implementation("com.github.weikaiyun.EasyFragmentation:fragmentation:1.8.1")|  
-|SwipeBack|com.github.weikaiyun.EasyFragmentation|fragmentation_swipeback|1.8.1||implementation("com.github.weikaiyun.EasyFragmentation:fragmentation_swipeback:1.8.1")|  
+|Core|com.github.weikaiyun.SFragmentation|fragmentation|1.8.1||implementation("com.github.weikaiyun.SFragmentation:fragmentation:1.8.1")|  
+|SwipeBack|com.github.weikaiyun.SFragmentation|fragmentation_swipeback|1.8.1||implementation("com.github.weikaiyun.SFragmentation:fragmentation_swipeback:1.8.1")|  
   
   
 |[Glide](https://github.com/bumptech/glide)| | | |::|图片加载|  
@@ -203,8 +203,8 @@
 |[Kotlin](https://github.com/JetBrains/kotlin)| | | |::||  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
-|Reflect|org.jetbrains.kotlin|kotlin-reflect|1.5.0||implementation("org.jetbrains.kotlin:kotlin-reflect:1.5.0")|  
-|Stdlib|org.jetbrains.kotlin|kotlin-stdlib|1.5.0||implementation("org.jetbrains.kotlin:kotlin-stdlib:1.5.0")|  
+|Reflect|org.jetbrains.kotlin|kotlin-reflect|1.5.10||implementation("org.jetbrains.kotlin:kotlin-reflect:1.5.10")|  
+|Stdlib|org.jetbrains.kotlin|kotlin-stdlib|1.5.10||implementation("org.jetbrains.kotlin:kotlin-stdlib:1.5.10")|  
   
   
 |[Lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)| | | |::||  

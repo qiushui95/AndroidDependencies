@@ -32,7 +32,7 @@ dependencies {
 	implementation("com.aliyun.ams:alicloud-android-push:3.3.0")
 	implementation("com.blankj:utilcodex:1.30.6")
 	implementation("androidx.appcompat:appcompat:1.3.0")
-	implementation("com.noober.background:core:1.6.5")
+	implementation("com.github.JavaNoober.BackgroundLibrary:libraryx:1.6.9")
 	implementation("io.coil-kt:coil:1.2.1")
 	implementation("me.jorgecastillo:androidcolorx:0.2.0")
 	implementation("com.github.loperSeven:DateTimePicker:0.3.1")
@@ -138,8 +138,8 @@ dependencies {
 	testImplementation("androidx.fragment:fragment-testing:1.3.4")
 	
 
-	implementation("com.github.weikaiyun.EasyFragmentation:fragmentation:1.8.1")
-	implementation("com.github.weikaiyun.EasyFragmentation:fragmentation_swipeback:1.8.1")
+	implementation("com.github.weikaiyun.SFragmentation:fragmentation:1.8.1")
+	implementation("com.github.weikaiyun.SFragmentation:fragmentation_swipeback:1.8.1")
 	
 
 	implementation("com.github.bumptech.glide:annotations:4.12.0")
@@ -169,8 +169,8 @@ dependencies {
 	implementation("org.koin:koin-androidx-viewmodel:2.2.2")
 	
 
-	implementation("org.jetbrains.kotlin:kotlin-reflect:1.5.0")
-	implementation("org.jetbrains.kotlin:kotlin-stdlib:1.5.0")
+	implementation("org.jetbrains.kotlin:kotlin-reflect:1.5.10")
+	implementation("org.jetbrains.kotlin:kotlin-stdlib:1.5.10")
 	
 
 	implementation("androidx.lifecycle:lifecycle-common:2.3.1")
