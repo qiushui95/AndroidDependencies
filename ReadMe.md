@@ -14,7 +14,7 @@
 |[ImagePicker](https://github.com/yangpeixing/YImagePicker)|com.ypx.yimagepicker|androidx|3.1.4|多媒体选择库|implementation("com.ypx.yimagepicker:androidx:3.1.4")|  
 |[JodaTime](https://github.com/JodaOrg/joda-time)|joda-time|joda-time|2.10.10|时间处理库|implementation("joda-time:joda-time:2.10.10")|  
 |[LeakCanary](https://square.github.io/leakcanary/getting_started/)|com.squareup.leakcanary|leakcanary-android|2.7|内存泄露监控|implementation("com.squareup.leakcanary:leakcanary-android:2.7")|  
-|[Mmkv](https://github.com/Tencent/MMKV/blob/master/README_CN.md)|com.tencent|mmkv-static|1.2.8|持久KV数据存储|implementation("com.tencent:mmkv-static:1.2.8")|  
+|[Mmkv](https://github.com/Tencent/MMKV/blob/master/README_CN.md)|com.tencent|mmkv-static|1.2.9|持久KV数据存储|implementation("com.tencent:mmkv-static:1.2.9")|  
 |[PermissionX](https://github.com/guolindev/PermissionX)|com.permissionx.guolindev|permissionx|1.4.0|权限请求|implementation("com.permissionx.guolindev:permissionx:1.4.0")|  
 |[QrScanner](https://github.com/jenly1314/ZXingLite)|com.king.zxing|zxing-lite|2.0.3|二维码扫描|implementation("com.king.zxing:zxing-lite:2.0.3")|  
 |[SoLoader](https://github.com/facebook/soloader)|com.facebook.soloader|soloader|0.10.1|so加载库|implementation("com.facebook.soloader:soloader:0.10.1")|  
@@ -157,8 +157,8 @@
 |[FragmentManager](https://developer.android.com/jetpack/androidx/releases/fragment)| | | |::|Fragment管理|  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
-|Core|com.github.weikaiyun.SFragmentation|fragmentation|1.8.1||implementation("com.github.weikaiyun.SFragmentation:fragmentation:1.8.1")|  
-|SwipeBack|com.github.weikaiyun.SFragmentation|fragmentation_swipeback|1.8.1||implementation("com.github.weikaiyun.SFragmentation:fragmentation_swipeback:1.8.1")|  
+|Core|com.github.weikaiyun.SFragmentation|fragmentation|1.8.2||implementation("com.github.weikaiyun.SFragmentation:fragmentation:1.8.2")|  
+|SwipeBack|com.github.weikaiyun.SFragmentation|fragmentation_swipeback|1.8.2||implementation("com.github.weikaiyun.SFragmentation:fragmentation_swipeback:1.8.2")|  
   
   
 |[Glide](https://github.com/bumptech/glide)| | | |::|图片加载|  

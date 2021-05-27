@@ -1,15 +1,12 @@
 import org.gradle.jvm.tasks.Jar
 
 plugins {
-//    id("com.android.library")
     id("kotlin")
     id("kotlin-kapt")
     id("maven")
 }
 
-group = "com.github.qiushui95"
 setProperty("archivesBaseName", "AndroidDependencies")
-version = "1.4.24"
 
 tasks.register("sourcesJar", Jar::class) {
     dependsOn("classes")
@@ -31,3 +28,5 @@ dependencies {
 
     testImplementation("com.google.code.gson:gson:2.8.6")
 }
+
+apply(from = File(rootDir,"gradle/jitpackJar.gradle.kts"))

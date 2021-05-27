@@ -88,7 +88,7 @@ public abstract class AndroidDependency private constructor(
      * 持久KV数据存储
      * https://github.com/Tencent/MMKV/blob/master/README_CN.md
      */
-    public object Mmkv : AndroidDependency("com.tencent", "mmkv-static", "1.2.8")
+    public object Mmkv : AndroidDependency("com.tencent", "mmkv-static", "1.2.9")
 
     /**
      * 权限请求
@@ -427,7 +427,7 @@ public abstract class AndroidDependency private constructor(
    */
   public sealed class FragmentManager(
     name: String
-  ) : AndroidDependency("com.github.weikaiyun.SFragmentation", name, "1.8.1") {
+  ) : AndroidDependency("com.github.weikaiyun.SFragmentation", name, "1.8.2") {
     public object Core : FragmentManager("fragmentation")
 
     public object SwipeBack : FragmentManager("fragmentation_swipeback")

@@ -99,7 +99,7 @@
     },
     {
       "title": "Mmkv",
-      "version": "1.2.8",
+      "version": "1.2.9",
       "link": "https://github.com/Tencent/MMKV/blob/master/README_CN.md",
       "group": "com.tencent",
       "artifact": "mmkv-static",
@@ -504,7 +504,7 @@
     },
     {
       "title": "FragmentManager",
-      "version": "1.8.1",
+      "version": "1.8.2",
       "link": "https://developer.android.com/jetpack/androidx/releases/fragment",
       "group": "com.github.weikaiyun.SFragmentation",
       "remark": "Fragment管理",

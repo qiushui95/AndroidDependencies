@@ -39,7 +39,7 @@ dependencies {
 	implementation("com.ypx.yimagepicker:androidx:3.1.4")
 	implementation("joda-time:joda-time:2.10.10")
 	implementation("com.squareup.leakcanary:leakcanary-android:2.7")
-	implementation("com.tencent:mmkv-static:1.2.8")
+	implementation("com.tencent:mmkv-static:1.2.9")
 	implementation("com.permissionx.guolindev:permissionx:1.4.0")
 	implementation("com.king.zxing:zxing-lite:2.0.3")
 	implementation("com.facebook.soloader:soloader:0.10.1")
@@ -138,8 +138,8 @@ dependencies {
 	testImplementation("androidx.fragment:fragment-testing:1.3.4")
 	
 
-	implementation("com.github.weikaiyun.SFragmentation:fragmentation:1.8.1")
-	implementation("com.github.weikaiyun.SFragmentation:fragmentation_swipeback:1.8.1")
+	implementation("com.github.weikaiyun.SFragmentation:fragmentation:1.8.2")
+	implementation("com.github.weikaiyun.SFragmentation:fragmentation_swipeback:1.8.2")
 	
 
 	implementation("com.github.bumptech.glide:annotations:4.12.0")
