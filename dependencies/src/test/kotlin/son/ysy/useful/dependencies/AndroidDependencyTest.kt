@@ -311,7 +311,7 @@ class AndroidDependencyTest : TestCase() {
             }
             moduleBuilder.addSuperclassConstructorParameter(
                 "%S",
-                module.name ?: throw IllegalArgumentMissException(
+                module.name?:config.name ?: throw IllegalArgumentMissException(
                     config,
                     DependencyProperties.KEY_NAME
                 )
@@ -418,7 +418,7 @@ class AndroidDependencyTest : TestCase() {
             DependencyProperties.KEY_GROUP
         )
 
-        val name = config.name ?: throw IllegalArgumentMissException(
+        val name = config.name?:groupConfig?.name ?: throw IllegalArgumentMissException(
             config,
             DependencyProperties.KEY_NAME
         )
@@ -503,7 +503,7 @@ class AndroidDependencyTest : TestCase() {
             DependencyProperties.KEY_GROUP
         )
 
-        val name = config.name ?: throw IllegalArgumentMissException(
+        val name = config.name?:groupConfig?.name ?: throw IllegalArgumentMissException(
             config,
             DependencyProperties.KEY_NAME
         )
@@ -526,8 +526,8 @@ class AndroidDependencyTest : TestCase() {
     }
 
     private fun MutableList<String>.writeTo(dir: File) {
-        val gradleHolderFile = File(dir, "build.gradle.kts.placeholder")
-        val gradleFile = File(dir, "build.gradle.kts")
+        val gradleHolderFile = File(dir, "build.gradle.kts1.placeholder")
+        val gradleFile = File(dir, "build.gradle.kts1")
 
         if (!gradleFile.exists()) {
             gradleFile.createNewFile()

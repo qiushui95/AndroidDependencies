@@ -71,8 +71,8 @@
 |[BasePopup](https://github.com/razerdp/BasePopup)| | | |::|弹窗|  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
-|Candy|io.github.razerdp|BasePopup|3.0.0-SNAPSHOT||implementation("io.github.razerdp:BasePopup:3.0.0-SNAPSHOT")|  
-|Stable|io.github.razerdp|BasePopup|2.3.0||implementation("io.github.razerdp:BasePopup:2.3.0")|  
+|Candy|io.github.razerdp|BasePopup|3.1.0-SNAPSHOT||implementation("io.github.razerdp:BasePopup:3.1.0-SNAPSHOT")|  
+|Stable|io.github.razerdp|BasePopup|3.1.0||implementation("io.github.razerdp:BasePopup:3.1.0")|  
   
   
 |[Chucker](https://github.com/ChuckerTeam/chucker)| | | |::|网络请求监控|  

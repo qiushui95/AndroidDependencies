@@ -277,9 +277,9 @@ public abstract class AndroidDependency private constructor(
     name: String,
     version: String
   ) : AndroidDependency("io.github.razerdp", name, version) {
-    public object Candy : BasePopup("BasePopup", "3.0.0-SNAPSHOT")
+    public object Candy : BasePopup("BasePopup", "3.1.0-SNAPSHOT")
 
-    public object Stable : BasePopup("BasePopup", "2.3.0")
+    public object Stable : BasePopup("BasePopup", "3.1.0")
   }
 
   /**

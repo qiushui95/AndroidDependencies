@@ -235,18 +235,17 @@
       "title": "BasePopup",
       "link": "https://github.com/razerdp/BasePopup",
       "group": "io.github.razerdp",
+      "artifact": "BasePopup",
       "remark": "弹窗",
       "modules": [
         {
           "title": "Candy",
-          "version": "3.0.0-SNAPSHOT",
-          "artifact": "BasePopup",
+          "version": "3.1.0-SNAPSHOT",
           "action": "implementation"
         },
         {
           "title": "Stable",
-          "version": "2.3.0",
-          "artifact": "BasePopup",
+          "version": "3.1.0",
           "action": "implementation"
         }
       ]

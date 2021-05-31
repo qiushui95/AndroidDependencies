@@ -1,0 +1,57 @@
+apply plugin: 'maven-publish'
+
+ext {
+    PUBLISH_GROUP_ID = "com.github.qiushui95"
+    PUBLISH_VERSION = "1.4.25"
+}
+
+//编译groovy代码时采用 UTF-8
+tasks.withType(GroovyCompile) {
+    groovyOptions.encoding = "UTF-8"
+}
+//编译JAVA文件时采用UTF-8
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
+
+tasks.withType(Javadoc) {
+    if (JavaVersion.current().isJava9Compatible()) {
+        options.addBooleanOption('html5', true)
+    }
+    options {
+        encoding "UTF-8"
+        charSet 'UTF-8'
+        links "http://docs.oracle.com/javase/7/docs/api"
+        addStringOption('Xdoclint:none', '-quiet') // 忽略检查@params 和 @return
+    }
+}
+
+
+afterEvaluate { project ->
+
+    publishing {
+
+        publications {
+            release(MavenPublication) {
+                // groupId 等信息
+                groupId PUBLISH_GROUP_ID
+                artifactId 'AndroidDependencies'
+                version PUBLISH_VERSION
+
+                from components.java
+
+                task sourcesJar(type: Jar, dependsOn: classes) {
+                    getArchiveClassifier().set('sources')
+
+                    from sourceSets.main.allSource
+                }
+
+                artifact sourcesJar
+            }
+        }
+
+        repositories {
+            mavenLocal()
+        }
+    }
+}

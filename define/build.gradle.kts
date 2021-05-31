@@ -82,8 +82,8 @@ dependencies {
 	implementation("com.github.qiushui95.MyArchitecture:architecture-starter:1.0.14")
 	
 
-	implementation("io.github.razerdp:BasePopup:3.0.0-SNAPSHOT")
-	implementation("io.github.razerdp:BasePopup:2.3.0")
+	implementation("io.github.razerdp:BasePopup:3.1.0-SNAPSHOT")
+	implementation("io.github.razerdp:BasePopup:3.1.0")
 	
 
 	debugImplementation("com.github.chuckerteam.chucker:library:3.4.0")
