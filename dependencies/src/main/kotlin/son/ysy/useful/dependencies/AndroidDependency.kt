@@ -44,7 +44,7 @@ public abstract class AndroidDependency private constructor(
      * https://github.com/JavaNoober/BackgroundLibrary
      */
     public object Background : AndroidDependency("com.github.JavaNoober.BackgroundLibrary",
-        "libraryx", "1.6.9")
+        "libraryx", "1.7.1")
 
     /**
      * 图片加载
@@ -243,7 +243,7 @@ public abstract class AndroidDependency private constructor(
    */
   public sealed class Architecture(
     name: String
-  ) : AndroidDependency("com.github.qiushui95.MyArchitecture", name, "1.0.14") {
+  ) : AndroidDependency("com.github.qiushui95.MyArchitecture", name, "1.0.15") {
     public object Constant : Architecture("architecture-constant")
 
     public object Domain : Architecture("architecture-domain")
@@ -292,20 +292,6 @@ public abstract class AndroidDependency private constructor(
     public object Debug : Chucker("library")
 
     public object Release : Chucker("library-no-op")
-  }
-
-  /**
-   * 组件化实现方案
-   * https://github.com/xiaojinzi123/Component
-   */
-  public sealed class Component(
-    name: String
-  ) : AndroidDependency("com.github.xiaojinzi123.Component", name, "v1.8.8-androidx-java8") {
-    public object Compiler : Component("component-compiler")
-
-    public object Core : Component("component-impl")
-
-    public object Plugin : Component("component-plugin")
   }
 
   /**
@@ -543,29 +529,6 @@ public abstract class AndroidDependency private constructor(
     public object Service : Lifecycle("lifecycle-service")
 
     public object ViewModel : Lifecycle("lifecycle-viewmodel-ktx")
-  }
-
-  /**
-   * https://fblitho.com/docs/getting-started/
-   */
-  public sealed class Litho(
-    name: String
-  ) : AndroidDependency("com.facebook.litho", name, "0.40.0") {
-    public object AnnotationsSelection : Litho("litho-sections-annotations")
-
-    public object CompilerSelection : Litho("litho-sections-processor")
-
-    public object Core : Litho("litho-core-kotlin")
-
-    public object CoreSelection : Litho("litho-sections-core")
-
-    public object Fresco : Litho("litho-fresco-kotlin")
-
-    public object Test : Litho("litho-testing")
-
-    public object Widget : Litho("litho-widget-kotlin")
-
-    public object WidgetSelection : Litho("litho-sections-widget")
   }
 
   /**

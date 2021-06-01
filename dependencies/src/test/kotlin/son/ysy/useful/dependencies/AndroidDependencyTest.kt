@@ -56,7 +56,24 @@ class AndroidDependencyTest : TestCase() {
     private fun getBeanFromJson(): DependencyContainer? {
         val json = getJsonFromResource()
 
-        return jsonAdapter.fromJson(json)
+        return jsonAdapter.fromJson(json)?.filterIgnore()
+    }
+
+    private fun DependencyContainer.filterIgnore(): DependencyContainer {
+        return copy(
+            single = single.mapNotNull { it.filterIgnore() },
+            group = group.mapNotNull { it.filterIgnore() },
+            view = view.mapNotNull { it.filterIgnore() },
+            test = test.mapNotNull { it.filterIgnore() },
+        )
+    }
+
+    private fun DependencyConfig.filterIgnore(): DependencyConfig? {
+        if (ignore) {
+            return null
+        }
+
+        return copy(modules = modules?.mapNotNull { it.filterIgnore() })
     }
 
     /**
@@ -311,7 +328,7 @@ class AndroidDependencyTest : TestCase() {
             }
             moduleBuilder.addSuperclassConstructorParameter(
                 "%S",
-                module.name?:config.name ?: throw IllegalArgumentMissException(
+                module.name ?: config.name ?: throw IllegalArgumentMissException(
                     config,
                     DependencyProperties.KEY_NAME
                 )
@@ -418,7 +435,7 @@ class AndroidDependencyTest : TestCase() {
             DependencyProperties.KEY_GROUP
         )
 
-        val name = config.name?:groupConfig?.name ?: throw IllegalArgumentMissException(
+        val name = config.name ?: groupConfig?.name ?: throw IllegalArgumentMissException(
             config,
             DependencyProperties.KEY_NAME
         )
@@ -503,7 +520,7 @@ class AndroidDependencyTest : TestCase() {
             DependencyProperties.KEY_GROUP
         )
 
-        val name = config.name?:groupConfig?.name ?: throw IllegalArgumentMissException(
+        val name = config.name ?: groupConfig?.name ?: throw IllegalArgumentMissException(
             config,
             DependencyProperties.KEY_NAME
         )
@@ -526,8 +543,8 @@ class AndroidDependencyTest : TestCase() {
     }
 
     private fun MutableList<String>.writeTo(dir: File) {
-        val gradleHolderFile = File(dir, "build.gradle.kts1.placeholder")
-        val gradleFile = File(dir, "build.gradle.kts1")
+        val gradleHolderFile = File(dir, "build.gradle.kts.placeholder")
+        val gradleFile = File(dir, "build.gradle.kts")
 
         if (!gradleFile.exists()) {
             gradleFile.createNewFile()

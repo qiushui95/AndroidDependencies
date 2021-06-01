@@ -7,7 +7,7 @@
 |[AliPush](https://help.aliyun.com/document_detail/190009.html?spm=a2c4g.11174283.3.2.52eb6d163QVxjG)|com.aliyun.ams|alicloud-android-push|3.3.0|阿里推送|implementation("com.aliyun.ams:alicloud-android-push:3.3.0")|  
 |[AndroidUtil](https://github.com/Blankj/AndroidUtilCode)|com.blankj|utilcodex|1.30.6|多功能工具包|implementation("com.blankj:utilcodex:1.30.6")|  
 |[Appcompat](https://developer.android.com/jetpack/androidx/releases/appcompat)|androidx.appcompat|appcompat|1.3.0||implementation("androidx.appcompat:appcompat:1.3.0")|  
-|[Background](https://github.com/JavaNoober/BackgroundLibrary)|com.github.JavaNoober.BackgroundLibrary|libraryx|1.6.9|背景生成工具库|implementation("com.github.JavaNoober.BackgroundLibrary:libraryx:1.6.9")|  
+|[Background](https://github.com/JavaNoober/BackgroundLibrary)|com.github.JavaNoober.BackgroundLibrary|libraryx|1.7.1|背景生成工具库|implementation("com.github.JavaNoober.BackgroundLibrary:libraryx:1.7.1")|  
 |[Coil](https://github.com/coil-kt/coil)|io.coil-kt|coil|1.2.1|图片加载|implementation("io.coil-kt:coil:1.2.1")|  
 |[ColorKtx](https://github.com/JorgeCastilloPrz/AndroidColorX)|me.jorgecastillo|androidcolorx|0.2.0|颜色帮助库|implementation("me.jorgecastillo:androidcolorx:0.2.0")|  
 |[DateTimePicker](https://github.com/loperSeven/DateTimePicker)|com.github.loperSeven|DateTimePicker|0.3.1|时间选择器|implementation("com.github.loperSeven:DateTimePicker:0.3.1")|  
@@ -54,18 +54,18 @@
 |[Architecture](https://github.com/qiushui95/MyArchitecture)| | | |::|我的架构组件|  
 |:-:|:-:|:-:|:-:|:-:|:-:|  
 |title|group|name|version|remark|gradle dsl|  
-|Constant|com.github.qiushui95.MyArchitecture|architecture-constant|1.0.14||implementation("com.github.qiushui95.MyArchitecture:architecture-constant:1.0.14")|  
-|Domain|com.github.qiushui95.MyArchitecture|architecture-domain|1.0.14||implementation("com.github.qiushui95.MyArchitecture:architecture-domain:1.0.14")|  
-|DomainImpl|com.github.qiushui95.MyArchitecture|architecture-domain-impl|1.0.14||implementation("com.github.qiushui95.MyArchitecture:architecture-domain-impl:1.0.14")|  
-|Entity|com.github.qiushui95.MyArchitecture|architecture-entity|1.0.14||implementation("com.github.qiushui95.MyArchitecture:architecture-entity:1.0.14")|  
-|Error|com.github.qiushui95.MyArchitecture|architecture-error|1.0.14||implementation("com.github.qiushui95.MyArchitecture:architecture-error:1.0.14")|  
-|Ext|com.github.qiushui95.MyArchitecture|architecture-ext|1.0.14||implementation("com.github.qiushui95.MyArchitecture:architecture-ext:1.0.14")|  
-|FlowWork|com.github.qiushui95.MyArchitecture|architecture-flow-work|1.0.14||implementation("com.github.qiushui95.MyArchitecture:architecture-flow-work:1.0.14")|  
-|Getter|com.github.qiushui95.MyArchitecture|architecture-getter|1.0.14||implementation("com.github.qiushui95.MyArchitecture:architecture-getter:1.0.14")|  
-|Http|com.github.qiushui95.MyArchitecture|architecture-http|1.0.14||implementation("com.github.qiushui95.MyArchitecture:architecture-http:1.0.14")|  
-|Initializer|com.github.qiushui95.MyArchitecture|architecture-initializer|1.0.14||implementation("com.github.qiushui95.MyArchitecture:architecture-initializer:1.0.14")|  
-|Model|com.github.qiushui95.MyArchitecture|architecture-model|1.0.14||implementation("com.github.qiushui95.MyArchitecture:architecture-model:1.0.14")|  
-|Starter|com.github.qiushui95.MyArchitecture|architecture-starter|1.0.14||implementation("com.github.qiushui95.MyArchitecture:architecture-starter:1.0.14")|  
+|Constant|com.github.qiushui95.MyArchitecture|architecture-constant|1.0.15||implementation("com.github.qiushui95.MyArchitecture:architecture-constant:1.0.15")|  
+|Domain|com.github.qiushui95.MyArchitecture|architecture-domain|1.0.15||implementation("com.github.qiushui95.MyArchitecture:architecture-domain:1.0.15")|  
+|DomainImpl|com.github.qiushui95.MyArchitecture|architecture-domain-impl|1.0.15||implementation("com.github.qiushui95.MyArchitecture:architecture-domain-impl:1.0.15")|  
+|Entity|com.github.qiushui95.MyArchitecture|architecture-entity|1.0.15||implementation("com.github.qiushui95.MyArchitecture:architecture-entity:1.0.15")|  
+|Error|com.github.qiushui95.MyArchitecture|architecture-error|1.0.15||implementation("com.github.qiushui95.MyArchitecture:architecture-error:1.0.15")|  
+|Ext|com.github.qiushui95.MyArchitecture|architecture-ext|1.0.15||implementation("com.github.qiushui95.MyArchitecture:architecture-ext:1.0.15")|  
+|FlowWork|com.github.qiushui95.MyArchitecture|architecture-flow-work|1.0.15||implementation("com.github.qiushui95.MyArchitecture:architecture-flow-work:1.0.15")|  
+|Getter|com.github.qiushui95.MyArchitecture|architecture-getter|1.0.15||implementation("com.github.qiushui95.MyArchitecture:architecture-getter:1.0.15")|  
+|Http|com.github.qiushui95.MyArchitecture|architecture-http|1.0.15||implementation("com.github.qiushui95.MyArchitecture:architecture-http:1.0.15")|  
+|Initializer|com.github.qiushui95.MyArchitecture|architecture-initializer|1.0.15||implementation("com.github.qiushui95.MyArchitecture:architecture-initializer:1.0.15")|  
+|Model|com.github.qiushui95.MyArchitecture|architecture-model|1.0.15||implementation("com.github.qiushui95.MyArchitecture:architecture-model:1.0.15")|  
+|Starter|com.github.qiushui95.MyArchitecture|architecture-starter|1.0.15||implementation("com.github.qiushui95.MyArchitecture:architecture-starter:1.0.15")|  
   
   
 |[BasePopup](https://github.com/razerdp/BasePopup)| | | |::|弹窗|  
@@ -80,14 +80,6 @@
 |title|group|name|version|remark|gradle dsl|  
 |Debug|com.github.chuckerteam.chucker|library|3.4.0||debugImplementation("com.github.chuckerteam.chucker:library:3.4.0")|  
 |Release|com.github.chuckerteam.chucker|library-no-op|3.4.0||releaseImplementation("com.github.chuckerteam.chucker:library-no-op:3.4.0")|  
-  
-  
-|[Component](https://github.com/xiaojinzi123/Component)| | | |::|组件化实现方案|  
-|:-:|:-:|:-:|:-:|:-:|:-:|  
-|title|group|name|version|remark|gradle dsl|  
-|Compiler|com.github.xiaojinzi123.Component|component-compiler|v1.8.8-androidx-java8||kapt("com.github.xiaojinzi123.Component:component-compiler:v1.8.8-androidx-java8")|  
-|Core|com.github.xiaojinzi123.Component|component-impl|v1.8.8-androidx-java8||implementation("com.github.xiaojinzi123.Component:component-impl:v1.8.8-androidx-java8")|  
-|Plugin|com.github.xiaojinzi123.Component|component-plugin|v1.8.8-androidx-java8||implementation("com.github.xiaojinzi123.Component:component-plugin:v1.8.8-androidx-java8")|  
   
   
 |[Core](https://developer.android.com/jetpack/androidx/releases/core)| | | |::|core|  
@@ -217,19 +209,6 @@
 |SavedState|androidx.lifecycle|lifecycle-viewmodel-savedstate|2.3.1||implementation("androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1")|  
 |Service|androidx.lifecycle|lifecycle-service|2.3.1||implementation("androidx.lifecycle:lifecycle-service:2.3.1")|  
 |ViewModel|androidx.lifecycle|lifecycle-viewmodel-ktx|2.3.1||implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1")|  
-  
-  
-|[Litho](https://fblitho.com/docs/getting-started/)| | | |::||  
-|:-:|:-:|:-:|:-:|:-:|:-:|  
-|title|group|name|version|remark|gradle dsl|  
-|AnnotationsSelection|com.facebook.litho|litho-sections-annotations|0.40.0||implementation("com.facebook.litho:litho-sections-annotations:0.40.0")|  
-|CompilerSelection|com.facebook.litho|litho-sections-processor|0.40.0||kapt("com.facebook.litho:litho-sections-processor:0.40.0")|  
-|Core|com.facebook.litho|litho-core-kotlin|0.40.0||implementation("com.facebook.litho:litho-core-kotlin:0.40.0")|  
-|CoreSelection|com.facebook.litho|litho-sections-core|0.40.0||implementation("com.facebook.litho:litho-sections-core:0.40.0")|  
-|Fresco|com.facebook.litho|litho-fresco-kotlin|0.40.0||implementation("com.facebook.litho:litho-fresco-kotlin:0.40.0")|  
-|Test|com.facebook.litho|litho-testing|0.40.0||implementation("com.facebook.litho:litho-testing:0.40.0")|  
-|Widget|com.facebook.litho|litho-widget-kotlin|0.40.0||implementation("com.facebook.litho:litho-widget-kotlin:0.40.0")|  
-|WidgetSelection|com.facebook.litho|litho-sections-widget|0.40.0||implementation("com.facebook.litho:litho-sections-widget:0.40.0")|  
   
   
 |[MoShi](https://github.com/square/moshi)| | | |::|json解析库|  

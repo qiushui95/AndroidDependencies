@@ -22,7 +22,9 @@ data class DependencyConfig(
     @Json(name = "modules")
     val modules: List<DependencyConfig>?,
     @Json(name = "action")
-    val action: String?
+    val action: String?,
+    @Json(name = "ignore")
+    val ignore: Boolean = false
 ) : SortContent {
     override fun getSortContent(): String {
         return title

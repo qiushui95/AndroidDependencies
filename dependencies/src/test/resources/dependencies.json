@@ -6,7 +6,8 @@
       "link": "https://developer.android.com/jetpack/androidx/releases/activity",
       "group": "androidx.activity",
       "artifact": "activity-ktx",
-      "action": "implementation"
+      "action": "implementation",
+      "ignore": false
     },
     {
       "title": "AliPush",
@@ -15,7 +16,8 @@
       "group": "com.aliyun.ams",
       "artifact": "alicloud-android-push",
       "remark": "阿里推送",
-      "action": "implementation"
+      "action": "implementation",
+      "ignore": false
     },
     {
       "title": "AndroidUtil",
@@ -24,7 +26,8 @@
       "group": "com.blankj",
       "artifact": "utilcodex",
       "remark": "多功能工具包",
-      "action": "implementation"
+      "action": "implementation",
+      "ignore": false
     },
     {
       "title": "Appcompat",
@@ -32,16 +35,18 @@
       "link": "https://developer.android.com/jetpack/androidx/releases/appcompat",
       "group": "androidx.appcompat",
       "artifact": "appcompat",
-      "action": "implementation"
+      "action": "implementation",
+      "ignore": false
     },
     {
       "title": "Background",
-      "version": "1.6.9",
+      "version": "1.7.1",
       "link": "https://github.com/JavaNoober/BackgroundLibrary",
       "group": "com.github.JavaNoober.BackgroundLibrary",
       "artifact": "libraryx",
       "remark": "背景生成工具库",
-      "action": "implementation"
+      "action": "implementation",
+      "ignore": false
     },
     {
       "title": "Coil",
@@ -50,7 +55,8 @@
       "group": "io.coil-kt",
       "artifact": "coil",
       "remark": "图片加载",
-      "action": "implementation"
+      "action": "implementation",
+      "ignore": false
     },
     {
       "title": "ColorKtx",
@@ -59,7 +65,8 @@
       "group": "me.jorgecastillo",
       "artifact": "androidcolorx",
       "remark": "颜色帮助库",
-      "action": "implementation"
+      "action": "implementation",
+      "ignore": false
     },
     {
       "title": "DateTimePicker",
@@ -68,7 +75,8 @@
       "group": "com.github.loperSeven",
       "artifact": "DateTimePicker",
       "remark": "时间选择器",
-      "action": "implementation"
+      "action": "implementation",
+      "ignore": false
     },
     {
       "title": "ImagePicker",
@@ -77,7 +85,8 @@
       "group": "com.ypx.yimagepicker",
       "artifact": "androidx",
       "remark": "多媒体选择库",
-      "action": "implementation"
+      "action": "implementation",
+      "ignore": false
     },
     {
       "title": "JodaTime",
@@ -86,7 +95,8 @@
       "group": "joda-time",
       "artifact": "joda-time",
       "remark": "时间处理库",
-      "action": "implementation"
+      "action": "implementation",
+      "ignore": false
     },
     {
       "title": "LeakCanary",
@@ -95,7 +105,8 @@
       "group": "com.squareup.leakcanary",
       "artifact": "leakcanary-android",
       "remark": "内存泄露监控",
-      "action": "implementation"
+      "action": "implementation",
+      "ignore": false
     },
     {
       "title": "Mmkv",
@@ -104,7 +115,8 @@
       "group": "com.tencent",
       "artifact": "mmkv-static",
       "remark": "持久KV数据存储",
-      "action": "implementation"
+      "action": "implementation",
+      "ignore": false
     },
     {
       "title": "PermissionX",
@@ -113,7 +125,8 @@
       "group": "com.permissionx.guolindev",
       "artifact": "permissionx",
       "remark": "权限请求",
-      "action": "implementation"
+      "action": "implementation",
+      "ignore": false
     },
     {
       "title": "QrScanner",
@@ -122,7 +135,8 @@
       "group": "com.king.zxing",
       "artifact": "zxing-lite",
       "remark": "二维码扫描",
-      "action": "implementation"
+      "action": "implementation",
+      "ignore": false
     },
     {
       "title": "SoLoader",
@@ -131,7 +145,8 @@
       "group": "com.facebook.soloader",
       "artifact": "soloader",
       "remark": "so加载库",
-      "action": "implementation"
+      "action": "implementation",
+      "ignore": false
     },
     {
       "title": "Store",
@@ -140,7 +155,8 @@
       "group": "com.dropbox.mobile.store",
       "artifact": "store4",
       "remark": "多数据源",
-      "action": "implementation"
+      "action": "implementation",
+      "ignore": false
     },
     {
       "title": "WeChat",
@@ -149,7 +165,8 @@
       "group": "com.tencent.mm.opensdk",
       "artifact": "wechat-sdk-android-without-mta",
       "remark": "微信开发Sdk",
-      "action": "implementation"
+      "action": "implementation",
+      "ignore": false
     },
     {
       "title": "XCrash",
@@ -158,13 +175,14 @@
       "group": "com.iqiyi.xcrash",
       "artifact": "xcrash-android-lib",
       "remark": "奔溃日志收集",
-      "action": "implementation"
+      "action": "implementation",
+      "ignore": false
     }
   ],
   "group": [
     {
       "title": "Architecture",
-      "version": "1.0.14",
+      "version": "1.0.15",
       "link": "https://github.com/qiushui95/MyArchitecture",
       "group": "com.github.qiushui95.MyArchitecture",
       "remark": "我的架构组件",
@@ -172,64 +190,77 @@
         {
           "title": "Constant",
           "artifact": "architecture-constant",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Domain",
           "artifact": "architecture-domain",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "DomainImpl",
           "artifact": "architecture-domain-impl",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Entity",
           "artifact": "architecture-entity",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Error",
           "artifact": "architecture-error",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Ext",
           "artifact": "architecture-ext",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "FlowWork",
           "artifact": "architecture-flow-work",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Getter",
           "artifact": "architecture-getter",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Http",
           "artifact": "architecture-http",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Initializer",
           "artifact": "architecture-initializer",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Model",
           "artifact": "architecture-model",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Starter",
           "artifact": "architecture-starter",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         }
-      ]
+      ],
+      "ignore": false
     },
     {
       "title": "BasePopup",
@@ -241,14 +272,17 @@
         {
           "title": "Candy",
           "version": "3.1.0-SNAPSHOT",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Stable",
           "version": "3.1.0",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         }
-      ]
+      ],
+      "ignore": false
     },
     {
       "title": "Chucker",
@@ -260,38 +294,17 @@
         {
           "title": "Debug",
           "artifact": "library",
-          "action": "debugImplementation"
+          "action": "debugImplementation",
+          "ignore": false
         },
         {
           "title": "Release",
           "artifact": "library-no-op",
-          "action": "releaseImplementation"
+          "action": "releaseImplementation",
+          "ignore": false
         }
-      ]
-    },
-    {
-      "title": "Component",
-      "version": "v1.8.8-androidx-java8",
-      "link": "https://github.com/xiaojinzi123/Component",
-      "group": "com.github.xiaojinzi123.Component",
-      "remark": "组件化实现方案",
-      "modules": [
-        {
-          "title": "Compiler",
-          "artifact": "component-compiler",
-          "action": "kapt"
-        },
-        {
-          "title": "Core",
-          "artifact": "component-impl",
-          "action": "implementation"
-        },
-        {
-          "title": "Plugin",
-          "artifact": "component-plugin",
-          "action": "implementation"
-        }
-      ]
+      ],
+      "ignore": false
     },
     {
       "title": "Core",
@@ -303,26 +316,31 @@
         {
           "title": "Animation",
           "artifact": "core-animation",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "AnimationTest",
           "artifact": "core-animation-testing",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Ktx",
           "version": "1.6.0-beta01",
           "artifact": "core-ktx",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Role",
           "version": "1.0.0",
           "artifact": "core-role",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         }
-      ]
+      ],
+      "ignore": false
     },
     {
       "title": "Coroutines",
@@ -334,14 +352,17 @@
         {
           "title": "Core",
           "artifact": "kotlinx-coroutines-android",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Test",
           "artifact": "kotlinx-coroutines-test",
-          "action": "testImplementation"
+          "action": "testImplementation",
+          "ignore": false
         }
-      ]
+      ],
+      "ignore": false
     },
     {
       "title": "DialogX",
@@ -353,9 +374,11 @@
         {
           "title": "Core",
           "artifact": "DialogX",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         }
-      ]
+      ],
+      "ignore": false
     },
     {
       "title": "DownloadAndUpload",
@@ -367,29 +390,35 @@
         {
           "title": "Compiler",
           "artifact": "compiler",
-          "action": "kapt"
+          "action": "kapt",
+          "ignore": false
         },
         {
           "title": "Core",
           "artifact": "core",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Ftp",
           "artifact": "ftpComponent",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "M3u8",
           "artifact": "m3u8Component",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Sftp",
           "artifact": "sftpComponent",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         }
-      ]
+      ],
+      "ignore": false
     },
     {
       "title": "Epoxy",
@@ -401,19 +430,23 @@
         {
           "title": "Compiler",
           "artifact": "epoxy-processor",
-          "action": "kapt"
+          "action": "kapt",
+          "ignore": false
         },
         {
           "title": "Core",
           "artifact": "epoxy",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Glide",
           "artifact": "epoxy-glide-preloading",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         }
-      ]
+      ],
+      "ignore": false
     },
     {
       "title": "FlowBinding",
@@ -424,64 +457,77 @@
         {
           "title": "Activity",
           "artifact": "flowbinding-activity",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Appcompat",
           "artifact": "flowbinding-appcompat",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Basic",
           "artifact": "flowbinding-android",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Core",
           "artifact": "flowbinding-core",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "DrawerLayout",
           "artifact": "flowbinding-drawerlayout",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Lifecycle",
           "artifact": "flowbinding-lifecycle",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Material",
           "artifact": "flowbinding-material",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Navigation",
           "artifact": "flowbinding-navigation",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Preference",
           "artifact": "flowbinding-preference",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "RecyclerView",
           "artifact": "flowbinding-recyclerview",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "SwipeRefreshLayout",
           "artifact": "flowbinding-swiperefreshlayout",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "ViewPager2",
           "artifact": "flowbinding-viewpager2",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         }
-      ]
+      ],
+      "ignore": false
     },
     {
       "title": "Fragment",
@@ -492,14 +538,17 @@
         {
           "title": "Core",
           "artifact": "fragment-ktx",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Test",
           "artifact": "fragment-testing",
-          "action": "testImplementation"
+          "action": "testImplementation",
+          "ignore": false
         }
-      ]
+      ],
+      "ignore": false
     },
     {
       "title": "FragmentManager",
@@ -511,14 +560,17 @@
         {
           "title": "Core",
           "artifact": "fragmentation",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "SwipeBack",
           "artifact": "fragmentation_swipeback",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         }
-      ]
+      ],
+      "ignore": false
     },
     {
       "title": "Glide",
@@ -530,17 +582,20 @@
         {
           "title": "Annotation",
           "artifact": "annotations",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Compiler",
           "artifact": "compiler",
-          "action": "kapt"
+          "action": "kapt",
+          "ignore": false
         },
         {
           "title": "Core",
           "artifact": "glide",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "GpuImage",
@@ -549,12 +604,14 @@
           "group": "jp.co.cyberagent.android",
           "artifact": "gpuimage",
           "remark": "Gpu处理图片效果",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "OkHttp",
           "artifact": "okhttp3-integration",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Transformations",
@@ -563,9 +620,11 @@
           "group": "jp.wasabeef",
           "artifact": "glide-transformations",
           "remark": "图片变换库",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         }
-      ]
+      ],
+      "ignore": false
     },
     {
       "title": "KeyCreator",
@@ -577,14 +636,17 @@
         {
           "title": "Compiler",
           "artifact": "compiler",
-          "action": "kapt"
+          "action": "kapt",
+          "ignore": false
         },
         {
           "title": "Core",
           "artifact": "annotations",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         }
-      ]
+      ],
+      "ignore": false
     },
     {
       "title": "Koin",
@@ -596,34 +658,41 @@
         {
           "title": "Android",
           "artifact": "koin-android",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "AndroidExt",
           "artifact": "koin-android-ext",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Core",
           "artifact": "koin-core",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "CoreExt",
           "artifact": "koin-core-ext",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Test",
           "artifact": "koin-test",
-          "action": "testImplementation"
+          "action": "testImplementation",
+          "ignore": false
         },
         {
           "title": "WorkManager",
           "artifact": "koin-androidx-workmanager",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         }
-      ]
+      ],
+      "ignore": false
     },
     {
       "title": "KoinOld",
@@ -635,29 +704,35 @@
         {
           "title": "Core",
           "artifact": "koin-core",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Ext",
           "artifact": "koin-androidx-ext",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Scope",
           "artifact": "koin-androidx-scope",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Test",
           "artifact": "koin-test",
-          "action": "testImplementation"
+          "action": "testImplementation",
+          "ignore": false
         },
         {
           "title": "ViewModel",
           "artifact": "koin-androidx-viewmodel",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         }
-      ]
+      ],
+      "ignore": false
     },
     {
       "title": "Kotlin",
@@ -668,14 +743,17 @@
         {
           "title": "Reflect",
           "artifact": "kotlin-reflect",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Stdlib",
           "artifact": "kotlin-stdlib",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         }
-      ]
+      ],
+      "ignore": false
     },
     {
       "title": "Lifecycle",
@@ -686,87 +764,47 @@
         {
           "title": "Common",
           "artifact": "lifecycle-common",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "LiveData",
           "artifact": "lifecycle-livedata-ktx",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Process",
           "artifact": "lifecycle-process",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Runtime",
           "artifact": "lifecycle-runtime-ktx",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "SavedState",
           "artifact": "lifecycle-viewmodel-savedstate",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Service",
           "artifact": "lifecycle-service",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "ViewModel",
           "artifact": "lifecycle-viewmodel-ktx",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         }
-      ]
-    },
-    {
-      "title": "Litho",
-      "version": "0.40.0",
-      "link": "https://fblitho.com/docs/getting-started/",
-      "group": "com.facebook.litho",
-      "modules": [
-        {
-          "title": "AnnotationsSelection",
-          "artifact": "litho-sections-annotations",
-          "action": "implementation"
-        },
-        {
-          "title": "CompilerSelection",
-          "artifact": "litho-sections-processor",
-          "action": "kapt"
-        },
-        {
-          "title": "Core",
-          "artifact": "litho-core-kotlin",
-          "action": "implementation"
-        },
-        {
-          "title": "CoreSelection",
-          "artifact": "litho-sections-core",
-          "action": "implementation"
-        },
-        {
-          "title": "Fresco",
-          "artifact": "litho-fresco-kotlin",
-          "action": "implementation"
-        },
-        {
-          "title": "Test",
-          "artifact": "litho-testing",
-          "action": "implementation"
-        },
-        {
-          "title": "Widget",
-          "artifact": "litho-widget-kotlin",
-          "action": "implementation"
-        },
-        {
-          "title": "WidgetSelection",
-          "artifact": "litho-sections-widget",
-          "action": "implementation"
-        }
-      ]
+      ],
+      "ignore": false
     },
     {
       "title": "MoShi",
@@ -778,14 +816,17 @@
         {
           "title": "Compiler",
           "artifact": "moshi-kotlin-codegen",
-          "action": "kapt"
+          "action": "kapt",
+          "ignore": false
         },
         {
           "title": "Core",
           "artifact": "moshi",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         }
-      ]
+      ],
+      "ignore": false
     },
     {
       "title": "Navigation",
@@ -797,24 +838,29 @@
         {
           "title": "Core",
           "artifact": "navigation-fragment-ktx",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Features",
           "artifact": "navigation-dynamic-features-fragment",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Test",
           "artifact": "navigation-testing",
-          "action": "testImplementation"
+          "action": "testImplementation",
+          "ignore": false
         },
         {
           "title": "Ui",
           "artifact": "navigation-ui-ktx",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         }
-      ]
+      ],
+      "ignore": false
     },
     {
       "title": "OkHttp",
@@ -825,21 +871,25 @@
         {
           "title": "Core",
           "artifact": "okhttp",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Interceptor",
           "version": "1.0.8",
           "group": "com.localebro",
           "artifact": "okhttpprofiler",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Mock",
           "artifact": "mockwebserver",
-          "action": "androidTestImplementation"
+          "action": "androidTestImplementation",
+          "ignore": false
         }
-      ]
+      ],
+      "ignore": false
     },
     {
       "title": "Paris",
@@ -850,14 +900,17 @@
         {
           "title": "Compiler",
           "artifact": "paris-processor",
-          "action": "kapt"
+          "action": "kapt",
+          "ignore": false
         },
         {
           "title": "Core",
           "artifact": "paris",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         }
-      ]
+      ],
+      "ignore": false
     },
     {
       "title": "Retrofit",
@@ -869,14 +922,17 @@
         {
           "title": "Core",
           "artifact": "retrofit",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "MoShi",
           "artifact": "converter-moshi",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         }
-      ]
+      ],
+      "ignore": false
     },
     {
       "title": "Room",
@@ -888,24 +944,29 @@
         {
           "title": "Compiler",
           "artifact": "room-compiler",
-          "action": "kapt"
+          "action": "kapt",
+          "ignore": false
         },
         {
           "title": "Core",
           "artifact": "room-runtime",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Ktx",
           "artifact": "room-ktx",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Test",
           "artifact": "room-testing",
-          "action": "testImplementation"
+          "action": "testImplementation",
+          "ignore": false
         }
-      ]
+      ],
+      "ignore": false
     },
     {
       "title": "WorkManager",
@@ -917,14 +978,17 @@
         {
           "title": "Core",
           "artifact": "work-runtime-ktx",
-          "action": "implementation"
+          "action": "implementation",
+          "ignore": false
         },
         {
           "title": "Test",
           "artifact": "work-testing",
-          "action": "testImplementation"
+          "action": "testImplementation",
+          "ignore": false
         }
-      ]
+      ],
+      "ignore": false
     }
   ],
   "view": [
@@ -935,7 +999,8 @@
       "group": "com.github.Justson.AgentWeb",
       "artifact": "agentweb-core",
       "remark": "浏览器",
-      "action": "implementation"
+      "action": "implementation",
+      "ignore": false
     },
     {
       "title": "BannerView",
@@ -944,7 +1009,8 @@
       "group": "com.github.xiaohaibin",
       "artifact": "XBanner",
       "remark": "轮播控件",
-      "action": "implementation"
+      "action": "implementation",
+      "ignore": false
     },
     {
       "title": "BlurView",
@@ -953,7 +1019,8 @@
       "group": "com.eightbitlab",
       "artifact": "blurview",
       "remark": "高斯模糊",
-      "action": "implementation"
+      "action": "implementation",
+      "ignore": false
     },
     {
       "title": "BottomNavigation",
@@ -962,7 +1029,8 @@
       "group": "com.ashokvarma.android",
       "artifact": "bottom-navigation-bar",
       "remark": "底部导航",
-      "action": "implementation"
+      "action": "implementation",
+      "ignore": false
     },
     {
       "title": "ConstraintLayout",
@@ -971,7 +1039,8 @@
       "group": "androidx.constraintlayout",
       "artifact": "constraintlayout",
       "remark": "约束布局",
-      "action": "implementation"
+      "action": "implementation",
+      "ignore": false
     },
     {
       "title": "CornerView",
@@ -980,7 +1049,8 @@
       "group": "com.github.KuangGang",
       "artifact": "RoundCorners",
       "remark": "圆角控件",
-      "action": "implementation"
+      "action": "implementation",
+      "ignore": false
     },
     {
       "title": "FlexBox",
@@ -989,7 +1059,8 @@
       "group": "com.google.android",
       "artifact": "flexbox",
       "remark": "流式布局",
-      "action": "implementation"
+      "action": "implementation",
+      "ignore": false
     },
     {
       "title": "FormatterEdit",
@@ -998,7 +1069,8 @@
       "group": "me.dkzwm.widget.fet",
       "artifact": "core",
       "remark": "输入格式化控件",
-      "action": "implementation"
+      "action": "implementation",
+      "ignore": false
     },
     {
       "title": "LottieView",
@@ -1007,7 +1079,8 @@
       "group": "com.airbnb.android",
       "artifact": "lottie",
       "remark": "动画框架",
-      "action": "implementation"
+      "action": "implementation",
+      "ignore": false
     },
     {
       "title": "MarqueeView",
@@ -1016,7 +1089,8 @@
       "group": "com.sunfusheng",
       "artifact": "MarqueeView",
       "remark": "跑马灯控件",
-      "action": "implementation"
+      "action": "implementation",
+      "ignore": false
     },
     {
       "title": "Material",
@@ -1024,7 +1098,8 @@
       "link": "https://github.com/material-components/material-components-android",
       "group": "com.google.android.material",
       "artifact": "material",
-      "action": "implementation"
+      "action": "implementation",
+      "ignore": false
     },
     {
       "title": "PinView",
@@ -1033,7 +1108,8 @@
       "group": "io.github.chaosleung",
       "artifact": "pinview",
       "remark": "密码输入框",
-      "action": "implementation"
+      "action": "implementation",
+      "ignore": false
     },
     {
       "title": "RecyclerView",
@@ -1041,7 +1117,8 @@
       "link": "https://developer.android.com/jetpack/androidx/releases/recyclerview",
       "group": "androidx.recyclerview",
       "artifact": "recyclerview",
-      "action": "implementation"
+      "action": "implementation",
+      "ignore": false
     },
     {
       "title": "ShadowLayout",
@@ -1050,7 +1127,8 @@
       "group": "com.github.lihangleo2",
       "artifact": "ShadowLayout",
       "remark": "阴影控件",
-      "action": "implementation"
+      "action": "implementation",
+      "ignore": false
     },
     {
       "title": "SwipeRefreshLayout",
@@ -1059,7 +1137,8 @@
       "group": "androidx.swiperefreshlayout",
       "artifact": "swiperefreshlayout",
       "remark": "下拉刷新控件",
-      "action": "implementation"
+      "action": "implementation",
+      "ignore": false
     },
     {
       "title": "SwitchButton",
@@ -1068,7 +1147,8 @@
       "group": "com.kyleduo.switchbutton",
       "artifact": "library",
       "remark": "开关按钮",
-      "action": "implementation"
+      "action": "implementation",
+      "ignore": false
     },
     {
       "title": "ViewPager2",
@@ -1076,7 +1156,8 @@
       "link": "https://developer.android.com/jetpack/androidx/releases/viewpager2",
       "group": "androidx.viewpager2",
       "artifact": "viewpager2",
-      "action": "implementation"
+      "action": "implementation",
+      "ignore": false
     }
   ],
   "test": [
@@ -1087,7 +1168,8 @@
       "group": "androidx.test.espresso",
       "artifact": "espresso-core",
       "remark": "UI自动化测试",
-      "action": "androidTestImplementation"
+      "action": "androidTestImplementation",
+      "ignore": false
     },
     {
       "title": "Junit",
@@ -1096,7 +1178,8 @@
       "group": "junit",
       "artifact": "junit",
       "remark": "单元测试",
-      "action": "testImplementation"
+      "action": "testImplementation",
+      "ignore": false
     },
     {
       "title": "JunitExt",
@@ -1105,7 +1188,8 @@
       "group": "androidx.test.ext",
       "artifact": "junit-ktx",
       "remark": "单元测试扩展",
-      "action": "testImplementation"
+      "action": "testImplementation",
+      "ignore": false
     }
   ]
 }

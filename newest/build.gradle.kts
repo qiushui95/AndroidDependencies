@@ -90,11 +90,6 @@ dependencies {
 	releaseImplementation("com.github.chuckerteam.chucker:library-no-op:+")
 	
 
-	kapt("com.github.xiaojinzi123.Component:component-compiler:+")
-	implementation("com.github.xiaojinzi123.Component:component-impl:+")
-	implementation("com.github.xiaojinzi123.Component:component-plugin:+")
-	
-
 	implementation("androidx.core:core-animation:+")
 	implementation("androidx.core:core-animation-testing:+")
 	implementation("androidx.core:core-ktx:+")
@@ -180,16 +175,6 @@ dependencies {
 	implementation("androidx.lifecycle:lifecycle-viewmodel-savedstate:+")
 	implementation("androidx.lifecycle:lifecycle-service:+")
 	implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:+")
-	
-
-	implementation("com.facebook.litho:litho-sections-annotations:+")
-	kapt("com.facebook.litho:litho-sections-processor:+")
-	implementation("com.facebook.litho:litho-core-kotlin:+")
-	implementation("com.facebook.litho:litho-sections-core:+")
-	implementation("com.facebook.litho:litho-fresco-kotlin:+")
-	implementation("com.facebook.litho:litho-testing:+")
-	implementation("com.facebook.litho:litho-widget-kotlin:+")
-	implementation("com.facebook.litho:litho-sections-widget:+")
 	
 
 	kapt("com.squareup.moshi:moshi-kotlin-codegen:+")
