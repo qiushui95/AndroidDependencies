@@ -696,4 +696,24 @@ public abstract class AndroidDependency private constructor(
     public object ViewModel : AndroidDependency("androidx.lifecycle", "lifecycle-viewmodel-compose",
         "1.0.0-alpha06")
   }
+
+  public object Test {
+    /**
+     * UI自动化测试
+     * https://mvnrepository.com/artifact/androidx.test.espresso/espresso-core
+     */
+    public object Espresso : AndroidDependency("androidx.test.espresso", "espresso-core", "3.3.0")
+
+    /**
+     * 单元测试
+     * https://mvnrepository.com/artifact/junit/junit
+     */
+    public object Junit : AndroidDependency("junit", "junit", "4.13.2")
+
+    /**
+     * 单元测试扩展
+     * https://mvnrepository.com/artifact/androidx.test.ext/junit-ktx
+     */
+    public object JunitExt : AndroidDependency("androidx.test.ext", "junit-ktx", "1.1.2")
+  }
 }

@@ -678,3 +678,23 @@
 >>implementation(androidx.lifecycle:lifecycle-viewmodel-compose:1.0.0-alpha06)  
 
 </details>  
+
+<details>  
+
+<summary>Test</summary>  
+
+  
+
+>[Espresso](https://mvnrepository.com/artifact/androidx.test.espresso/espresso-core)(UI自动化测试)  
+
+>>androidTestImplementation(androidx.test.espresso:espresso-core:3.3.0)  
+
+>[Junit](https://mvnrepository.com/artifact/junit/junit)(单元测试)  
+
+>>testImplementation(junit:junit:4.13.2)  
+
+>[JunitExt](https://mvnrepository.com/artifact/androidx.test.ext/junit-ktx)(单元测试扩展)  
+
+>>testImplementation(androidx.test.ext:junit-ktx:1.1.2)  
+
+</details>  

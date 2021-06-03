@@ -235,4 +235,9 @@ dependencies {
 	implementation("androidx.lifecycle:lifecycle-viewmodel-compose:1.0.0-alpha06")
 	
 
+	androidTestImplementation("androidx.test.espresso:espresso-core:3.3.0")
+	testImplementation("junit:junit:4.13.2")
+	testImplementation("androidx.test.ext:junit-ktx:1.1.2")
+	
+
 }
