@@ -23,10 +23,22 @@ data class DependencyConfig(
     val modules: List<DependencyConfig>?,
     @Json(name = "action")
     val action: String?,
+    @Json(name = "sort")
+    val sort: Int?,
     @Json(name = "ignore")
-    val ignore: Boolean = false
-) : SortContent {
-    override fun getSortContent(): String {
-        return title
+    val ignore: Boolean?
+) : Comparable<DependencyConfig> {
+
+
+    val realIgnore = ignore ?: false
+
+    val realSort = sort ?: 0
+
+    override fun compareTo(other: DependencyConfig): Int {
+        return if (realSort == other.realSort) {
+            title.compareTo(other.title)
+        } else {
+            realSort.compareTo(other.realSort)
+        }
     }
 }

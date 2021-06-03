@@ -2,7 +2,7 @@ apply plugin: 'maven-publish'
 
 ext {
     PUBLISH_GROUP_ID = "com.github.qiushui95"
-    PUBLISH_VERSION = "1.4.25"
+    PUBLISH_VERSION = "1.4.27"
 }
 
 //编译groovy代码时采用 UTF-8

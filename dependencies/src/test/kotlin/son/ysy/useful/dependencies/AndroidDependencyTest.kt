@@ -5,10 +5,10 @@ import com.google.gson.GsonBuilder
 import com.google.gson.JsonParser
 import com.squareup.kotlinpoet.*
 import com.squareup.moshi.Moshi
+import com.squareup.moshi.Types
 import junit.framework.TestCase
 import org.junit.Test
 import son.ysy.useful.dependencies.model.DependencyConfig
-import son.ysy.useful.dependencies.model.DependencyContainer
 import java.io.File
 
 class AndroidDependencyTest : TestCase() {
@@ -35,11 +35,17 @@ class AndroidDependencyTest : TestCase() {
         const val KEY_CLASS_DEPENDENCY = "AndroidDependency"
         const val KEY_CLASS_SINGLE = "Single"
         const val KEY_CLASS_VIEW = "View"
+        const val KEY_CLASS_COMPOSE = "Compose"
         const val KEY_CLASS_GROUP = "Group"
         const val KEY_CLASS_TEST = "Test"
     }
 
-    private val jsonAdapter = Moshi.Builder().build().adapter(DependencyContainer::class.java)
+    private val jsonAdapter = Moshi.Builder().build().adapter<List<DependencyConfig>>(
+        Types.newParameterizedType(
+            List::class.java,
+            DependencyConfig::class.java
+        )
+    )
 
     /**
      * 从Resource文件夹读取json文件
@@ -53,27 +59,25 @@ class AndroidDependencyTest : TestCase() {
             ?: throw Error("读取json失败")
     }
 
-    private fun getBeanFromJson(): DependencyContainer? {
+    private fun getBeanFromJson(): List<DependencyConfig>? {
         val json = getJsonFromResource()
 
-        return jsonAdapter.fromJson(json)?.filterIgnore()
+        return jsonAdapter.fromJson(json)
+            ?.sort()
     }
 
-    private fun DependencyContainer.filterIgnore(): DependencyContainer {
-        return copy(
-            single = single.mapNotNull { it.filterIgnore() },
-            group = group.mapNotNull { it.filterIgnore() },
-            view = view.mapNotNull { it.filterIgnore() },
-            test = test.mapNotNull { it.filterIgnore() },
-        )
-    }
-
-    private fun DependencyConfig.filterIgnore(): DependencyConfig? {
-        if (ignore) {
-            return null
+    private fun List<DependencyConfig>.filterIgnore(): List<DependencyConfig> {
+        return map { config ->
+            config.copy(modules = config.modules?.filterIgnore())
+        }.filterNot {
+            it.realIgnore
         }
+    }
 
-        return copy(modules = modules?.mapNotNull { it.filterIgnore() })
+    private fun List<DependencyConfig>.sort(): List<DependencyConfig> {
+        return map { config ->
+            config.copy(modules = config.modules?.sort())
+        }.sorted()
     }
 
     /**
@@ -81,7 +85,7 @@ class AndroidDependencyTest : TestCase() {
      */
     @Test
     fun testSortedJson() {
-        val json = getBeanFromJson()?.sorted()
+        val json = getBeanFromJson()
             .run(jsonAdapter::toJson)
 
         val formatJson = GsonBuilder().setPrettyPrinting().create().toJson(
@@ -103,7 +107,7 @@ class AndroidDependencyTest : TestCase() {
     }
 
     private fun createDependencyKt() {
-        val container = getBeanFromJson() ?: return
+        val configs = getBeanFromJson()?.filterIgnore() ?: return
 
         //声明AndroidDependency类
         val androidDependencyClassBuilder = TypeSpec
@@ -111,7 +115,12 @@ class AndroidDependencyTest : TestCase() {
 
         androidDependencyClassBuilder.addAnnotation(
             AnnotationSpec.builder(Suppress::class)
-                .addMember("%S,%S", "MemberVisibilityCanBePrivate", "unused")
+                .addMember(
+                    "%S,%S,%S",
+                    "MemberVisibilityCanBePrivate",
+                    "unused",
+                    "RedundantVisibilityModifier"
+                )
                 .build()
         )
 
@@ -150,7 +159,7 @@ class AndroidDependencyTest : TestCase() {
         androidDependencyClassBuilder.addFunction(
             FunSpec.builder(DependencyFunctions.KEY_BUILD)
                 .addParameter(DependencyProperties.KEY_VERSION, String::class)
-                .addModifiers(KModifier.PRIVATE)
+                .addModifiers(KModifier.PUBLIC)
                 .addStatement(
                     """return "$${DependencyProperties.KEY_GROUP}:$${DependencyProperties.KEY_NAME}:$${DependencyProperties.KEY_VERSION}""""
                 )
@@ -177,20 +186,9 @@ class AndroidDependencyTest : TestCase() {
                 .build()
         )
 
-
-        buildSingleClassSpec(DependencyClasses.KEY_CLASS_SINGLE, container.single)
-            .apply(androidDependencyClassBuilder::addType)
-
-        buildSingleClassSpec(DependencyClasses.KEY_CLASS_VIEW, container.view)
-            .apply(androidDependencyClassBuilder::addType)
-
-        container.group.forEach { group ->
-            buildGroupClassSpec(group)
-                .apply(androidDependencyClassBuilder::addType)
+        configs.forEach { config ->
+            androidDependencyClassBuilder.buildGroupClassSpec(emptyList(), config)
         }
-
-        buildSingleClassSpec(DependencyClasses.KEY_CLASS_TEST, container.test)
-            .apply(androidDependencyClassBuilder::addType)
 
         val fileSpec = FileSpec.builder(
             DependencyValues.packageList.joinToString("."),
@@ -213,291 +211,148 @@ class AndroidDependencyTest : TestCase() {
         name: String
     ) : IllegalArgumentException("${name}字段不能为缺失,$config")
 
-    private fun buildSingleClassSpec(className: String, list: List<DependencyConfig>): TypeSpec {
-        //声明类
-        val singleClassBuilder = TypeSpec.objectBuilder(className)
+    private class MissPropertyException(
+        config: DependencyConfig,
+        name: String
+    ) : IllegalArgumentException("字段${name}缺失,$config")
 
-        list.map { single ->
+    private fun TypeSpec.Builder.buildGroupClassSpec(
+        parent: List<DependencyConfig>,
+        config: DependencyConfig
+    ) {
+        if (config.modules == null) {
 
-            val objectBuilder = TypeSpec.objectBuilder(single.title)
-                .superclass(ClassName("", DependencyClasses.KEY_CLASS_DEPENDENCY))
-                .addSuperclassConstructorParameter(
-                    "%S",
-                    single.group ?: throw IllegalArgumentMissException(
-                        single,
-                        DependencyProperties.KEY_GROUP
-                    )
-                )
-                .addSuperclassConstructorParameter(
-                    "%S",
-                    single.name ?: throw IllegalArgumentMissException(
-                        single,
-                        DependencyProperties.KEY_NAME
-                    )
-                )
-                .addSuperclassConstructorParameter(
-                    "%S",
-                    single.version ?: throw IllegalArgumentMissException(
-                        single,
-                        DependencyProperties.KEY_VERSION
-                    )
-                )
+            val groupId = findGroupId(parent, config)
+            val name = findName(parent, config)
+            val version = findVersion(parent, config)
 
-            getKDoc(single.remark, single.link)
-                ?.apply(objectBuilder::addKdoc)
-            objectBuilder.build()
-        }.forEach {
-            singleClassBuilder.addType(it)
-        }
-        return singleClassBuilder.build()
-    }
-
-    private fun buildGroupClassSpec(config: DependencyConfig): TypeSpec {
-
-        val groupBuilder = TypeSpec.classBuilder(config.title)
-            .addModifiers(KModifier.SEALED)
-
-        val modules = config.modules ?: throw IllegalArgumentMissException(
-            config,
-            DependencyProperties.KEY_MODULES
-        )
-
-        val hasCustomVersion = modules.any { it.version != null }
-
-        val hasCustomGroup = modules.any { it.group != null }
-
-
-        val constructorBuilder = FunSpec.constructorBuilder()
-
-        if (hasCustomGroup) {
-            constructorBuilder.addParameter(DependencyProperties.KEY_GROUP, String::class)
-        }
-
-        constructorBuilder.addParameter(DependencyProperties.KEY_NAME, String::class)
-
-        if (hasCustomVersion) {
-            constructorBuilder.addParameter(DependencyProperties.KEY_VERSION, String::class)
-        }
-
-        groupBuilder.primaryConstructor(constructorBuilder.build())
-            .superclass(ClassName("", DependencyClasses.KEY_CLASS_DEPENDENCY))
-
-        if (hasCustomGroup) {
-            groupBuilder.addSuperclassConstructorParameter(DependencyProperties.KEY_GROUP)
+            val classBuilder = TypeSpec.objectBuilder(config.title)
+            classBuilder.superclass(ClassName("", DependencyClasses.KEY_CLASS_DEPENDENCY))
+                .addSuperclassConstructorParameter("%S", groupId)
+                .addSuperclassConstructorParameter("%S", name)
+                .addSuperclassConstructorParameter("%S", version)
+                .buildDoc(config)
+            addType(classBuilder.build())
         } else {
-            groupBuilder.addSuperclassConstructorParameter(
-                "%S",
-                config.group ?: throw IllegalArgumentMissException(
-                    config,
-                    DependencyProperties.KEY_GROUP
-                )
-            )
-        }
+            val list = parent + config
 
-        groupBuilder.addSuperclassConstructorParameter(DependencyProperties.KEY_NAME)
+            val objectBuilder = TypeSpec.objectBuilder(config.title)
+                .buildDoc(config)
 
-        if (hasCustomVersion) {
-            groupBuilder.addSuperclassConstructorParameter(DependencyProperties.KEY_VERSION)
-        } else {
-            groupBuilder.addSuperclassConstructorParameter(
-                "%S",
-                config.version ?: throw IllegalArgumentMissException(
-                    config,
-                    DependencyProperties.KEY_VERSION
-                )
-            )
-        }
-
-        config.modules.forEach { module ->
-            val moduleBuilder = TypeSpec.objectBuilder(module.title)
-            moduleBuilder.superclass(
-                ClassName(
-                    "",
-                    config.title
-                )
-            )
-
-            if (hasCustomGroup) {
-                moduleBuilder.addSuperclassConstructorParameter(
-                    "%S",
-                    module.group ?: config.group ?: throw IllegalArgumentMissException(
-                        config,
-                        DependencyProperties.KEY_GROUP
-                    )
-                )
-            }
-            moduleBuilder.addSuperclassConstructorParameter(
-                "%S",
-                module.name ?: config.name ?: throw IllegalArgumentMissException(
-                    config,
-                    DependencyProperties.KEY_NAME
-                )
-            )
-            if (hasCustomVersion) {
-                moduleBuilder.addSuperclassConstructorParameter(
-                    "%S",
-                    module.version ?: config.version ?: throw IllegalArgumentMissException(
-                        config,
-                        DependencyProperties.KEY_VERSION
-                    )
-                )
+            config.modules.forEach { child ->
+                objectBuilder.buildGroupClassSpec(list, child)
             }
 
-            getKDoc(module.remark, module.link)
-                ?.apply(moduleBuilder::addKdoc)
-
-            groupBuilder.addType(moduleBuilder.build())
-
+            addType(objectBuilder.build())
         }
-
-        getKDoc(config.remark, config.link)
-            ?.apply(groupBuilder::addKdoc)
-
-        return groupBuilder.build()
     }
 
+    private fun TypeSpec.Builder.buildDoc(config: DependencyConfig): TypeSpec.Builder {
+        getKDoc(config.remark, config.link)?.apply(::addKdoc)
+        return this
+    }
+
+    private fun findGroupId(parent: List<DependencyConfig>, config: DependencyConfig): String {
+        val list = parent + config
+
+        return list.mapNotNull { it.group }
+            .lastOrNull() ?: throw MissPropertyException(config, "group")
+    }
+
+    private fun findName(parent: List<DependencyConfig>, config: DependencyConfig): String {
+        val list = parent + config
+
+        return list.mapNotNull { it.name }
+            .lastOrNull() ?: throw MissPropertyException(config, "artifact")
+    }
+
+    private fun findVersion(parent: List<DependencyConfig>, config: DependencyConfig): String {
+        val list = parent + config
+
+        return list.mapNotNull { it.version }
+            .lastOrNull() ?: throw MissPropertyException(config, "version")
+    }
 
     private fun createMd() {
         val list = mutableListOf<String>()
 
         list.add("# 三方依赖库版本管理[![](https://jitpack.io/v/qiushui95/AndroidDependencies.svg)](https://jitpack.io/#qiushui95/AndroidDependencies)  ")
 
-        val container = getBeanFromJson() ?: throw IllegalArgumentException()
+        val beans = getBeanFromJson() ?: emptyList()
 
-        list.createMdNextLine()
-        list.createMdNextLine()
-
-        list.createMdTitle()
-
-        container.single.forEach {
-            list.createMdSingle(null, it)
-        }
-
-        list.createMdNextLine()
-        list.createMdNextLine()
-
-        list.createMdTitle()
-        container.view.forEach {
-            list.createMdSingle(null, it)
-        }
-
-        list.createMdNextLine()
-        list.createMdNextLine()
-
-        list.createMdTitle()
-        container.test.forEach {
-            list.createMdSingle(null, it)
-        }
-
-        container.group.forEach { group ->
-            list.createMdNextLine()
-            list.createMdNextLine()
-
-            list.createMdGroupTitle(group)
-
-            group.modules?.forEach {
-                list.createMdSingle(group, it)
+        beans.filterIgnore()
+            .forEach { parent ->
+                list.addMdLine("<details>")
+                list.addMdLine("<summary>${parent.title}</summary>")
+                list.addMdLine("")
+                parent.modules?.forEach { child ->
+                    list.createMd(listOf(parent), child, 1)
+                }
+                list.addMdLine("</details>")
             }
-        }
-
 
         File(File(".."), "ReadMe.md").writeText(list.joinToString("\n"))
     }
 
-    private fun MutableList<String>.createMdNextLine() {
-        add("  ")
-    }
-
-    private fun MutableList<String>.createMdTitle() {
-        add("|title|group|name|version|remark|gradle dsl|  ")
-        add("|:-:|:-:|:-:|:-:|:-:|:-:|  ")
-    }
-
-    private fun MutableList<String>.createMdGroupTitle(config: DependencyConfig) {
-        val remark = config.remark ?: ""
-        if (config.link == null) {
-            add("|${config.title}| | | ||$remark|  ")
-        } else {
-            add("|[${config.title}](${config.link})| | | |::|$remark|  ")
-        }
-        add("|:-:|:-:|:-:|:-:|:-:|:-:|  ")
-        add("|title|group|name|version|remark|gradle dsl|  ")
-    }
-
-    private fun MutableList<String>.createMdSingle(
-        groupConfig: DependencyConfig?,
-        config: DependencyConfig
+    private fun MutableList<String>.createMd(
+        parent: List<DependencyConfig>,
+        config: DependencyConfig,
+        prefixCount: Int
     ) {
-        val title = config.title
+        val sb = StringBuilder()
 
-        val group = config.group ?: groupConfig?.group ?: throw IllegalArgumentMissException(
-            config,
-            DependencyProperties.KEY_GROUP
-        )
+        sb.append(">".repeat(prefixCount))
 
-        val name = config.name ?: groupConfig?.name ?: throw IllegalArgumentMissException(
-            config,
-            DependencyProperties.KEY_NAME
-        )
-
-        val version = config.version ?: groupConfig?.version ?: throw IllegalArgumentMissException(
-            config,
-            DependencyProperties.KEY_VERSION
-        )
-
-        val remark = config.remark ?: ""
-
-        val action = config.action ?: throw IllegalArgumentMissException(
-            config,
-            DependencyProperties.KEY_ACTION
-        )
-
-        val link = config.link
-
-        val gradleDsl = """$action("$group:$name:$version")"""
-
-        if (link == null) {
-            add("|$title|$group|$name|$version|$remark|$gradleDsl|  ")
+        if (config.link != null) {
+            sb.append("[${config.title}](${config.link})")
         } else {
-            add("|[$title]($link)|$group|$name|$version|$remark|$gradleDsl|  ")
+            sb.append(config.title)
         }
+
+        if (config.remark != null) {
+            sb.append("(${config.remark})")
+        }
+
+        addMdLine(sb.toString())
+
+        sb.clear()
+
+        if (config.modules == null) {
+            sb.append(">".repeat(prefixCount + 1))
+
+            val groupId = findGroupId(parent, config)
+            val name = findName(parent, config)
+            val version = findVersion(parent, config)
+
+            sb.append("${config.action}(${groupId}:${name}:${version})")
+
+            addMdLine(sb.toString())
+        } else {
+            config.modules.forEach {
+                createMd(parent + config, it, prefixCount + 1)
+            }
+        }
+
+    }
+
+    private fun MutableList<String>.addMdLine(line: String) {
+        add("$line  \n")
+    }
+
+    private fun MutableList<String>.addGradleLine(line: String) {
+        add("$line\n")
     }
 
     private fun createCheckModuleGradle() {
         val newestList = mutableListOf<String>()
         val defineList = mutableListOf<String>()
 
-        val container = getBeanFromJson() ?: throw IllegalArgumentException()
+        val configs = getBeanFromJson()?.filterIgnore() ?: throw IllegalArgumentException()
 
-        container.single
-            .forEach {
-                newestList.createGradle(null, it, true)
-                defineList.createGradle(null, it, false)
-            }
-
-        container.view
-            .forEach {
-                newestList.createGradle(null, it, true)
-                defineList.createGradle(null, it, false)
-            }
-
-        container.test
-            .forEach {
-                newestList.createGradle(null, it, true)
-                defineList.createGradle(null, it, false)
-            }
-
-        container.group
-            .forEach { group ->
-
-                newestList.add("\n")
-                defineList.add("\n")
-
-                group.modules?.forEach { module ->
-                    newestList.createGradle(group, module, true)
-                    defineList.createGradle(group, module, false)
-                }
-            }
+        configs.forEach {
+            newestList.createGradle(emptyList(), it,true)
+            defineList.createGradle(emptyList(), it,false)
+        }
 
         val parentDir = File(File("").absolutePath).parentFile
 
@@ -511,35 +366,38 @@ class AndroidDependencyTest : TestCase() {
     }
 
     private fun MutableList<String>.createGradle(
-        groupConfig: DependencyConfig?,
+        parent: List<DependencyConfig>,
         config: DependencyConfig,
         isNewest: Boolean
     ) {
-        val group = config.group ?: groupConfig?.group ?: throw IllegalArgumentMissException(
-            config,
-            DependencyProperties.KEY_GROUP
-        )
+        if (config.modules == null) {
+            val groupId = findGroupId(parent, config)
 
-        val name = config.name ?: groupConfig?.name ?: throw IllegalArgumentMissException(
-            config,
-            DependencyProperties.KEY_NAME
-        )
+            val name = findName(parent, config)
 
-        val version = if (isNewest) {
-            "+"
-        } else {
-            config.version ?: groupConfig?.version ?: throw IllegalArgumentMissException(
+            val version = if (isNewest) {
+                "+"
+            } else {
+                findVersion(parent, config)
+            }
+
+            val action = config.action ?: throw IllegalArgumentMissException(
                 config,
-                DependencyProperties.KEY_VERSION
+                DependencyProperties.KEY_ACTION
             )
+
+            add("""$action("$groupId:$name:$version")""")
+        } else {
+            val list = config.modules + config
+
+            config.modules.forEach {
+                createGradle(list, it, isNewest)
+            }
+
+            if (config.modules.size > 1) {
+                add("\n")
+            }
         }
-
-        val action = config.action ?: throw IllegalArgumentMissException(
-            config,
-            DependencyProperties.KEY_ACTION
-        )
-
-        add("""$action("$group:$name:$version")""")
     }
 
     private fun MutableList<String>.writeTo(dir: File) {

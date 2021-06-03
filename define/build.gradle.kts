@@ -28,7 +28,7 @@ android {
 }
 
 dependencies {
-	implementation("androidx.activity:activity-ktx:1.2.3")
+	implementation("androidx.activity:activity-ktx:1.3.0-beta01")
 	implementation("com.aliyun.ams:alicloud-android-push:3.3.0")
 	implementation("com.blankj:utilcodex:1.30.6")
 	implementation("androidx.appcompat:appcompat:1.3.0")
@@ -46,26 +46,6 @@ dependencies {
 	implementation("com.dropbox.mobile.store:store4:4.0.1")
 	implementation("com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.7.0")
 	implementation("com.iqiyi.xcrash:xcrash-android-lib:3.0.0")
-	implementation("com.github.Justson.AgentWeb:agentweb-core:v4.1.9-androidx")
-	implementation("com.github.xiaohaibin:XBanner:androidx_v1.1.3")
-	implementation("com.eightbitlab:blurview:1.6.6")
-	implementation("com.ashokvarma.android:bottom-navigation-bar:2.2.0")
-	implementation("androidx.constraintlayout:constraintlayout:2.0.4")
-	implementation("com.github.KuangGang:RoundCorners:1.1.0")
-	implementation("com.google.android:flexbox:2.0.1")
-	implementation("me.dkzwm.widget.fet:core:0.2.0")
-	implementation("com.airbnb.android:lottie:3.7.0")
-	implementation("com.sunfusheng:MarqueeView:1.4.1")
-	implementation("com.google.android.material:material:1.4.0-beta01")
-	implementation("io.github.chaosleung:pinview:1.4.4")
-	implementation("androidx.recyclerview:recyclerview:1.2.0")
-	implementation("com.github.lihangleo2:ShadowLayout:3.2.0")
-	implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.2.0-alpha01")
-	implementation("com.kyleduo.switchbutton:library:2.0.3")
-	implementation("androidx.viewpager2:viewpager2:1.1.0-alpha01")
-	androidTestImplementation("androidx.test.espresso:espresso-core:3.3.0")
-	testImplementation("junit:junit:4.13.2")
-	testImplementation("androidx.test.ext:junit-ktx:1.1.2")
 	
 
 	implementation("com.github.qiushui95.MyArchitecture:architecture-constant:1.0.15")
@@ -92,7 +72,7 @@ dependencies {
 
 	implementation("androidx.core:core-animation:1.0.0-alpha02")
 	implementation("androidx.core:core-animation-testing:1.0.0-alpha02")
-	implementation("androidx.core:core-ktx:1.6.0-beta01")
+	implementation("androidx.core:core-ktx:1.6.0-beta02")
 	implementation("androidx.core:core-role:1.0.0")
 	
 
@@ -101,8 +81,6 @@ dependencies {
 	
 
 	implementation("com.github.kongzue.DialogX:DialogX:0.0.37")
-	
-
 	kapt("com.arialyy.aria:compiler:3.8.15")
 	implementation("com.arialyy.aria:core:3.8.15")
 	implementation("com.arialyy.aria:ftpComponent:3.8.15")
@@ -208,4 +186,53 @@ dependencies {
 
 	implementation("androidx.work:work-runtime-ktx:2.5.0")
 	testImplementation("androidx.work:work-testing:2.5.0")
+	
+
+	
+
+	implementation("com.github.Justson.AgentWeb:agentweb-core:v4.1.9-androidx")
+	implementation("com.github.xiaohaibin:XBanner:androidx_v1.1.3")
+	implementation("com.eightbitlab:blurview:1.6.6")
+	implementation("com.ashokvarma.android:bottom-navigation-bar:2.2.0")
+	implementation("androidx.constraintlayout:constraintlayout:2.0.4")
+	implementation("com.github.KuangGang:RoundCorners:1.1.0")
+	implementation("com.google.android:flexbox:2.0.1")
+	implementation("me.dkzwm.widget.fet:core:0.2.0")
+	implementation("com.airbnb.android:lottie:3.7.0")
+	implementation("com.sunfusheng:MarqueeView:1.4.1")
+	implementation("com.google.android.material:material:1.4.0-beta01")
+	implementation("io.github.chaosleung:pinview:1.4.4")
+	implementation("androidx.recyclerview:recyclerview:1.2.1")
+	implementation("com.github.lihangleo2:ShadowLayout:3.2.0")
+	implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.2.0-alpha01")
+	implementation("com.kyleduo.switchbutton:library:2.0.3")
+	implementation("androidx.viewpager2:viewpager2:1.1.0-alpha01")
+	
+
+	implementation("com.google.accompanist:accompanist-appcompat-theme:0.11.1")
+	implementation("com.google.accompanist:accompanist-coil:0.11.1")
+	implementation("com.google.accompanist:accompanist-flowlayout:0.11.1")
+	implementation("com.google.accompanist:accompanist-insets:0.11.1")
+	implementation("com.google.accompanist:accompanist-pager:0.11.1")
+	implementation("com.google.accompanist:accompanist-swiperefresh:0.11.1")
+	implementation("com.google.accompanist:accompanist-systemuicontroller:0.11.1")
+	
+
+	implementation("androidx.activity:activity-compose:1.3.0-beta01")
+	implementation("androidx.constraintlayout:constraintlayout-compose:1.0.0-alpha07")
+	implementation("androidx.compose.animation:animation:1.0.0-beta08")
+	implementation("androidx.compose.compiler:compiler:1.0.0-beta08")
+	implementation("androidx.compose.foundation:foundation:1.0.0-beta08")
+	implementation("androidx.compose.runtime:runtime-livedata:1.0.0-beta08")
+	implementation("androidx.compose.material:material:1.0.0-beta08")
+	implementation("androidx.compose.material:material-icons-core:1.0.0-beta08")
+	implementation("androidx.compose.material:material-icons-extended:1.0.0-beta08")
+	androidTestImplementation("androidx.compose.ui:ui-test-junit4:1.0.0-beta08")
+	implementation("androidx.compose.ui:ui:1.0.0-beta08")
+	implementation("androidx.compose.ui:ui-tooling:1.0.0-beta08")
+	
+
+	implementation("androidx.lifecycle:lifecycle-viewmodel-compose:1.0.0-alpha06")
+	
+
 }

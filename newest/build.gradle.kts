@@ -46,26 +46,6 @@ dependencies {
 	implementation("com.dropbox.mobile.store:store4:+")
 	implementation("com.tencent.mm.opensdk:wechat-sdk-android-without-mta:+")
 	implementation("com.iqiyi.xcrash:xcrash-android-lib:+")
-	implementation("com.github.Justson.AgentWeb:agentweb-core:+")
-	implementation("com.github.xiaohaibin:XBanner:+")
-	implementation("com.eightbitlab:blurview:+")
-	implementation("com.ashokvarma.android:bottom-navigation-bar:+")
-	implementation("androidx.constraintlayout:constraintlayout:+")
-	implementation("com.github.KuangGang:RoundCorners:+")
-	implementation("com.google.android:flexbox:+")
-	implementation("me.dkzwm.widget.fet:core:+")
-	implementation("com.airbnb.android:lottie:+")
-	implementation("com.sunfusheng:MarqueeView:+")
-	implementation("com.google.android.material:material:+")
-	implementation("io.github.chaosleung:pinview:+")
-	implementation("androidx.recyclerview:recyclerview:+")
-	implementation("com.github.lihangleo2:ShadowLayout:+")
-	implementation("androidx.swiperefreshlayout:swiperefreshlayout:+")
-	implementation("com.kyleduo.switchbutton:library:+")
-	implementation("androidx.viewpager2:viewpager2:+")
-	androidTestImplementation("androidx.test.espresso:espresso-core:+")
-	testImplementation("junit:junit:+")
-	testImplementation("androidx.test.ext:junit-ktx:+")
 	
 
 	implementation("com.github.qiushui95.MyArchitecture:architecture-constant:+")
@@ -101,8 +81,6 @@ dependencies {
 	
 
 	implementation("com.github.kongzue.DialogX:DialogX:+")
-	
-
 	kapt("com.arialyy.aria:compiler:+")
 	implementation("com.arialyy.aria:core:+")
 	implementation("com.arialyy.aria:ftpComponent:+")
@@ -208,4 +186,53 @@ dependencies {
 
 	implementation("androidx.work:work-runtime-ktx:+")
 	testImplementation("androidx.work:work-testing:+")
+	
+
+	
+
+	implementation("com.github.Justson.AgentWeb:agentweb-core:+")
+	implementation("com.github.xiaohaibin:XBanner:+")
+	implementation("com.eightbitlab:blurview:+")
+	implementation("com.ashokvarma.android:bottom-navigation-bar:+")
+	implementation("androidx.constraintlayout:constraintlayout:+")
+	implementation("com.github.KuangGang:RoundCorners:+")
+	implementation("com.google.android:flexbox:+")
+	implementation("me.dkzwm.widget.fet:core:+")
+	implementation("com.airbnb.android:lottie:+")
+	implementation("com.sunfusheng:MarqueeView:+")
+	implementation("com.google.android.material:material:+")
+	implementation("io.github.chaosleung:pinview:+")
+	implementation("androidx.recyclerview:recyclerview:+")
+	implementation("com.github.lihangleo2:ShadowLayout:+")
+	implementation("androidx.swiperefreshlayout:swiperefreshlayout:+")
+	implementation("com.kyleduo.switchbutton:library:+")
+	implementation("androidx.viewpager2:viewpager2:+")
+	
+
+	implementation("com.google.accompanist:accompanist-appcompat-theme:+")
+	implementation("com.google.accompanist:accompanist-coil:+")
+	implementation("com.google.accompanist:accompanist-flowlayout:+")
+	implementation("com.google.accompanist:accompanist-insets:+")
+	implementation("com.google.accompanist:accompanist-pager:+")
+	implementation("com.google.accompanist:accompanist-swiperefresh:+")
+	implementation("com.google.accompanist:accompanist-systemuicontroller:+")
+	
+
+	implementation("androidx.activity:activity-compose:+")
+	implementation("androidx.constraintlayout:constraintlayout-compose:+")
+	implementation("androidx.compose.animation:animation:+")
+	implementation("androidx.compose.compiler:compiler:+")
+	implementation("androidx.compose.foundation:foundation:+")
+	implementation("androidx.compose.runtime:runtime-livedata:+")
+	implementation("androidx.compose.material:material:+")
+	implementation("androidx.compose.material:material-icons-core:+")
+	implementation("androidx.compose.material:material-icons-extended:+")
+	androidTestImplementation("androidx.compose.ui:ui-test-junit4:+")
+	implementation("androidx.compose.ui:ui:+")
+	implementation("androidx.compose.ui:ui-tooling:+")
+	
+
+	implementation("androidx.lifecycle:lifecycle-viewmodel-compose:+")
+	
+
 }
