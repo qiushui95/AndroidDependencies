@@ -139,7 +139,7 @@
 
 >>Candy  
 
->>>implementation(io.github.razerdp:BasePopup:3.1.0-SNAPSHOT)  
+>>>implementation(io.github.razerdp:BasePopup:3.1.1-SNAPSHOT)  
 
 >>Stable  
 
@@ -559,7 +559,7 @@
 
 >[Material](https://github.com/material-components/material-components-android)  
 
->>implementation(com.google.android.material:material:1.4.0-beta01)  
+>>implementation(com.google.android.material:material:1.4.0-rc01)  
 
 >[PinView](https://github.com/ChaosLeung/PinView)(密码输入框)  
 

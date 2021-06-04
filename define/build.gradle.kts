@@ -62,7 +62,7 @@ dependencies {
 	implementation("com.github.qiushui95.MyArchitecture:architecture-starter:1.0.15")
 	
 
-	implementation("io.github.razerdp:BasePopup:3.1.0-SNAPSHOT")
+	implementation("io.github.razerdp:BasePopup:3.1.1-SNAPSHOT")
 	implementation("io.github.razerdp:BasePopup:3.1.0")
 	
 
@@ -200,7 +200,7 @@ dependencies {
 	implementation("me.dkzwm.widget.fet:core:0.2.0")
 	implementation("com.airbnb.android:lottie:3.7.0")
 	implementation("com.sunfusheng:MarqueeView:1.4.1")
-	implementation("com.google.android.material:material:1.4.0-beta01")
+	implementation("com.google.android.material:material:1.4.0-rc01")
 	implementation("io.github.chaosleung:pinview:1.4.4")
 	implementation("androidx.recyclerview:recyclerview:1.2.1")
 	implementation("com.github.lihangleo2:ShadowLayout:3.2.0")

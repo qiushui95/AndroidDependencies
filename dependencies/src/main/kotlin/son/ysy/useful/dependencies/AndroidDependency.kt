@@ -177,7 +177,7 @@ public abstract class AndroidDependency private constructor(
      * https://github.com/razerdp/BasePopup
      */
     public object BasePopup {
-      public object Candy : AndroidDependency("io.github.razerdp", "BasePopup", "3.1.0-SNAPSHOT")
+      public object Candy : AndroidDependency("io.github.razerdp", "BasePopup", "3.1.1-SNAPSHOT")
 
       public object Stable : AndroidDependency("io.github.razerdp", "BasePopup", "3.1.0")
     }
@@ -579,7 +579,7 @@ public abstract class AndroidDependency private constructor(
      * https://github.com/material-components/material-components-android
      */
     public object Material : AndroidDependency("com.google.android.material", "material",
-        "1.4.0-beta01")
+        "1.4.0-rc01")
 
     /**
      * 密码输入框
