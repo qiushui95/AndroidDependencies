@@ -220,6 +220,7 @@ dependencies {
 
 	implementation("androidx.activity:activity-compose:1.3.0-beta01")
 	implementation("androidx.constraintlayout:constraintlayout-compose:1.0.0-alpha07")
+	implementation("androidx.navigation:navigation-compose:2.4.0-alpha02")
 	implementation("androidx.compose.animation:animation:1.0.0-beta08")
 	implementation("androidx.compose.compiler:compiler:1.0.0-beta08")
 	implementation("androidx.compose.foundation:foundation:1.0.0-beta08")

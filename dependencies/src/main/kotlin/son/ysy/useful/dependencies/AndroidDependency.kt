@@ -657,6 +657,12 @@ public abstract class AndroidDependency private constructor(
         "constraintlayout-compose", "1.0.0-alpha07")
 
     /**
+     * https://developer.android.com/jetpack/androidx/releases/navigation
+     */
+    public object Navigation : AndroidDependency("androidx.navigation", "navigation-compose",
+        "2.4.0-alpha02")
+
+    /**
      * https://developer.android.com/jetpack/androidx/releases/compose
      */
     public object Official {

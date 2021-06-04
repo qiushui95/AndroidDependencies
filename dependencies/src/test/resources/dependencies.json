@@ -1081,6 +1081,14 @@
         "action": "implementation"
       },
       {
+        "title": "Navigation",
+        "version": "2.4.0-alpha02",
+        "link": "https://developer.android.com/jetpack/androidx/releases/navigation",
+        "group": "androidx.navigation",
+        "artifact": "navigation-compose",
+        "action": "implementation"
+      },
+      {
         "title": "Official",
         "version": "1.0.0-beta08",
         "link": "https://developer.android.com/jetpack/androidx/releases/compose",

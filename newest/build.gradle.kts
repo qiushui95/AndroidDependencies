@@ -220,6 +220,7 @@ dependencies {
 
 	implementation("androidx.activity:activity-compose:+")
 	implementation("androidx.constraintlayout:constraintlayout-compose:+")
+	implementation("androidx.navigation:navigation-compose:+")
 	implementation("androidx.compose.animation:animation:+")
 	implementation("androidx.compose.compiler:compiler:+")
 	implementation("androidx.compose.foundation:foundation:+")

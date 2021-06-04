@@ -631,6 +631,10 @@
 
 >>implementation(androidx.constraintlayout:constraintlayout-compose:1.0.0-alpha07)  
 
+>[Navigation](https://developer.android.com/jetpack/androidx/releases/navigation)  
+
+>>implementation(androidx.navigation:navigation-compose:2.4.0-alpha02)  
+
 >[Official](https://developer.android.com/jetpack/androidx/releases/compose)  
 
 >>Animation  
