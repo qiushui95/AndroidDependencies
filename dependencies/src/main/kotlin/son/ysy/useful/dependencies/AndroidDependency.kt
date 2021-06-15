@@ -50,7 +50,7 @@ public abstract class AndroidDependency private constructor(
      * 图片加载
      * https://github.com/coil-kt/coil
      */
-    public object Coil : AndroidDependency("io.coil-kt", "coil", "1.2.1")
+    public object Coil : AndroidDependency("io.coil-kt", "coil", "1.2.2")
 
     /**
      * 颜色帮助库
@@ -120,7 +120,7 @@ public abstract class AndroidDependency private constructor(
      * https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Resource_Center_Homepage.html
      */
     public object WeChat : AndroidDependency("com.tencent.mm.opensdk",
-        "wechat-sdk-android-without-mta", "6.7.0")
+        "wechat-sdk-android-without-mta", "6.7.4")
 
     /**
      * 奔溃日志收集
@@ -177,7 +177,7 @@ public abstract class AndroidDependency private constructor(
      * https://github.com/razerdp/BasePopup
      */
     public object BasePopup {
-      public object Candy : AndroidDependency("io.github.razerdp", "BasePopup", "3.1.1-SNAPSHOT")
+      public object Candy : AndroidDependency("io.github.razerdp", "BasePopup", "3.1.2-SNAPSHOT")
 
       public object Stable : AndroidDependency("io.github.razerdp", "BasePopup", "3.1.0")
     }
@@ -250,12 +250,12 @@ public abstract class AndroidDependency private constructor(
      * https://github.com/airbnb/epoxy
      */
     public object Epoxy {
-      public object Compiler : AndroidDependency("com.airbnb.android", "epoxy-processor", "4.6.1")
+      public object Compiler : AndroidDependency("com.airbnb.android", "epoxy-processor", "4.6.2")
 
-      public object Core : AndroidDependency("com.airbnb.android", "epoxy", "4.6.1")
+      public object Core : AndroidDependency("com.airbnb.android", "epoxy", "4.6.2")
 
       public object Glide : AndroidDependency("com.airbnb.android", "epoxy-glide-preloading",
-          "4.6.1")
+          "4.6.2")
     }
 
     /**
@@ -263,40 +263,40 @@ public abstract class AndroidDependency private constructor(
      */
     public object FlowBinding {
       public object Activity : AndroidDependency("io.github.reactivecircus.flowbinding",
-          "flowbinding-activity", "1.0.0")
+          "flowbinding-activity", "1.1.0")
 
       public object Appcompat : AndroidDependency("io.github.reactivecircus.flowbinding",
-          "flowbinding-appcompat", "1.0.0")
+          "flowbinding-appcompat", "1.1.0")
 
       public object Basic : AndroidDependency("io.github.reactivecircus.flowbinding",
-          "flowbinding-android", "1.0.0")
+          "flowbinding-android", "1.1.0")
 
       public object Core : AndroidDependency("io.github.reactivecircus.flowbinding",
-          "flowbinding-core", "1.0.0")
+          "flowbinding-core", "1.1.0")
 
       public object DrawerLayout : AndroidDependency("io.github.reactivecircus.flowbinding",
-          "flowbinding-drawerlayout", "1.0.0")
+          "flowbinding-drawerlayout", "1.1.0")
 
       public object Lifecycle : AndroidDependency("io.github.reactivecircus.flowbinding",
-          "flowbinding-lifecycle", "1.0.0")
+          "flowbinding-lifecycle", "1.1.0")
 
       public object Material : AndroidDependency("io.github.reactivecircus.flowbinding",
-          "flowbinding-material", "1.0.0")
+          "flowbinding-material", "1.1.0")
 
       public object Navigation : AndroidDependency("io.github.reactivecircus.flowbinding",
-          "flowbinding-navigation", "1.0.0")
+          "flowbinding-navigation", "1.1.0")
 
       public object Preference : AndroidDependency("io.github.reactivecircus.flowbinding",
-          "flowbinding-preference", "1.0.0")
+          "flowbinding-preference", "1.1.0")
 
       public object RecyclerView : AndroidDependency("io.github.reactivecircus.flowbinding",
-          "flowbinding-recyclerview", "1.0.0")
+          "flowbinding-recyclerview", "1.1.0")
 
       public object SwipeRefreshLayout : AndroidDependency("io.github.reactivecircus.flowbinding",
-          "flowbinding-swiperefreshlayout", "1.0.0")
+          "flowbinding-swiperefreshlayout", "1.1.0")
 
       public object ViewPager2 : AndroidDependency("io.github.reactivecircus.flowbinding",
-          "flowbinding-viewpager2", "1.0.0")
+          "flowbinding-viewpager2", "1.1.0")
     }
 
     /**
@@ -366,18 +366,18 @@ public abstract class AndroidDependency private constructor(
      * https://github.com/InsertKoinIO/koin
      */
     public object Koin {
-      public object Android : AndroidDependency("io.insert-koin", "koin-android", "3.0.2")
+      public object Android : AndroidDependency("io.insert-koin", "koin-android", "3.1.0")
 
-      public object AndroidExt : AndroidDependency("io.insert-koin", "koin-android-ext", "3.0.2")
+      public object AndroidExt : AndroidDependency("io.insert-koin", "koin-android-ext", "3.1.0")
 
-      public object Core : AndroidDependency("io.insert-koin", "koin-core", "3.0.2")
+      public object Core : AndroidDependency("io.insert-koin", "koin-core", "3.1.0")
 
-      public object CoreExt : AndroidDependency("io.insert-koin", "koin-core-ext", "3.0.2")
+      public object CoreExt : AndroidDependency("io.insert-koin", "koin-core-ext", "3.1.0")
 
-      public object Test : AndroidDependency("io.insert-koin", "koin-test", "3.0.2")
+      public object Test : AndroidDependency("io.insert-koin", "koin-test", "3.1.0")
 
       public object WorkManager : AndroidDependency("io.insert-koin", "koin-androidx-workmanager",
-          "3.0.2")
+          "3.1.0")
     }
 
     /**
@@ -385,15 +385,15 @@ public abstract class AndroidDependency private constructor(
      * https://github.com/InsertKoinIO/koin
      */
     public object KoinOld {
-      public object Core : AndroidDependency("org.koin", "koin-core", "2.2.2")
+      public object Core : AndroidDependency("org.koin", "koin-core", "2.2.3")
 
-      public object Ext : AndroidDependency("org.koin", "koin-androidx-ext", "2.2.2")
+      public object Ext : AndroidDependency("org.koin", "koin-androidx-ext", "2.2.3")
 
-      public object Scope : AndroidDependency("org.koin", "koin-androidx-scope", "2.2.2")
+      public object Scope : AndroidDependency("org.koin", "koin-androidx-scope", "2.2.3")
 
-      public object Test : AndroidDependency("org.koin", "koin-test", "2.2.2")
+      public object Test : AndroidDependency("org.koin", "koin-test", "2.2.3")
 
-      public object ViewModel : AndroidDependency("org.koin", "koin-androidx-viewmodel", "2.2.2")
+      public object ViewModel : AndroidDependency("org.koin", "koin-androidx-viewmodel", "2.2.3")
     }
 
     /**

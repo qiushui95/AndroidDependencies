@@ -27,7 +27,7 @@
 
 >[Coil](https://github.com/coil-kt/coil)(图片加载)  
 
->>implementation(io.coil-kt:coil:1.2.1)  
+>>implementation(io.coil-kt:coil:1.2.2)  
 
 >[ColorKtx](https://github.com/JorgeCastilloPrz/AndroidColorX)(颜色帮助库)  
 
@@ -71,7 +71,7 @@
 
 >[WeChat](https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Resource_Center_Homepage.html)(微信开发Sdk)  
 
->>implementation(com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.7.0)  
+>>implementation(com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.7.4)  
 
 >[XCrash](https://github.com/iqiyi/xCrash/blob/master/README.zh-CN.md)(奔溃日志收集)  
 
@@ -139,7 +139,7 @@
 
 >>Candy  
 
->>>implementation(io.github.razerdp:BasePopup:3.1.1-SNAPSHOT)  
+>>>implementation(io.github.razerdp:BasePopup:3.1.2-SNAPSHOT)  
 
 >>Stable  
 
@@ -215,65 +215,65 @@
 
 >>Compiler  
 
->>>kapt(com.airbnb.android:epoxy-processor:4.6.1)  
+>>>kapt(com.airbnb.android:epoxy-processor:4.6.2)  
 
 >>Core  
 
->>>implementation(com.airbnb.android:epoxy:4.6.1)  
+>>>implementation(com.airbnb.android:epoxy:4.6.2)  
 
 >>Glide  
 
->>>implementation(com.airbnb.android:epoxy-glide-preloading:4.6.1)  
+>>>implementation(com.airbnb.android:epoxy-glide-preloading:4.6.2)  
 
 >[FlowBinding](https://github.com/ReactiveCircus/FlowBinding)  
 
 >>Activity  
 
->>>implementation(io.github.reactivecircus.flowbinding:flowbinding-activity:1.0.0)  
+>>>implementation(io.github.reactivecircus.flowbinding:flowbinding-activity:1.1.0)  
 
 >>Appcompat  
 
->>>implementation(io.github.reactivecircus.flowbinding:flowbinding-appcompat:1.0.0)  
+>>>implementation(io.github.reactivecircus.flowbinding:flowbinding-appcompat:1.1.0)  
 
 >>Basic  
 
->>>implementation(io.github.reactivecircus.flowbinding:flowbinding-android:1.0.0)  
+>>>implementation(io.github.reactivecircus.flowbinding:flowbinding-android:1.1.0)  
 
 >>Core  
 
->>>implementation(io.github.reactivecircus.flowbinding:flowbinding-core:1.0.0)  
+>>>implementation(io.github.reactivecircus.flowbinding:flowbinding-core:1.1.0)  
 
 >>DrawerLayout  
 
->>>implementation(io.github.reactivecircus.flowbinding:flowbinding-drawerlayout:1.0.0)  
+>>>implementation(io.github.reactivecircus.flowbinding:flowbinding-drawerlayout:1.1.0)  
 
 >>Lifecycle  
 
->>>implementation(io.github.reactivecircus.flowbinding:flowbinding-lifecycle:1.0.0)  
+>>>implementation(io.github.reactivecircus.flowbinding:flowbinding-lifecycle:1.1.0)  
 
 >>Material  
 
->>>implementation(io.github.reactivecircus.flowbinding:flowbinding-material:1.0.0)  
+>>>implementation(io.github.reactivecircus.flowbinding:flowbinding-material:1.1.0)  
 
 >>Navigation  
 
->>>implementation(io.github.reactivecircus.flowbinding:flowbinding-navigation:1.0.0)  
+>>>implementation(io.github.reactivecircus.flowbinding:flowbinding-navigation:1.1.0)  
 
 >>Preference  
 
->>>implementation(io.github.reactivecircus.flowbinding:flowbinding-preference:1.0.0)  
+>>>implementation(io.github.reactivecircus.flowbinding:flowbinding-preference:1.1.0)  
 
 >>RecyclerView  
 
->>>implementation(io.github.reactivecircus.flowbinding:flowbinding-recyclerview:1.0.0)  
+>>>implementation(io.github.reactivecircus.flowbinding:flowbinding-recyclerview:1.1.0)  
 
 >>SwipeRefreshLayout  
 
->>>implementation(io.github.reactivecircus.flowbinding:flowbinding-swiperefreshlayout:1.0.0)  
+>>>implementation(io.github.reactivecircus.flowbinding:flowbinding-swiperefreshlayout:1.1.0)  
 
 >>ViewPager2  
 
->>>implementation(io.github.reactivecircus.flowbinding:flowbinding-viewpager2:1.0.0)  
+>>>implementation(io.github.reactivecircus.flowbinding:flowbinding-viewpager2:1.1.0)  
 
 >[Fragment](https://developer.android.com/jetpack/androidx/releases/fragment)  
 
@@ -335,49 +335,49 @@
 
 >>Android  
 
->>>implementation(io.insert-koin:koin-android:3.0.2)  
+>>>implementation(io.insert-koin:koin-android:3.1.0)  
 
 >>AndroidExt  
 
->>>implementation(io.insert-koin:koin-android-ext:3.0.2)  
+>>>implementation(io.insert-koin:koin-android-ext:3.1.0)  
 
 >>Core  
 
->>>implementation(io.insert-koin:koin-core:3.0.2)  
+>>>implementation(io.insert-koin:koin-core:3.1.0)  
 
 >>CoreExt  
 
->>>implementation(io.insert-koin:koin-core-ext:3.0.2)  
+>>>implementation(io.insert-koin:koin-core-ext:3.1.0)  
 
 >>Test  
 
->>>testImplementation(io.insert-koin:koin-test:3.0.2)  
+>>>testImplementation(io.insert-koin:koin-test:3.1.0)  
 
 >>WorkManager  
 
->>>implementation(io.insert-koin:koin-androidx-workmanager:3.0.2)  
+>>>implementation(io.insert-koin:koin-androidx-workmanager:3.1.0)  
 
 >[KoinOld](https://github.com/InsertKoinIO/koin)(依赖注入库)  
 
 >>Core  
 
->>>implementation(org.koin:koin-core:2.2.2)  
+>>>implementation(org.koin:koin-core:2.2.3)  
 
 >>Ext  
 
->>>implementation(org.koin:koin-androidx-ext:2.2.2)  
+>>>implementation(org.koin:koin-androidx-ext:2.2.3)  
 
 >>Scope  
 
->>>implementation(org.koin:koin-androidx-scope:2.2.2)  
+>>>implementation(org.koin:koin-androidx-scope:2.2.3)  
 
 >>Test  
 
->>>testImplementation(org.koin:koin-test:2.2.2)  
+>>>testImplementation(org.koin:koin-test:2.2.3)  
 
 >>ViewModel  
 
->>>implementation(org.koin:koin-androidx-viewmodel:2.2.2)  
+>>>implementation(org.koin:koin-androidx-viewmodel:2.2.3)  
 
 >[Kotlin](https://github.com/JetBrains/kotlin)  
 

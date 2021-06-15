@@ -33,7 +33,7 @@ dependencies {
 	implementation("com.blankj:utilcodex:1.30.6")
 	implementation("androidx.appcompat:appcompat:1.3.0")
 	implementation("com.github.JavaNoober.BackgroundLibrary:libraryx:1.7.1")
-	implementation("io.coil-kt:coil:1.2.1")
+	implementation("io.coil-kt:coil:1.2.2")
 	implementation("me.jorgecastillo:androidcolorx:0.2.0")
 	implementation("com.github.loperSeven:DateTimePicker:0.3.1")
 	implementation("com.ypx.yimagepicker:androidx:3.1.4")
@@ -44,7 +44,7 @@ dependencies {
 	implementation("com.king.zxing:zxing-lite:2.0.3")
 	implementation("com.facebook.soloader:soloader:0.10.1")
 	implementation("com.dropbox.mobile.store:store4:4.0.1")
-	implementation("com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.7.0")
+	implementation("com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.7.4")
 	implementation("com.iqiyi.xcrash:xcrash-android-lib:3.0.0")
 	
 
@@ -62,7 +62,7 @@ dependencies {
 	implementation("com.github.qiushui95.MyArchitecture:architecture-starter:1.0.15")
 	
 
-	implementation("io.github.razerdp:BasePopup:3.1.1-SNAPSHOT")
+	implementation("io.github.razerdp:BasePopup:3.1.2-SNAPSHOT")
 	implementation("io.github.razerdp:BasePopup:3.1.0")
 	
 
@@ -88,23 +88,23 @@ dependencies {
 	implementation("com.arialyy.aria:sftpComponent:3.8.15")
 	
 
-	kapt("com.airbnb.android:epoxy-processor:4.6.1")
-	implementation("com.airbnb.android:epoxy:4.6.1")
-	implementation("com.airbnb.android:epoxy-glide-preloading:4.6.1")
+	kapt("com.airbnb.android:epoxy-processor:4.6.2")
+	implementation("com.airbnb.android:epoxy:4.6.2")
+	implementation("com.airbnb.android:epoxy-glide-preloading:4.6.2")
 	
 
-	implementation("io.github.reactivecircus.flowbinding:flowbinding-activity:1.0.0")
-	implementation("io.github.reactivecircus.flowbinding:flowbinding-appcompat:1.0.0")
-	implementation("io.github.reactivecircus.flowbinding:flowbinding-android:1.0.0")
-	implementation("io.github.reactivecircus.flowbinding:flowbinding-core:1.0.0")
-	implementation("io.github.reactivecircus.flowbinding:flowbinding-drawerlayout:1.0.0")
-	implementation("io.github.reactivecircus.flowbinding:flowbinding-lifecycle:1.0.0")
-	implementation("io.github.reactivecircus.flowbinding:flowbinding-material:1.0.0")
-	implementation("io.github.reactivecircus.flowbinding:flowbinding-navigation:1.0.0")
-	implementation("io.github.reactivecircus.flowbinding:flowbinding-preference:1.0.0")
-	implementation("io.github.reactivecircus.flowbinding:flowbinding-recyclerview:1.0.0")
-	implementation("io.github.reactivecircus.flowbinding:flowbinding-swiperefreshlayout:1.0.0")
-	implementation("io.github.reactivecircus.flowbinding:flowbinding-viewpager2:1.0.0")
+	implementation("io.github.reactivecircus.flowbinding:flowbinding-activity:1.1.0")
+	implementation("io.github.reactivecircus.flowbinding:flowbinding-appcompat:1.1.0")
+	implementation("io.github.reactivecircus.flowbinding:flowbinding-android:1.1.0")
+	implementation("io.github.reactivecircus.flowbinding:flowbinding-core:1.1.0")
+	implementation("io.github.reactivecircus.flowbinding:flowbinding-drawerlayout:1.1.0")
+	implementation("io.github.reactivecircus.flowbinding:flowbinding-lifecycle:1.1.0")
+	implementation("io.github.reactivecircus.flowbinding:flowbinding-material:1.1.0")
+	implementation("io.github.reactivecircus.flowbinding:flowbinding-navigation:1.1.0")
+	implementation("io.github.reactivecircus.flowbinding:flowbinding-preference:1.1.0")
+	implementation("io.github.reactivecircus.flowbinding:flowbinding-recyclerview:1.1.0")
+	implementation("io.github.reactivecircus.flowbinding:flowbinding-swiperefreshlayout:1.1.0")
+	implementation("io.github.reactivecircus.flowbinding:flowbinding-viewpager2:1.1.0")
 	
 
 	implementation("androidx.fragment:fragment-ktx:1.3.4")
@@ -127,19 +127,19 @@ dependencies {
 	implementation("com.github.qiushui95.KeysCreator:annotations:1.1.0")
 	
 
-	implementation("io.insert-koin:koin-android:3.0.2")
-	implementation("io.insert-koin:koin-android-ext:3.0.2")
-	implementation("io.insert-koin:koin-core:3.0.2")
-	implementation("io.insert-koin:koin-core-ext:3.0.2")
-	testImplementation("io.insert-koin:koin-test:3.0.2")
-	implementation("io.insert-koin:koin-androidx-workmanager:3.0.2")
+	implementation("io.insert-koin:koin-android:3.1.0")
+	implementation("io.insert-koin:koin-android-ext:3.1.0")
+	implementation("io.insert-koin:koin-core:3.1.0")
+	implementation("io.insert-koin:koin-core-ext:3.1.0")
+	testImplementation("io.insert-koin:koin-test:3.1.0")
+	implementation("io.insert-koin:koin-androidx-workmanager:3.1.0")
 	
 
-	implementation("org.koin:koin-core:2.2.2")
-	implementation("org.koin:koin-androidx-ext:2.2.2")
-	implementation("org.koin:koin-androidx-scope:2.2.2")
-	testImplementation("org.koin:koin-test:2.2.2")
-	implementation("org.koin:koin-androidx-viewmodel:2.2.2")
+	implementation("org.koin:koin-core:2.2.3")
+	implementation("org.koin:koin-androidx-ext:2.2.3")
+	implementation("org.koin:koin-androidx-scope:2.2.3")
+	testImplementation("org.koin:koin-test:2.2.3")
+	implementation("org.koin:koin-androidx-viewmodel:2.2.3")
 	
 
 	implementation("org.jetbrains.kotlin:kotlin-reflect:1.5.10")

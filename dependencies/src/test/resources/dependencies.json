@@ -47,7 +47,7 @@
       },
       {
         "title": "Coil",
-        "version": "1.2.1",
+        "version": "1.2.2",
         "link": "https://github.com/coil-kt/coil",
         "group": "io.coil-kt",
         "artifact": "coil",
@@ -146,7 +146,7 @@
       },
       {
         "title": "WeChat",
-        "version": "6.7.0",
+        "version": "6.7.4",
         "link": "https://developers.weixin.qq.com/doc/oplatform/Mobile_App/Resource_Center_Homepage.html",
         "group": "com.tencent.mm.opensdk",
         "artifact": "wechat-sdk-android-without-mta",
@@ -245,7 +245,7 @@
         "modules": [
           {
             "title": "Candy",
-            "version": "3.1.1-SNAPSHOT",
+            "version": "3.1.2-SNAPSHOT",
             "action": "implementation"
           },
           {
@@ -374,7 +374,7 @@
       },
       {
         "title": "Epoxy",
-        "version": "4.6.1",
+        "version": "4.6.2",
         "link": "https://github.com/airbnb/epoxy",
         "group": "com.airbnb.android",
         "remark": "RecyclerView适配库",
@@ -398,7 +398,7 @@
       },
       {
         "title": "FlowBinding",
-        "version": "1.0.0",
+        "version": "1.1.0",
         "link": "https://github.com/ReactiveCircus/FlowBinding",
         "group": "io.github.reactivecircus.flowbinding",
         "modules": [
@@ -569,7 +569,7 @@
       },
       {
         "title": "Koin",
-        "version": "3.0.2",
+        "version": "3.1.0",
         "link": "https://github.com/InsertKoinIO/koin",
         "group": "io.insert-koin",
         "remark": "依赖注入库",
@@ -608,7 +608,7 @@
       },
       {
         "title": "KoinOld",
-        "version": "2.2.2",
+        "version": "2.2.3",
         "link": "https://github.com/InsertKoinIO/koin",
         "group": "org.koin",
         "remark": "依赖注入库",
