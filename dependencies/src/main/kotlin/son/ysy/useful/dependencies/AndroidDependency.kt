@@ -368,13 +368,9 @@ public abstract class AndroidDependency private constructor(
     public object Koin {
       public object Android : AndroidDependency("io.insert-koin", "koin-android", "3.1.0")
 
-      public object AndroidExt : AndroidDependency("io.insert-koin", "koin-android-ext", "3.1.0")
-
       public object Core : AndroidDependency("io.insert-koin", "koin-core", "3.1.0")
 
-      public object CoreExt : AndroidDependency("io.insert-koin", "koin-core-ext", "3.1.0")
-
-      public object Test : AndroidDependency("io.insert-koin", "koin-test", "3.1.0")
+      public object Test : AndroidDependency("io.insert-koin", "koin-test-junit5", "3.1.0")
 
       public object WorkManager : AndroidDependency("io.insert-koin", "koin-androidx-workmanager",
           "3.1.0")
@@ -385,15 +381,16 @@ public abstract class AndroidDependency private constructor(
      * https://github.com/InsertKoinIO/koin
      */
     public object KoinOld {
-      public object Core : AndroidDependency("org.koin", "koin-core", "2.2.3")
+      public object Android : AndroidDependency("io.insert-koin", "koin-androidx-ext", "2.2.3")
 
-      public object Ext : AndroidDependency("org.koin", "koin-androidx-ext", "2.2.3")
+      public object Core : AndroidDependency("io.insert-koin", "koin-core-ext", "2.2.3")
 
-      public object Scope : AndroidDependency("org.koin", "koin-androidx-scope", "2.2.3")
+      public object Scope : AndroidDependency("io.insert-koin", "koin-androidx-scope", "2.2.3")
 
-      public object Test : AndroidDependency("org.koin", "koin-test", "2.2.3")
+      public object Test : AndroidDependency("io.insert-koin", "koin-test", "2.2.3")
 
-      public object ViewModel : AndroidDependency("org.koin", "koin-androidx-viewmodel", "2.2.3")
+      public object ViewModel : AndroidDependency("io.insert-koin", "koin-androidx-viewmodel",
+          "2.2.3")
     }
 
     /**

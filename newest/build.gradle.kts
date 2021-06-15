@@ -128,18 +128,16 @@ dependencies {
 	
 
 	implementation("io.insert-koin:koin-android:+")
-	implementation("io.insert-koin:koin-android-ext:+")
 	implementation("io.insert-koin:koin-core:+")
-	implementation("io.insert-koin:koin-core-ext:+")
-	testImplementation("io.insert-koin:koin-test:+")
+	testImplementation("io.insert-koin:koin-test-junit5:+")
 	implementation("io.insert-koin:koin-androidx-workmanager:+")
 	
 
-	implementation("org.koin:koin-core:+")
-	implementation("org.koin:koin-androidx-ext:+")
-	implementation("org.koin:koin-androidx-scope:+")
-	testImplementation("org.koin:koin-test:+")
-	implementation("org.koin:koin-androidx-viewmodel:+")
+	implementation("io.insert-koin:koin-androidx-ext:+")
+	implementation("io.insert-koin:koin-core-ext:+")
+	implementation("io.insert-koin:koin-androidx-scope:+")
+	testImplementation("io.insert-koin:koin-test:+")
+	implementation("io.insert-koin:koin-androidx-viewmodel:+")
 	
 
 	implementation("org.jetbrains.kotlin:kotlin-reflect:+")

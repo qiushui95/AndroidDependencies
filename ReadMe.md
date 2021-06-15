@@ -337,21 +337,13 @@
 
 >>>implementation(io.insert-koin:koin-android:3.1.0)  
 
->>AndroidExt  
-
->>>implementation(io.insert-koin:koin-android-ext:3.1.0)  
-
 >>Core  
 
 >>>implementation(io.insert-koin:koin-core:3.1.0)  
 
->>CoreExt  
-
->>>implementation(io.insert-koin:koin-core-ext:3.1.0)  
-
 >>Test  
 
->>>testImplementation(io.insert-koin:koin-test:3.1.0)  
+>>>testImplementation(io.insert-koin:koin-test-junit5:3.1.0)  
 
 >>WorkManager  
 
@@ -359,25 +351,25 @@
 
 >[KoinOld](https://github.com/InsertKoinIO/koin)(依赖注入库)  
 
+>>Android  
+
+>>>implementation(io.insert-koin:koin-androidx-ext:2.2.3)  
+
 >>Core  
 
->>>implementation(org.koin:koin-core:2.2.3)  
-
->>Ext  
-
->>>implementation(org.koin:koin-androidx-ext:2.2.3)  
+>>>implementation(io.insert-koin:koin-core-ext:2.2.3)  
 
 >>Scope  
 
->>>implementation(org.koin:koin-androidx-scope:2.2.3)  
+>>>implementation(io.insert-koin:koin-androidx-scope:2.2.3)  
 
 >>Test  
 
->>>testImplementation(org.koin:koin-test:2.2.3)  
+>>>testImplementation(io.insert-koin:koin-test:2.2.3)  
 
 >>ViewModel  
 
->>>implementation(org.koin:koin-androidx-viewmodel:2.2.3)  
+>>>implementation(io.insert-koin:koin-androidx-viewmodel:2.2.3)  
 
 >[Kotlin](https://github.com/JetBrains/kotlin)  
 

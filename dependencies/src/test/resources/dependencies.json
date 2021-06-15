@@ -580,23 +580,13 @@
             "action": "implementation"
           },
           {
-            "title": "AndroidExt",
-            "artifact": "koin-android-ext",
-            "action": "implementation"
-          },
-          {
             "title": "Core",
             "artifact": "koin-core",
             "action": "implementation"
           },
           {
-            "title": "CoreExt",
-            "artifact": "koin-core-ext",
-            "action": "implementation"
-          },
-          {
             "title": "Test",
-            "artifact": "koin-test",
+            "artifact": "koin-test-junit5",
             "action": "testImplementation"
           },
           {
@@ -610,17 +600,17 @@
         "title": "KoinOld",
         "version": "2.2.3",
         "link": "https://github.com/InsertKoinIO/koin",
-        "group": "org.koin",
+        "group": "io.insert-koin",
         "remark": "依赖注入库",
         "modules": [
           {
-            "title": "Core",
-            "artifact": "koin-core",
+            "title": "Android",
+            "artifact": "koin-androidx-ext",
             "action": "implementation"
           },
           {
-            "title": "Ext",
-            "artifact": "koin-androidx-ext",
+            "title": "Core",
+            "artifact": "koin-core-ext",
             "action": "implementation"
           },
           {
