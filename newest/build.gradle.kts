@@ -66,6 +66,13 @@ dependencies {
 	implementation("io.github.razerdp:BasePopup:+")
 	
 
+	implementation("androidx.camera:camera-camera2:+")
+	implementation("androidx.camera:camera-core:+")
+	implementation("androidx.camera:camera-extensions:+")
+	implementation("androidx.camera:camera-lifecycle:+")
+	implementation("androidx.camera:camera-view:+")
+	
+
 	debugImplementation("com.github.chuckerteam.chucker:library:+")
 	releaseImplementation("com.github.chuckerteam.chucker:library-no-op:+")
 	
@@ -219,6 +226,7 @@ dependencies {
 	implementation("androidx.activity:activity-compose:+")
 	implementation("androidx.constraintlayout:constraintlayout-compose:+")
 	implementation("androidx.navigation:navigation-compose:+")
+	implementation("com.github.fornewid:material-motion-compose:+")
 	implementation("androidx.compose.animation:animation:+")
 	implementation("androidx.compose.compiler:compiler:+")
 	implementation("androidx.compose.foundation:foundation:+")

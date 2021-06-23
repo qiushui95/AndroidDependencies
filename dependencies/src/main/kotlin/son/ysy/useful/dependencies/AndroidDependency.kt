@@ -20,7 +20,7 @@ public abstract class AndroidDependency private constructor(
     /**
      * https://developer.android.com/jetpack/androidx/releases/activity
      */
-    public object Activity : AndroidDependency("androidx.activity", "activity-ktx", "1.3.0-beta01")
+    public object Activity : AndroidDependency("androidx.activity", "activity-ktx", "1.3.0-beta02")
 
     /**
      * 阿里推送
@@ -177,9 +177,26 @@ public abstract class AndroidDependency private constructor(
      * https://github.com/razerdp/BasePopup
      */
     public object BasePopup {
-      public object Candy : AndroidDependency("io.github.razerdp", "BasePopup", "3.1.2-SNAPSHOT")
+      public object Candy : AndroidDependency("io.github.razerdp", "BasePopup", "3.1.4-SNAPSHOT")
 
       public object Stable : AndroidDependency("io.github.razerdp", "BasePopup", "3.1.0")
+    }
+
+    /**
+     * 相机相关
+     * https://developer.android.com/jetpack/androidx/releases/camera
+     */
+    public object CameraX {
+      public object Camera2 : AndroidDependency("androidx.camera", "camera-camera2", "1.0.0")
+
+      public object Core : AndroidDependency("androidx.camera", "camera-core", "1.0.0")
+
+      public object Extensions : AndroidDependency("androidx.camera", "camera-extensions",
+          "1.0.0-alpha25")
+
+      public object Lifecycle : AndroidDependency("androidx.camera", "camera-lifecycle", "1.0.0")
+
+      public object View : AndroidDependency("androidx.camera", "camera-view", "1.0.0-alpha25")
     }
 
     /**
@@ -204,7 +221,7 @@ public abstract class AndroidDependency private constructor(
       public object AnimationTest : AndroidDependency("androidx.core", "core-animation-testing",
           "1.0.0-alpha02")
 
-      public object Ktx : AndroidDependency("androidx.core", "core-ktx", "1.6.0-beta02")
+      public object Ktx : AndroidDependency("androidx.core", "core-ktx", "1.6.0-rc01")
 
       public object Role : AndroidDependency("androidx.core", "core-role", "1.0.0")
     }
@@ -303,9 +320,9 @@ public abstract class AndroidDependency private constructor(
      * https://developer.android.com/jetpack/androidx/releases/fragment
      */
     public object Fragment {
-      public object Core : AndroidDependency("androidx.fragment", "fragment-ktx", "1.3.4")
+      public object Core : AndroidDependency("androidx.fragment", "fragment-ktx", "1.3.5")
 
-      public object Test : AndroidDependency("androidx.fragment", "fragment-testing", "1.3.4")
+      public object Test : AndroidDependency("androidx.fragment", "fragment-testing", "1.3.5")
     }
 
     /**
@@ -314,10 +331,10 @@ public abstract class AndroidDependency private constructor(
      */
     public object FragmentManager {
       public object Core : AndroidDependency("com.github.weikaiyun.SFragmentation", "fragmentation",
-          "1.8.2")
+          "1.8.3")
 
       public object SwipeBack : AndroidDependency("com.github.weikaiyun.SFragmentation",
-          "fragmentation_swipeback", "1.8.2")
+          "fragmentation_swipeback", "1.8.3")
     }
 
     /**
@@ -621,83 +638,90 @@ public abstract class AndroidDependency private constructor(
      */
     public object Accompanist {
       public object AppcompatTheme : AndroidDependency("com.google.accompanist",
-          "accompanist-appcompat-theme", "0.11.1")
+          "accompanist-appcompat-theme", "0.12.0")
 
-      public object Coil : AndroidDependency("com.google.accompanist", "accompanist-coil", "0.11.1")
+      public object Coil : AndroidDependency("com.google.accompanist", "accompanist-coil", "0.12.0")
 
       public object FlowLayout : AndroidDependency("com.google.accompanist",
-          "accompanist-flowlayout", "0.11.1")
+          "accompanist-flowlayout", "0.12.0")
 
       public object Insets : AndroidDependency("com.google.accompanist", "accompanist-insets",
-          "0.11.1")
+          "0.12.0")
 
       public object Pager : AndroidDependency("com.google.accompanist", "accompanist-pager",
-          "0.11.1")
+          "0.12.0")
 
       public object SwipeRefresh : AndroidDependency("com.google.accompanist",
-          "accompanist-swiperefresh", "0.11.1")
+          "accompanist-swiperefresh", "0.12.0")
 
       public object SystemUiController : AndroidDependency("com.google.accompanist",
-          "accompanist-systemuicontroller", "0.11.1")
+          "accompanist-systemuicontroller", "0.12.0")
     }
 
     /**
      * https://developer.android.com/jetpack/androidx/releases/activity
      */
     public object Activity : AndroidDependency("androidx.activity", "activity-compose",
-        "1.3.0-beta01")
+        "1.3.0-beta02")
 
     /**
      * https://developer.android.com/jetpack/androidx/releases/constraintlayout
      */
     public object ConstraintLayout : AndroidDependency("androidx.constraintlayout",
-        "constraintlayout-compose", "1.0.0-alpha07")
+        "constraintlayout-compose", "1.0.0-alpha08")
 
     /**
      * https://developer.android.com/jetpack/androidx/releases/navigation
      */
     public object Navigation : AndroidDependency("androidx.navigation", "navigation-compose",
-        "2.4.0-alpha02")
+        "2.4.0-alpha03")
+
+    /**
+     * Compose导航动画
+     * https://github.com/fornewid/material-motion-compose
+     */
+    public object NavigationAnimation : AndroidDependency("com.github.fornewid",
+        "material-motion-compose", "0.5.0")
 
     /**
      * https://developer.android.com/jetpack/androidx/releases/compose
      */
     public object Official {
       public object Animation : AndroidDependency("androidx.compose.animation", "animation",
-          "1.0.0-beta08")
+          "1.0.0-beta09")
 
       public object Compiler : AndroidDependency("androidx.compose.compiler", "compiler",
-          "1.0.0-beta08")
+          "1.0.0-beta09")
 
       public object Foundation : AndroidDependency("androidx.compose.foundation", "foundation",
-          "1.0.0-beta08")
+          "1.0.0-beta09")
 
       public object LiveData : AndroidDependency("androidx.compose.runtime", "runtime-livedata",
-          "1.0.0-beta08")
+          "1.0.0-beta09")
 
       public object Material : AndroidDependency("androidx.compose.material", "material",
-          "1.0.0-beta08")
+          "1.0.0-beta09")
 
       public object MaterialIcon : AndroidDependency("androidx.compose.material",
-          "material-icons-core", "1.0.0-beta08")
+          "material-icons-core", "1.0.0-beta09")
 
       public object MaterialIconExtended : AndroidDependency("androidx.compose.material",
-          "material-icons-extended", "1.0.0-beta08")
+          "material-icons-extended", "1.0.0-beta09")
 
       public object Test : AndroidDependency("androidx.compose.ui", "ui-test-junit4",
-          "1.0.0-beta08")
+          "1.0.0-beta09")
 
-      public object Ui : AndroidDependency("androidx.compose.ui", "ui", "1.0.0-beta08")
+      public object Ui : AndroidDependency("androidx.compose.ui", "ui", "1.0.0-beta09")
 
       public object UiTooling : AndroidDependency("androidx.compose.ui", "ui-tooling",
-          "1.0.0-beta08")
+          "1.0.0-beta09")
     }
 
     /**
      * https://developer.android.com/jetpack/androidx/releases/lifecycle#lifecycle_viewmodel_compose_2
      */
     public object ViewModel : AndroidDependency("androidx.lifecycle", "lifecycle-viewmodel-compose",
-        "1.0.0-alpha06")
+        "1.0.0-alpha07")
   }
 
   public object Test {

@@ -7,7 +7,7 @@
 
 >[Activity](https://developer.android.com/jetpack/androidx/releases/activity)  
 
->>implementation(androidx.activity:activity-ktx:1.3.0-beta01)  
+>>implementation(androidx.activity:activity-ktx:1.3.0-beta02)  
 
 >[AliPush](https://help.aliyun.com/document_detail/190009.html?spm=a2c4g.11174283.3.2.52eb6d163QVxjG)(阿里推送)  
 
@@ -139,11 +139,33 @@
 
 >>Candy  
 
->>>implementation(io.github.razerdp:BasePopup:3.1.2-SNAPSHOT)  
+>>>implementation(io.github.razerdp:BasePopup:3.1.4-SNAPSHOT)  
 
 >>Stable  
 
 >>>implementation(io.github.razerdp:BasePopup:3.1.0)  
+
+>[CameraX](https://developer.android.com/jetpack/androidx/releases/camera)(相机相关)  
+
+>>Camera2  
+
+>>>implementation(androidx.camera:camera-camera2:1.0.0)  
+
+>>Core  
+
+>>>implementation(androidx.camera:camera-core:1.0.0)  
+
+>>Extensions  
+
+>>>implementation(androidx.camera:camera-extensions:1.0.0-alpha25)  
+
+>>Lifecycle  
+
+>>>implementation(androidx.camera:camera-lifecycle:1.0.0)  
+
+>>View  
+
+>>>implementation(androidx.camera:camera-view:1.0.0-alpha25)  
 
 >[Chucker](https://github.com/ChuckerTeam/chucker)(网络请求监控)  
 
@@ -167,7 +189,7 @@
 
 >>Ktx  
 
->>>implementation(androidx.core:core-ktx:1.6.0-beta02)  
+>>>implementation(androidx.core:core-ktx:1.6.0-rc01)  
 
 >>Role  
 
@@ -279,21 +301,21 @@
 
 >>Core  
 
->>>implementation(androidx.fragment:fragment-ktx:1.3.4)  
+>>>implementation(androidx.fragment:fragment-ktx:1.3.5)  
 
 >>Test  
 
->>>testImplementation(androidx.fragment:fragment-testing:1.3.4)  
+>>>testImplementation(androidx.fragment:fragment-testing:1.3.5)  
 
 >[FragmentManager](https://developer.android.com/jetpack/androidx/releases/fragment)(Fragment管理)  
 
 >>Core  
 
->>>implementation(com.github.weikaiyun.SFragmentation:fragmentation:1.8.2)  
+>>>implementation(com.github.weikaiyun.SFragmentation:fragmentation:1.8.3)  
 
 >>SwipeBack  
 
->>>implementation(com.github.weikaiyun.SFragmentation:fragmentation_swipeback:1.8.2)  
+>>>implementation(com.github.weikaiyun.SFragmentation:fragmentation_swipeback:1.8.3)  
 
 >[Glide](https://github.com/bumptech/glide)(图片加载)  
 
@@ -589,89 +611,93 @@
 
 >>AppcompatTheme  
 
->>>implementation(com.google.accompanist:accompanist-appcompat-theme:0.11.1)  
+>>>implementation(com.google.accompanist:accompanist-appcompat-theme:0.12.0)  
 
 >>Coil  
 
->>>implementation(com.google.accompanist:accompanist-coil:0.11.1)  
+>>>implementation(com.google.accompanist:accompanist-coil:0.12.0)  
 
 >>FlowLayout  
 
->>>implementation(com.google.accompanist:accompanist-flowlayout:0.11.1)  
+>>>implementation(com.google.accompanist:accompanist-flowlayout:0.12.0)  
 
 >>Insets  
 
->>>implementation(com.google.accompanist:accompanist-insets:0.11.1)  
+>>>implementation(com.google.accompanist:accompanist-insets:0.12.0)  
 
 >>Pager  
 
->>>implementation(com.google.accompanist:accompanist-pager:0.11.1)  
+>>>implementation(com.google.accompanist:accompanist-pager:0.12.0)  
 
 >>SwipeRefresh  
 
->>>implementation(com.google.accompanist:accompanist-swiperefresh:0.11.1)  
+>>>implementation(com.google.accompanist:accompanist-swiperefresh:0.12.0)  
 
 >>SystemUiController  
 
->>>implementation(com.google.accompanist:accompanist-systemuicontroller:0.11.1)  
+>>>implementation(com.google.accompanist:accompanist-systemuicontroller:0.12.0)  
 
 >[Activity](https://developer.android.com/jetpack/androidx/releases/activity)  
 
->>implementation(androidx.activity:activity-compose:1.3.0-beta01)  
+>>implementation(androidx.activity:activity-compose:1.3.0-beta02)  
 
 >[ConstraintLayout](https://developer.android.com/jetpack/androidx/releases/constraintlayout)  
 
->>implementation(androidx.constraintlayout:constraintlayout-compose:1.0.0-alpha07)  
+>>implementation(androidx.constraintlayout:constraintlayout-compose:1.0.0-alpha08)  
 
 >[Navigation](https://developer.android.com/jetpack/androidx/releases/navigation)  
 
->>implementation(androidx.navigation:navigation-compose:2.4.0-alpha02)  
+>>implementation(androidx.navigation:navigation-compose:2.4.0-alpha03)  
+
+>[NavigationAnimation](https://github.com/fornewid/material-motion-compose)(Compose导航动画)  
+
+>>implementation(com.github.fornewid:material-motion-compose:0.5.0)  
 
 >[Official](https://developer.android.com/jetpack/androidx/releases/compose)  
 
 >>Animation  
 
->>>implementation(androidx.compose.animation:animation:1.0.0-beta08)  
+>>>implementation(androidx.compose.animation:animation:1.0.0-beta09)  
 
 >>Compiler  
 
->>>implementation(androidx.compose.compiler:compiler:1.0.0-beta08)  
+>>>implementation(androidx.compose.compiler:compiler:1.0.0-beta09)  
 
 >>Foundation  
 
->>>implementation(androidx.compose.foundation:foundation:1.0.0-beta08)  
+>>>implementation(androidx.compose.foundation:foundation:1.0.0-beta09)  
 
 >>LiveData  
 
->>>implementation(androidx.compose.runtime:runtime-livedata:1.0.0-beta08)  
+>>>implementation(androidx.compose.runtime:runtime-livedata:1.0.0-beta09)  
 
 >>Material  
 
->>>implementation(androidx.compose.material:material:1.0.0-beta08)  
+>>>implementation(androidx.compose.material:material:1.0.0-beta09)  
 
 >>MaterialIcon  
 
->>>implementation(androidx.compose.material:material-icons-core:1.0.0-beta08)  
+>>>implementation(androidx.compose.material:material-icons-core:1.0.0-beta09)  
 
 >>MaterialIconExtended  
 
->>>implementation(androidx.compose.material:material-icons-extended:1.0.0-beta08)  
+>>>implementation(androidx.compose.material:material-icons-extended:1.0.0-beta09)  
 
 >>Test  
 
->>>androidTestImplementation(androidx.compose.ui:ui-test-junit4:1.0.0-beta08)  
+>>>androidTestImplementation(androidx.compose.ui:ui-test-junit4:1.0.0-beta09)  
 
 >>Ui  
 
->>>implementation(androidx.compose.ui:ui:1.0.0-beta08)  
+>>>implementation(androidx.compose.ui:ui:1.0.0-beta09)  
 
 >>UiTooling  
 
->>>implementation(androidx.compose.ui:ui-tooling:1.0.0-beta08)  
+>>>implementation(androidx.compose.ui:ui-tooling:1.0.0-beta09)  
 
 >[ViewModel](https://developer.android.com/jetpack/androidx/releases/lifecycle#lifecycle_viewmodel_compose_2)  
 
->>implementation(androidx.lifecycle:lifecycle-viewmodel-compose:1.0.0-alpha06)  
+>>implementation(androidx.lifecycle:lifecycle-viewmodel-compose:1.0.0-alpha07)  
 
 </details>  
 

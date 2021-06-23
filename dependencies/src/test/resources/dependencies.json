@@ -4,7 +4,7 @@
     "modules": [
       {
         "title": "Activity",
-        "version": "1.3.0-beta01",
+        "version": "1.3.0-beta02",
         "link": "https://developer.android.com/jetpack/androidx/releases/activity",
         "group": "androidx.activity",
         "artifact": "activity-ktx",
@@ -245,12 +245,48 @@
         "modules": [
           {
             "title": "Candy",
-            "version": "3.1.2-SNAPSHOT",
+            "version": "3.1.4-SNAPSHOT",
             "action": "implementation"
           },
           {
             "title": "Stable",
             "version": "3.1.0",
+            "action": "implementation"
+          }
+        ]
+      },
+      {
+        "title": "CameraX",
+        "version": "1.0.0",
+        "link": "https://developer.android.com/jetpack/androidx/releases/camera",
+        "group": "androidx.camera",
+        "remark": "相机相关",
+        "modules": [
+          {
+            "title": "Camera2",
+            "artifact": "camera-camera2",
+            "action": "implementation"
+          },
+          {
+            "title": "Core",
+            "artifact": "camera-core",
+            "action": "implementation"
+          },
+          {
+            "title": "Extensions",
+            "version": "1.0.0-alpha25",
+            "artifact": "camera-extensions",
+            "action": "implementation"
+          },
+          {
+            "title": "Lifecycle",
+            "artifact": "camera-lifecycle",
+            "action": "implementation"
+          },
+          {
+            "title": "View",
+            "version": "1.0.0-alpha25",
+            "artifact": "camera-view",
             "action": "implementation"
           }
         ]
@@ -293,7 +329,7 @@
           },
           {
             "title": "Ktx",
-            "version": "1.6.0-beta02",
+            "version": "1.6.0-rc01",
             "artifact": "core-ktx",
             "action": "implementation"
           },
@@ -466,7 +502,7 @@
       },
       {
         "title": "Fragment",
-        "version": "1.3.4",
+        "version": "1.3.5",
         "link": "https://developer.android.com/jetpack/androidx/releases/fragment",
         "group": "androidx.fragment",
         "modules": [
@@ -484,7 +520,7 @@
       },
       {
         "title": "FragmentManager",
-        "version": "1.8.2",
+        "version": "1.8.3",
         "link": "https://developer.android.com/jetpack/androidx/releases/fragment",
         "group": "com.github.weikaiyun.SFragmentation",
         "remark": "Fragment管理",
@@ -1013,7 +1049,7 @@
     "modules": [
       {
         "title": "Accompanist",
-        "version": "0.11.1",
+        "version": "0.12.0",
         "link": "https://github.com/google/accompanist",
         "group": "com.google.accompanist",
         "modules": [
@@ -1056,7 +1092,7 @@
       },
       {
         "title": "Activity",
-        "version": "1.3.0-beta01",
+        "version": "1.3.0-beta02",
         "link": "https://developer.android.com/jetpack/androidx/releases/activity",
         "group": "androidx.activity",
         "artifact": "activity-compose",
@@ -1064,7 +1100,7 @@
       },
       {
         "title": "ConstraintLayout",
-        "version": "1.0.0-alpha07",
+        "version": "1.0.0-alpha08",
         "link": "https://developer.android.com/jetpack/androidx/releases/constraintlayout",
         "group": "androidx.constraintlayout",
         "artifact": "constraintlayout-compose",
@@ -1072,15 +1108,24 @@
       },
       {
         "title": "Navigation",
-        "version": "2.4.0-alpha02",
+        "version": "2.4.0-alpha03",
         "link": "https://developer.android.com/jetpack/androidx/releases/navigation",
         "group": "androidx.navigation",
         "artifact": "navigation-compose",
         "action": "implementation"
       },
       {
+        "title": "NavigationAnimation",
+        "version": "0.5.0",
+        "link": "https://github.com/fornewid/material-motion-compose",
+        "group": "com.github.fornewid",
+        "artifact": "material-motion-compose",
+        "remark": "Compose导航动画",
+        "action": "implementation"
+      },
+      {
         "title": "Official",
-        "version": "1.0.0-beta08",
+        "version": "1.0.0-beta09",
         "link": "https://developer.android.com/jetpack/androidx/releases/compose",
         "modules": [
           {
@@ -1147,7 +1192,7 @@
       },
       {
         "title": "ViewModel",
-        "version": "1.0.0-alpha06",
+        "version": "1.0.0-alpha07",
         "link": "https://developer.android.com/jetpack/androidx/releases/lifecycle#lifecycle_viewmodel_compose_2",
         "group": "androidx.lifecycle",
         "artifact": "lifecycle-viewmodel-compose",
