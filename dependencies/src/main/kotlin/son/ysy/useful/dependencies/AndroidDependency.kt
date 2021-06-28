@@ -44,7 +44,7 @@ public abstract class AndroidDependency private constructor(
      * https://github.com/JavaNoober/BackgroundLibrary
      */
     public object Background : AndroidDependency("com.github.JavaNoober.BackgroundLibrary",
-        "libraryx", "1.7.1")
+        "libraryx", "1.7.2")
 
     /**
      * 图片加载
@@ -88,7 +88,7 @@ public abstract class AndroidDependency private constructor(
      * 持久KV数据存储
      * https://github.com/Tencent/MMKV/blob/master/README_CN.md
      */
-    public object Mmkv : AndroidDependency("com.tencent", "mmkv-static", "1.2.9")
+    public object Mmkv : AndroidDependency("com.tencent", "mmkv-static", "1.2.10")
 
     /**
      * 权限请求
@@ -177,9 +177,9 @@ public abstract class AndroidDependency private constructor(
      * https://github.com/razerdp/BasePopup
      */
     public object BasePopup {
-      public object Candy : AndroidDependency("io.github.razerdp", "BasePopup", "3.1.4-SNAPSHOT")
+      public object Candy : AndroidDependency("io.github.razerdp", "BasePopup", "3.1.5-SNAPSHOT")
 
-      public object Stable : AndroidDependency("io.github.razerdp", "BasePopup", "3.1.0")
+      public object Stable : AndroidDependency("io.github.razerdp", "BasePopup", "3.1.4")
     }
 
     /**
@@ -383,14 +383,14 @@ public abstract class AndroidDependency private constructor(
      * https://github.com/InsertKoinIO/koin
      */
     public object Koin {
-      public object Android : AndroidDependency("io.insert-koin", "koin-android", "3.1.0")
+      public object Android : AndroidDependency("io.insert-koin", "koin-android", "3.1.1")
 
-      public object Core : AndroidDependency("io.insert-koin", "koin-core", "3.1.0")
+      public object Core : AndroidDependency("io.insert-koin", "koin-core", "3.1.1")
 
-      public object Test : AndroidDependency("io.insert-koin", "koin-test-junit5", "3.1.0")
+      public object Test : AndroidDependency("io.insert-koin", "koin-test-junit5", "3.1.1")
 
       public object WorkManager : AndroidDependency("io.insert-koin", "koin-androidx-workmanager",
-          "3.1.0")
+          "3.1.1")
     }
 
     /**
@@ -414,9 +414,9 @@ public abstract class AndroidDependency private constructor(
      * https://github.com/JetBrains/kotlin
      */
     public object Kotlin {
-      public object Reflect : AndroidDependency("org.jetbrains.kotlin", "kotlin-reflect", "1.5.10")
+      public object Reflect : AndroidDependency("org.jetbrains.kotlin", "kotlin-reflect", "1.5.20")
 
-      public object Stdlib : AndroidDependency("org.jetbrains.kotlin", "kotlin-stdlib", "1.5.10")
+      public object Stdlib : AndroidDependency("org.jetbrains.kotlin", "kotlin-stdlib", "1.5.20")
     }
 
     /**

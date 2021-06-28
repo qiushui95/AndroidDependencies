@@ -23,7 +23,7 @@
 
 >[Background](https://github.com/JavaNoober/BackgroundLibrary)(背景生成工具库)  
 
->>implementation(com.github.JavaNoober.BackgroundLibrary:libraryx:1.7.1)  
+>>implementation(com.github.JavaNoober.BackgroundLibrary:libraryx:1.7.2)  
 
 >[Coil](https://github.com/coil-kt/coil)(图片加载)  
 
@@ -51,7 +51,7 @@
 
 >[Mmkv](https://github.com/Tencent/MMKV/blob/master/README_CN.md)(持久KV数据存储)  
 
->>implementation(com.tencent:mmkv-static:1.2.9)  
+>>implementation(com.tencent:mmkv-static:1.2.10)  
 
 >[PermissionX](https://github.com/guolindev/PermissionX)(权限请求)  
 
@@ -139,11 +139,11 @@
 
 >>Candy  
 
->>>implementation(io.github.razerdp:BasePopup:3.1.4-SNAPSHOT)  
+>>>implementation(io.github.razerdp:BasePopup:3.1.5-SNAPSHOT)  
 
 >>Stable  
 
->>>implementation(io.github.razerdp:BasePopup:3.1.0)  
+>>>implementation(io.github.razerdp:BasePopup:3.1.4)  
 
 >[CameraX](https://developer.android.com/jetpack/androidx/releases/camera)(相机相关)  
 
@@ -357,19 +357,19 @@
 
 >>Android  
 
->>>implementation(io.insert-koin:koin-android:3.1.0)  
+>>>implementation(io.insert-koin:koin-android:3.1.1)  
 
 >>Core  
 
->>>implementation(io.insert-koin:koin-core:3.1.0)  
+>>>implementation(io.insert-koin:koin-core:3.1.1)  
 
 >>Test  
 
->>>testImplementation(io.insert-koin:koin-test-junit5:3.1.0)  
+>>>testImplementation(io.insert-koin:koin-test-junit5:3.1.1)  
 
 >>WorkManager  
 
->>>implementation(io.insert-koin:koin-androidx-workmanager:3.1.0)  
+>>>implementation(io.insert-koin:koin-androidx-workmanager:3.1.1)  
 
 >[KoinOld](https://github.com/InsertKoinIO/koin)(依赖注入库)  
 
@@ -397,11 +397,11 @@
 
 >>Reflect  
 
->>>implementation(org.jetbrains.kotlin:kotlin-reflect:1.5.10)  
+>>>implementation(org.jetbrains.kotlin:kotlin-reflect:1.5.20)  
 
 >>Stdlib  
 
->>>implementation(org.jetbrains.kotlin:kotlin-stdlib:1.5.10)  
+>>>implementation(org.jetbrains.kotlin:kotlin-stdlib:1.5.20)  
 
 >[Lifecycle](https://developer.android.com/jetpack/androidx/releases/lifecycle)  
 

@@ -38,7 +38,7 @@
       },
       {
         "title": "Background",
-        "version": "1.7.1",
+        "version": "1.7.2",
         "link": "https://github.com/JavaNoober/BackgroundLibrary",
         "group": "com.github.JavaNoober.BackgroundLibrary",
         "artifact": "libraryx",
@@ -101,7 +101,7 @@
       },
       {
         "title": "Mmkv",
-        "version": "1.2.9",
+        "version": "1.2.10",
         "link": "https://github.com/Tencent/MMKV/blob/master/README_CN.md",
         "group": "com.tencent",
         "artifact": "mmkv-static",
@@ -245,12 +245,12 @@
         "modules": [
           {
             "title": "Candy",
-            "version": "3.1.4-SNAPSHOT",
+            "version": "3.1.5-SNAPSHOT",
             "action": "implementation"
           },
           {
             "title": "Stable",
-            "version": "3.1.0",
+            "version": "3.1.4",
             "action": "implementation"
           }
         ]
@@ -605,7 +605,7 @@
       },
       {
         "title": "Koin",
-        "version": "3.1.0",
+        "version": "3.1.1",
         "link": "https://github.com/InsertKoinIO/koin",
         "group": "io.insert-koin",
         "remark": "依赖注入库",
@@ -668,7 +668,7 @@
       },
       {
         "title": "Kotlin",
-        "version": "1.5.10",
+        "version": "1.5.20",
         "link": "https://github.com/JetBrains/kotlin",
         "group": "org.jetbrains.kotlin",
         "modules": [

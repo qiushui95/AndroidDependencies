@@ -32,14 +32,14 @@ dependencies {
 	implementation("com.aliyun.ams:alicloud-android-push:3.3.0")
 	implementation("com.blankj:utilcodex:1.30.6")
 	implementation("androidx.appcompat:appcompat:1.3.0")
-	implementation("com.github.JavaNoober.BackgroundLibrary:libraryx:1.7.1")
+	implementation("com.github.JavaNoober.BackgroundLibrary:libraryx:1.7.2")
 	implementation("io.coil-kt:coil:1.2.2")
 	implementation("me.jorgecastillo:androidcolorx:0.2.0")
 	implementation("com.github.loperSeven:DateTimePicker:0.3.1")
 	implementation("com.ypx.yimagepicker:androidx:3.1.4")
 	implementation("joda-time:joda-time:2.10.10")
 	implementation("com.squareup.leakcanary:leakcanary-android:2.7")
-	implementation("com.tencent:mmkv-static:1.2.9")
+	implementation("com.tencent:mmkv-static:1.2.10")
 	implementation("com.permissionx.guolindev:permissionx:1.4.0")
 	implementation("com.king.zxing:zxing-lite:2.0.3")
 	implementation("com.facebook.soloader:soloader:0.10.1")
@@ -62,8 +62,8 @@ dependencies {
 	implementation("com.github.qiushui95.MyArchitecture:architecture-starter:1.0.15")
 	
 
-	implementation("io.github.razerdp:BasePopup:3.1.4-SNAPSHOT")
-	implementation("io.github.razerdp:BasePopup:3.1.0")
+	implementation("io.github.razerdp:BasePopup:3.1.5-SNAPSHOT")
+	implementation("io.github.razerdp:BasePopup:3.1.4")
 	
 
 	implementation("androidx.camera:camera-camera2:1.0.0")
@@ -134,10 +134,10 @@ dependencies {
 	implementation("com.github.qiushui95.KeysCreator:annotations:1.1.0")
 	
 
-	implementation("io.insert-koin:koin-android:3.1.0")
-	implementation("io.insert-koin:koin-core:3.1.0")
-	testImplementation("io.insert-koin:koin-test-junit5:3.1.0")
-	implementation("io.insert-koin:koin-androidx-workmanager:3.1.0")
+	implementation("io.insert-koin:koin-android:3.1.1")
+	implementation("io.insert-koin:koin-core:3.1.1")
+	testImplementation("io.insert-koin:koin-test-junit5:3.1.1")
+	implementation("io.insert-koin:koin-androidx-workmanager:3.1.1")
 	
 
 	implementation("io.insert-koin:koin-androidx-ext:2.2.3")
@@ -147,8 +147,8 @@ dependencies {
 	implementation("io.insert-koin:koin-androidx-viewmodel:2.2.3")
 	
 
-	implementation("org.jetbrains.kotlin:kotlin-reflect:1.5.10")
-	implementation("org.jetbrains.kotlin:kotlin-stdlib:1.5.10")
+	implementation("org.jetbrains.kotlin:kotlin-reflect:1.5.20")
+	implementation("org.jetbrains.kotlin:kotlin-stdlib:1.5.20")
 	
 
 	implementation("androidx.lifecycle:lifecycle-common:2.3.1")
