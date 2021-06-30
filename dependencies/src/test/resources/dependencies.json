@@ -293,7 +293,7 @@
       },
       {
         "title": "Chucker",
-        "version": "3.4.0",
+        "version": "3.5.0",
         "link": "https://github.com/ChuckerTeam/chucker",
         "group": "com.github.chuckerteam.chucker",
         "remark": "网络请求监控",
@@ -1026,7 +1026,7 @@
       },
       {
         "title": "SwitchButton",
-        "version": "2.0.3",
+        "version": "2.1.0",
         "link": "https://github.com/kyleduo/SwitchButton",
         "group": "com.kyleduo.switchbutton",
         "artifact": "library",

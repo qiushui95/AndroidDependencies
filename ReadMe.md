@@ -171,11 +171,11 @@
 
 >>Debug  
 
->>>debugImplementation(com.github.chuckerteam.chucker:library:3.4.0)  
+>>>debugImplementation(com.github.chuckerteam.chucker:library:3.5.0)  
 
 >>Release  
 
->>>releaseImplementation(com.github.chuckerteam.chucker:library-no-op:3.4.0)  
+>>>releaseImplementation(com.github.chuckerteam.chucker:library-no-op:3.5.0)  
 
 >[Core](https://developer.android.com/jetpack/androidx/releases/core)(core)  
 
@@ -593,7 +593,7 @@
 
 >[SwitchButton](https://github.com/kyleduo/SwitchButton)(开关按钮)  
 
->>implementation(com.kyleduo.switchbutton:library:2.0.3)  
+>>implementation(com.kyleduo.switchbutton:library:2.1.0)  
 
 >[ViewPager2](https://developer.android.com/jetpack/androidx/releases/viewpager2)  
 

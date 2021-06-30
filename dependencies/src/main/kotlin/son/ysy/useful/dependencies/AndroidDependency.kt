@@ -204,10 +204,10 @@ public abstract class AndroidDependency private constructor(
      * https://github.com/ChuckerTeam/chucker
      */
     public object Chucker {
-      public object Debug : AndroidDependency("com.github.chuckerteam.chucker", "library", "3.4.0")
+      public object Debug : AndroidDependency("com.github.chuckerteam.chucker", "library", "3.5.0")
 
       public object Release : AndroidDependency("com.github.chuckerteam.chucker", "library-no-op",
-          "3.4.0")
+          "3.5.0")
     }
 
     /**
@@ -623,7 +623,7 @@ public abstract class AndroidDependency private constructor(
      * 开关按钮
      * https://github.com/kyleduo/SwitchButton
      */
-    public object SwitchButton : AndroidDependency("com.kyleduo.switchbutton", "library", "2.0.3")
+    public object SwitchButton : AndroidDependency("com.kyleduo.switchbutton", "library", "2.1.0")
 
     /**
      * https://developer.android.com/jetpack/androidx/releases/viewpager2

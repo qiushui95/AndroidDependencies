@@ -73,8 +73,8 @@ dependencies {
 	implementation("androidx.camera:camera-view:1.0.0-alpha25")
 	
 
-	debugImplementation("com.github.chuckerteam.chucker:library:3.4.0")
-	releaseImplementation("com.github.chuckerteam.chucker:library-no-op:3.4.0")
+	debugImplementation("com.github.chuckerteam.chucker:library:3.5.0")
+	releaseImplementation("com.github.chuckerteam.chucker:library-no-op:3.5.0")
 	
 
 	implementation("androidx.core:core-animation:1.0.0-alpha02")
@@ -210,7 +210,7 @@ dependencies {
 	implementation("androidx.recyclerview:recyclerview:1.2.1")
 	implementation("com.github.lihangleo2:ShadowLayout:3.2.0")
 	implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.2.0-alpha01")
-	implementation("com.kyleduo.switchbutton:library:2.0.3")
+	implementation("com.kyleduo.switchbutton:library:2.1.0")
 	implementation("androidx.viewpager2:viewpager2:1.1.0-alpha01")
 	
 
