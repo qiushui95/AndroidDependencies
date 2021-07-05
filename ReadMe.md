@@ -7,7 +7,7 @@
 
 >[Activity](https://developer.android.com/jetpack/androidx/releases/activity)  
 
->>implementation(androidx.activity:activity-ktx:1.3.0-beta02)  
+>>implementation(androidx.activity:activity-ktx:1.3.0-rc01)  
 
 >[AliPush](https://help.aliyun.com/document_detail/190009.html?spm=a2c4g.11174283.3.2.52eb6d163QVxjG)(阿里推送)  
 
@@ -35,7 +35,7 @@
 
 >[DateTimePicker](https://github.com/loperSeven/DateTimePicker)(时间选择器)  
 
->>implementation(com.github.loperSeven:DateTimePicker:0.3.1)  
+>>implementation(com.github.loperSeven:DateTimePicker:0.3.2)  
 
 >[ImagePicker](https://github.com/yangpeixing/YImagePicker)(多媒体选择库)  
 
@@ -139,7 +139,7 @@
 
 >>Candy  
 
->>>implementation(io.github.razerdp:BasePopup:3.1.5-SNAPSHOT)  
+>>>implementation(io.github.razerdp:BasePopup:3.1.6-SNAPSHOT)  
 
 >>Stable  
 
@@ -157,7 +157,7 @@
 
 >>Extensions  
 
->>>implementation(androidx.camera:camera-extensions:1.0.0-alpha25)  
+>>>implementation(androidx.camera:camera-extensions:1.0.0-alpha26)  
 
 >>Lifecycle  
 
@@ -165,7 +165,7 @@
 
 >>View  
 
->>>implementation(androidx.camera:camera-view:1.0.0-alpha25)  
+>>>implementation(androidx.camera:camera-view:1.0.0-alpha26)  
 
 >[Chucker](https://github.com/ChuckerTeam/chucker)(网络请求监控)  
 
@@ -251,51 +251,51 @@
 
 >>Activity  
 
->>>implementation(io.github.reactivecircus.flowbinding:flowbinding-activity:1.1.0)  
+>>>implementation(io.github.reactivecircus.flowbinding:flowbinding-activity:1.2.0)  
 
 >>Appcompat  
 
->>>implementation(io.github.reactivecircus.flowbinding:flowbinding-appcompat:1.1.0)  
+>>>implementation(io.github.reactivecircus.flowbinding:flowbinding-appcompat:1.2.0)  
 
 >>Basic  
 
->>>implementation(io.github.reactivecircus.flowbinding:flowbinding-android:1.1.0)  
+>>>implementation(io.github.reactivecircus.flowbinding:flowbinding-android:1.2.0)  
 
 >>Core  
 
->>>implementation(io.github.reactivecircus.flowbinding:flowbinding-core:1.1.0)  
+>>>implementation(io.github.reactivecircus.flowbinding:flowbinding-core:1.2.0)  
 
 >>DrawerLayout  
 
->>>implementation(io.github.reactivecircus.flowbinding:flowbinding-drawerlayout:1.1.0)  
+>>>implementation(io.github.reactivecircus.flowbinding:flowbinding-drawerlayout:1.2.0)  
 
 >>Lifecycle  
 
->>>implementation(io.github.reactivecircus.flowbinding:flowbinding-lifecycle:1.1.0)  
+>>>implementation(io.github.reactivecircus.flowbinding:flowbinding-lifecycle:1.2.0)  
 
 >>Material  
 
->>>implementation(io.github.reactivecircus.flowbinding:flowbinding-material:1.1.0)  
+>>>implementation(io.github.reactivecircus.flowbinding:flowbinding-material:1.2.0)  
 
 >>Navigation  
 
->>>implementation(io.github.reactivecircus.flowbinding:flowbinding-navigation:1.1.0)  
+>>>implementation(io.github.reactivecircus.flowbinding:flowbinding-navigation:1.2.0)  
 
 >>Preference  
 
->>>implementation(io.github.reactivecircus.flowbinding:flowbinding-preference:1.1.0)  
+>>>implementation(io.github.reactivecircus.flowbinding:flowbinding-preference:1.2.0)  
 
 >>RecyclerView  
 
->>>implementation(io.github.reactivecircus.flowbinding:flowbinding-recyclerview:1.1.0)  
+>>>implementation(io.github.reactivecircus.flowbinding:flowbinding-recyclerview:1.2.0)  
 
 >>SwipeRefreshLayout  
 
->>>implementation(io.github.reactivecircus.flowbinding:flowbinding-swiperefreshlayout:1.1.0)  
+>>>implementation(io.github.reactivecircus.flowbinding:flowbinding-swiperefreshlayout:1.2.0)  
 
 >>ViewPager2  
 
->>>implementation(io.github.reactivecircus.flowbinding:flowbinding-viewpager2:1.1.0)  
+>>>implementation(io.github.reactivecircus.flowbinding:flowbinding-viewpager2:1.2.0)  
 
 >[Fragment](https://developer.android.com/jetpack/androidx/releases/fragment)  
 
@@ -357,19 +357,19 @@
 
 >>Android  
 
->>>implementation(io.insert-koin:koin-android:3.1.1)  
+>>>implementation(io.insert-koin:koin-android:3.1.2)  
 
 >>Core  
 
->>>implementation(io.insert-koin:koin-core:3.1.1)  
+>>>implementation(io.insert-koin:koin-core:3.1.2)  
 
 >>Test  
 
->>>testImplementation(io.insert-koin:koin-test-junit5:3.1.1)  
+>>>testImplementation(io.insert-koin:koin-test-junit5:3.1.2)  
 
 >>WorkManager  
 
->>>implementation(io.insert-koin:koin-androidx-workmanager:3.1.1)  
+>>>implementation(io.insert-koin:koin-androidx-workmanager:3.1.2)  
 
 >[KoinOld](https://github.com/InsertKoinIO/koin)(依赖注入库)  
 
@@ -573,7 +573,7 @@
 
 >[Material](https://github.com/material-components/material-components-android)  
 
->>implementation(com.google.android.material:material:1.4.0-rc01)  
+>>implementation(com.google.android.material:material:1.4.0)  
 
 >[PinView](https://github.com/ChaosLeung/PinView)(密码输入框)  
 
@@ -611,35 +611,35 @@
 
 >>AppcompatTheme  
 
->>>implementation(com.google.accompanist:accompanist-appcompat-theme:0.12.0)  
+>>>implementation(com.google.accompanist:accompanist-appcompat-theme:0.13.0)  
 
 >>Coil  
 
->>>implementation(com.google.accompanist:accompanist-coil:0.12.0)  
+>>>implementation(com.google.accompanist:accompanist-coil:0.13.0)  
 
 >>FlowLayout  
 
->>>implementation(com.google.accompanist:accompanist-flowlayout:0.12.0)  
+>>>implementation(com.google.accompanist:accompanist-flowlayout:0.13.0)  
 
 >>Insets  
 
->>>implementation(com.google.accompanist:accompanist-insets:0.12.0)  
+>>>implementation(com.google.accompanist:accompanist-insets:0.13.0)  
 
 >>Pager  
 
->>>implementation(com.google.accompanist:accompanist-pager:0.12.0)  
+>>>implementation(com.google.accompanist:accompanist-pager:0.13.0)  
 
 >>SwipeRefresh  
 
->>>implementation(com.google.accompanist:accompanist-swiperefresh:0.12.0)  
+>>>implementation(com.google.accompanist:accompanist-swiperefresh:0.13.0)  
 
 >>SystemUiController  
 
->>>implementation(com.google.accompanist:accompanist-systemuicontroller:0.12.0)  
+>>>implementation(com.google.accompanist:accompanist-systemuicontroller:0.13.0)  
 
 >[Activity](https://developer.android.com/jetpack/androidx/releases/activity)  
 
->>implementation(androidx.activity:activity-compose:1.3.0-beta02)  
+>>implementation(androidx.activity:activity-compose:1.3.0-rc01)  
 
 >[ConstraintLayout](https://developer.android.com/jetpack/androidx/releases/constraintlayout)  
 
@@ -647,53 +647,53 @@
 
 >[Navigation](https://developer.android.com/jetpack/androidx/releases/navigation)  
 
->>implementation(androidx.navigation:navigation-compose:2.4.0-alpha03)  
+>>implementation(androidx.navigation:navigation-compose:2.4.0-alpha04)  
 
 >[NavigationAnimation](https://github.com/fornewid/material-motion-compose)(Compose导航动画)  
 
->>implementation(com.github.fornewid:material-motion-compose:0.5.0)  
+>>implementation(com.github.fornewid:material-motion-compose:0.5.1)  
 
 >[Official](https://developer.android.com/jetpack/androidx/releases/compose)  
 
 >>Animation  
 
->>>implementation(androidx.compose.animation:animation:1.0.0-beta09)  
+>>>implementation(androidx.compose.animation:animation:1.0.0-rc01)  
 
 >>Compiler  
 
->>>implementation(androidx.compose.compiler:compiler:1.0.0-beta09)  
+>>>implementation(androidx.compose.compiler:compiler:1.0.0-rc01)  
 
 >>Foundation  
 
->>>implementation(androidx.compose.foundation:foundation:1.0.0-beta09)  
+>>>implementation(androidx.compose.foundation:foundation:1.0.0-rc01)  
 
 >>LiveData  
 
->>>implementation(androidx.compose.runtime:runtime-livedata:1.0.0-beta09)  
+>>>implementation(androidx.compose.runtime:runtime-livedata:1.0.0-rc01)  
 
 >>Material  
 
->>>implementation(androidx.compose.material:material:1.0.0-beta09)  
+>>>implementation(androidx.compose.material:material:1.0.0-rc01)  
 
 >>MaterialIcon  
 
->>>implementation(androidx.compose.material:material-icons-core:1.0.0-beta09)  
+>>>implementation(androidx.compose.material:material-icons-core:1.0.0-rc01)  
 
 >>MaterialIconExtended  
 
->>>implementation(androidx.compose.material:material-icons-extended:1.0.0-beta09)  
+>>>implementation(androidx.compose.material:material-icons-extended:1.0.0-rc01)  
 
 >>Test  
 
->>>androidTestImplementation(androidx.compose.ui:ui-test-junit4:1.0.0-beta09)  
+>>>androidTestImplementation(androidx.compose.ui:ui-test-junit4:1.0.0-rc01)  
 
 >>Ui  
 
->>>implementation(androidx.compose.ui:ui:1.0.0-beta09)  
+>>>implementation(androidx.compose.ui:ui:1.0.0-rc01)  
 
 >>UiTooling  
 
->>>implementation(androidx.compose.ui:ui-tooling:1.0.0-beta09)  
+>>>implementation(androidx.compose.ui:ui-tooling:1.0.0-rc01)  
 
 >[ViewModel](https://developer.android.com/jetpack/androidx/releases/lifecycle#lifecycle_viewmodel_compose_2)  
 
@@ -709,7 +709,7 @@
 
 >[Espresso](https://mvnrepository.com/artifact/androidx.test.espresso/espresso-core)(UI自动化测试)  
 
->>androidTestImplementation(androidx.test.espresso:espresso-core:3.3.0)  
+>>androidTestImplementation(androidx.test.espresso:espresso-core:3.4.0)  
 
 >[Junit](https://mvnrepository.com/artifact/junit/junit)(单元测试)  
 
@@ -717,6 +717,6 @@
 
 >[JunitExt](https://mvnrepository.com/artifact/androidx.test.ext/junit-ktx)(单元测试扩展)  
 
->>testImplementation(androidx.test.ext:junit-ktx:1.1.2)  
+>>testImplementation(androidx.test.ext:junit-ktx:1.1.3)  
 
 </details>  

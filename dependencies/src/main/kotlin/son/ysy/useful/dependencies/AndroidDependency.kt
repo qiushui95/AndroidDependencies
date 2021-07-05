@@ -20,7 +20,7 @@ public abstract class AndroidDependency private constructor(
     /**
      * https://developer.android.com/jetpack/androidx/releases/activity
      */
-    public object Activity : AndroidDependency("androidx.activity", "activity-ktx", "1.3.0-beta02")
+    public object Activity : AndroidDependency("androidx.activity", "activity-ktx", "1.3.0-rc01")
 
     /**
      * 阿里推送
@@ -63,7 +63,7 @@ public abstract class AndroidDependency private constructor(
      * https://github.com/loperSeven/DateTimePicker
      */
     public object DateTimePicker : AndroidDependency("com.github.loperSeven", "DateTimePicker",
-        "0.3.1")
+        "0.3.2")
 
     /**
      * 多媒体选择库
@@ -177,7 +177,7 @@ public abstract class AndroidDependency private constructor(
      * https://github.com/razerdp/BasePopup
      */
     public object BasePopup {
-      public object Candy : AndroidDependency("io.github.razerdp", "BasePopup", "3.1.5-SNAPSHOT")
+      public object Candy : AndroidDependency("io.github.razerdp", "BasePopup", "3.1.6-SNAPSHOT")
 
       public object Stable : AndroidDependency("io.github.razerdp", "BasePopup", "3.1.4")
     }
@@ -192,11 +192,11 @@ public abstract class AndroidDependency private constructor(
       public object Core : AndroidDependency("androidx.camera", "camera-core", "1.0.0")
 
       public object Extensions : AndroidDependency("androidx.camera", "camera-extensions",
-          "1.0.0-alpha25")
+          "1.0.0-alpha26")
 
       public object Lifecycle : AndroidDependency("androidx.camera", "camera-lifecycle", "1.0.0")
 
-      public object View : AndroidDependency("androidx.camera", "camera-view", "1.0.0-alpha25")
+      public object View : AndroidDependency("androidx.camera", "camera-view", "1.0.0-alpha26")
     }
 
     /**
@@ -280,40 +280,40 @@ public abstract class AndroidDependency private constructor(
      */
     public object FlowBinding {
       public object Activity : AndroidDependency("io.github.reactivecircus.flowbinding",
-          "flowbinding-activity", "1.1.0")
+          "flowbinding-activity", "1.2.0")
 
       public object Appcompat : AndroidDependency("io.github.reactivecircus.flowbinding",
-          "flowbinding-appcompat", "1.1.0")
+          "flowbinding-appcompat", "1.2.0")
 
       public object Basic : AndroidDependency("io.github.reactivecircus.flowbinding",
-          "flowbinding-android", "1.1.0")
+          "flowbinding-android", "1.2.0")
 
       public object Core : AndroidDependency("io.github.reactivecircus.flowbinding",
-          "flowbinding-core", "1.1.0")
+          "flowbinding-core", "1.2.0")
 
       public object DrawerLayout : AndroidDependency("io.github.reactivecircus.flowbinding",
-          "flowbinding-drawerlayout", "1.1.0")
+          "flowbinding-drawerlayout", "1.2.0")
 
       public object Lifecycle : AndroidDependency("io.github.reactivecircus.flowbinding",
-          "flowbinding-lifecycle", "1.1.0")
+          "flowbinding-lifecycle", "1.2.0")
 
       public object Material : AndroidDependency("io.github.reactivecircus.flowbinding",
-          "flowbinding-material", "1.1.0")
+          "flowbinding-material", "1.2.0")
 
       public object Navigation : AndroidDependency("io.github.reactivecircus.flowbinding",
-          "flowbinding-navigation", "1.1.0")
+          "flowbinding-navigation", "1.2.0")
 
       public object Preference : AndroidDependency("io.github.reactivecircus.flowbinding",
-          "flowbinding-preference", "1.1.0")
+          "flowbinding-preference", "1.2.0")
 
       public object RecyclerView : AndroidDependency("io.github.reactivecircus.flowbinding",
-          "flowbinding-recyclerview", "1.1.0")
+          "flowbinding-recyclerview", "1.2.0")
 
       public object SwipeRefreshLayout : AndroidDependency("io.github.reactivecircus.flowbinding",
-          "flowbinding-swiperefreshlayout", "1.1.0")
+          "flowbinding-swiperefreshlayout", "1.2.0")
 
       public object ViewPager2 : AndroidDependency("io.github.reactivecircus.flowbinding",
-          "flowbinding-viewpager2", "1.1.0")
+          "flowbinding-viewpager2", "1.2.0")
     }
 
     /**
@@ -383,14 +383,14 @@ public abstract class AndroidDependency private constructor(
      * https://github.com/InsertKoinIO/koin
      */
     public object Koin {
-      public object Android : AndroidDependency("io.insert-koin", "koin-android", "3.1.1")
+      public object Android : AndroidDependency("io.insert-koin", "koin-android", "3.1.2")
 
-      public object Core : AndroidDependency("io.insert-koin", "koin-core", "3.1.1")
+      public object Core : AndroidDependency("io.insert-koin", "koin-core", "3.1.2")
 
-      public object Test : AndroidDependency("io.insert-koin", "koin-test-junit5", "3.1.1")
+      public object Test : AndroidDependency("io.insert-koin", "koin-test-junit5", "3.1.2")
 
       public object WorkManager : AndroidDependency("io.insert-koin", "koin-androidx-workmanager",
-          "3.1.1")
+          "3.1.2")
     }
 
     /**
@@ -592,8 +592,7 @@ public abstract class AndroidDependency private constructor(
     /**
      * https://github.com/material-components/material-components-android
      */
-    public object Material : AndroidDependency("com.google.android.material", "material",
-        "1.4.0-rc01")
+    public object Material : AndroidDependency("com.google.android.material", "material", "1.4.0")
 
     /**
      * 密码输入框
@@ -638,31 +637,31 @@ public abstract class AndroidDependency private constructor(
      */
     public object Accompanist {
       public object AppcompatTheme : AndroidDependency("com.google.accompanist",
-          "accompanist-appcompat-theme", "0.12.0")
+          "accompanist-appcompat-theme", "0.13.0")
 
-      public object Coil : AndroidDependency("com.google.accompanist", "accompanist-coil", "0.12.0")
+      public object Coil : AndroidDependency("com.google.accompanist", "accompanist-coil", "0.13.0")
 
       public object FlowLayout : AndroidDependency("com.google.accompanist",
-          "accompanist-flowlayout", "0.12.0")
+          "accompanist-flowlayout", "0.13.0")
 
       public object Insets : AndroidDependency("com.google.accompanist", "accompanist-insets",
-          "0.12.0")
+          "0.13.0")
 
       public object Pager : AndroidDependency("com.google.accompanist", "accompanist-pager",
-          "0.12.0")
+          "0.13.0")
 
       public object SwipeRefresh : AndroidDependency("com.google.accompanist",
-          "accompanist-swiperefresh", "0.12.0")
+          "accompanist-swiperefresh", "0.13.0")
 
       public object SystemUiController : AndroidDependency("com.google.accompanist",
-          "accompanist-systemuicontroller", "0.12.0")
+          "accompanist-systemuicontroller", "0.13.0")
     }
 
     /**
      * https://developer.android.com/jetpack/androidx/releases/activity
      */
     public object Activity : AndroidDependency("androidx.activity", "activity-compose",
-        "1.3.0-beta02")
+        "1.3.0-rc01")
 
     /**
      * https://developer.android.com/jetpack/androidx/releases/constraintlayout
@@ -674,47 +673,45 @@ public abstract class AndroidDependency private constructor(
      * https://developer.android.com/jetpack/androidx/releases/navigation
      */
     public object Navigation : AndroidDependency("androidx.navigation", "navigation-compose",
-        "2.4.0-alpha03")
+        "2.4.0-alpha04")
 
     /**
      * Compose导航动画
      * https://github.com/fornewid/material-motion-compose
      */
     public object NavigationAnimation : AndroidDependency("com.github.fornewid",
-        "material-motion-compose", "0.5.0")
+        "material-motion-compose", "0.5.1")
 
     /**
      * https://developer.android.com/jetpack/androidx/releases/compose
      */
     public object Official {
       public object Animation : AndroidDependency("androidx.compose.animation", "animation",
-          "1.0.0-beta09")
+          "1.0.0-rc01")
 
       public object Compiler : AndroidDependency("androidx.compose.compiler", "compiler",
-          "1.0.0-beta09")
+          "1.0.0-rc01")
 
       public object Foundation : AndroidDependency("androidx.compose.foundation", "foundation",
-          "1.0.0-beta09")
+          "1.0.0-rc01")
 
       public object LiveData : AndroidDependency("androidx.compose.runtime", "runtime-livedata",
-          "1.0.0-beta09")
+          "1.0.0-rc01")
 
       public object Material : AndroidDependency("androidx.compose.material", "material",
-          "1.0.0-beta09")
+          "1.0.0-rc01")
 
       public object MaterialIcon : AndroidDependency("androidx.compose.material",
-          "material-icons-core", "1.0.0-beta09")
+          "material-icons-core", "1.0.0-rc01")
 
       public object MaterialIconExtended : AndroidDependency("androidx.compose.material",
-          "material-icons-extended", "1.0.0-beta09")
+          "material-icons-extended", "1.0.0-rc01")
 
-      public object Test : AndroidDependency("androidx.compose.ui", "ui-test-junit4",
-          "1.0.0-beta09")
+      public object Test : AndroidDependency("androidx.compose.ui", "ui-test-junit4", "1.0.0-rc01")
 
-      public object Ui : AndroidDependency("androidx.compose.ui", "ui", "1.0.0-beta09")
+      public object Ui : AndroidDependency("androidx.compose.ui", "ui", "1.0.0-rc01")
 
-      public object UiTooling : AndroidDependency("androidx.compose.ui", "ui-tooling",
-          "1.0.0-beta09")
+      public object UiTooling : AndroidDependency("androidx.compose.ui", "ui-tooling", "1.0.0-rc01")
     }
 
     /**
@@ -729,7 +726,7 @@ public abstract class AndroidDependency private constructor(
      * UI自动化测试
      * https://mvnrepository.com/artifact/androidx.test.espresso/espresso-core
      */
-    public object Espresso : AndroidDependency("androidx.test.espresso", "espresso-core", "3.3.0")
+    public object Espresso : AndroidDependency("androidx.test.espresso", "espresso-core", "3.4.0")
 
     /**
      * 单元测试
@@ -741,6 +738,6 @@ public abstract class AndroidDependency private constructor(
      * 单元测试扩展
      * https://mvnrepository.com/artifact/androidx.test.ext/junit-ktx
      */
-    public object JunitExt : AndroidDependency("androidx.test.ext", "junit-ktx", "1.1.2")
+    public object JunitExt : AndroidDependency("androidx.test.ext", "junit-ktx", "1.1.3")
   }
 }

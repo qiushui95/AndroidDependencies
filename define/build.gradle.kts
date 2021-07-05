@@ -28,14 +28,14 @@ android {
 }
 
 dependencies {
-	implementation("androidx.activity:activity-ktx:1.3.0-beta02")
+	implementation("androidx.activity:activity-ktx:1.3.0-rc01")
 	implementation("com.aliyun.ams:alicloud-android-push:3.3.0")
 	implementation("com.blankj:utilcodex:1.30.6")
 	implementation("androidx.appcompat:appcompat:1.3.0")
 	implementation("com.github.JavaNoober.BackgroundLibrary:libraryx:1.7.2")
 	implementation("io.coil-kt:coil:1.2.2")
 	implementation("me.jorgecastillo:androidcolorx:0.2.0")
-	implementation("com.github.loperSeven:DateTimePicker:0.3.1")
+	implementation("com.github.loperSeven:DateTimePicker:0.3.2")
 	implementation("com.ypx.yimagepicker:androidx:3.1.4")
 	implementation("joda-time:joda-time:2.10.10")
 	implementation("com.squareup.leakcanary:leakcanary-android:2.7")
@@ -62,15 +62,15 @@ dependencies {
 	implementation("com.github.qiushui95.MyArchitecture:architecture-starter:1.0.15")
 	
 
-	implementation("io.github.razerdp:BasePopup:3.1.5-SNAPSHOT")
+	implementation("io.github.razerdp:BasePopup:3.1.6-SNAPSHOT")
 	implementation("io.github.razerdp:BasePopup:3.1.4")
 	
 
 	implementation("androidx.camera:camera-camera2:1.0.0")
 	implementation("androidx.camera:camera-core:1.0.0")
-	implementation("androidx.camera:camera-extensions:1.0.0-alpha25")
+	implementation("androidx.camera:camera-extensions:1.0.0-alpha26")
 	implementation("androidx.camera:camera-lifecycle:1.0.0")
-	implementation("androidx.camera:camera-view:1.0.0-alpha25")
+	implementation("androidx.camera:camera-view:1.0.0-alpha26")
 	
 
 	debugImplementation("com.github.chuckerteam.chucker:library:3.5.0")
@@ -100,18 +100,18 @@ dependencies {
 	implementation("com.airbnb.android:epoxy-glide-preloading:4.6.2")
 	
 
-	implementation("io.github.reactivecircus.flowbinding:flowbinding-activity:1.1.0")
-	implementation("io.github.reactivecircus.flowbinding:flowbinding-appcompat:1.1.0")
-	implementation("io.github.reactivecircus.flowbinding:flowbinding-android:1.1.0")
-	implementation("io.github.reactivecircus.flowbinding:flowbinding-core:1.1.0")
-	implementation("io.github.reactivecircus.flowbinding:flowbinding-drawerlayout:1.1.0")
-	implementation("io.github.reactivecircus.flowbinding:flowbinding-lifecycle:1.1.0")
-	implementation("io.github.reactivecircus.flowbinding:flowbinding-material:1.1.0")
-	implementation("io.github.reactivecircus.flowbinding:flowbinding-navigation:1.1.0")
-	implementation("io.github.reactivecircus.flowbinding:flowbinding-preference:1.1.0")
-	implementation("io.github.reactivecircus.flowbinding:flowbinding-recyclerview:1.1.0")
-	implementation("io.github.reactivecircus.flowbinding:flowbinding-swiperefreshlayout:1.1.0")
-	implementation("io.github.reactivecircus.flowbinding:flowbinding-viewpager2:1.1.0")
+	implementation("io.github.reactivecircus.flowbinding:flowbinding-activity:1.2.0")
+	implementation("io.github.reactivecircus.flowbinding:flowbinding-appcompat:1.2.0")
+	implementation("io.github.reactivecircus.flowbinding:flowbinding-android:1.2.0")
+	implementation("io.github.reactivecircus.flowbinding:flowbinding-core:1.2.0")
+	implementation("io.github.reactivecircus.flowbinding:flowbinding-drawerlayout:1.2.0")
+	implementation("io.github.reactivecircus.flowbinding:flowbinding-lifecycle:1.2.0")
+	implementation("io.github.reactivecircus.flowbinding:flowbinding-material:1.2.0")
+	implementation("io.github.reactivecircus.flowbinding:flowbinding-navigation:1.2.0")
+	implementation("io.github.reactivecircus.flowbinding:flowbinding-preference:1.2.0")
+	implementation("io.github.reactivecircus.flowbinding:flowbinding-recyclerview:1.2.0")
+	implementation("io.github.reactivecircus.flowbinding:flowbinding-swiperefreshlayout:1.2.0")
+	implementation("io.github.reactivecircus.flowbinding:flowbinding-viewpager2:1.2.0")
 	
 
 	implementation("androidx.fragment:fragment-ktx:1.3.5")
@@ -134,10 +134,10 @@ dependencies {
 	implementation("com.github.qiushui95.KeysCreator:annotations:1.1.0")
 	
 
-	implementation("io.insert-koin:koin-android:3.1.1")
-	implementation("io.insert-koin:koin-core:3.1.1")
-	testImplementation("io.insert-koin:koin-test-junit5:3.1.1")
-	implementation("io.insert-koin:koin-androidx-workmanager:3.1.1")
+	implementation("io.insert-koin:koin-android:3.1.2")
+	implementation("io.insert-koin:koin-core:3.1.2")
+	testImplementation("io.insert-koin:koin-test-junit5:3.1.2")
+	implementation("io.insert-koin:koin-androidx-workmanager:3.1.2")
 	
 
 	implementation("io.insert-koin:koin-androidx-ext:2.2.3")
@@ -205,7 +205,7 @@ dependencies {
 	implementation("me.dkzwm.widget.fet:core:0.2.0")
 	implementation("com.airbnb.android:lottie:3.7.0")
 	implementation("com.sunfusheng:MarqueeView:1.4.1")
-	implementation("com.google.android.material:material:1.4.0-rc01")
+	implementation("com.google.android.material:material:1.4.0")
 	implementation("io.github.chaosleung:pinview:1.4.4")
 	implementation("androidx.recyclerview:recyclerview:1.2.1")
 	implementation("com.github.lihangleo2:ShadowLayout:3.2.0")
@@ -214,37 +214,37 @@ dependencies {
 	implementation("androidx.viewpager2:viewpager2:1.1.0-alpha01")
 	
 
-	implementation("com.google.accompanist:accompanist-appcompat-theme:0.12.0")
-	implementation("com.google.accompanist:accompanist-coil:0.12.0")
-	implementation("com.google.accompanist:accompanist-flowlayout:0.12.0")
-	implementation("com.google.accompanist:accompanist-insets:0.12.0")
-	implementation("com.google.accompanist:accompanist-pager:0.12.0")
-	implementation("com.google.accompanist:accompanist-swiperefresh:0.12.0")
-	implementation("com.google.accompanist:accompanist-systemuicontroller:0.12.0")
+	implementation("com.google.accompanist:accompanist-appcompat-theme:0.13.0")
+	implementation("com.google.accompanist:accompanist-coil:0.13.0")
+	implementation("com.google.accompanist:accompanist-flowlayout:0.13.0")
+	implementation("com.google.accompanist:accompanist-insets:0.13.0")
+	implementation("com.google.accompanist:accompanist-pager:0.13.0")
+	implementation("com.google.accompanist:accompanist-swiperefresh:0.13.0")
+	implementation("com.google.accompanist:accompanist-systemuicontroller:0.13.0")
 	
 
-	implementation("androidx.activity:activity-compose:1.3.0-beta02")
+	implementation("androidx.activity:activity-compose:1.3.0-rc01")
 	implementation("androidx.constraintlayout:constraintlayout-compose:1.0.0-alpha08")
-	implementation("androidx.navigation:navigation-compose:2.4.0-alpha03")
-	implementation("com.github.fornewid:material-motion-compose:0.5.0")
-	implementation("androidx.compose.animation:animation:1.0.0-beta09")
-	implementation("androidx.compose.compiler:compiler:1.0.0-beta09")
-	implementation("androidx.compose.foundation:foundation:1.0.0-beta09")
-	implementation("androidx.compose.runtime:runtime-livedata:1.0.0-beta09")
-	implementation("androidx.compose.material:material:1.0.0-beta09")
-	implementation("androidx.compose.material:material-icons-core:1.0.0-beta09")
-	implementation("androidx.compose.material:material-icons-extended:1.0.0-beta09")
-	androidTestImplementation("androidx.compose.ui:ui-test-junit4:1.0.0-beta09")
-	implementation("androidx.compose.ui:ui:1.0.0-beta09")
-	implementation("androidx.compose.ui:ui-tooling:1.0.0-beta09")
+	implementation("androidx.navigation:navigation-compose:2.4.0-alpha04")
+	implementation("com.github.fornewid:material-motion-compose:0.5.1")
+	implementation("androidx.compose.animation:animation:1.0.0-rc01")
+	implementation("androidx.compose.compiler:compiler:1.0.0-rc01")
+	implementation("androidx.compose.foundation:foundation:1.0.0-rc01")
+	implementation("androidx.compose.runtime:runtime-livedata:1.0.0-rc01")
+	implementation("androidx.compose.material:material:1.0.0-rc01")
+	implementation("androidx.compose.material:material-icons-core:1.0.0-rc01")
+	implementation("androidx.compose.material:material-icons-extended:1.0.0-rc01")
+	androidTestImplementation("androidx.compose.ui:ui-test-junit4:1.0.0-rc01")
+	implementation("androidx.compose.ui:ui:1.0.0-rc01")
+	implementation("androidx.compose.ui:ui-tooling:1.0.0-rc01")
 	
 
 	implementation("androidx.lifecycle:lifecycle-viewmodel-compose:1.0.0-alpha07")
 	
 
-	androidTestImplementation("androidx.test.espresso:espresso-core:3.3.0")
+	androidTestImplementation("androidx.test.espresso:espresso-core:3.4.0")
 	testImplementation("junit:junit:4.13.2")
-	testImplementation("androidx.test.ext:junit-ktx:1.1.2")
+	testImplementation("androidx.test.ext:junit-ktx:1.1.3")
 	
 
 }
